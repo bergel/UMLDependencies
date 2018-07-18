@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "UMLAbstractElement",
+	"category" : "UMLDependencies",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "UMLAbstractClass",
+	"type" : "normal"
+}
