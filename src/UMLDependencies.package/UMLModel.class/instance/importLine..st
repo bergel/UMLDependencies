@@ -14,11 +14,17 @@ Purpose: To visualize class role/responsibility and relationship between the cla
 - if 3: class X implements class Y
 "
 
-	| ss element package packageName |
+	| ss element package packageName roleName role |
 	ss := aLine substrings: ','.
 	element := (self classFor: ss last) new.
 	element name: ss second.
 	elements add: element.
+
+	roleName := ss third.
+	role := self roleFor: roleName.
+	role add: element.
+	element role: role.	
+	
 	packageName := self extractPackageNameFromArray: ss first.
 	package := self packageFor: packageName.
 	package add: element.

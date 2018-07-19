@@ -1,6 +1,6 @@
 tests
 testImportLine02
-	| theEnum thePackage |
+	| theEnum thePackage theRole |
 	m importLine: 'com.fsck.k9.mail.CertificateValidationException.Reason,Reason,Information Holder,enum'.
 	self assert: m numberOfPackages equals: 1.
 	self assert: m numberOfEnums equals: 1.
@@ -11,8 +11,13 @@ testImportLine02
 	
 	theEnum := m enums anyOne.
 	thePackage := m packages anyOne.
+	theRole := theEnum role.
 	self assert: theEnum name equals: 'Reason'.
 	self assert: theEnum package equals: thePackage.
+
+	self assert: theRole roleName equals: 'Information Holder'.
+	self assert: theRole elements size equals: 1.
+	self assert: theRole elements anyOne equals: theEnum.
 
 	self assert: thePackage packageName equals: 'com.fsck.k9.mail'.
 	self assert: thePackage numberOfElements equals: 1.

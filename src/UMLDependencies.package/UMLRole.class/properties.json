@@ -6,10 +6,9 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"elements",
-		"packages",
-		"roles"
+		"roleName",
+		"elements"
 	],
-	"name" : "UMLModel",
+	"name" : "UMLRole",
 	"type" : "normal"
 }
