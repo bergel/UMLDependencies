@@ -10,7 +10,10 @@
 		"role",
 		"package",
 		"isNested",
-		"index"
+		"index",
+		"dependencies",
+		"subclasses",
+		"implementations"
 	],
 	"name" : "UMLAbstractElement",
 	"type" : "normal"
