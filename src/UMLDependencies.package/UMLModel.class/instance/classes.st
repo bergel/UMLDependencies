@@ -1,3 +1,3 @@
-public - metrics
+accessing
 classes
 	^ elements select: #isClass
