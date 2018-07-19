@@ -1,6 +1,6 @@
 visualizations
-gtInspectorViewIn: composite
+gtInspectorRolesIn: composite
 	<gtInspectorPresentationOrder: -10>
 	composite roassal2
 		title: 'Roles';
-		initializeView: [ self visualization ]
+		initializeView: [ self visualizationRoles ]

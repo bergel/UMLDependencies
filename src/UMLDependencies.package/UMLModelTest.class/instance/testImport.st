@@ -1,6 +1,5 @@
 tests
 testImport
-	| theClass thePackage |
 	m importFrom: self exampleCode01.
 	self assert: m numberOfPackages equals: 2.
 	self assert: m numberOfClasses equals: 8.
