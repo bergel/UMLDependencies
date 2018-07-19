@@ -19,6 +19,7 @@ Purpose: To visualize class role/responsibility and relationship between the cla
 	element := (self classFor: ss last) new.
 	element name: ss second.
 	elements add: element.
+	element index: elements size. "if the index should start at 0, then add '- 1'"
 
 	roleName := ss third.
 	role := self roleFor: roleName.

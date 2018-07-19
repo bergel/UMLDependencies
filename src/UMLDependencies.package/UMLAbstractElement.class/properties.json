@@ -9,7 +9,8 @@
 		"name",
 		"role",
 		"package",
-		"isNested"
+		"isNested",
+		"index"
 	],
 	"name" : "UMLAbstractElement",
 	"type" : "normal"

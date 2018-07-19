@@ -14,6 +14,7 @@ testImportLine02
 	theRole := theEnum role.
 	self assert: theEnum name equals: 'Reason'.
 	self assert: theEnum package equals: thePackage.
+	self assert: theEnum index equals: 1.
 
 	self assert: theRole roleName equals: 'Information Holder'.
 	self assert: theRole elements size equals: 1.
