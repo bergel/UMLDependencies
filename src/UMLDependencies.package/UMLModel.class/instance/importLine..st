@@ -1,6 +1,6 @@
 public - importing
 importLine: aLine
-"
+" 
 Purpose: To visualize class role/responsibility and relationship between the classes of the K9-mail app.
 - File class_reference.csv contains information about class and its role/responsibility. Each row represents a class with no headers. Four columns:
                 +  First column: shows the package that the class belongs to.
@@ -13,8 +13,12 @@ Purpose: To visualize class role/responsibility and relationship between the cla
 - if 2: class X is a sub class of class Y
 - if 3: class X implements class Y
 "
-	| ss element |
+	| ss element package packageName |
 	ss := aLine substrings: ','.
 	element := (self classFor: ss last) new.
-	(self packageFor: ss ).
-	self halt.
+	element name: ss second.
+	elements add: element.
+	packageName := $. join: (ss first substrings: '.') allButLast.
+	package := (self packageFor: packageName).
+	package add: element.
+	element package: package.
