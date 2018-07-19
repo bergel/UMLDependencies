@@ -30,6 +30,5 @@ visualizationDependencies
 	eb objects: (Array with: self), (self subclasses).
 	eb moveBehind.
 	eb connectToAll: #implementations.
-
 	
 	^ v
