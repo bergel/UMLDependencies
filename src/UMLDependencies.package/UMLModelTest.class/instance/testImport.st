@@ -9,3 +9,7 @@ testImport
 	self assert: m numberOfElements equals: 14.
 	self assert: m classes size equals: 8.
 	self assert: m elements last index equals: 14.
+	
+	"visualizations"
+	(m elements first: 10) do: #visualizationDependencies.
+	m visualizationPackages

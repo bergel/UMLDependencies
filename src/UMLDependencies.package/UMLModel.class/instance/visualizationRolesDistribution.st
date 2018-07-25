@@ -1,5 +1,5 @@
 visualizations
-visualizationRoles
+visualizationRolesDistribution
 	| b lb colorMapping |
 	b := RTMondrian new.
 	b shape box withTextAbove: #roleName.
