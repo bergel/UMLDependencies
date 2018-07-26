@@ -3,6 +3,6 @@ exampleLarge
 	<script: 'self new exampleLarge inspect'>
 	| m |
 	m := UMLModel new.
-	m importFrom: '/Users/alexandrebergel/Dropbox/GitRepos/UMLDependencies/data/class_reference.csv' asFileReference contents.
-	m importDependenciesFrom: '/Users/alexandrebergel/Dropbox/GitRepos/UMLDependencies/data/dependency_matrix.csv' asFileReference contents.
+	m importFrom: '/Users/alexandrebergel/Dropbox/GitRepos/UMLDependencies/data/new_version_class_reference_20180726.csv' asFileReference contents.
+	m importDependenciesFrom: '/Users/alexandrebergel/Dropbox/GitRepos/UMLDependencies/data/new_version_dependency_matrix_20180726.csv' asFileReference contents.
 	^ m

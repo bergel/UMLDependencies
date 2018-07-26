@@ -6,6 +6,8 @@ visualizationRoleInteraction
 		text: #roleName;
 		color: Color veryDarkGray.
 	b nodes: self roles.
+	
+	b interaction popupText: [ :edge | edge model from numberOfRelationsWith: edge model to ].
 	b shape line color: Color blue trans.
 	b edges
 		moveBehind;
