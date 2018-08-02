@@ -1,5 +1,5 @@
 printing
 printOn: str
-	str nextPutAll: '<E '.
+	str nextPutAll: '<'.
 	str nextPutAll: self name.
 	str nextPut: $>
