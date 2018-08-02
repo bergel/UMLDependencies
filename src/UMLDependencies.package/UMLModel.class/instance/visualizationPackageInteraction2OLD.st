@@ -1,5 +1,5 @@
 visualizations
-visualizationPackageInteraction2
+visualizationPackageInteraction2OLD
 
 	| b lb colorMapping |
 	b := RTMondrian new.
@@ -26,19 +26,15 @@ visualizationPackageInteraction2
 		distinctColorUsing: #role colorPalette: (RTColorPalette diverging colors: 7 scheme: 'Spectral').
 	b layout circle.
 
-	b shape lineDualWidth 
-		withShorterDistanceAttachPoint;
-		color: Color blue trans;
-		widthFrom: [ :anEdge | anEdge from model numberOfRelationsWith: anEdge to model ];
-		widthTo: [ :anEdge | anEdge to model numberOfRelationsWith: anEdge from model ].
+	b shape line color: Color blue trans.
 	b edges
 		moveBehind;
 		connectToAll: [ :r | r dependentPackages collect: #key ].
 	b layout circle.
-"	b normalizer 
+	b normalizer 
 		objects: self packages;
 		normalizeLineWidth: [ :from :to | from numberOfRelationsWith: to ].
-"	
+	
 	b build.
 	
 	
