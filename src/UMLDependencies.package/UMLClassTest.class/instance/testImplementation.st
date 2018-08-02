@@ -15,3 +15,8 @@ testImplementation
 	self assert: aClass implementations notEmpty.
 	self assert: anInterface implementedBy notEmpty.
 	self assert: aClass implementedBy isEmpty.
+	
+	self assert: aClass numberOfAllDependencies equals: 1.
+	self assert: anInterface numberOfAllDependencies equals: 0.
+	self assert: aClass numberOfAllIncomingDependencies equals: 0.
+	self assert: anInterface numberOfAllIncomingDependencies equals: 1.

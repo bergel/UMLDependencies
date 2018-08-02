@@ -1,4 +1,4 @@
 public - metrics
-numberOfAllDependencies
+numberOfAllIncomingDependencies
 	"Return the number of all __outgoing__ dependencies"
-	^ self allDependencies size
+	^ self allIncomingDependencies size
