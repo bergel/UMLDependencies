@@ -4,16 +4,20 @@ visualizationRolesAndElementInteractionDistribution
 	b := RTMondrian new.
 	b shape box withTextAbove: #roleName.
 	b nodes: self roles forEach: [ :r |
-		b nodes: r elements.
+		| someElements |
+		someElements := b nodes: r elements.
 		b edges connectToAll: #allDependencies.
+		someElements pushFront.
 		b layout force; ifNotConnectedThen: RTGridLayout new.
 	].
 	b layout flow.
 	colorMapping := b normalizer
-		objects: self elements; distinctColorUsing: #class.
+		objects: self elements; 
+		distinctColorUsing: #class colorPalette: self colorPalette.
 	b build.
 	
 	lb := RTLegendBuilder new.
+	lb onDemand.
 	lb view: b view.
 	lb addText: 'Visualize roles and the elements their representation in the code'.
 	lb addText: 'Large box = role'.

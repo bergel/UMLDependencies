@@ -23,7 +23,7 @@ visualizationPackageInteraction2
 
 	colorMapping := b normalizer 
 		objects: self elements;
-		distinctColorUsing: #role.
+		distinctColorUsing: #role colorPalette: (RTColorPalette diverging colors: 7 scheme: 'Spectral').
 	b layout circle.
 
 	b shape line color: Color blue trans.
