@@ -1,11 +1,12 @@
 visualizations
-visualizationRolesDistribution
+visualizationRolesAndElementInteractionDistribution
 	| b lb colorMapping |
 	b := RTMondrian new.
 	b shape box withTextAbove: #roleName.
 	b nodes: self roles forEach: [ :r |
-		b nodes: (r elements sortedAs: [ :e | e class name size ]).
-		b layout grid.
+		b nodes: r elements.
+		b edges connectToAll: #allDependencies.
+		b layout force; ifNotConnectedThen: RTGridLayout new.
 	].
 	b layout flow.
 	colorMapping := b normalizer

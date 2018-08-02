@@ -1,3 +1,3 @@
-testing
+public - testing
 isEnum
 	^ false

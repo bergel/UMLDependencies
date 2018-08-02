@@ -13,7 +13,10 @@
 		"index",
 		"dependencies",
 		"subclasses",
-		"implementations"
+		"implementations",
+		"incomingDependencies",
+		"superclasses",
+		"implementedBy"
 	],
 	"name" : "UMLAbstractElement",
 	"type" : "normal"

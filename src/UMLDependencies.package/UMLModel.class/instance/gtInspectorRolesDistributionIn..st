@@ -2,5 +2,5 @@ visualizations
 gtInspectorRolesDistributionIn: composite
 	<gtInspectorPresentationOrder: -10>
 	composite roassal2
-		title: 'Roles Distribution';
+		title: 'Roles Dist';
 		initializeView: [ self visualizationRolesDistribution ]

@@ -5,6 +5,8 @@ visualizationRoleInteraction
 	b shape label
 		text: #roleName;
 		color: Color veryDarkGray.
+		
+	b interaction highlightEdges: [ :r | r interactingRoles collect: #key ].
 	b nodes: self roles.
 	
 	b interaction popupText: [ :edge | edge model from numberOfRelationsWith: edge model to ].
