@@ -1,0 +1,779 @@
+com.fsck.k9.mail.AuthType,AuthType,Information Holder,enum
+com.fsck.k9.mailstore.BinaryMemoryBody,BinaryMemoryBody,Information Holder,class
+com.fsck.k9.mail.AuthenticationFailedException,AuthenticationFailedException,Information Holder,class
+com.fsck.k9.mail.Address,Address,Service Provider,class
+com.fsck.k9.mail.Authentication,Authentication,Service Provider,class
+com.fsck.k9.mail.Body,Body,Service Provider,interface
+com.fsck.k9.mail.BodyFactory,BodyFactory,Service Provider,interface
+com.fsck.k9.mail.BodyPart,BodyPart,Information Holder,abstract class
+com.fsck.k9.mail.BoundaryGenerator,BoundaryGenerator,Service Provider,class
+com.fsck.k9.mail.CertificateChainException,CertificateChainException,Information Holder,class
+com.fsck.k9.mail.CertificateValidationException.Reason,Reason,Information Holder,enum
+com.fsck.k9.mail.CertificateValidationException,CertificateValidationException,Information Holder,class
+com.fsck.k9.mail.ConnectionSecurity,ConnectionSecurity,Information Holder,enum
+com.fsck.k9.mail.DefaultBodyFactory,DefaultBodyFactory,Service Provider,class
+com.fsck.k9.mail.FetchProfile.Item,Item,Information Holder,enum
+com.fsck.k9.mail.FetchProfile,FetchProfile,Structurer,class
+com.fsck.k9.mail.Flag,Flag,Information Holder,enum
+com.fsck.k9.mail.Folder.FolderClass,FolderClass,Information Holder,enum
+com.fsck.k9.mail.Folder.FolderType,FolderType,Information Holder,enum
+com.fsck.k9.mail.K9MailLib.DebugStatus,DebugStatus,Information Holder,interface
+com.fsck.k9.mail.Folder,Folder,Structurer,abstract class
+com.fsck.k9.mail.K9MailLib.DefaultDebugStatus,DefaultDebugStatus,Information Holder,class
+com.fsck.k9.mail.K9MailLib.WritableDebugStatus,WritableDebugStatus,Information Holder,interface
+com.fsck.k9.mail.K9MailLib,K9MailLib,Information Holder,class
+com.fsck.k9.mail.Message.RecipientType,RecipientType,Information Holder,enum
+com.fsck.k9.mail.MessageRetrievalListener,MessageRetrievalListener,Structurer,interface
+com.fsck.k9.mail.MessagingException,MessagingException,Information Holder,class
+com.fsck.k9.mail.Message,Message,Structurer,abstract class
+com.fsck.k9.mail.Multipart,Multipart,Structurer,abstract class
+com.fsck.k9.mail.NetworkType,NetworkType,Information Holder,enum
+com.fsck.k9.mail.Part,Part,Service Provider,interface
+com.fsck.k9.mail.PushReceiver,PushReceiver,Service Provider,interface
+com.fsck.k9.mail.Pusher,Pusher,Service Provider,interface
+com.fsck.k9.mail.ServerSettings.Type,Type,Information Holder,enum
+com.fsck.k9.mail.Store,Store,Information Holder,abstract class
+com.fsck.k9.mail.ServerSettings,ServerSettings,Information Holder,class
+com.fsck.k9.mail.Transport,Transport,Service Provider,abstract class
+com.fsck.k9.mail.TransportProvider,TransportProvider,Service Provider,class
+com.fsck.k9.mail.transport.WebDavTransport,WebDavTransport,Service Provider,class
+com.fsck.k9.mail.TransportUris,TransportUris,Service Provider,class
+com.fsck.k9.mail.transport.smtp.EnhancedNegativeSmtpReplyException,EnhancedNegativeSmtpReplyException,Information Holder,class
+com.fsck.k9.mail.transport.smtp.NegativeSmtpReplyException,NegativeSmtpReplyException,Information Holder,class
+com.fsck.k9.mail.transport.smtp.SmtpTransport.CommandResponse,CommandResponse,Information Holder,class
+com.fsck.k9.mail.transport.smtp.StatusCodeClass,StatusCodeClass,Information Holder,enum
+com.fsck.k9.mail.transport.smtp.StatusCodeSubject,StatusCodeSubject,Information Holder,enum
+com.fsck.k9.mail.transport.smtp.StatusCodeDetail,StatusCodeDetail,Information Holder,enum
+com.fsck.k9.mail.store.RemoteStore,RemoteStore,Structurer,abstract class
+com.fsck.k9.mail.store.StoreConfig,StoreConfig,Information Holder,interface
+com.fsck.k9.mail.transport.smtp.SmtpTransport,SmtpTransport,Service Provider,class
+com.fsck.k9.mail.store.webdav.ConnectionInfo,ConnectionInfo,Information Holder,class
+com.fsck.k9.mail.store.webdav.DataSet,DataSet,Structurer,class
+com.fsck.k9.mail.store.webdav.HttpGeneric,HttpGeneric,Information Holder,class
+com.fsck.k9.mail.store.webdav.ParsedMessageEnvelope,ParsedMessageEnvelope,Structurer,class
+com.fsck.k9.mail.store.webdav.WebDavConstants,WebDavConstants,Information Holder,class
+com.fsck.k9.mail.store.webdav.WebDavFolder,WebDavFolder,Service Provider,class
+com.fsck.k9.mail.store.webdav.WebDavHandler,WebDavHandler,Structurer,class
+com.fsck.k9.mail.store.webdav.WebDavHttpClient.WebDavHttpClientFactory,WebDavHttpClientFactory,Service Provider,class
+com.fsck.k9.mail.store.webdav.WebDavHttpClient,WebDavHttpClient,Service Provider,class
+com.fsck.k9.mail.store.webdav.WebDavMessage,WebDavMessage,Service Provider,class
+com.fsck.k9.mail.store.webdav.WebDavSocketFactory,WebDavSocketFactory,Service Provider,class
+com.fsck.k9.mail.store.webdav.WebDavStore,WebDavStore,Information Holder,class
+com.fsck.k9.mail.store.webdav.WebDavStoreSettings,WebDavStoreSettings,Information Holder,class
+com.fsck.k9.mail.store.webdav.WebDavStoreUriCreator,WebDavStoreUriCreator,Service Provider,class
+com.fsck.k9.mail.store.webdav.WebDavStoreUriDecoder,WebDavStoreUriDecoder,Service Provider,class
+com.fsck.k9.mail.store.pop3.Pop3Store.Pop3Capabilities,Pop3Capabilities,Service Provider,class
+com.fsck.k9.mail.store.pop3.Pop3Store.Pop3ErrorResponse,Pop3ErrorResponse,Information Holder,class
+com.fsck.k9.mail.store.pop3.Pop3Store.Pop3Folder,Pop3Folder,Controller,class
+com.fsck.k9.mail.store.pop3.Pop3Store.Pop3Message,Pop3Message,Service Provider,class
+com.fsck.k9.mail.store.pop3.Pop3Store.Pop3ResponseInputStream,Pop3ResponseInputStream,Service Provider,class
+com.fsck.k9.mail.store.pop3.Pop3Store,Pop3Store,Service Provider,class
+com.fsck.k9.mail.store.imap.AlertResponse,AlertResponse,Service Provider,class
+com.fsck.k9.mail.store.imap.Capabilities,Capabilities,Information Holder,class
+com.fsck.k9.mail.store.imap.CapabilityResponse,CapabilityResponse,Service Provider,class
+com.fsck.k9.mail.store.imap.Commands,Commands,Information Holder,class
+com.fsck.k9.mail.store.imap.FetchBodyCallback,FetchBodyCallback,Service Provider,class
+com.fsck.k9.mail.store.imap.FetchPartCallback,FetchPartCallback,Coordinator,class
+com.fsck.k9.mail.store.imap.FolderNameCodec,FolderNameCodec,Service Provider,class
+com.fsck.k9.mail.store.imap.IdGrouper.ContiguousIdGroup,ContiguousIdGroup,Information Holder,class
+com.fsck.k9.mail.store.imap.IdGrouper.GroupedIds,GroupedIds,Information Holder,class
+com.fsck.k9.mail.store.imap.IdGrouper,IdGrouper,Structurer,class
+com.fsck.k9.mail.store.imap.ImapCommandSplitter,ImapCommandSplitter,Structurer,class
+com.fsck.k9.mail.store.imap.ImapConnection,ImapConnection,Service Provider,class
+com.fsck.k9.mail.store.imap.ImapFolder,ImapFolder,Structurer,class
+com.fsck.k9.mail.store.imap.ImapFolderPusher.IdleStopper,IdleStopper,Service Provider,class
+com.fsck.k9.mail.store.imap.ImapFolderPusher.PushRunnable,PushRunnable,Controller,class
+com.fsck.k9.mail.store.imap.ImapFolderPusher,ImapFolderPusher,Controller,class
+com.fsck.k9.mail.store.imap.ImapList,ImapList,Structurer,class
+com.fsck.k9.mail.store.imap.ImapMessage,ImapMessage,Structurer,class
+com.fsck.k9.mail.store.imap.ImapPushState,ImapPushState,Service Provider,class
+com.fsck.k9.mail.store.imap.ImapPusher,ImapPusher,Service Provider,class
+com.fsck.k9.mail.store.imap.ImapResponse,ImapResponse,Information Holder,class
+com.fsck.k9.mail.store.imap.ImapResponseCallback,ImapResponseCallback,Service Provider,interface
+com.fsck.k9.mail.store.imap.ImapResponseParser,ImapResponseParser,Service Provider,class
+com.fsck.k9.mail.store.imap.ImapResponseParserException,ImapResponseParserException,Information Holder,class
+com.fsck.k9.mail.store.imap.ImapSearcher,ImapSearcher,Service Provider,interface
+com.fsck.k9.mail.store.imap.ImapSettings,ImapSettings,Information Holder,interface
+com.fsck.k9.mail.store.imap.ImapStore.StoreImapSettings,StoreImapSettings,Information Holder,class
+com.fsck.k9.mail.store.imap.ImapStore,ImapStore,Structurer,class
+com.fsck.k9.mail.store.imap.ImapStoreSettings,ImapStoreSettings,Information Holder,class
+com.fsck.k9.mail.store.imap.ImapStoreUriCreator,ImapStoreUriCreator,Service Provider,class
+com.fsck.k9.mail.store.imap.ImapStoreUriDecoder,ImapStoreUriDecoder,Service Provider,class
+com.fsck.k9.mail.store.imap.ImapUtility,ImapUtility,Service Provider,class
+com.fsck.k9.mail.store.imap.ListResponse,ListResponse,Service Provider,class
+com.fsck.k9.mail.store.imap.NamespaceResponse,NamespaceResponse,Service Provider,class
+com.fsck.k9.mail.store.imap.NegativeImapResponseException,NegativeImapResponseException,Information Holder,class
+com.fsck.k9.mail.store.imap.PermanentFlagsResponse,PermanentFlagsResponse,Service Provider,class
+com.fsck.k9.mail.store.imap.ResponseCodeExtractor,ResponseCodeExtractor,Service Provider,class
+com.fsck.k9.mail.store.imap.Responses,Responses,Information Holder,class
+com.fsck.k9.mail.store.imap.SearchResponse,SearchResponse,Structurer,class
+com.fsck.k9.mail.store.imap.SelectOrExamineResponse,SelectOrExamineResponse,Service Provider,class
+com.fsck.k9.mail.store.imap.UidCopyResponse,UidCopyResponse,Service Provider,class
+com.fsck.k9.mail.store.imap.UidSearchCommandBuilder,UidSearchCommandBuilder,Information Holder,class
+com.fsck.k9.mail.store.imap.UntaggedHandler,UntaggedHandler,Service Provider,interface
+com.fsck.k9.mail.ssl.DefaultTrustedSocketFactory,DefaultTrustedSocketFactory,Structurer,class
+com.fsck.k9.mail.ssl.KeyChainKeyManager,KeyChainKeyManager,Service Provider,class
+com.fsck.k9.mail.ssl.LocalKeyStore.LocalKeyStoreHolder,LocalKeyStoreHolder,Information Holder,class
+com.fsck.k9.mail.ssl.LocalKeyStore,LocalKeyStore,Information Holder,class
+com.fsck.k9.mail.ssl.TrustManagerFactory.SecureX509TrustManager,SecureX509TrustManager,Service Provider,class
+com.fsck.k9.mail.ssl.TrustManagerFactory,TrustManagerFactory,Service Provider,class
+com.fsck.k9.mail.ssl.TrustedSocketFactory,TrustedSocketFactory,Service Provider,interface
+com.fsck.k9.mail.power.TracingPowerManager.TracingWakeLock,TracingWakeLock,Service Provider,class
+com.fsck.k9.mail.power.TracingPowerManager,TracingPowerManager,Service Provider,class
+com.fsck.k9.mail.oauth.AuthorizationException,AuthorizationException,Information Holder,class
+com.fsck.k9.mail.oauth.OAuth2TokenProvider.OAuth2TokenProviderAuthCallback,OAuth2TokenProviderAuthCallback,Information Holder,interface
+com.fsck.k9.mail.oauth.OAuth2TokenProvider,OAuth2TokenProvider,Service Provider,interface
+com.fsck.k9.mail.oauth.XOAuth2ChallengeParser,XOAuth2ChallengeParser,Coordinator,class
+com.fsck.k9.mail.message.MessageHeaderParser.MessageHeaderParserContentHandler,MessageHeaderParserContentHandler,Structurer,class
+com.fsck.k9.mail.message.MessageHeaderParser,MessageHeaderParser,Service Provider,class
+com.fsck.k9.mail.internet.BinaryTempFileBody.BinaryTempFileBodyInputStream,BinaryTempFileBodyInputStream,Service Provider,class
+com.fsck.k9.mail.internet.BinaryTempFileBody,BinaryTempFileBody,Information Holder,class
+com.fsck.k9.mail.internet.BinaryTempFileMessageBody,BinaryTempFileMessageBody,Information Holder,class
+com.fsck.k9.mail.internet.CharsetSupport,CharsetSupport,Service Provider,class
+com.fsck.k9.mail.internet.DecoderUtil.EncodedWord,EncodedWord,Information Holder,class
+com.fsck.k9.mail.internet.DecoderUtil,DecoderUtil,Service Provider,class
+com.fsck.k9.mail.internet.EncoderUtil.Encoding,Encoding,Information Holder,enum
+com.fsck.k9.mail.internet.EncoderUtil,EncoderUtil,Service Provider,class
+com.fsck.k9.mail.internet.FlowedMessageUtils,FlowedMessageUtils,Service Provider,class
+com.fsck.k9.mail.internet.Iso2022JpToShiftJisInputStream.Charset,Charset,Information Holder,enum
+com.fsck.k9.mail.internet.Iso2022JpToShiftJisInputStream,Iso2022JpToShiftJisInputStream,Service Provider,class
+com.fsck.k9.mail.internet.JisSupport,JisSupport,Service Provider,class
+com.fsck.k9.mail.internet.ListHeaders,ListHeaders,Service Provider,class
+com.fsck.k9.mail.internet.MessageExtractor,MessageExtractor,Service Provider,class
+com.fsck.k9.mail.internet.MessageIdGenerator,MessageIdGenerator,Coordinator,class
+com.fsck.k9.mail.internet.MimeBodyPart,MimeBodyPart,Structurer,class
+com.fsck.k9.mail.internet.MimeHeader.Field,Field,Information Holder,class
+com.fsck.k9.mail.internet.MimeHeader,MimeHeader,Structurer,class
+com.fsck.k9.mail.internet.MimeMessage.MimeMessageBuilder,MimeMessageBuilder,Structurer,class
+com.fsck.k9.mail.internet.MimeMessage,MimeMessage,Coordinator,class
+com.fsck.k9.mail.internet.MimeMessageHelper,MimeMessageHelper,Service Provider,class
+com.fsck.k9.mail.internet.MimeMultipart,MimeMultipart,Information Holder,class
+com.fsck.k9.mail.internet.MimeUtility,MimeUtility,Service Provider,class
+com.fsck.k9.mail.internet.RawDataBody,RawDataBody,Service Provider,interface
+com.fsck.k9.mail.internet.SizeAware,SizeAware,Service Provider,interface
+com.fsck.k9.mail.internet.TextBody,TextBody,Information Holder,class
+com.fsck.k9.mail.internet.Viewable.Alternative,Alternative,Information Holder,class
+com.fsck.k9.mail.internet.Viewable.Flowed,Flowed,Information Holder,class
+com.fsck.k9.mail.internet.Viewable.Html,Html,Information Holder,class
+com.fsck.k9.mail.internet.Viewable.MessageHeader,MessageHeader,Information Holder,class
+com.fsck.k9.mail.internet.Viewable.Text,Text,Information Holder,class
+com.fsck.k9.mail.internet.Viewable.Textual,Textual,Information Holder,abstract class
+com.fsck.k9.mail.internet.Viewable,Viewable,Information Holder,interface
+com.fsck.k9.mail.helper.UrlEncodingHelper,UrlEncodingHelper,Coordinator,class
+com.fsck.k9.mail.filter.Base64.DecoderException,DecoderException,Information Holder,class
+com.fsck.k9.mail.filter.Base64.EncoderException,EncoderException,Information Holder,class
+com.fsck.k9.mail.filter.Base64,Base64,Service Provider,class
+com.fsck.k9.mail.filter.Base64OutputStream,Base64OutputStream,Coordinator,class
+com.fsck.k9.mail.filter.CountingOutputStream,CountingOutputStream,Information Holder,class
+com.fsck.k9.mail.filter.EOLConvertingOutputStream,EOLConvertingOutputStream,Service Provider,class
+com.fsck.k9.mail.filter.FixedLengthInputStream,FixedLengthInputStream,Coordinator,class
+com.fsck.k9.mail.filter.Hex,Hex,Service Provider,class
+com.fsck.k9.mail.filter.LineWrapOutputStream,LineWrapOutputStream,Service Provider,class
+com.fsck.k9.mail.filter.PeekableInputStream,PeekableInputStream,Service Provider,class
+com.fsck.k9.mail.filter.SignSafeOutputStream.State,State,Information Holder,enum
+com.fsck.k9.mail.filter.SignSafeOutputStream,SignSafeOutputStream,Service Provider,class
+com.fsck.k9.mail.filter.SmtpDataStuffing,SmtpDataStuffing,Service Provider,class
+com.fsck.k9.Account.DeletePolicy,DeletePolicy,Information Holder,enum
+com.fsck.k9.Account.Expunge,Expunge,Information Holder,enum
+com.fsck.k9.Account.FolderMode,FolderMode,Information Holder,enum
+com.fsck.k9.Account.MessageFormat,MessageFormat,Information Holder,enum
+com.fsck.k9.Account.QuoteStyle,QuoteStyle,Information Holder,enum
+com.fsck.k9.Account.Searchable,Searchable,Information Holder,enum
+com.fsck.k9.Account.ShowPictures,ShowPictures,Information Holder,enum
+com.fsck.k9.Account.SortType,SortType,Information Holder,enum
+com.fsck.k9.AccountStats,AccountStats,Information Holder,class
+com.fsck.k9.BaseAccount,BaseAccount,Information Holder,interface
+com.fsck.k9.Clock,Clock,Service Provider,class
+com.fsck.k9.EmailAddressValidator,EmailAddressValidator,Service Provider,class
+com.fsck.k9.FontSizes,FontSizes,Information Holder,class
+com.fsck.k9.Globals,Globals,Information Holder,class
+com.fsck.k9.Identity,Identity,Information Holder,class
+com.fsck.k9.Account,Account,Information Holder,class
+com.fsck.k9.K9.ApplicationAware,ApplicationAware,Service Provider,interface
+com.fsck.k9.K9.BACKGROUND_OPS,BACKGROUND_OPS,Information Holder,enum
+com.fsck.k9.K9.Intents,Intents,Information Holder,class
+com.fsck.k9.K9.LockScreenNotificationVisibility,LockScreenNotificationVisibility,Information Holder,enum
+com.fsck.k9.K9.NotificationHideSubject,NotificationHideSubject,Information Holder,enum
+com.fsck.k9.K9.NotificationQuickDelete,NotificationQuickDelete,Information Holder,enum
+com.fsck.k9.K9.SplitViewMode,SplitViewMode,Information Holder,enum
+com.fsck.k9.K9.Theme,Theme,Information Holder,enum
+com.fsck.k9.K9,K9,Controller,class
+com.fsck.k9.NotificationSetting,NotificationSetting,Information Holder,class
+com.fsck.k9.PRNGFixes.LinuxPRNGSecureRandom,LinuxPRNGSecureRandom,Service Provider,class
+com.fsck.k9.PRNGFixes.LinuxPRNGSecureRandomProvider,LinuxPRNGSecureRandomProvider,Service Provider,class
+com.fsck.k9.PRNGFixes,PRNGFixes,Service Provider,class
+com.fsck.k9.Preferences,Preferences,Structurer,class
+com.fsck.k9.Throttle.MyTimerTask,MyTimerTask,Coordinator,class
+com.fsck.k9.Throttle,Throttle,Controller,class
+com.fsck.k9.widget.list.MessageListRemoteViewFactory.MailItem,MailItem,Information Holder,class
+com.fsck.k9.widget.list.MessageListRemoteViewFactory,MessageListRemoteViewFactory,Interfacer,class
+com.fsck.k9.widget.list.MessageListWidgetProvider,MessageListWidgetProvider,Controller,class
+com.fsck.k9.widget.list.MessageListWidgetService,MessageListWidgetService,Service Provider,class
+com.fsck.k9.view.ClientCertificateSpinner.OnClientCertificateChangedListener,OnClientCertificateChangedListener,Service Provider,interface
+com.fsck.k9.view.ClientCertificateSpinner,ClientCertificateSpinner,Interfacer,class
+com.fsck.k9.view.ColorChip,ColorChip,Coordinator,class
+com.fsck.k9.view.CryptoModeSelector.CryptoModeSelectorState,CryptoModeSelectorState,Information Holder,enum
+com.fsck.k9.view.CryptoModeSelector.CryptoStatusSelectedListener,CryptoStatusSelectedListener,Service Provider,interface
+com.fsck.k9.view.CryptoModeSelector,CryptoModeSelector,Information Holder,interface
+com.fsck.k9.view.FoldableLinearLayout.SavedState,SavedState,Coordinator,class
+com.fsck.k9.view.FoldableLinearLayout,FoldableLinearLayout,Interfacer,class
+com.fsck.k9.view.HighlightDialogFragment,HighlightDialogFragment,Service Provider,class
+com.fsck.k9.view.K9WebViewClient.LollipopWebViewClient,LollipopWebViewClient,Interfacer,class
+com.fsck.k9.view.K9WebViewClient.PreLollipopWebViewClient,PreLollipopWebViewClient,Interfacer,class
+com.fsck.k9.view.K9WebViewClient,K9WebViewClient,Interfacer,abstract class
+com.fsck.k9.view.LinearViewAnimator,LinearViewAnimator,Service Provider,class
+com.fsck.k9.view.MessageCryptoDisplayStatus,MessageCryptoDisplayStatus,Information Holder,enum
+com.fsck.k9.view.MessageCryptoStatusView,MessageCryptoStatusView,Interfacer,class
+com.fsck.k9.view.MessageHeader.HeaderEntry,HeaderEntry,Information Holder,class
+com.fsck.k9.view.MessageHeader.OnLayoutChangedListener,OnLayoutChangedListener,Service Provider,interface
+com.fsck.k9.view.MessageHeader.SavedState,SavedState,Information Holder,class
+com.fsck.k9.view.MessageTitleView,MessageTitleView,Interfacer,class
+com.fsck.k9.view.MessageHeader,MessageHeader,Interfacer,class
+com.fsck.k9.view.MessageWebView.OnPageFinishedListener,OnPageFinishedListener,Service Provider,interface
+com.fsck.k9.view.MessageWebView,MessageWebView,Coordinator,class
+com.fsck.k9.view.NonLockingScrollView.HierarchyTreeChangeListener,HierarchyTreeChangeListener,Service Provider,class
+com.fsck.k9.view.NonLockingScrollView,NonLockingScrollView,Interfacer,class
+com.fsck.k9.view.RecipientSelectView.Recipient,Recipient,Information Holder,class
+com.fsck.k9.view.RecipientSelectView.RecipientCryptoStatus,RecipientCryptoStatus,Information Holder,enum
+com.fsck.k9.view.RecipientSelectView.RecipientTokenSpan,RecipientTokenSpan,Information Holder,class
+com.fsck.k9.view.RecipientSelectView.RecipientTokenViewHolder,RecipientTokenViewHolder,Information Holder,class
+com.fsck.k9.view.RecipientSelectView.TokenListener,TokenListener,Service Provider,interface
+com.fsck.k9.view.RigidWebView,RigidWebView,Information Holder,class
+com.fsck.k9.view.ThemeUtils,ThemeUtils,Coordinator,class
+com.fsck.k9.view.ViewSwitcher.OnSwitchCompleteListener,OnSwitchCompleteListener,Service Provider,interface
+com.fsck.k9.view.ToolableViewAnimator,ToolableViewAnimator,Interfacer,class
+com.fsck.k9.view.RecipientSelectView,RecipientSelectView,Interfacer,class
+com.fsck.k9.view.ViewSwitcher,ViewSwitcher,Service Provider,class
+com.fsck.k9.ui.ContactBadge.QueryHandler,QueryHandler,Controller,class
+com.fsck.k9.ui.ContactBadge,ContactBadge,Interfacer,class
+com.fsck.k9.ui.EolConvertingEditText,EolConvertingEditText,Service Provider,class
+com.fsck.k9.ui.messageview.AttachmentController.IntentAndResolvedActivitiesCount,IntentAndResolvedActivitiesCount,Information Holder,class
+com.fsck.k9.ui.messageview.AttachmentController.SaveAttachmentAsyncTask,SaveAttachmentAsyncTask,Service Provider,class
+com.fsck.k9.ui.messageview.AttachmentController.ViewAttachmentAsyncTask,ViewAttachmentAsyncTask,Service Provider,class
+com.fsck.k9.ui.messageview.AttachmentViewCallback,AttachmentViewCallback,Service Provider,interface
+com.fsck.k9.ui.messageview.AttachmentView,AttachmentView,Coordinator,class
+com.fsck.k9.ui.messageview.AttachmentController,AttachmentController,Controller,class
+com.fsck.k9.ui.messageview.CryptoInfoDialog.OnClickShowCryptoKeyListener,OnClickShowCryptoKeyListener,Service Provider,interface
+com.fsck.k9.ui.messageview.CryptoInfoDialog,CryptoInfoDialog,Interfacer,class
+com.fsck.k9.ui.messageview.DownloadImageTask,DownloadImageTask,Service Provider,class
+com.fsck.k9.ui.messageview.LockedAttachmentView,LockedAttachmentView,Interfacer,class
+com.fsck.k9.ui.messageview.MessageContainerView.OnRenderingFinishedListener,OnRenderingFinishedListener,Service Provider,interface
+com.fsck.k9.ui.messageview.MessageContainerView.SavedState,SavedState,Information Holder,class
+com.fsck.k9.ui.messageview.MessageCryptoPresenter.MessageCryptoMvpView,MessageCryptoMvpView,Service Provider,interface
+com.fsck.k9.ui.messageview.MessageCryptoPresenter,MessageCryptoPresenter,Controller,class
+com.fsck.k9.ui.messageview.MessageViewFragment.MessageViewFragmentListener,MessageViewFragmentListener,Service Provider,interface
+com.fsck.k9.ui.messageview.MessageContainerView,MessageContainerView,Interfacer,class
+com.fsck.k9.ui.messageview.MessageTopView,MessageTopView,Interfacer,class
+com.fsck.k9.ui.messageview.OnCryptoClickListener,OnCryptoClickListener,Service Provider,interface
+com.fsck.k9.ui.message.LocalMessageExtractorLoader,LocalMessageExtractorLoader,Service Provider,class
+com.fsck.k9.ui.message.LocalMessageLoader,LocalMessageLoader,Service Provider,class
+com.fsck.k9.ui.dialog.ApgDeprecationWarningDialog,ApgDeprecationWarningDialog,Interfacer,class
+com.fsck.k9.ui.crypto.MessageCryptoAnnotations,MessageCryptoAnnotations,Structurer,class
+com.fsck.k9.ui.crypto.MessageCryptoCallback,MessageCryptoCallback,Service Provider,interface
+com.fsck.k9.ui.messageview.MessageViewFragment,MessageViewFragment,Interfacer,class
+com.fsck.k9.ui.crypto.MessageCryptoHelper.CryptoPart,CryptoPart,Information Holder,class
+com.fsck.k9.ui.crypto.MessageCryptoHelper.CryptoPartType,CryptoPartType,Information Holder,enum
+com.fsck.k9.ui.crypto.MessageCryptoHelper.State,State,Information Holder,enum
+com.fsck.k9.ui.crypto.OpenPgpApiFactory,OpenPgpApiFactory,Service Provider,class
+com.fsck.k9.ui.compose.QuotedMessageMvpView,QuotedMessageMvpView,Interfacer,class
+com.fsck.k9.setup.ServerNameSuggester,ServerNameSuggester,Service Provider,class
+com.fsck.k9.ui.compose.QuotedMessagePresenter,QuotedMessagePresenter,Structurer,class
+com.fsck.k9.ui.crypto.MessageCryptoHelper,MessageCryptoHelper,Service Provider,class
+com.fsck.k9.service.BootReceiver,BootReceiver,Service Provider,class
+com.fsck.k9.service.CoreReceiver,CoreReceiver,Service Provider,class
+com.fsck.k9.service.CoreService,CoreService,Service Provider,abstract class
+com.fsck.k9.service.DatabaseUpgradeService,DatabaseUpgradeService,Service Provider,class
+com.fsck.k9.service.PollService.Listener,Listener,Service Provider,class
+com.fsck.k9.service.PollService,PollService,Service Provider,class
+com.fsck.k9.service.PushService,PushService,Service Provider,class
+com.fsck.k9.service.RemoteControlReceiver,RemoteControlReceiver,Service Provider,class
+com.fsck.k9.service.MailService,MailService,Controller,class
+com.fsck.k9.service.ShutdownReceiver,ShutdownReceiver,Service Provider,class
+com.fsck.k9.service.SleepService.SleepDatum,SleepDatum,Information Holder,class
+com.fsck.k9.service.RemoteControlService,RemoteControlService,Controller,class
+com.fsck.k9.service.StorageGoneReceiver,StorageGoneReceiver,Service Provider,class
+com.fsck.k9.service.SleepService,SleepService,Service Provider,class
+com.fsck.k9.service.StorageReceiver,StorageReceiver,Service Provider,class
+com.fsck.k9.search.ConditionsTreeNode.Operator,Operator,Information Holder,enum
+com.fsck.k9.search.ConditionsTreeNode,ConditionsTreeNode,Structurer,class
+com.fsck.k9.search.SearchAccount,SearchAccount,Coordinator,class
+com.fsck.k9.search.LocalSearch,LocalSearch,Structurer,class
+com.fsck.k9.search.SearchSpecification.Attribute,Attribute,Information Holder,enum
+com.fsck.k9.search.SearchSpecification.SearchCondition,SearchCondition,Information Holder,class
+com.fsck.k9.search.SearchSpecification.SearchField,SearchField,Information Holder,enum
+com.fsck.k9.search.SearchSpecification,SearchSpecification,Information Holder,interface
+com.fsck.k9.remotecontrol.AccountReceiver,AccountReceiver,Service Provider,class
+com.fsck.k9.remotecontrol.K9AccountReceptor,K9AccountReceptor,Service Provider,interface
+com.fsck.k9.search.SqlQueryBuilder,SqlQueryBuilder,Service Provider,class
+com.fsck.k9.provider.AttachmentProvider.AttachmentProviderColumns,AttachmentProviderColumns,Information Holder,class
+com.fsck.k9.remotecontrol.K9RemoteControl,K9RemoteControl,Information Holder,class
+com.fsck.k9.provider.AttachmentTempFileProvider.AttachmentTempFileProviderCleanupReceiver,AttachmentTempFileProviderCleanupReceiver,Service Provider,class
+com.fsck.k9.provider.AttachmentProvider,AttachmentProvider,Service Provider,class
+com.fsck.k9.provider.DecryptedFileProvider.DecryptedFileProviderCleanupReceiver,DecryptedFileProviderCleanupReceiver,Service Provider,class
+com.fsck.k9.provider.AttachmentTempFileProvider,AttachmentTempFileProvider,Service Provider,class
+com.fsck.k9.provider.EmailProvider.FolderColumns,FolderColumns,Information Holder,interface
+com.fsck.k9.provider.DecryptedFileProvider,DecryptedFileProvider,Service Provider,class
+com.fsck.k9.provider.EmailProvider.IdTrickeryCursor,IdTrickeryCursor,Service Provider,class
+com.fsck.k9.provider.EmailProvider.InternalMessageColumns,InternalMessageColumns,Information Holder,interface
+com.fsck.k9.provider.EmailProvider.MessageColumns,MessageColumns,Information Holder,interface
+com.fsck.k9.provider.EmailProvider.SpecialColumns,SpecialColumns,Information Holder,interface
+com.fsck.k9.provider.EmailProvider.StatsColumns,StatsColumns,Information Holder,interface
+com.fsck.k9.provider.EmailProvider.SpecialColumnsCursor,SpecialColumnsCursor,Information Holder,class
+com.fsck.k9.provider.EmailProvider.ThreadColumns,ThreadColumns,Information Holder,interface
+com.fsck.k9.provider.MessageProvider.AccountColorExtractor,AccountColorExtractor,Coordinator,class
+com.fsck.k9.provider.MessageProvider.AccountColumns,AccountColumns,Information Holder,interface
+com.fsck.k9.provider.MessageProvider.AccountExtractor,AccountExtractor,Coordinator,class
+com.fsck.k9.provider.MessageProvider.AccountNumberExtractor,AccountNumberExtractor,Coordinator,class
+com.fsck.k9.provider.MessageProvider.AccountsQueryHandler,AccountsQueryHandler,Service Provider,class
+com.fsck.k9.provider.MessageProvider.CountExtractor,CountExtractor,Information Holder,class
+com.fsck.k9.provider.EmailProvider,EmailProvider,Service Provider,class
+com.fsck.k9.provider.MessageProvider.DeleteUriExtractor,DeleteUriExtractor,Coordinator,class
+com.fsck.k9.provider.MessageProvider.FieldExtractor,FieldExtractor,Structurer,interface
+com.fsck.k9.provider.MessageProvider.HasAttachmentsExtractor,HasAttachmentsExtractor,Coordinator,class
+com.fsck.k9.provider.MessageProvider.HasStarExtractor,HasStarExtractor,Coordinator,class
+com.fsck.k9.provider.MessageProvider.IdExtractor,IdExtractor,Coordinator,class
+com.fsck.k9.provider.MessageProvider.IncrementExtractor,IncrementExtractor,Information Holder,class
+com.fsck.k9.provider.MessageProvider.MessageColumns,MessageColumns,Information Holder,interface
+com.fsck.k9.provider.MessageProvider.MessageInfoHolderRetrieverListener,MessageInfoHolderRetrieverListener,Structurer,class
+com.fsck.k9.provider.MessageProvider.MessagesQueryHandler,MessagesQueryHandler,Structurer,class
+com.fsck.k9.provider.MessageProvider.PreviewExtractor,PreviewExtractor,Coordinator,class
+com.fsck.k9.provider.MessageProvider.QueryHandler,QueryHandler,Service Provider,interface
+com.fsck.k9.provider.MessageProvider.MonitoredCursor,MonitoredCursor,Service Provider,class
+com.fsck.k9.provider.MessageProvider.ReverseDateComparator,ReverseDateComparator,Service Provider,class
+com.fsck.k9.provider.MessageProvider.SendDateExtractor,SendDateExtractor,Coordinator,class
+com.fsck.k9.provider.MessageProvider.SenderAddressExtractor,SenderAddressExtractor,Coordinator,class
+com.fsck.k9.provider.MessageProvider.SenderExtractor,SenderExtractor,Coordinator,class
+com.fsck.k9.provider.MessageProvider.SubjectExtractor,SubjectExtractor,Coordinator,class
+com.fsck.k9.provider.MessageProvider.ThrottlingQueryHandler,ThrottlingQueryHandler,Service Provider,class
+com.fsck.k9.provider.MessageProvider.UnreadColumns,UnreadColumns,Information Holder,interface
+com.fsck.k9.provider.MessageProvider.UnreadExtractor,UnreadExtractor,Coordinator,class
+com.fsck.k9.provider.MessageProvider.UnreadQueryHandler,UnreadQueryHandler,Service Provider,class
+com.fsck.k9.provider.MessageProvider.UriExtractor,UriExtractor,Coordinator,class
+com.fsck.k9.provider.MessageProvider,MessageProvider,Coordinator,class
+com.fsck.k9.provider.UnreadWidgetProvider,UnreadWidgetProvider,Controller,class
+com.fsck.k9.preferences.AccountSettings.DeletePolicySetting,DeletePolicySetting,Structurer,class
+com.fsck.k9.preferences.AccountSettings.IntegerResourceSetting,IntegerResourceSetting,Structurer,class
+com.fsck.k9.preferences.AccountSettings.RingtoneSetting,RingtoneSetting,Service Provider,class
+com.fsck.k9.preferences.AccountSettings.StorageProviderSetting,StorageProviderSetting,Service Provider,class
+com.fsck.k9.preferences.AccountSettings.StringResourceSetting,StringResourceSetting,Structurer,class
+com.fsck.k9.preferences.CheckBoxListPreference,CheckBoxListPreference,Service Provider,class
+com.fsck.k9.preferences.FolderSettings,FolderSettings,Coordinator,class
+com.fsck.k9.preferences.GlobalSettings.DirectorySetting,DirectorySetting,Service Provider,class
+com.fsck.k9.preferences.AccountSettings,AccountSettings,Coordinator,class
+com.fsck.k9.preferences.GlobalSettings.LanguageSetting,LanguageSetting,Structurer,class
+com.fsck.k9.preferences.GlobalSettings.SettingsUpgraderV12,SettingsUpgraderV12,Service Provider,class
+com.fsck.k9.preferences.GlobalSettings.SettingsUpgraderV24,SettingsUpgraderV24,Service Provider,class
+com.fsck.k9.preferences.GlobalSettings.SettingsUpgraderV31,SettingsUpgraderV31,Service Provider,class
+com.fsck.k9.preferences.GlobalSettings.SubThemeSetting,SubThemeSetting,Service Provider,class
+com.fsck.k9.preferences.GlobalSettings.ThemeSetting,ThemeSetting,Service Provider,class
+com.fsck.k9.preferences.GlobalSettings.TimeSetting,TimeSetting,Service Provider,class
+com.fsck.k9.preferences.IdentitySettings.OptionalEmailAddressSetting,OptionalEmailAddressSetting,Service Provider,class
+com.fsck.k9.preferences.IdentitySettings.SignatureSetting,SignatureSetting,Service Provider,class
+com.fsck.k9.preferences.IdentitySettings,IdentitySettings,Coordinator,class
+com.fsck.k9.preferences.Settings.BooleanSetting,BooleanSetting,Service Provider,class
+com.fsck.k9.preferences.GlobalSettings,GlobalSettings,Coordinator,class
+com.fsck.k9.preferences.Settings.ColorSetting,ColorSetting,Service Provider,class
+com.fsck.k9.preferences.Settings.EnumSetting,EnumSetting,Service Provider,class
+com.fsck.k9.preferences.Settings.FontSizeSetting,FontSizeSetting,Structurer,class
+com.fsck.k9.preferences.Settings.IntegerRangeSetting,IntegerRangeSetting,Service Provider,class
+com.fsck.k9.preferences.Settings.InvalidSettingValueException,InvalidSettingValueException,Information Holder,class
+com.fsck.k9.preferences.Settings.PseudoEnumSetting,PseudoEnumSetting,Service Provider,abstract class
+com.fsck.k9.preferences.Settings.SettingsDescription,SettingsDescription,Information Holder,abstract class
+com.fsck.k9.preferences.Settings.SettingsUpgrader,SettingsUpgrader,Service Provider,interface
+com.fsck.k9.preferences.Settings.StringSetting,StringSetting,Service Provider,class
+com.fsck.k9.preferences.Settings.V,V,Information Holder,class
+com.fsck.k9.preferences.Settings.WebFontSizeSetting,WebFontSizeSetting,Structurer,class
+com.fsck.k9.preferences.Settings,Settings,Service Provider,class
+com.fsck.k9.preferences.SettingsImportExportException,SettingsImportExportException,Information Holder,class
+com.fsck.k9.preferences.SettingsImporter.AccountDescription,AccountDescription,Information Holder,class
+com.fsck.k9.preferences.SettingsImporter.AccountDescriptionPair,AccountDescriptionPair,Information Holder,class
+com.fsck.k9.preferences.SettingsImporter.ImportContents,ImportContents,Information Holder,class
+com.fsck.k9.preferences.SettingsImporter.ImportResults,ImportResults,Information Holder,class
+com.fsck.k9.preferences.SettingsImporter.Imported,Imported,Information Holder,class
+com.fsck.k9.preferences.SettingsImporter.ImportedAccount,ImportedAccount,Information Holder,class
+com.fsck.k9.preferences.SettingsExporter,SettingsExporter,Service Provider,class
+com.fsck.k9.preferences.SettingsImporter.ImportedFolder,ImportedFolder,Information Holder,class
+com.fsck.k9.preferences.SettingsImporter.ImportedIdentity,ImportedIdentity,Information Holder,class
+com.fsck.k9.preferences.SettingsImporter.ImportedServer,ImportedServer,Information Holder,class
+com.fsck.k9.preferences.SettingsImporter.ImportedServerSettings,ImportedServerSettings,Information Holder,class
+com.fsck.k9.preferences.SettingsImporter.ImportedSettings,ImportedSettings,Information Holder,class
+com.fsck.k9.preferences.StorageEditor,StorageEditor,Structurer,class
+com.fsck.k9.preferences.TimePickerPreference,TimePickerPreference,Interfacer,class
+com.fsck.k9.preferences.Storage,Storage,Structurer,class
+com.fsck.k9.power.DeviceIdleManager.NoOpDeviceIdleManager,NoOpDeviceIdleManager,Service Provider,class
+com.fsck.k9.power.DeviceIdleManager.RealDeviceIdleManager,RealDeviceIdleManager,Service Provider,class
+com.fsck.k9.preferences.SettingsImporter,SettingsImporter,Service Provider,class
+com.fsck.k9.power.DeviceIdleManager,DeviceIdleManager,Service Provider,abstract class
+com.fsck.k9.power.DeviceIdleReceiver,DeviceIdleReceiver,Coordinator,class
+com.fsck.k9.power.DozeChecker,DozeChecker,Coordinator,class
+com.fsck.k9.notification.AddNotificationResult,AddNotificationResult,Information Holder,class
+com.fsck.k9.notification.AuthenticationErrorNotifications,AuthenticationErrorNotifications,Coordinator,class
+com.fsck.k9.notification.BaseNotifications,BaseNotifications,Coordinator,abstract class
+com.fsck.k9.notification.CertificateErrorNotifications,CertificateErrorNotifications,Coordinator,class
+com.fsck.k9.notification.DeviceNotifications,DeviceNotifications,Service Provider,class
+com.fsck.k9.notification.LockScreenNotification,LockScreenNotification,Coordinator,class
+com.fsck.k9.notification.NewMailNotifications,NewMailNotifications,Coordinator,class
+com.fsck.k9.notification.NotificationActionCreator,NotificationActionCreator,Service Provider,class
+com.fsck.k9.notification.NotificationActionService,NotificationActionService,Controller,class
+com.fsck.k9.notification.NotificationContent,NotificationContent,Information Holder,class
+com.fsck.k9.notification.NotificationContentCreator,NotificationContentCreator,Service Provider,class
+com.fsck.k9.notification.NotificationController,NotificationController,Controller,class
+com.fsck.k9.notification.NotificationData,NotificationData,Structurer,class
+com.fsck.k9.notification.NotificationGroupKeys,NotificationGroupKeys,Information Holder,class
+com.fsck.k9.notification.NotificationHolder,NotificationHolder,Information Holder,class
+com.fsck.k9.notification.NotificationIds,NotificationIds,Information Holder,class
+com.fsck.k9.notification.RemoveNotificationResult,RemoveNotificationResult,Information Holder,class
+com.fsck.k9.notification.SendFailedNotifications,SendFailedNotifications,Coordinator,class
+com.fsck.k9.notification.SyncNotifications,SyncNotifications,Coordinator,class
+com.fsck.k9.notification.WearNotifications,WearNotifications,Coordinator,class
+com.fsck.k9.message.AutocryptStatusInteractor.RecipientAutocryptStatus,RecipientAutocryptStatus,Information Holder,class
+com.fsck.k9.message.AutocryptStatusInteractor.RecipientAutocryptStatusType,RecipientAutocryptStatusType,Information Holder,enum
+com.fsck.k9.message.AutocryptStatusInteractor,AutocryptStatusInteractor,Service Provider,class
+com.fsck.k9.message.ComposePgpEnableByDefaultDecider,ComposePgpEnableByDefaultDecider,Service Provider,class
+com.fsck.k9.message.ComposePgpInlineDecider,ComposePgpInlineDecider,Service Provider,class
+com.fsck.k9.message.IdentityField,IdentityField,Information Holder,enum
+com.fsck.k9.message.IdentityHeaderBuilder,IdentityHeaderBuilder,Service Provider,class
+com.fsck.k9.message.IdentityHeaderParser,IdentityHeaderParser,Service Provider,class
+com.fsck.k9.message.MessageBuilder.Callback,Callback,Service Provider,interface
+com.fsck.k9.message.MessageBuilder,MessageBuilder,Service Provider,abstract class
+com.fsck.k9.message.PgpMessageBuilder,PgpMessageBuilder,Service Provider,class
+com.fsck.k9.message.QuotedTextMode,QuotedTextMode,Information Holder,enum
+com.fsck.k9.message.SimpleMessageBuilder,SimpleMessageBuilder,Service Provider,class
+com.fsck.k9.message.SimpleMessageFormat,SimpleMessageFormat,Information Holder,enum
+com.fsck.k9.message.TextBodyBuilder,TextBodyBuilder,Service Provider,class
+com.fsck.k9.message.signature.HtmlSignatureRemover.StripSignatureFilter,StripSignatureFilter,Service Provider,class
+com.fsck.k9.message.signature.HtmlSignatureRemover,HtmlSignatureRemover,Coordinator,class
+com.fsck.k9.message.signature.TextSignatureRemover,TextSignatureRemover,Service Provider,class
+com.fsck.k9.message.quote.HtmlQuoteCreator,HtmlQuoteCreator,Service Provider,class
+com.fsck.k9.message.quote.InsertableHtmlContent.InsertionLocation,InsertionLocation,Information Holder,enum
+com.fsck.k9.message.quote.InsertableHtmlContent,InsertableHtmlContent,Information Holder,class
+com.fsck.k9.message.quote.QuoteHelper,QuoteHelper,Service Provider,class
+com.fsck.k9.message.quote.TextQuoteCreator,TextQuoteCreator,Service Provider,class
+com.fsck.k9.message.html.BitcoinUriParser,BitcoinUriParser,Service Provider,class
+com.fsck.k9.message.html.EthereumUriParser,EthereumUriParser,Service Provider,class
+com.fsck.k9.message.html.HeadCleaner.CleaningVisitor,CleaningVisitor,Structurer,class
+com.fsck.k9.message.html.HeadCleaner,HeadCleaner,Coordinator,class
+com.fsck.k9.message.html.HtmlConverter.HtmlToTextTagHandler,HtmlToTextTagHandler,Service Provider,class
+com.fsck.k9.message.html.HtmlConverter.ListTagHandler,ListTagHandler,Service Provider,class
+com.fsck.k9.message.html.HtmlConverter,HtmlConverter,Service Provider,class
+com.fsck.k9.message.html.HtmlProcessor,HtmlProcessor,Service Provider,class
+com.fsck.k9.message.html.HtmlSanitizer,HtmlSanitizer,Coordinator,class
+com.fsck.k9.message.html.HttpUriParser,HttpUriParser,Service Provider,class
+com.fsck.k9.message.html.UriLinkifier,UriLinkifier,Service Provider,class
+com.fsck.k9.message.html.UriParser,UriParser,Service Provider,interface
+com.fsck.k9.message.extractors.AttachmentCounter,AttachmentCounter,Service Provider,class
+com.fsck.k9.message.extractors.AttachmentInfoExtractor,AttachmentInfoExtractor,Service Provider,class
+com.fsck.k9.message.extractors.BodyTextExtractor,BodyTextExtractor,Interfacer,class
+com.fsck.k9.message.extractors.EncryptionDetector,EncryptionDetector,Service Provider,class
+com.fsck.k9.message.extractors.MessageFulltextCreator,MessageFulltextCreator,Service Provider,class
+com.fsck.k9.message.extractors.MessagePreviewCreator,MessagePreviewCreator,Service Provider,class
+com.fsck.k9.message.extractors.PreviewExtractionException,PreviewExtractionException,Service Provider,class
+com.fsck.k9.message.extractors.PreviewResult.PreviewType,PreviewType,Information Holder,enum
+com.fsck.k9.message.extractors.PreviewResult,PreviewResult,Information Holder,class
+com.fsck.k9.message.extractors.PreviewTextExtractor,PreviewTextExtractor,Service Provider,class
+com.fsck.k9.message.extractors.TextPartFinder,TextPartFinder,Service Provider,class
+com.fsck.k9.mailstore.AttachmentResolver,AttachmentResolver,Service Provider,class
+com.fsck.k9.mailstore.AttachmentViewInfo,AttachmentViewInfo,Information Holder,class
+com.fsck.k9.mailstore.BinaryAttachmentBody,BinaryAttachmentBody,Service Provider,abstract class
+com.fsck.k9.mailstore.CryptoResultAnnotation.CryptoError,CryptoError,Information Holder,enum
+com.fsck.k9.mailstore.DatabasePreviewType,DatabasePreviewType,Information Holder,enum
+com.fsck.k9.mailstore.CryptoResultAnnotation,CryptoResultAnnotation,Information Holder,class
+com.fsck.k9.mailstore.DeferredFileBody,DeferredFileBody,Service Provider,class
+com.fsck.k9.mailstore.FileBackedBody,FileBackedBody,Information Holder,class
+com.fsck.k9.mailstore.LocalBodyPart,LocalBodyPart,Information Holder,class
+com.fsck.k9.mailstore.LocalFolder.DataLocation,DataLocation,Information Holder,class
+com.fsck.k9.mailstore.LocalFolder.MessagePartType,MessagePartType,Information Holder,class
+com.fsck.k9.mailstore.LocalFolder.MoreMessages,MoreMessages,Information Holder,enum
+com.fsck.k9.mailstore.LocalFolder.PartContainer,PartContainer,Information Holder,class
+com.fsck.k9.mailstore.LocalFolder.PreferencesHolder,PreferencesHolder,Information Holder,class
+com.fsck.k9.mailstore.LocalMimeMessage,LocalMimeMessage,Information Holder,class
+com.fsck.k9.mailstore.LocalPart,LocalPart,Structurer,interface
+com.fsck.k9.mailstore.LockableDatabase.DbCallback,DbCallback,Coordinator,interface
+com.fsck.k9.mailstore.LockableDatabase.SchemaDefinition,SchemaDefinition,Service Provider,interface
+com.fsck.k9.mailstore.LocalMessage,LocalMessage,Information Holder,class
+com.fsck.k9.mailstore.LockableDatabase.StorageListener,StorageListener,Service Provider,class
+com.fsck.k9.mailstore.LockableDatabase.WrappedException,WrappedException,Service Provider,class
+com.fsck.k9.mailstore.LockableDatabase,LockableDatabase,Service Provider,class
+com.fsck.k9.mailstore.LocalStore,LocalStore,Service Provider,interface
+com.fsck.k9.mailstore.MessageHelper,MessageHelper,Service Provider,class
+com.fsck.k9.mailstore.MessageRemovalListener,MessageRemovalListener,Service Provider,interface
+com.fsck.k9.mailstore.MessageViewInfo,MessageViewInfo,Information Holder,class
+com.fsck.k9.mailstore.MessageViewInfoExtractor.ViewableExtractedText,ViewableExtractedText,Information Holder,class
+com.fsck.k9.mailstore.MessageViewInfoExtractor,MessageViewInfoExtractor,Controller,class
+com.fsck.k9.mailstore.MimePartStreamParser.PartBuilder,PartBuilder,Structurer,class
+com.fsck.k9.mailstore.MimePartStreamParser,MimePartStreamParser,Service Provider,class
+com.fsck.k9.mailstore.StorageManager.ExternalStorageProvider,ExternalStorageProvider,Information Holder,class
+com.fsck.k9.mailstore.StorageManager.FixedStorageProviderBase,FixedStorageProviderBase,Information Holder,abstract class
+com.fsck.k9.mailstore.LocalFolder,LocalFolder,Information Holder,class
+com.fsck.k9.mailstore.StorageManager.HtcIncredibleStorageProvider,HtcIncredibleStorageProvider,Information Holder,class
+com.fsck.k9.mailstore.StorageManager.InternalStorageProvider,InternalStorageProvider,Information Holder,class
+com.fsck.k9.mailstore.StorageManager.SamsungGalaxySStorageProvider,SamsungGalaxySStorageProvider,Information Holder,class
+com.fsck.k9.mailstore.StorageManager.StorageListener,StorageListener,Structurer,interface
+com.fsck.k9.mailstore.StorageManager.StorageProvider,StorageProvider,Information Holder,interface
+com.fsck.k9.mailstore.StorageManager.SynchronizationAid,SynchronizationAid,Information Holder,class
+com.fsck.k9.mailstore.StoreSchemaDefinition.RealMigrationsHelper,RealMigrationsHelper,Information Holder,class
+com.fsck.k9.mailstore.StorageManager,StorageManager,Service Provider,class
+com.fsck.k9.mailstore.StoreSchemaDefinition,StoreSchemaDefinition,Service Provider,class
+com.fsck.k9.mailstore.TempFileBody,TempFileBody,Information Holder,class
+com.fsck.k9.mailstore.ThreadInfo,ThreadInfo,Information Holder,class
+com.fsck.k9.mailstore.UnavailableStorageException,UnavailableStorageException,Information Holder,class
+com.fsck.k9.mailstore.util.DeferredFileOutputStream,DeferredFileOutputStream,Information Holder,class
+com.fsck.k9.mailstore.util.FileFactory,FileFactory,Service Provider,interface
+com.fsck.k9.mailstore.migrations.MigrationTo30,MigrationTo30,Service Provider,class
+com.fsck.k9.mailstore.migrations.MigrationTo31,MigrationTo31,Service Provider,class
+com.fsck.k9.mailstore.util.FlowedMessageUtils,FlowedMessageUtils,Service Provider,class
+com.fsck.k9.mailstore.migrations.MigrationTo32,MigrationTo32,Service Provider,class
+com.fsck.k9.mailstore.migrations.MigrationTo33,MigrationTo33,Service Provider,class
+com.fsck.k9.mailstore.migrations.MigrationTo34,MigrationTo34,Service Provider,class
+com.fsck.k9.mailstore.migrations.MigrationTo35,MigrationTo35,Service Provider,class
+com.fsck.k9.mailstore.migrations.MigrationTo36,MigrationTo36,Service Provider,class
+com.fsck.k9.mailstore.migrations.MigrationTo37,MigrationTo37,Service Provider,class
+com.fsck.k9.mailstore.migrations.MigrationTo39,MigrationTo39,Service Provider,class
+com.fsck.k9.mailstore.migrations.MigrationTo40,MigrationTo40,Service Provider,class
+com.fsck.k9.mailstore.migrations.MigrationTo41,MigrationTo41,Service Provider,class
+com.fsck.k9.mailstore.migrations.MigrationTo42,MigrationTo42,Service Provider,class
+com.fsck.k9.mailstore.migrations.MigrationTo43,MigrationTo43,Service Provider,class
+com.fsck.k9.mailstore.migrations.MigrationTo44,MigrationTo44,Service Provider,class
+com.fsck.k9.mailstore.migrations.MigrationTo45,MigrationTo45,Service Provider,class
+com.fsck.k9.mailstore.migrations.MigrationTo46,MigrationTo46,Service Provider,class
+com.fsck.k9.mailstore.migrations.MigrationTo47,MigrationTo47,Service Provider,class
+com.fsck.k9.mailstore.migrations.MigrationTo48,MigrationTo48,Service Provider,class
+com.fsck.k9.mailstore.migrations.MigrationTo49,MigrationTo49,Service Provider,class
+com.fsck.k9.mailstore.migrations.MigrationTo50,MigrationTo50,Service Provider,class
+com.fsck.k9.mailstore.migrations.MigrationTo51.MimeStructureState,MimeStructureState,Information Holder,class
+com.fsck.k9.mailstore.migrations.MigrationTo52,MigrationTo52,Service Provider,class
+com.fsck.k9.mailstore.migrations.MigrationTo53,MigrationTo53,Service Provider,class
+com.fsck.k9.mailstore.migrations.MigrationTo54,MigrationTo54,Service Provider,class
+com.fsck.k9.mailstore.migrations.MigrationTo55,MigrationTo55,Service Provider,class
+com.fsck.k9.mailstore.migrations.MigrationTo56,MigrationTo56,Service Provider,class
+com.fsck.k9.mailstore.migrations.MigrationTo57,MigrationTo57,Service Provider,class
+com.fsck.k9.mailstore.migrations.MigrationTo58,MigrationTo58,Service Provider,class
+com.fsck.k9.mailstore.migrations.MigrationTo51,MigrationTo51,Service Provider,class
+com.fsck.k9.mailstore.migrations.MigrationTo59,MigrationTo59,Service Provider,class
+com.fsck.k9.mailstore.migrations.MigrationTo60.OldPendingCommand,OldPendingCommand,Information Holder,class
+com.fsck.k9.mailstore.migrations.MigrationTo61,MigrationTo61,Service Provider,class
+com.fsck.k9.mailstore.migrations.MigrationTo60,MigrationTo60,Service Provider,class
+com.fsck.k9.mailstore.migrations.Migrations,Migrations,Coordinator,class
+com.fsck.k9.mailstore.migrations.MigrationsHelper,MigrationsHelper,Structurer,interface
+com.fsck.k9.helper.ClipboardManager,ClipboardManager,Service Provider,class
+com.fsck.k9.helper.ContactItem,ContactItem,Information Holder,class
+com.fsck.k9.helper.ContactPicture,ContactPicture,Service Provider,class
+com.fsck.k9.helper.EmailHelper,EmailHelper,Service Provider,class
+com.fsck.k9.helper.Contacts,Contacts,Service Provider,class
+com.fsck.k9.helper.ExceptionHelper,ExceptionHelper,Service Provider,class
+com.fsck.k9.helper.FileBrowserHelper.FileBrowserFailOverCallback,FileBrowserFailOverCallback,Service Provider,interface
+com.fsck.k9.helper.FileBrowserHelper,FileBrowserHelper,Service Provider,class
+com.fsck.k9.helper.IdentityHelper,IdentityHelper,Service Provider,class
+com.fsck.k9.helper.FileHelper,FileHelper,Service Provider,class
+com.fsck.k9.helper.K9AlarmManager,K9AlarmManager,Coordinator,class
+com.fsck.k9.helper.MailTo.CaseInsensitiveParamWrapper,CaseInsensitiveParamWrapper,Service Provider,class
+com.fsck.k9.helper.MailTo,MailTo,Service Provider,class
+com.fsck.k9.helper.MergeCursorWithUniqueId,MergeCursorWithUniqueId,Information Holder,class
+com.fsck.k9.helper.ParcelableUtil,ParcelableUtil,Service Provider,class
+com.fsck.k9.helper.MergeCursor,MergeCursor,Service Provider,class
+com.fsck.k9.helper.MessageHelper,MessageHelper,Service Provider,class
+com.fsck.k9.helper.Preconditions,Preconditions,Service Provider,class
+com.fsck.k9.helper.ReplyToParser.ReplyToAddresses,ReplyToAddresses,Information Holder,class
+com.fsck.k9.helper.ReplyToParser,ReplyToParser,Service Provider,class
+com.fsck.k9.helper.RetainFragment,RetainFragment,Information Holder,class
+com.fsck.k9.helper.SimpleTextWatcher,SimpleTextWatcher,Service Provider,class
+com.fsck.k9.helper.SizeFormatter,SizeFormatter,Service Provider,class
+com.fsck.k9.helper.UnreadWidgetProperties.Type,Type,Information Holder,enum
+com.fsck.k9.helper.UnreadWidgetProperties,UnreadWidgetProperties,Coordinator,class
+com.fsck.k9.helper.UrlEncodingHelper,UrlEncodingHelper,Service Provider,class
+com.fsck.k9.helper.jsoup.AdvancedNodeTraversor.FilterResult,FilterResult,Information Holder,enum
+com.fsck.k9.helper.Utility,Utility,Service Provider,class
+com.fsck.k9.helper.jsoup.AdvancedNodeTraversor,AdvancedNodeTraversor,Service Provider,class
+com.fsck.k9.helper.jsoup.NodeFilter.HeadFilterDecision,HeadFilterDecision,Information Holder,enum
+com.fsck.k9.helper.jsoup.NodeFilter.TailFilterDecision,TailFilterDecision,Information Holder,enum
+com.fsck.k9.helper.jsoup.NodeFilter,NodeFilter,Service Provider,interface
+com.fsck.k9.fragment.AttachmentDownloadDialogFragment.AttachmentDownloadCancelListener,AttachmentDownloadCancelListener,Interfacer,interface
+com.fsck.k9.fragment.AttachmentDownloadDialogFragment,AttachmentDownloadDialogFragment,Interfacer,class
+com.fsck.k9.fragment.ConfirmationDialogFragment.ConfirmationDialogFragmentListener,ConfirmationDialogFragmentListener,Interfacer,interface
+com.fsck.k9.fragment.ConfirmationDialogFragment,ConfirmationDialogFragment,Coordinator,class
+com.fsck.k9.fragment.MLFProjectionInfo,MLFProjectionInfo,Information Holder,class
+com.fsck.k9.fragment.MessageListFragment.FolderOperation,FolderOperation,Information Holder,enum
+com.fsck.k9.fragment.MessageListFragment.ActionModeCallback,ActionModeCallback,Interfacer,class
+com.fsck.k9.fragment.MessageListFragment.FooterViewHolder,FooterViewHolder,Information Holder,class
+com.fsck.k9.fragment.MessageListAdapter,MessageListAdapter,Interfacer,class
+com.fsck.k9.fragment.MessageListFragment.MessageListActivityListener,MessageListActivityListener,Coordinator,class
+com.fsck.k9.fragment.MessageListFragment.MessageListFragmentListener,MessageListFragmentListener,Service Provider,interface
+com.fsck.k9.fragment.MessageListFragmentComparators.ArrivalComparator,ArrivalComparator,Service Provider,class
+com.fsck.k9.fragment.MessageListFragmentComparators.AttachmentComparator,AttachmentComparator,Service Provider,class
+com.fsck.k9.fragment.MessageListFragmentComparators.ComparatorChain,ComparatorChain,Service Provider,class
+com.fsck.k9.fragment.MessageListFragmentComparators.DateComparator,DateComparator,Service Provider,class
+com.fsck.k9.fragment.MessageListFragmentComparators.FlaggedComparator,FlaggedComparator,Service Provider,class
+com.fsck.k9.fragment.MessageListFragmentComparators.ReverseComparator,ReverseComparator,Coordinator,class
+com.fsck.k9.fragment.MessageListFragmentComparators.ReverseIdComparator,ReverseIdComparator,Service Provider,class
+com.fsck.k9.fragment.MessageListFragmentComparators.SenderComparator,SenderComparator,Service Provider,class
+com.fsck.k9.fragment.MessageListFragmentComparators.SubjectComparator,SubjectComparator,Service Provider,class
+com.fsck.k9.fragment.MessageListFragmentComparators.UnreadComparator,UnreadComparator,Service Provider,class
+com.fsck.k9.fragment.MessageListFragmentComparators,MessageListFragmentComparators,Service Provider,class
+com.fsck.k9.fragment.MessageViewHolder,MessageViewHolder,Interfacer,class
+com.fsck.k9.fragment.MessageListHandler,MessageListHandler,Interfacer,class
+com.fsck.k9.fragment.MlfUtils,MlfUtils,Service Provider,class
+com.fsck.k9.fragment.ProgressDialogFragment.CancelListener,CancelListener,Service Provider,interface
+com.fsck.k9.fragment.ProgressDialogFragment,ProgressDialogFragment,Interfacer,class
+com.fsck.k9.crypto.OpenPgpApiHelper,OpenPgpApiHelper,Service Provider,class
+com.fsck.k9.controller.MemorizingMessagingListener.MemorizingState,MemorizingState,Information Holder,enum
+com.fsck.k9.controller.MemorizingMessagingListener.Memory,Memory,Information Holder,class
+com.fsck.k9.crypto.MessageCryptoStructureDetector,MessageCryptoStructureDetector,Service Provider,class
+com.fsck.k9.controller.MessagingController.Command,Command,Controller,class
+com.fsck.k9.fragment.MessageListFragment,MessageListFragment,Interfacer,class
+com.fsck.k9.controller.MessagingController.MessageActor,MessageActor,Service Provider,interface
+com.fsck.k9.controller.MemorizingMessagingListener,MemorizingMessagingListener,Controller,class
+com.fsck.k9.controller.MessagingControllerCommands.PendingAppend,PendingAppend,Coordinator,class
+com.fsck.k9.controller.MessagingControllerCommands.PendingCommand,PendingCommand,Coordinator,abstract class
+com.fsck.k9.controller.MessagingControllerCommands.PendingEmptyTrash,PendingEmptyTrash,Coordinator,class
+com.fsck.k9.controller.MessagingControllerCommands.PendingExpunge,PendingExpunge,Coordinator,class
+com.fsck.k9.controller.MessagingControllerCommands.PendingMarkAllAsRead,PendingMarkAllAsRead,Coordinator,class
+com.fsck.k9.controller.MessagingControllerCommands.PendingMoveOrCopy,PendingMoveOrCopy,Coordinator,class
+com.fsck.k9.controller.MessagingControllerCommands.PendingSetFlag,PendingSetFlag,Coordinator,class
+com.fsck.k9.controller.MessagingControllerCommands,MessagingControllerCommands,Information Holder,class
+com.fsck.k9.controller.MessagingControllerPushReceiver,MessagingControllerPushReceiver,Coordinator,class
+com.fsck.k9.controller.MessagingListener,MessagingListener,Service Provider,interface
+com.fsck.k9.controller.PendingCommandSerializer,PendingCommandSerializer,Coordinator,class
+com.fsck.k9.controller.ProgressBodyFactory.ProgressListener,ProgressListener,Interfacer,interface
+com.fsck.k9.controller.ProgressBodyFactory,ProgressBodyFactory,Coordinator,class
+com.fsck.k9.controller.UidReverseComparator,UidReverseComparator,Service Provider,class
+com.fsck.k9.controller.SimpleMessagingListener,SimpleMessagingListener,Service Provider,abstract class
+com.fsck.k9.controller.UnavailableAccountException,UnavailableAccountException,Service Provider,class
+com.fsck.k9.cache.EmailProviderCache,EmailProviderCache,Structurer,class
+com.fsck.k9.cache.EmailProviderCacheCursor,EmailProviderCacheCursor,Structurer,class
+com.fsck.k9.cache.TemporaryAttachmentStore,TemporaryAttachmentStore,Service Provider,class
+com.fsck.k9.autocrypt.AutocryptHeader,AutocryptHeader,Service Provider,class
+com.fsck.k9.autocrypt.AutocryptHeaderParser,AutocryptHeaderParser,Service Provider,class
+com.fsck.k9.autocrypt.AutocryptOpenPgpApiInteractor,AutocryptOpenPgpApiInteractor,Coordinator,class
+com.fsck.k9.autocrypt.AutocryptOperations,AutocryptOperations,Service Provider,class
+com.fsck.k9.activity.AccountList.LoadAccounts,LoadAccounts,Service Provider,class
+com.fsck.k9.activity.Accounts.ACCOUNT_LOCATION,ACCOUNT_LOCATION,Information Holder,enum
+com.fsck.k9.activity.AccountList.AccountsAdapter,AccountsAdapter,Interfacer,class
+com.fsck.k9.activity.AccountList,AccountList,Interfacer,abstract class
+com.fsck.k9.activity.Accounts.AccountClickListener,AccountClickListener,Coordinator,class
+com.fsck.k9.activity.Accounts.AccountsHandler,AccountsHandler,Interfacer,class
+com.fsck.k9.activity.Accounts.AccountsAdapter,AccountsAdapter,Interfacer,class
+com.fsck.k9.activity.Accounts.AccountsImportedDialog,AccountsImportedDialog,Coordinator,class
+com.fsck.k9.activity.Accounts.ExportAsyncTask,ExportAsyncTask,Service Provider,class
+com.fsck.k9.activity.Accounts.ImportAsyncTask,ImportAsyncTask,Service Provider,class
+com.fsck.k9.activity.Accounts.ImportSelectionDialog,ImportSelectionDialog,Interfacer,class
+com.fsck.k9.activity.Accounts.ListImportContentsAsyncTask,ListImportContentsAsyncTask,Service Provider,class
+com.fsck.k9.controller.MessagingController,MessagingController,Controller,class
+com.fsck.k9.activity.Accounts.MoveAccountAsyncTask,MoveAccountAsyncTask,Service Provider,class
+com.fsck.k9.activity.Accounts.SimpleDialog,SimpleDialog,Coordinator,class
+com.fsck.k9.activity.Accounts.PasswordPromptDialog,PasswordPromptDialog,Interfacer,class
+com.fsck.k9.activity.Accounts.SetPasswordsAsyncTask,SetPasswordsAsyncTask,Service Provider,class
+com.fsck.k9.activity.ActivityListener,ActivityListener,Service Provider,class
+com.fsck.k9.activity.AlternateRecipientAdapter.AlternateRecipientListener,AlternateRecipientListener,Structurer,interface
+com.fsck.k9.activity.Accounts,Accounts,Coordinator,class
+com.fsck.k9.activity.AlternateRecipientAdapter.RecipientTokenHolder,RecipientTokenHolder,Information Holder,class
+com.fsck.k9.activity.AlternateRecipientAdapter,AlternateRecipientAdapter,Interfacer,class
+com.fsck.k9.activity.ChooseAccount,ChooseAccount,Service Provider,class
+com.fsck.k9.activity.ChooseFolder.ChooseFolderHandler,ChooseFolderHandler,Service Provider,class
+com.fsck.k9.activity.ChooseFolder,ChooseFolder,Interfacer,class
+com.fsck.k9.activity.ChooseIdentity,ChooseIdentity,Interfacer,class
+com.fsck.k9.activity.ColorPickerDialog.OnColorChangedListener,OnColorChangedListener,Service Provider,interface
+com.fsck.k9.activity.ColorPickerDialog,ColorPickerDialog,Interfacer,class
+com.fsck.k9.activity.ConfirmationDialog,ConfirmationDialog,Interfacer,class
+com.fsck.k9.activity.EditIdentity,EditIdentity,Interfacer,class
+com.fsck.k9.activity.EmailAddressList,EmailAddressList,Interfacer,class
+com.fsck.k9.activity.FolderInfoHolder,FolderInfoHolder,Information Holder,class
+com.fsck.k9.activity.FolderList.FolderClickListener,FolderClickListener,Service Provider,class
+com.fsck.k9.activity.FolderList.FolderListAdapter,FolderListAdapter,Interfacer,class
+com.fsck.k9.activity.FolderList.FolderListHandler,FolderListHandler,Service Provider,class
+com.fsck.k9.activity.FolderList.FolderViewHolder,FolderViewHolder,Information Holder,class
+com.fsck.k9.activity.FolderList,FolderList,Interfacer,class
+com.fsck.k9.activity.FolderListFilter,FolderListFilter,Service Provider,class
+com.fsck.k9.activity.K9Activity,K9Activity,Interfacer,abstract class
+com.fsck.k9.activity.K9ActivityCommon.K9ActivityMagic,K9ActivityMagic,Service Provider,interface
+com.fsck.k9.activity.K9ActivityCommon,K9ActivityCommon,Coordinator,class
+com.fsck.k9.activity.K9ListActivity,K9ListActivity,Interfacer,abstract class
+com.fsck.k9.activity.K9PreferenceActivity.PreferenceChangeListener,PreferenceChangeListener,Service Provider,class
+com.fsck.k9.activity.K9PreferenceActivity,K9PreferenceActivity,Coordinator,abstract class
+com.fsck.k9.activity.LauncherShortcuts,LauncherShortcuts,Interfacer,class
+com.fsck.k9.activity.ManageIdentities,ManageIdentities,Interfacer,class
+com.fsck.k9.activity.MessageCompose.Action,Action,Information Holder,enum
+com.fsck.k9.activity.MessageCompose.SendMessageTask,SendMessageTask,Service Provider,class
+com.fsck.k9.activity.MessageCompose,MessageCompose,Controller,class
+com.fsck.k9.activity.MessageInfoHolder,MessageInfoHolder,Information Holder,class
+com.fsck.k9.activity.MessageList.DisplayMode,DisplayMode,Information Holder,enum
+com.fsck.k9.activity.MessageList.StorageListenerImplementation,StorageListenerImplementation,Service Provider,class
+com.fsck.k9.activity.MessageList,MessageList,Interfacer,class
+com.fsck.k9.activity.MessageLoaderHelper.MessageLoaderCallbacks,MessageLoaderCallbacks,Interfacer,interface
+com.fsck.k9.activity.MessageLoaderHelper,MessageLoaderHelper,Service Provider,class
+com.fsck.k9.activity.MessageReference,MessageReference,Information Holder,class
+com.fsck.k9.activity.MessageReferenceHelper,MessageReferenceHelper,Service Provider,class
+com.fsck.k9.activity.NotificationDeleteConfirmation,NotificationDeleteConfirmation,Interfacer,class
+com.fsck.k9.activity.Search,Search,Interfacer,class
+com.fsck.k9.activity.UnreadWidgetConfiguration,UnreadWidgetConfiguration,Interfacer,class
+com.fsck.k9.activity.UpgradeDatabases.UpgradeDatabaseBroadcastReceiver,UpgradeDatabaseBroadcastReceiver,Controller,class
+com.fsck.k9.activity.UpgradeDatabases,UpgradeDatabases,Coordinator,class
+com.fsck.k9.activity.setup.AccountSettings.PopulateFolderPrefsTask,PopulateFolderPrefsTask,Interfacer,class
+com.fsck.k9.activity.setup.AccountSettings,AccountSettings,Interfacer,class
+com.fsck.k9.activity.setup.AccountSetupAccountType,AccountSetupAccountType,Interfacer,class
+com.fsck.k9.activity.setup.AccountSetupBasics.Provider,Provider,Information Holder,class
+com.fsck.k9.activity.setup.AccountSetupBasics,AccountSetupBasics,Interfacer,class
+com.fsck.k9.activity.setup.AccountSetupCheckSettings.CheckAccountTask,CheckAccountTask,Coordinator,class
+com.fsck.k9.activity.setup.AccountSetupCheckSettings.CheckDirection,CheckDirection,Information Holder,enum
+com.fsck.k9.activity.setup.AccountSetupCheckSettings,AccountSetupCheckSettings,Interfacer,class
+com.fsck.k9.activity.setup.AccountSetupComposition,AccountSetupComposition,Interfacer,class
+com.fsck.k9.activity.setup.AccountSetupIncoming,AccountSetupIncoming,Interfacer,class
+com.fsck.k9.activity.setup.AccountSetupNames,AccountSetupNames,Interfacer,class
+com.fsck.k9.activity.setup.AccountSetupOptions,AccountSetupOptions,Interfacer,class
+com.fsck.k9.activity.setup.AccountSetupOutgoing,AccountSetupOutgoing,Interfacer,class
+com.fsck.k9.activity.setup.AuthTypeAdapter,AuthTypeAdapter,Structurer,class
+com.fsck.k9.activity.setup.AuthTypeHolder,AuthTypeHolder,Information Holder,class
+com.fsck.k9.activity.setup.ConnectionSecurityAdapter,ConnectionSecurityAdapter,Interfacer,class
+com.fsck.k9.activity.setup.ConnectionSecurityHolder,ConnectionSecurityHolder,Information Holder,class
+com.fsck.k9.activity.setup.FolderSettings,FolderSettings,Interfacer,class
+com.fsck.k9.activity.setup.FontSizeSettings,FontSizeSettings,Coordinator,class
+com.fsck.k9.activity.setup.OpenPgpAppSelectDialog.ApgDeprecationDialogFragment,ApgDeprecationDialogFragment,Coordinator,class
+com.fsck.k9.activity.setup.OpenPgpAppSelectDialog.OpenPgpAppSelectFragment,OpenPgpAppSelectFragment,Structurer,class
+com.fsck.k9.activity.setup.OpenPgpAppSelectDialog.OpenPgpProviderEntry,OpenPgpProviderEntry,Information Holder,class
+com.fsck.k9.activity.setup.OpenPgpAppSelectDialog,OpenPgpAppSelectDialog,Interfacer,class
+com.fsck.k9.activity.setup.Prefs,Prefs,Interfacer,class
+com.fsck.k9.activity.setup.SliderPreference,SliderPreference,Information Holder,class
+com.fsck.k9.activity.setup.SpinnerOption,SpinnerOption,Information Holder,class
+com.fsck.k9.activity.setup.WelcomeMessage,WelcomeMessage,Interfacer,class
+com.fsck.k9.activity.misc.Attachment.LoadingState,LoadingState,Information Holder,enum
+com.fsck.k9.activity.misc.Attachment,Attachment,Information Holder,class
+com.fsck.k9.activity.misc.ContactPictureLoader.FallbackGlideBitmapDecoder,FallbackGlideBitmapDecoder,Service Provider,class
+com.fsck.k9.activity.misc.ContactPictureLoader.FallbackGlideModelLoader,FallbackGlideModelLoader,Service Provider,class
+com.fsck.k9.activity.misc.ContactPictureLoader.FallbackGlideParams,FallbackGlideParams,Information Holder,class
+com.fsck.k9.activity.misc.ContactPictureLoader,ContactPictureLoader,Service Provider,class
+com.fsck.k9.activity.misc.ExtendedAsyncTask,ExtendedAsyncTask,Coordinator,abstract class
+com.fsck.k9.activity.misc.NonConfigurationInstance,NonConfigurationInstance,Service Provider,interface
+com.fsck.k9.activity.misc.SwipeGestureDetector.OnSwipeGestureListener,OnSwipeGestureListener,Interfacer,interface
+com.fsck.k9.activity.misc.SwipeGestureDetector,SwipeGestureDetector,Interfacer,class
+com.fsck.k9.activity.loader.AttachmentContentLoader,AttachmentContentLoader,Service Provider,class
+com.fsck.k9.activity.loader.AttachmentInfoLoader,AttachmentInfoLoader,Service Provider,class
+com.fsck.k9.activity.compose.AttachmentPresenter.AttachmentMvpView,AttachmentMvpView,Service Provider,interface
+com.fsck.k9.activity.compose.AttachmentPresenter.AttachmentsChangedListener,AttachmentsChangedListener,Service Provider,interface
+com.fsck.k9.activity.compose.AttachmentPresenter.WaitingAction,WaitingAction,Information Holder,enum
+com.fsck.k9.activity.compose.AttachmentPresenter,AttachmentPresenter,Coordinator,class
+com.fsck.k9.activity.compose.ComposeCryptoStatus.AttachErrorState,AttachErrorState,Information Holder,enum
+com.fsck.k9.activity.compose.ComposeCryptoStatus.ComposeCryptoStatusBuilder,ComposeCryptoStatusBuilder,Service Provider,class
+com.fsck.k9.activity.compose.ComposeCryptoStatus.SendErrorState,SendErrorState,Information Holder,enum
+com.fsck.k9.activity.compose.ComposeCryptoStatus,ComposeCryptoStatus,Information Holder,class
+com.fsck.k9.activity.compose.IdentityAdapter.AccountHolder,AccountHolder,Information Holder,class
+com.fsck.k9.activity.compose.IdentityAdapter.IdentityContainer,IdentityContainer,Information Holder,class
+com.fsck.k9.activity.compose.IdentityAdapter.IdentityHolder,IdentityHolder,Information Holder,class
+com.fsck.k9.activity.compose.IdentityAdapter,IdentityAdapter,Structurer,class
+com.fsck.k9.activity.compose.MessageActions,MessageActions,Service Provider,class
+com.fsck.k9.activity.compose.PgpEnabledErrorDialog.OnOpenPgpDisableListener,OnOpenPgpDisableListener,Service Provider,interface
+com.fsck.k9.activity.compose.PgpEnabledErrorDialog,PgpEnabledErrorDialog,Coordinator,class
+com.fsck.k9.activity.compose.PgpEncryptDescriptionDialog,PgpEncryptDescriptionDialog,Coordinator,class
+com.fsck.k9.activity.compose.PgpInlineDialog.OnOpenPgpInlineChangeListener,OnOpenPgpInlineChangeListener,Service Provider,interface
+com.fsck.k9.activity.compose.PgpInlineDialog,PgpInlineDialog,Interfacer,class
+com.fsck.k9.activity.compose.PgpSignOnlyDialog.OnOpenPgpSignOnlyChangeListener,OnOpenPgpSignOnlyChangeListener,Service Provider,interface
+com.fsck.k9.activity.compose.PgpSignOnlyDialog,PgpSignOnlyDialog,Interfacer,class
+com.fsck.k9.activity.compose.RecipientAdapter.RecipientTokenHolder,RecipientTokenHolder,Information Holder,class
+com.fsck.k9.activity.compose.RecipientAdapter,RecipientAdapter,Interfacer,class
+com.fsck.k9.activity.compose.RecipientLoader,RecipientLoader,Service Provider,class
+com.fsck.k9.activity.compose.RecipientMvpView.CryptoStatusDisplayType,CryptoStatusDisplayType,Information Holder,enum
+com.fsck.k9.activity.compose.RecipientMvpView,RecipientMvpView,Interfacer,class
+com.fsck.k9.activity.compose.RecipientPresenter.CryptoMode,CryptoMode,Information Holder,enum
+com.fsck.k9.activity.compose.RecipientPresenter.CryptoProviderState,CryptoProviderState,Information Holder,enum
+com.fsck.k9.activity.compose.RecipientPresenter.RecipientsChangedListener,RecipientsChangedListener,Service Provider,interface
+com.fsck.k9.activity.compose.RecipientPresenter,RecipientPresenter,Coordinator,class
+com.fsck.k9.activity.compose.SaveMessageTask,SaveMessageTask,Service Provider,class
+com.fsck.k9.account.AccountCreator,AccountCreator,Service Provider,class
