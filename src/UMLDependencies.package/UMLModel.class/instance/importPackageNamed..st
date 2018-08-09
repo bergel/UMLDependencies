@@ -1,3 +1,3 @@
 public - importing Pharo
-importPackageName: aPackageName
+importPackageNamed: aPackageName
 	self importPackage: (RPackageOrganizer default packageNamed: aPackageName)

@@ -7,6 +7,7 @@ importClass: aClass
 	element superclassName: aClass superclass name.
 	elements add: element.
 	
+	element role: (self roleFor: 'PharoClass').
 	element dependentClassesNames addAll: ((aClass dependentClasses) collect: #name).
 	
 	packageName := aClass package packageName.

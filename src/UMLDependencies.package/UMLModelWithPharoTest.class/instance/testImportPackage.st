@@ -1,6 +1,6 @@
 tests
 testImportPackage
 
-	m importPackageName: 'UMLDependencies'.
+	m importPackageNamed: 'UMLDependencies'.
 	m resolveDependencies.
 	m visualizationPackages

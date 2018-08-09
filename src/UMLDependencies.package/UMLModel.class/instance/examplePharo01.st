@@ -3,8 +3,8 @@ examplePharo01
 	<script: 'self new examplePharo01 inspect'>
 	| m |
 	m := UMLModel new.
-	m importPackageName: 'Roassal2'.
-	m importPackageName: 'Trachel'.
-	m importPackageName: 'Roassal2-Spec'.
+	m importPackageNamed: 'Roassal2'.
+	m importPackageNamed: 'Trachel'.
+	m importPackageNamed: 'Roassal2Spec'.
 	m resolveDependencies.
 	^ m
