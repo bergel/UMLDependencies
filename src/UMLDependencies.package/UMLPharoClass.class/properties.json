@@ -7,7 +7,8 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"superclassName",
-		"thePharoClass"
+		"thePharoClass",
+		"dependentClassesNames"
 	],
 	"name" : "UMLPharoClass",
 	"type" : "normal"

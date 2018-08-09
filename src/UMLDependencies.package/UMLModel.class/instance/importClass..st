@@ -7,6 +7,8 @@ importClass: aClass
 	element superclassName: aClass superclass name.
 	elements add: element.
 	
+	element dependentClassesNames addAll: ((aClass dependentClasses) collect: #name).
+	
 	packageName := aClass package packageName.
 	package := self packageFor: packageName.
 	
