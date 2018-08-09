@@ -6,7 +6,7 @@ importClass: aClassOrTrait
 	element := genericClass new.
 	
 	element name: aClassOrTrait name.
-	aClassOrTrait isClass ifTrue: [ 
+	aClassOrTrait isTrait ifFalse: [ 
 		element superclassName: aClassOrTrait superclass name ].
 	elements add: element.
 	
