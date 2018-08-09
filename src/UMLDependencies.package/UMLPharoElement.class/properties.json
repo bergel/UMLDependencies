@@ -1,13 +1,14 @@
 {
 	"commentStamp" : "",
-	"super" : "UMLPharoElement",
+	"super" : "UMLClass",
 	"category" : "UMLDependencies",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"superclassName"
+		"dependentClassesNames",
+		"thePharoClass"
 	],
-	"name" : "UMLPharoClass",
+	"name" : "UMLPharoElement",
 	"type" : "normal"
 }

@@ -1,16 +1,19 @@
 public - importing Pharo
-importClass: aClass
+importClass: aClassOrTrait
 	"Import a pharo class in the model"
-	| element packageName package |
-	element := UMLPharoClass new.
-	element name: aClass name.
-	element superclassName: aClass superclass name.
+	| element packageName package genericClass |
+	genericClass := aClassOrTrait isTrait ifTrue: [ UMLPharoTrait ] ifFalse: [ UMLPharoClass ].
+	element := genericClass new.
+	
+	element name: aClassOrTrait name.
+	aClassOrTrait isClass ifTrue: [ 
+		element superclassName: aClassOrTrait superclass name ].
 	elements add: element.
 	
 	element role: (self roleFor: 'PharoClass').
-	element dependentClassesNames addAll: ((aClass dependentClasses) collect: #name).
+	element dependentClassesNames addAll: ((aClassOrTrait dependentClasses) collect: #name).
 	
-	packageName := aClass package packageName.
+	packageName := aClassOrTrait package packageName.
 	package := self packageFor: packageName.
 	
 	package add: element.

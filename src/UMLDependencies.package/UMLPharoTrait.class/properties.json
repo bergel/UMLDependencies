@@ -5,9 +5,7 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"superclassName"
-	],
-	"name" : "UMLPharoClass",
+	"instvars" : [ ],
+	"name" : "UMLPharoTrait",
 	"type" : "normal"
 }
