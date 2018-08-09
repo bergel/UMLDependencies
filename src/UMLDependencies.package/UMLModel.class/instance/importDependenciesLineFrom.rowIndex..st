@@ -16,7 +16,7 @@ Purpose: To visualize class role/responsibility and relationship between the cla
 
 	values doWithIndex: [ :aValue :columnIndex |
 		aValue = 1 ifTrue: [ (elements at: rowIndex) dependsOn: (elements at: columnIndex) ].
-		aValue = 2 ifTrue: [ (elements at: columnIndex ) subclassOf: (elements at: rowIndex) ].
+		aValue = 2 ifTrue: [ (elements at: columnIndex) subclassOf: (elements at: rowIndex) ].
 		aValue = 3 ifTrue: [ (elements at: rowIndex) implements: (elements at: columnIndex) ].
 	].
 	

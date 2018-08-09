@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "UMLClass",
+	"category" : "UMLDependencies",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"superclassName",
+		"thePharoClass"
+	],
+	"name" : "UMLPharoClass",
+	"type" : "normal"
+}
