@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "UMLTest",
+	"category" : "UMLDependencies",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"m"
+	],
+	"name" : "UMLModelWithPharoTest",
+	"type" : "normal"
+}

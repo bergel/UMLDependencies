@@ -1,3 +1,3 @@
 accessing
-name: aName
-	name := aName
+name: aNameAsString
+	name := aNameAsString

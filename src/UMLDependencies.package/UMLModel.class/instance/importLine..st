@@ -1,4 +1,4 @@
-public - importing
+public - importing csv
 importLine: aLine
 	" 
 Purpose: To visualize class role/responsibility and relationship between the classes of the K9-mail app.
