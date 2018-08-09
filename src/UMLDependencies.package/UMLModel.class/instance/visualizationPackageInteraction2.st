@@ -10,12 +10,12 @@ visualizationPackageInteraction2
 		highlightEdges: [ :r | r dependentPackages collect: #key ].
 	
 	b nodes: self packages forEach: [ :p |
-		b interaction showEdge connectToAll: #allDependencies; color: Color green.
+		b interaction showEdge connectToAll: #allDependencies; colorElement: [ :edge | edge to trachelShape color ].
 		b shape box 
 			width: #numberOfAllDependencies;
 			height: #numberOfAllIncomingDependencies.
 
-		b nodes: p elements.
+		b nodes: (p elements sortedAs: [ :el | el role roleName ]).
 		b shape line color: Color gray trans.
 		b edges connectToAll: #allDependencies.
 		b layout force; ifNotConnectedThen: RTGridLayout new.
