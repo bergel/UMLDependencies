@@ -33,12 +33,11 @@ visualizationPackageInteraction2
 		widthTo: [ :anEdge | anEdge to model numberOfRelationsWith: anEdge from model ].
 	b edges
 		moveBehind;
+		noRepetition;
+		noBidirectional;
 		connectToAll: [ :r | r dependentPackages collect: #key ].
 	b layout circle.
-"	b normalizer 
-		objects: self packages;
-		normalizeLineWidth: [ :from :to | from numberOfRelationsWith: to ].
-"	
+
 	b build.
 	
 	
