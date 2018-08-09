@@ -10,4 +10,6 @@ testAddTwoClassesWithDependencies
 
 	firstClass := m classes first.
 	secondClass := m classes second.
-	self assert: (firstClass dependencies includes: secondClass)
+	self assert: (firstClass dependencies includes: secondClass).
+	
+	m visualizationPackages
