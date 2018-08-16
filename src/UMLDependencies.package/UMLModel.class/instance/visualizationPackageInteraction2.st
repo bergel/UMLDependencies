@@ -36,7 +36,7 @@ visualizationPackageInteraction2
 		noRepetition;
 		noBidirectional;
 		connectToAll: [ :r | r dependentPackages collect: #key ].
-	b layout circle.
+	b layout weightedCircle.
 
 	b build.
 	
@@ -55,5 +55,5 @@ visualizationPackageInteraction2
 		lb addColor: assoc value text: assoc key asString ].
 	lb build.
 
-	
+"	b view @ RTThresholdFilter."
 	^ b view
