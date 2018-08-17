@@ -1,14 +1,14 @@
 visualizations
 visualizationPackageInteraction2
 
-	| b lb colorMapping |
+	| b lb colorMapping packagesElements |
 	b := RTMondrian new.
 	b shape box withTextAbove: #mostRelevantPackageName.
 	
-	b interaction 
-		"highlightNeighbors: [ :r | r dependentPackages collect: #key ] color: Color red;"
+"	b interaction 
 		highlightEdges: [ :r | r dependentPackages collect: #key ].
-	
+"	
+	packagesElements :=
 	b nodes: self packages forEach: [ :p |
 		b interaction showEdge connectToAll: #allDependencies; colorElement: [ :edge | edge to trachelShape color ].
 		b shape box 
@@ -20,6 +20,13 @@ visualizationPackageInteraction2
 		b edges connectToAll: #allDependencies.
 		b layout force; ifNotConnectedThen: RTGridLayout new.
 	].
+
+	packagesElements @ (RTHighlightable new 
+								shouldHighlightEdges; 
+								edgeColor: Color red; 
+								getConnectedEdgesBlock: [ :anEl | 
+									anEl connectedEdges
+									]).
 
 	colorMapping := b normalizer 
 		objects: self elements;
