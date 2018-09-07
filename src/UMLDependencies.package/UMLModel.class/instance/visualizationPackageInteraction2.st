@@ -61,6 +61,6 @@ visualizationPackageInteraction2
 	colorMapping do: [ :assoc |
 		lb addColor: assoc value text: assoc key asString ].
 	lb build.
-
+	b view @ RTZoomableView.
 "	b view @ RTThresholdFilter."
 	^ b view
