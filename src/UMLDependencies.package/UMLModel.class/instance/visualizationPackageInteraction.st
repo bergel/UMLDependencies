@@ -22,4 +22,5 @@ visualizationPackageInteraction
 		noBidirectional; noRepetition;
 		connectToAll: [ :r | r dependentPackages collect: #key ].
 	b layout circle.
+	b view @ RTZoomableView.
 	^ b
