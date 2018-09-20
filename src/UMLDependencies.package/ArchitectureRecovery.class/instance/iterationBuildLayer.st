@@ -10,4 +10,5 @@ iterationBuildLayer
 						detect: [ :ll | ll layerNumber = l parentLayerNumber ] ]
 				ifFalse: [ parentLayer := UMLayer new layerNumber: l parentLayerNumber.
 					layers add: parentLayer ].
-			l parent: parentLayer ]
+			l parent: parentLayer.
+			parentLayer addInnerLayer: l ]

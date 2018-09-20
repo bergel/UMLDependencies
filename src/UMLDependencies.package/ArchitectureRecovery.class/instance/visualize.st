@@ -6,5 +6,4 @@ visualize
 	b nodes: layers.
 	b edges connectFrom: #parent.
 	b layout tree.
-	b.
-	self halt.
+	^ b
