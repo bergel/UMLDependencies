@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "UMLAbstractElement",
-	"category" : "UMLDependencies",
+	"category" : "UMLDependencies-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

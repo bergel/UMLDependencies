@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "UMLPharoElement",
-	"category" : "UMLDependencies",
+	"category" : "UMLDependencies-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
