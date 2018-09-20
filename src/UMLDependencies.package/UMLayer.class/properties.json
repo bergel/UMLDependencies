@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "UMLDependencies-ArchitectureRecovery",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"classNames",
+		"layerNumber",
+		"parent"
+	],
+	"name" : "UMLayer",
+	"type" : "normal"
+}
