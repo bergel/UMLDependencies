@@ -1,10 +1,10 @@
-instance creation
+private
 buildLayers
 	| d previousSize |
 	d := entries groupedBy: #value.
 	layers := d associations
 		collect: [ :association | 
-			UMLayer new
+			UMLLayer new
 				layerNumber: association key;
 				classNames: association value ].
 	layers := layers asOrderedCollection.

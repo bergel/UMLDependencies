@@ -1,5 +1,5 @@
-instance creation
-visualize
+visualizations
+visualizeTree
 	| b |
 	b := RTMondrian new.
 	b shape box size: [ :l | l classNames size ]; withText: #layerNumber.

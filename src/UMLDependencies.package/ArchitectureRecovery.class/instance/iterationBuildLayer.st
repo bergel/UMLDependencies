@@ -1,4 +1,4 @@
-instance creation
+private
 iterationBuildLayer
 	| doesExist parentLayer |
 	layers
@@ -8,7 +8,7 @@ iterationBuildLayer
 			doesExist
 				ifTrue: [ parentLayer := layers
 						detect: [ :ll | ll layerNumber = l parentLayerNumber ] ]
-				ifFalse: [ parentLayer := UMLayer new layerNumber: l parentLayerNumber.
+				ifFalse: [ parentLayer := UMLLayer new layerNumber: l parentLayerNumber.
 					layers add: parentLayer ].
 			l parent: parentLayer.
 			parentLayer addInnerLayer: l ]

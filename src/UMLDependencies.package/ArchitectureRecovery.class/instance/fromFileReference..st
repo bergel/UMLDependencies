@@ -13,4 +13,3 @@ fromFileReference: aFileReference
 	].
 
 	self buildLayers.
-	^ self visualize
