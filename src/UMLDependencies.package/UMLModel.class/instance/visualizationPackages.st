@@ -9,10 +9,11 @@ visualizationPackages
 		b shape box 
 			width: #numberOfAllDependencies;
 			height: #numberOfAllIncomingDependencies.
-		b nodes: p elements.
-		b shape line color: Color gray trans.
+		b nodes: (p elements sortedAs: [:el | el role asString ]).
+		"b shape line color: Color gray trans.
 		b edges connectToAll: #allDependencies.
-		b layout force; ifNotConnectedThen: RTGridLayout new.
+		b layout force; ifNotConnectedThen: RTGridLayout new."
+		b layout flow.
 	].
 	colorMapping := b normalizer 
 		objects: self classes;
