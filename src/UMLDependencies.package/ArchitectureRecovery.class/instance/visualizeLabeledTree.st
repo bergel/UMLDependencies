@@ -1,6 +1,6 @@
 visualizations
 visualizeLabeledTree
-| b label shape |
+| b label shape hb |
 b := RTTreeMapBuilder new.
 b
     extent: 800@800;
@@ -21,4 +21,15 @@ b elements
         (RTConstraint movable: label fix: el)
                 inner; stick.
             b view add: label ].
+
+"Add the highlighter"
+	roles ifNotNil: [
+		hb := RTHighlighterBuilder new.
+		hb view: b view.
+		hb filter: [ :obj | obj class == UMLLayer ].
+		self roles do: [ :r | 
+			hb addEntry: [ :layer | layer classes anySatisfy: [ :ee | ee role == r ] ] named: r roleName.
+		].
+		hb build.
+	].
 ^ b view
