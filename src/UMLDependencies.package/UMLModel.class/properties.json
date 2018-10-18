@@ -8,7 +8,8 @@
 	"instvars" : [
 		"elements",
 		"packages",
-		"roles"
+		"roles",
+		"arch"
 	],
 	"name" : "UMLModel",
 	"type" : "normal"

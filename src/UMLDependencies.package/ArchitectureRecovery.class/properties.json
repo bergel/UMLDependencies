@@ -7,7 +7,8 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"entries",
-		"layers"
+		"layers",
+		"roles"
 	],
 	"name" : "ArchitectureRecovery",
 	"type" : "normal"
