@@ -1,6 +1,6 @@
 visualizations
 visualizationTreeMap
-	| b shape label hb |
+	| b shape label hb maxSize |
 	b := RTTreeMapBuilder new.
 	b extent: 1800@1800.
 	b shape fillColor: [ :pak | Color random ].
@@ -24,11 +24,14 @@ b elements
 "Add the highlighter"
 	roles ifNotNil: [
 		hb := RTHighlighterBuilder new.
-		hb fontSize: 40.
+		hb fontSize: 50.
 		hb view: b view.
 		hb filter: [ :obj | obj class == UMLPackage ].
-		self roles do: [ :r | 
-			hb addEntry: [ :layer | layer elements anySatisfy: [ :ee | ee role == r ] ] named: r roleName.
+		self roles do: [ :aRole | 
+			hb 
+				addEntry: [ :package | package elements anySatisfy: [ :ee | ee role == aRole ] ] 
+				named: aRole roleName
+				highlightColor: [ :aPack | Color r: (aPack elements select: [ :ee | ee role == aRole ]) size / aPack numberOfElements g: 0 b: 0 ].
 		].
 		hb build.
 	].
