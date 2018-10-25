@@ -16,7 +16,7 @@ visualizationPackages
 		b layout flow.
 	].
 	colorMapping := b normalizer 
-		objects: self classes;
+		objects: self elements;
 		distinctColorUsing: #role colorPalette: self colorPalette.
 	b layout flow.
 	b build.

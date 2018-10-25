@@ -1,11 +1,12 @@
 visualizations
-visualizeTree
+visualizeLayers
 	| b hb |
 	b := RTMondrian new.
-	b shape box size: [ :l | l allSubElements size ]; withText: #layerName.
+	b interaction item: 'push front' actionElement: [ :e | e trachelShape pushFront. b view signalUpdate ].
+	b shape box withBorder; size: [ :l | l allSubElements size ]; withText: #fullLayerName color: Color black.
 	b nodes: layers.
-	b edges connectFrom: #parent.
-	b layout tree.
+	b layout flow.
+	b normalizer normalizeColor: #depth using: {Color gray . Color green }.
 	b build.
 	
 	"Add the highlighter"
@@ -13,7 +14,7 @@ visualizeTree
 		hb := RTHighlighterBuilder new.
 "		hb fontSize: 30."
 		hb view: b view.
-		hb filter: [ :obj | obj class == UMLPackage ].
+		hb filter: [ :obj | obj class == UMLLayer ].
 		self roles do: [ :aRole | 
 			hb 
 				addEntry: [ :layer | layer elements anySatisfy: [ :ee | ee role == aRole ] ] 

@@ -1,4 +1,3 @@
-public - adding
+accessing
 innerLayers
-	"Return the inner layers"
 	^ innerLayers
