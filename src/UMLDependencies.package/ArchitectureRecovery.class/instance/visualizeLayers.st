@@ -2,8 +2,10 @@ visualizations
 visualizeLayers
 	| b hb |
 	b := RTMondrian new.
-	b interaction item: 'push front' actionElement: [ :e | e trachelShape pushFront. b view signalUpdate ].
-	b shape box withBorder; size: [ :l | l allSubElements size ]; withText: #fullLayerName color: Color black.
+	b interaction 
+		item: 'push front' actionElement: [ :e | e trachelShape pushFront. b view signalUpdate ];
+		item: 'remove' actionElement: #remove.
+	b shape box withBorder; size: [ :l | l allSubElements size ]; withText: #fullLayerName height: [ :l | l allSubElements size sqrt * 5 ] color: Color black.
 	b nodes: layers.
 	b layout flow.
 	b normalizer normalizeColor: #depth using: {Color gray . Color green }.
