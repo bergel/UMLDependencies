@@ -9,7 +9,8 @@
 		"elements",
 		"packages",
 		"roles",
-		"arch"
+		"arch",
+		"projectRootFilename"
 	],
 	"name" : "UMLModel",
 	"type" : "normal"

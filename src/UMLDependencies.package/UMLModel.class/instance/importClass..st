@@ -9,6 +9,7 @@ importClass: aClassOrTrait
 	aClassOrTrait isTrait ifFalse: [ 
 		element superclassName: aClassOrTrait superclass name ].
 	elements add: element.
+	element model: self.
 	
 	element role: (self roleFor: 'PharoClass').
 	element dependentClassesNames addAll: ((aClassOrTrait dependentClasses) collect: #name).

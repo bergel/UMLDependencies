@@ -16,10 +16,12 @@ Purpose: To visualize class role/responsibility and relationship between the cla
 
 	| ss element package packageName roleName role |
 	ss := aLine substrings: ','.
-	element := (self classFor: ss last) new.
+	element := (self classFor: ss fourth) new.
 	element name: ss second.
 	elements add: element.
+	element model: self.
 	element index: elements size. "if the index should start at 0, then add '- 1'"
+	ss size >= 5 ifTrue: [ element filename: ss fifth ].
 
 	roleName := ss third.
 	role := self roleFor: roleName.

@@ -12,4 +12,7 @@ testImport
 	
 	"visualizations"
 	(m elements first: 10) do: #visualizationDependencies.
-	m visualizationPackages
+	m visualizationPackages.
+	
+	self deny: m classes first hasSourceCode.
+	self assert: m classes first sourceCode equals: m classes first defaultSourceCodeWhenNotFound

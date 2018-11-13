@@ -7,4 +7,5 @@ packageFor: aString
 	pak := UMLPackage new.
 	pak packageName: aString.
 	packages add: pak.
+	pak model: self.
 	^ pak

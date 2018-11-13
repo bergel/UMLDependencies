@@ -16,7 +16,9 @@
 		"implementations",
 		"incomingDependencies",
 		"superclasses",
-		"implementedBy"
+		"implementedBy",
+		"filename",
+		"model"
 	],
 	"name" : "UMLAbstractElement",
 	"type" : "normal"

@@ -7,7 +7,8 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"elements",
-		"packageName"
+		"packageName",
+		"model"
 	],
 	"name" : "UMLPackage",
 	"type" : "normal"

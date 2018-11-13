@@ -1,10 +1,11 @@
 private - utility
 roleFor: aString 
-	| r pak |
+	| r aRole |
 	r := roles detect: [ :pp | pp roleName = aString ] ifNone: [ nil ].
 	r ifNotNil: [ ^ r ].
 	
-	pak := UMLRole new.
-	pak roleName: aString.
-	roles add: pak.
-	^ pak
+	aRole := UMLRole new.
+	aRole roleName: aString.
+	roles add: aRole.
+	aRole model: self.
+	^ aRole
