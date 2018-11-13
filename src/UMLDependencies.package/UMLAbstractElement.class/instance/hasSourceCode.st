@@ -7,4 +7,4 @@ hasSourceCode
 	mfr exists ifFalse: [ ^ false ].
 	
 	self filename ifNil: [ ^ self ].
-	^ mfr / self filename.
+	^ (mfr / self filename) exists
