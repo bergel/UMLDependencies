@@ -2,6 +2,7 @@ visualizations
 visualizationRoleInteraction
 	| b |
 	b := RTMondrian new.
+	b view: self buildView.
 	b shape label
 		text: #roleName;
 		color: Color veryDarkGray.

@@ -2,7 +2,7 @@ visualizations
 visualizationPackages
 	| b lb colorMapping |
 	b := RTMondrian new.
-	b view @ RTZoomableView.
+	b view: self buildView.
 	b shape box withTextAbove: #mostRelevantPackageName.
 	b nodes: self packages forEach: [ :p |
 		b interaction highlightEdges: #allDependencies.

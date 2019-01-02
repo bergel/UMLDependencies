@@ -2,6 +2,7 @@ visualizations
 visualizationRolesDistribution
 	| b lb colorMapping |
 	b := RTMondrian new.
+	b view: self buildView.
 	b shape box withTextAbove: #roleName.
 	b nodes: self roles forEach: [ :r |
 		b nodes: (r elements sortedAs: [ :e | e class name size ]).

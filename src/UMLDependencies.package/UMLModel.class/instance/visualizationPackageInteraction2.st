@@ -3,6 +3,7 @@ visualizationPackageInteraction2
 
 	| b lb colorMapping packagesElements |
 	b := RTMondrian new.
+	b view: self buildView.
 	b shape box withTextAbove: #mostRelevantPackageName.
 	
 "	b interaction 

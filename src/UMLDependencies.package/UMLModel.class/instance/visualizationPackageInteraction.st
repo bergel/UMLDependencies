@@ -2,6 +2,7 @@ visualizations
 visualizationPackageInteraction
 	| b |
 	b := RTMondrian new.
+	b view: self buildView.
 	b shape label
 		text: #packageName;
 		color: Color veryDarkGray.

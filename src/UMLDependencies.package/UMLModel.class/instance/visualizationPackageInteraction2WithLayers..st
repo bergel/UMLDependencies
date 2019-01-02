@@ -3,7 +3,7 @@ visualizationPackageInteraction2WithLayers: layers
 
 	| b lb colorMapping packagesElements |
 	b := RTMondrian new.
-	
+	b view: self buildView.
 	
 "	b interaction 
 		highlightEdges: [ :r | r dependentPackages collect: #key ].

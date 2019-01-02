@@ -3,6 +3,7 @@ visualizationGraph
 	| b alpha |
 	alpha := 0.3.
 	b := RTMondrian new.
+	b view: self buildView.
 	b shape circle color: Color gray.
 	b interaction highlightNeighbors: #allDependencies color: Color red.
 	b nodes: self elements.

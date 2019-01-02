@@ -2,6 +2,7 @@ visualizations
 visualizationTreeMap
 	| b shape label hb |
 	b := RTTreeMapBuilder new.
+	b view: self buildView.
 	b extent: 1000@1000.
 	b shape fillColor: [ :pak | Color random ].
 	
