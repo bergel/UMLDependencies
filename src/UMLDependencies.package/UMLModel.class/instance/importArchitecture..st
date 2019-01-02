@@ -1,7 +1,7 @@
 public - importing csv
-importArchitecture: aCSVFilename
+importArchitecture: aCSVFilenameFileReference
 
-	arch := ArchitectureRecovery new fromFileReference: aCSVFilename asFileReference.
+	arch := ArchitectureRecovery new fromFileReference: aCSVFilenameFileReference.
 	arch roles: roles.
 	arch layers do: [ :l |
 		| someClass |
