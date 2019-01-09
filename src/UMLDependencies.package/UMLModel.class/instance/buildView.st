@@ -3,4 +3,6 @@ buildView
 	^ RTView new @ RTDraggableView @ RTHighlightElementsInView
 		@ RTFilterInView
 		"@ (RTShowLabelWhenZooming new
-				conditionBlock: [ :aModel | aModel isKindOf: UMLAbstractElement ])"
+				conditionBlock: [ :aTrachelShape | aTrachelShape element isNil  ];
+				scaleThreshold: 5)"
+				

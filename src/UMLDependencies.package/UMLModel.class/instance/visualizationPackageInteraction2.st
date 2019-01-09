@@ -18,6 +18,8 @@ visualizationPackageInteraction2
 			height: #numberOfAllIncomingDependencies.
 
 		b nodes: (p elements sortedAs: [ :el | el role roleName ]).
+		"someElements := b nodes: (p elements sortedAs: [ :el | el role roleName ]).
+		someElements @ (RTLabeled new center; setAsShouldBeInTheFront)."
 		b shape line color: Color gray trans.
 		b edges connectToAll: #allDependencies.
 		b layout force; ifNotConnectedThen: RTGridLayout new.
@@ -64,5 +66,4 @@ visualizationPackageInteraction2
 		lb addColor: assoc value text: assoc key asString ].
 	lb build.
 	b view @ RTZoomableView.
-"	b view @ RTThresholdFilter."
 	^ b view
