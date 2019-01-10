@@ -3,7 +3,7 @@ importLine: aLine
 	" 
 Purpose: To visualize class role/responsibility and relationship between the classes of the K9-mail app.
 - File class_reference.csv contains information about class and its role/responsibility. Each row represents a class with no headers. Four columns:
-                +  First column: shows the package that the class belongs to.
+                + First column: shows the package that the class belongs to.
                 + Second column: shows name of the class
                 + Third column: shows Roles of the class
                 + Fourth column: shows type of the class (could be enumeration, class, abstract class or interface).

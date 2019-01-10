@@ -1,7 +1,7 @@
 visualizations
 visualizationPackageInteraction2
 
-	| b lb colorMapping packagesElements |
+	| b lb colorMapping packagesElements someElements |
 	b := RTMondrian new.
 	b view: self buildView.
 	b shape box withTextAbove: #mostRelevantPackageName.
@@ -17,9 +17,9 @@ visualizationPackageInteraction2
 			width: #numberOfAllDependencies;
 			height: #numberOfAllIncomingDependencies.
 
-		b nodes: (p elements sortedAs: [ :el | el role roleName ]).
-		"someElements := b nodes: (p elements sortedAs: [ :el | el role roleName ]).
-		someElements @ (RTLabeled new center; setAsShouldBeInTheFront)."
+		"b nodes: (p elements sortedAs: [ :el | el role roleName ])."
+		someElements := b nodes: (p elements sortedAs: [ :el | el role roleName ]).
+		someElements @ (RTLabeled new center; fontSize: 1; color: Color black ; setAsShouldBeInTheFront).
 		b shape line color: Color gray trans.
 		b edges connectToAll: #allDependencies.
 		b layout force; ifNotConnectedThen: RTGridLayout new.

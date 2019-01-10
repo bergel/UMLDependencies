@@ -2,7 +2,6 @@ visualizations
 buildView
 	^ RTView new @ RTDraggableView @ RTHighlightElementsInView
 		@ RTFilterInView
-		"@ (RTShowLabelWhenZooming new
+		@ (RTShowLabelWhenZooming new
 				conditionBlock: [ :aTrachelShape | aTrachelShape element isNil  ];
-				scaleThreshold: 5)"
-				
+				scaleThreshold: 5)		
