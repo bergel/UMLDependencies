@@ -1,0 +1,1 @@
+b := RTMondrian new.b shape box size: 30.b nodes: (1 to: 9).b layout grid.b view elements @ (RTLabeled new center; color: Color red; setAsShouldBeInTheFront).b view @ RTShowLabelWhenZooming.b

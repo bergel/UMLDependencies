@@ -1,0 +1,1 @@
+v := RTView new.	v addAll: (RTBox elementsOn: (1 to: 3)).	RTGridLayout on: v elements.		eb := RTEdgeBuilder new.	eb view: v.	eb useAssociations: { 1 -> 2 . 2 -> 3 }.		v elements @ RTPopup @ (RTTransitivelyHighlightable new focusOnIncomingElements; color: Color red).	v

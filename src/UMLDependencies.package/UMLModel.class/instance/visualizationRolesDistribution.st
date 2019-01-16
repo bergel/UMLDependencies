@@ -1,4 +1,4 @@
-visualizations
+visualizations - obsolete
 visualizationRolesDistribution
 	| b lb colorMapping |
 	b := RTMondrian new.

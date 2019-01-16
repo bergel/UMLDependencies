@@ -1,4 +1,4 @@
-visualizations
+visualizations - obsolete
 visualizationRoleInteraction
 	| b |
 	b := RTMondrian new.

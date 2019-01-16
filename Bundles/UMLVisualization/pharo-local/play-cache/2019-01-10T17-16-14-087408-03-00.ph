@@ -1,0 +1,1 @@
+b := RTMondrian new.b shape box size: [ :cls | cls dependentClasses size ].b nodes: Collection withAllSubclasses.b shape line color: Color blue trans; withShorterDistanceAttachPoint .b edges connectToAll: #dependentClasses.b layout grid.b build.b view @ (RTThresholdFilter new ).b view

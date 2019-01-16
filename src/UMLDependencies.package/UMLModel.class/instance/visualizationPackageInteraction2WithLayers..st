@@ -1,4 +1,4 @@
-visualizations
+visualizations - obsolete
 visualizationPackageInteraction2WithLayers: layers
 
 	| b lb colorMapping packagesElements |

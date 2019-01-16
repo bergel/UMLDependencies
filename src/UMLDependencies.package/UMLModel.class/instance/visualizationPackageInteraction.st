@@ -1,4 +1,4 @@
-visualizations
+visualizations - obsolete
 visualizationPackageInteraction
 	| b |
 	b := RTMondrian new.

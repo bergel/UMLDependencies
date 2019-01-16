@@ -13,7 +13,7 @@ buildView
 		umlModel
 	].
 	
-	^ RTView new @ RTDraggableView @ RTHighlightElementsInView
+	^ RTView new @ RTDraggableView @ RTHighlightElementsInView @ RTZoomableView
 		@ filter
 		@ (RTShowLabelWhenZooming new
 				conditionBlock: [ :aTrachelShape | aTrachelShape element isNil  ];

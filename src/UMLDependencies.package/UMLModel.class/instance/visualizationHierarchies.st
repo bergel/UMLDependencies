@@ -1,4 +1,4 @@
-visualizations
+visualizations - obsolete
 visualizationHierarchies
 	| b |
 	b := RTMondrian new.
