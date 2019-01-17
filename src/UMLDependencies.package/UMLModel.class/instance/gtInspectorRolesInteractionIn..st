@@ -2,5 +2,5 @@ visualizations
 gtInspectorRolesInteractionIn: composite
 	<gtInspectorPresentationOrder: -10>
 	composite roassal2
-		title: 'Roles Interaction';
+		title: 'Role Interaction';
 		initializeView: [ self visualizationRolesInteraction ]
