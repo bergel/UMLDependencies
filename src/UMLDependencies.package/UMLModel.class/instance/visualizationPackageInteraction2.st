@@ -13,7 +13,6 @@ visualizationPackageInteraction2
 	b nodes: self packages forEach: [ :p |
 		b interaction showEdge connectToAll: #allDependencies; colorElement: [ :edge | edge to trachelShape color ].
 		b shape box
-			"withTextAbove; "
 			width: #numberOfAllDependencies;
 			height: #numberOfAllIncomingDependencies.
 

@@ -1,5 +1,5 @@
 visualizations - obsolete
-visualizationRoleInteraction
+visualizationRoleInteraction2
 	| b |
 	b := RTMondrian new.
 	b view: self buildView.
