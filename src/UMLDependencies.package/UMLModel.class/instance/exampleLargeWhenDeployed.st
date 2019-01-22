@@ -1,6 +1,6 @@
 public - examples
 exampleLargeWhenDeployed
-	<script: 'self new exampleLarge inspect'>
+	<script: 'self new exampleLargeWhenDeployed inspect'>
 	| m root |
 
 	"root := (IceRepository registry detect: [ :each | each includesPackageNamed: 'UMLDependencies' ] ifNone: [ self error: 'Please add a clone of this project to Iceberg to access to the resources' ]) location."
