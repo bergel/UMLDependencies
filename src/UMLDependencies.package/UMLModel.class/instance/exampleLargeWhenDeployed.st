@@ -11,8 +11,6 @@ exampleLargeWhenDeployed
 	m importFrom: (root / 'class_reference_20181108.csv') contents.
 	m importDependenciesFrom: (root / 'dependency_matrix_20181108.csv') contents.
 	m importArchitecture: (root / 'k9_layered_architecture_class.csv').
+	m importMethodAndAttributesFrom: (root / 'sample_attribute_method_K9mail.csv') contents.
 	
-"	m importFrom: '/Users/alexandrebergel/Dropbox/GitRepos/UMLDependencies/data/new_version_class_reference_20180726.csv' asFileReference contents.
-	m importDependenciesFrom: '/Users/alexandrebergel/Dropbox/GitRepos/UMLDependencies/data/new_version_dependency_matrix_20180726.csv' asFileReference contents.
-	m importArchitecture: '/Users/alexandrebergel/Dropbox/GitRepos/UMLDependencies/data/k9_layered_architecture_class.csv'.
-"	^ m
+	^ m
