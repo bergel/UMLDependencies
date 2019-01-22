@@ -1,4 +1,4 @@
-visualizations - obsolete
+visualizations-obsolete
 visualizationTreeMap
 	| b shape label hb |
 	b := RTTreeMapBuilder new.

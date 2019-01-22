@@ -1,4 +1,4 @@
-visualizations - obsolete
+visualizations-obsolete
 gtInspectorArchAsTreeMapIn: composite
 	"<gtInspectorPresentationOrder: -10>"
 	composite roassal2
