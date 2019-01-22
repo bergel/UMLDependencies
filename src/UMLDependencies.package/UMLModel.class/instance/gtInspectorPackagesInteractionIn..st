@@ -1,6 +1,6 @@
-visualizations - obsolete
+visualizations
 gtInspectorPackagesInteractionIn: composite
-	"<gtInspectorPresentationOrder: -10>"
+	<gtInspectorPresentationOrder: -100>
 	composite roassal2
-		title: 'Packages Interaction';
+		title: 'Package Interaction';
 		initializeView: [ self visualizationPackageInteraction ]

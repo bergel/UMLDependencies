@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "UMLStructuralElement",
 	"category" : "UMLDependencies-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
@@ -18,8 +18,9 @@
 		"superclasses",
 		"implementedBy",
 		"filename",
-		"model"
+		"attributes",
+		"methodSignatures"
 	],
-	"name" : "UMLAbstractElement",
+	"name" : "UMLAbstractType",
 	"type" : "normal"
 }

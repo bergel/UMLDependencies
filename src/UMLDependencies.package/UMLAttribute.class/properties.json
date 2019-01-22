@@ -6,9 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"elements",
-		"packageName"
+		"attributeName"
 	],
-	"name" : "UMLPackage",
+	"name" : "UMLAttribute",
 	"type" : "normal"
 }

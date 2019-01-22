@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "UMLAbstractElement",
+	"super" : "UMLAbstractType",
 	"category" : "UMLDependencies-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],

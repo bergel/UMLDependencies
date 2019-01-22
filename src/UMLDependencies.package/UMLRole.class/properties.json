@@ -1,14 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "UMLStructuralElement",
 	"category" : "UMLDependencies-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
 		"roleName",
-		"elements",
-		"model"
+		"elements"
 	],
 	"name" : "UMLRole",
 	"type" : "normal"
