@@ -1,3 +1,4 @@
 accessing
-add: anElement
-	elements add: anElement 
+add: aStructuralElement
+	"Add a structural element to the model"
+	elements add: aStructuralElement 

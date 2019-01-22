@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "UMLStructuralElement",
+	"category" : "UMLDependencies-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"signature"
+	],
+	"name" : "UMLMethod",
+	"type" : "normal"
+}

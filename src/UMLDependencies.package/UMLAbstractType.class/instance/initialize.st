@@ -3,7 +3,7 @@ initialize
 	super initialize.
 	isNested := false.
 	
-	"outoing links"
+	"outgoing links"
 	dependencies := OrderedCollection new.
 	subclasses := OrderedCollection new.
 	implementations := OrderedCollection new.
@@ -12,3 +12,7 @@ initialize
 	superclasses := OrderedCollection new.
 	implementedBy := OrderedCollection new.
 	incomingDependencies := OrderedCollection new.
+	
+	"attributes and methods"
+	attributes := OrderedCollection new.
+	methods := OrderedCollection new.

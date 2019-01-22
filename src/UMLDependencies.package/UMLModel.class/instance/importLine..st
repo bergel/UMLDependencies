@@ -18,6 +18,7 @@ Purpose: To visualize class role/responsibility and relationship between the cla
 	ss := aLine substrings: ','.
 	element := (self classFor: ss fourth) new.
 	element name: ss second.
+	element fullyQualifiedName: ss first.
 	elements add: element.
 	element model: self.
 	element index: elements size. "if the index should start at 0, then add '- 1'"
