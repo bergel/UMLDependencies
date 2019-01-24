@@ -1,0 +1,779 @@
+src.main.java.com.fsck.k9.mail.AuthType,AuthType,Information Holder,enum,k9mail-library\src\main\java\com\fsck\k9\mail\AuthType.java
+src.main.java.com.fsck.k9.mailstore.BinaryMemoryBody,BinaryMemoryBody,Information Holder,class,k9mail-library\src\main\java\com\fsck\k9\mailstore\BinaryMemoryBody.java
+src.main.java.com.fsck.k9.mail.AuthenticationFailedException,AuthenticationFailedException,Information Holder,class,k9mail-library\src\main\java\com\fsck\k9\mail\AuthenticationFailedException.java
+src.main.java.com.fsck.k9.mail.Address,Address,Service Provider,class,k9mail-library\src\main\java\com\fsck\k9\mail\Address.java
+src.main.java.com.fsck.k9.mail.Authentication,Authentication,Service Provider,class,k9mail-library\src\main\java\com\fsck\k9\mail\Authentication.java
+src.main.java.com.fsck.k9.mail.Body,Body,Service Provider,interface,k9mail-library\src\main\java\com\fsck\k9\mail\Body.java
+src.main.java.com.fsck.k9.mail.BodyFactory,BodyFactory,Service Provider,interface,k9mail-library\src\main\java\com\fsck\k9\mail\BodyFactory.java
+src.main.java.com.fsck.k9.mail.BodyPart,BodyPart,Information Holder,abstract class,k9mail-library\src\main\java\com\fsck\k9\mail\BodyPart.java
+src.main.java.com.fsck.k9.mail.BoundaryGenerator,BoundaryGenerator,Service Provider,class,k9mail-library\src\main\java\com\fsck\k9\mail\BoundaryGenerator.java
+src.main.java.com.fsck.k9.mail.CertificateChainException,CertificateChainException,Information Holder,class,k9mail-library\src\main\java\com\fsck\k9\mail\CertificateChainException.java
+src.main.java.com.fsck.k9.mail.CertificateValidationException.Reason,Reason,Information Holder,enum,k9mail-library\src\main\java\com\fsck\k9\mail\CertificateValidationException.Reason.java
+src.main.java.com.fsck.k9.mail.CertificateValidationException,CertificateValidationException,Information Holder,class,k9mail-library\src\main\java\com\fsck\k9\mail\CertificateValidationException.java
+src.main.java.com.fsck.k9.mail.ConnectionSecurity,ConnectionSecurity,Information Holder,enum,k9mail-library\src\main\java\com\fsck\k9\mail\ConnectionSecurity.java
+src.main.java.com.fsck.k9.mail.DefaultBodyFactory,DefaultBodyFactory,Service Provider,class,k9mail-library\src\main\java\com\fsck\k9\mail\DefaultBodyFactory.java
+src.main.java.com.fsck.k9.mail.FetchProfile.Item,Item,Information Holder,enum,k9mail-library\src\main\java\com\fsck\k9\mail\FetchProfile.Item.java
+src.main.java.com.fsck.k9.mail.FetchProfile,FetchProfile,Structurer,class,k9mail-library\src\main\java\com\fsck\k9\mail\FetchProfile.java
+src.main.java.com.fsck.k9.mail.Flag,Flag,Information Holder,enum,k9mail-library\src\main\java\com\fsck\k9\mail\Flag.java
+src.main.java.com.fsck.k9.mail.Folder.FolderClass,FolderClass,Information Holder,enum,k9mail-library\src\main\java\com\fsck\k9\mail\Folder.FolderClass.java
+src.main.java.com.fsck.k9.mail.Folder.FolderType,FolderType,Information Holder,enum,k9mail-library\src\main\java\com\fsck\k9\mail\Folder.FolderType.java
+src.main.java.com.fsck.k9.mail.K9MailLib.DebugStatus,DebugStatus,Information Holder,interface,k9mail-library\src\main\java\com\fsck\k9\mail\K9MailLib.DebugStatus.java
+src.main.java.com.fsck.k9.mail.Folder,Folder,Structurer,abstract class,k9mail-library\src\main\java\com\fsck\k9\mail\Folder.java
+src.main.java.com.fsck.k9.mail.K9MailLib.DefaultDebugStatus,DefaultDebugStatus,Information Holder,class,k9mail-library\src\main\java\com\fsck\k9\mail\K9MailLib.DefaultDebugStatus.java
+src.main.java.com.fsck.k9.mail.K9MailLib.WritableDebugStatus,WritableDebugStatus,Information Holder,interface,k9mail-library\src\main\java\com\fsck\k9\mail\K9MailLib.WritableDebugStatus.java
+src.main.java.com.fsck.k9.mail.K9MailLib,K9MailLib,Information Holder,class,k9mail-library\src\main\java\com\fsck\k9\mail\K9MailLib.java
+src.main.java.com.fsck.k9.mail.Message.RecipientType,RecipientType,Information Holder,enum,k9mail-library\src\main\java\com\fsck\k9\mail\Message.RecipientType.java
+src.main.java.com.fsck.k9.mail.MessageRetrievalListener,MessageRetrievalListener,Structurer,interface,k9mail-library\src\main\java\com\fsck\k9\mail\MessageRetrievalListener.java
+src.main.java.com.fsck.k9.mail.MessagingException,MessagingException,Information Holder,class,k9mail-library\src\main\java\com\fsck\k9\mail\MessagingException.java
+src.main.java.com.fsck.k9.mail.Message,Message,Structurer,abstract class,k9mail-library\src\main\java\com\fsck\k9\mail\Message.java
+src.main.java.com.fsck.k9.mail.Multipart,Multipart,Structurer,abstract class,k9mail-library\src\main\java\com\fsck\k9\mail\Multipart.java
+src.main.java.com.fsck.k9.mail.NetworkType,NetworkType,Information Holder,enum,k9mail-library\src\main\java\com\fsck\k9\mail\NetworkType.java
+src.main.java.com.fsck.k9.mail.Part,Part,Service Provider,interface,k9mail-library\src\main\java\com\fsck\k9\mail\Part.java
+src.main.java.com.fsck.k9.mail.PushReceiver,PushReceiver,Service Provider,interface,k9mail-library\src\main\java\com\fsck\k9\mail\PushReceiver.java
+src.main.java.com.fsck.k9.mail.Pusher,Pusher,Service Provider,interface,k9mail-library\src\main\java\com\fsck\k9\mail\Pusher.java
+src.main.java.com.fsck.k9.mail.ServerSettings.Type,Type,Information Holder,enum,k9mail-library\src\main\java\com\fsck\k9\mail\ServerSettings.Type.java
+src.main.java.com.fsck.k9.mail.Store,Store,Information Holder,abstract class,k9mail-library\src\main\java\com\fsck\k9\mail\Store.java
+src.main.java.com.fsck.k9.mail.ServerSettings,ServerSettings,Information Holder,class,k9mail-library\src\main\java\com\fsck\k9\mail\ServerSettings.java
+src.main.java.com.fsck.k9.mail.Transport,Transport,Service Provider,abstract class,k9mail-library\src\main\java\com\fsck\k9\mail\Transport.java
+src.main.java.com.fsck.k9.mail.TransportProvider,TransportProvider,Service Provider,class,k9mail-library\src\main\java\com\fsck\k9\mail\TransportProvider.java
+src.main.java.com.fsck.k9.mail.transport.WebDavTransport,WebDavTransport,Service Provider,class,k9mail-library\src\main\java\com\fsck\k9\mail\transport\WebDavTransport.java
+src.main.java.com.fsck.k9.mail.TransportUris,TransportUris,Service Provider,class,k9mail-library\src\main\java\com\fsck\k9\mail\TransportUris.java
+src.main.java.com.fsck.k9.mail.transport.smtp.EnhancedNegativeSmtpReplyException,EnhancedNegativeSmtpReplyException,Information Holder,class,k9mail-library\src\main\java\com\fsck\k9\mail\transport\smtp\EnhancedNegativeSmtpReplyException.java
+src.main.java.com.fsck.k9.mail.transport.smtp.NegativeSmtpReplyException,NegativeSmtpReplyException,Information Holder,class,k9mail-library\src\main\java\com\fsck\k9\mail\transport\smtp\NegativeSmtpReplyException.java
+src.main.java.com.fsck.k9.mail.transport.smtp.SmtpTransport.CommandResponse,CommandResponse,Information Holder,class,k9mail-library\src\main\java\com\fsck\k9\mail\transport\smtp\SmtpTransport.CommandResponse.java
+src.main.java.com.fsck.k9.mail.transport.smtp.StatusCodeClass,StatusCodeClass,Information Holder,enum,k9mail-library\src\main\java\com\fsck\k9\mail\transport\smtp\StatusCodeClass.java
+src.main.java.com.fsck.k9.mail.transport.smtp.StatusCodeSubject,StatusCodeSubject,Information Holder,enum,k9mail-library\src\main\java\com\fsck\k9\mail\transport\smtp\StatusCodeSubject.java
+src.main.java.com.fsck.k9.mail.transport.smtp.StatusCodeDetail,StatusCodeDetail,Information Holder,enum,k9mail-library\src\main\java\com\fsck\k9\mail\transport\smtp\StatusCodeDetail.java
+src.main.java.com.fsck.k9.mail.store.RemoteStore,RemoteStore,Structurer,abstract class,k9mail-library\src\main\java\com\fsck\k9\mail\store\RemoteStore.java
+src.main.java.com.fsck.k9.mail.store.StoreConfig,StoreConfig,Information Holder,interface,k9mail-library\src\main\java\com\fsck\k9\mail\store\StoreConfig.java
+src.main.java.com.fsck.k9.mail.transport.smtp.SmtpTransport,SmtpTransport,Service Provider,class,k9mail-library\src\main\java\com\fsck\k9\mail\transport\smtp\SmtpTransport.java
+src.main.java.com.fsck.k9.mail.store.webdav.ConnectionInfo,ConnectionInfo,Information Holder,class,k9mail-library\src\main\java\com\fsck\k9\mail\store\webdav\ConnectionInfo.java
+src.main.java.com.fsck.k9.mail.store.webdav.DataSet,DataSet,Structurer,class,k9mail-library\src\main\java\com\fsck\k9\mail\store\webdav\DataSet.java
+src.main.java.com.fsck.k9.mail.store.webdav.HttpGeneric,HttpGeneric,Information Holder,class,k9mail-library\src\main\java\com\fsck\k9\mail\store\webdav\HttpGeneric.java
+src.main.java.com.fsck.k9.mail.store.webdav.ParsedMessageEnvelope,ParsedMessageEnvelope,Structurer,class,k9mail-library\src\main\java\com\fsck\k9\mail\store\webdav\ParsedMessageEnvelope.java
+src.main.java.com.fsck.k9.mail.store.webdav.WebDavConstants,WebDavConstants,Information Holder,class,k9mail-library\src\main\java\com\fsck\k9\mail\store\webdav\WebDavConstants.java
+src.main.java.com.fsck.k9.mail.store.webdav.WebDavFolder,WebDavFolder,Service Provider,class,k9mail-library\src\main\java\com\fsck\k9\mail\store\webdav\WebDavFolder.java
+src.main.java.com.fsck.k9.mail.store.webdav.WebDavHandler,WebDavHandler,Structurer,class,k9mail-library\src\main\java\com\fsck\k9\mail\store\webdav\WebDavHandler.java
+src.main.java.com.fsck.k9.mail.store.webdav.WebDavHttpClient.WebDavHttpClientFactory,WebDavHttpClientFactory,Service Provider,class,k9mail-library\src\main\java\com\fsck\k9\mail\store\webdav\WebDavHttpClient.WebDavHttpClientFactory.java
+src.main.java.com.fsck.k9.mail.store.webdav.WebDavHttpClient,WebDavHttpClient,Service Provider,class,k9mail-library\src\main\java\com\fsck\k9\mail\store\webdav\WebDavHttpClient.java
+src.main.java.com.fsck.k9.mail.store.webdav.WebDavMessage,WebDavMessage,Service Provider,class,k9mail-library\src\main\java\com\fsck\k9\mail\store\webdav\WebDavMessage.java
+src.main.java.com.fsck.k9.mail.store.webdav.WebDavSocketFactory,WebDavSocketFactory,Service Provider,class,k9mail-library\src\main\java\com\fsck\k9\mail\store\webdav\WebDavSocketFactory.java
+src.main.java.com.fsck.k9.mail.store.webdav.WebDavStore,WebDavStore,Information Holder,class,k9mail-library\src\main\java\com\fsck\k9\mail\store\webdav\WebDavStore.java
+src.main.java.com.fsck.k9.mail.store.webdav.WebDavStoreSettings,WebDavStoreSettings,Information Holder,class,k9mail-library\src\main\java\com\fsck\k9\mail\store\webdav\WebDavStoreSettings.java
+src.main.java.com.fsck.k9.mail.store.webdav.WebDavStoreUriCreator,WebDavStoreUriCreator,Service Provider,class,k9mail-library\src\main\java\com\fsck\k9\mail\store\webdav\WebDavStoreUriCreator.java
+src.main.java.com.fsck.k9.mail.store.webdav.WebDavStoreUriDecoder,WebDavStoreUriDecoder,Service Provider,class,k9mail-library\src\main\java\com\fsck\k9\mail\store\webdav\WebDavStoreUriDecoder.java
+src.main.java.com.fsck.k9.mail.store.pop3.Pop3Store.Pop3Capabilities,Pop3Capabilities,Service Provider,class,k9mail-library\src\main\java\com\fsck\k9\mail\store\pop3\Pop3Store.Pop3Capabilities.java
+src.main.java.com.fsck.k9.mail.store.pop3.Pop3Store.Pop3ErrorResponse,Pop3ErrorResponse,Information Holder,class,k9mail-library\src\main\java\com\fsck\k9\mail\store\pop3\Pop3Store.Pop3ErrorResponse.java
+src.main.java.com.fsck.k9.mail.store.pop3.Pop3Store.Pop3Folder,Pop3Folder,Controller,class,k9mail-library\src\main\java\com\fsck\k9\mail\store\pop3\Pop3Store.Pop3Folder.java
+src.main.java.com.fsck.k9.mail.store.pop3.Pop3Store.Pop3Message,Pop3Message,Service Provider,class,k9mail-library\src\main\java\com\fsck\k9\mail\store\pop3\Pop3Store.Pop3Message.java
+src.main.java.com.fsck.k9.mail.store.pop3.Pop3Store.Pop3ResponseInputStream,Pop3ResponseInputStream,Service Provider,class,k9mail-library\src\main\java\com\fsck\k9\mail\store\pop3\Pop3Store.Pop3ResponseInputStream.java
+src.main.java.com.fsck.k9.mail.store.pop3.Pop3Store,Pop3Store,Service Provider,class,k9mail-library\src\main\java\com\fsck\k9\mail\store\pop3\Pop3Store.java
+src.main.java.com.fsck.k9.mail.store.imap.AlertResponse,AlertResponse,Service Provider,class,k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\AlertResponse.java
+src.main.java.com.fsck.k9.mail.store.imap.Capabilities,Capabilities,Information Holder,class,k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\Capabilities.java
+src.main.java.com.fsck.k9.mail.store.imap.CapabilityResponse,CapabilityResponse,Service Provider,class,k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\CapabilityResponse.java
+src.main.java.com.fsck.k9.mail.store.imap.Commands,Commands,Information Holder,class,k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\Commands.java
+src.main.java.com.fsck.k9.mail.store.imap.FetchBodyCallback,FetchBodyCallback,Service Provider,class,k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\FetchBodyCallback.java
+src.main.java.com.fsck.k9.mail.store.imap.FetchPartCallback,FetchPartCallback,Coordinator,class,k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\FetchPartCallback.java
+src.main.java.com.fsck.k9.mail.store.imap.FolderNameCodec,FolderNameCodec,Service Provider,class,k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\FolderNameCodec.java
+src.main.java.com.fsck.k9.mail.store.imap.IdGrouper.ContiguousIdGroup,ContiguousIdGroup,Information Holder,class,k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\IdGrouper.ContiguousIdGroup.java
+src.main.java.com.fsck.k9.mail.store.imap.IdGrouper.GroupedIds,GroupedIds,Information Holder,class,k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\IdGrouper.GroupedIds.java
+src.main.java.com.fsck.k9.mail.store.imap.IdGrouper,IdGrouper,Structurer,class,k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\IdGrouper.java
+src.main.java.com.fsck.k9.mail.store.imap.ImapCommandSplitter,ImapCommandSplitter,Structurer,class,k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\ImapCommandSplitter.java
+src.main.java.com.fsck.k9.mail.store.imap.ImapConnection,ImapConnection,Service Provider,class,k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\ImapConnection.java
+src.main.java.com.fsck.k9.mail.store.imap.ImapFolder,ImapFolder,Structurer,class,k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\ImapFolder.java
+src.main.java.com.fsck.k9.mail.store.imap.ImapFolderPusher.IdleStopper,IdleStopper,Service Provider,class,k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\ImapFolderPusher.IdleStopper.java
+src.main.java.com.fsck.k9.mail.store.imap.ImapFolderPusher.PushRunnable,PushRunnable,Controller,class,k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\ImapFolderPusher.PushRunnable.java
+src.main.java.com.fsck.k9.mail.store.imap.ImapFolderPusher,ImapFolderPusher,Controller,class,k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\ImapFolderPusher.java
+src.main.java.com.fsck.k9.mail.store.imap.ImapList,ImapList,Structurer,class,k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\ImapList.java
+src.main.java.com.fsck.k9.mail.store.imap.ImapMessage,ImapMessage,Structurer,class,k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\ImapMessage.java
+src.main.java.com.fsck.k9.mail.store.imap.ImapPushState,ImapPushState,Service Provider,class,k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\ImapPushState.java
+src.main.java.com.fsck.k9.mail.store.imap.ImapPusher,ImapPusher,Service Provider,class,k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\ImapPusher.java
+src.main.java.com.fsck.k9.mail.store.imap.ImapResponse,ImapResponse,Information Holder,class,k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\ImapResponse.java
+src.main.java.com.fsck.k9.mail.store.imap.ImapResponseCallback,ImapResponseCallback,Service Provider,interface,k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\ImapResponseCallback.java
+src.main.java.com.fsck.k9.mail.store.imap.ImapResponseParser,ImapResponseParser,Service Provider,class,k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\ImapResponseParser.java
+src.main.java.com.fsck.k9.mail.store.imap.ImapResponseParserException,ImapResponseParserException,Information Holder,class,k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\ImapResponseParserException.java
+src.main.java.com.fsck.k9.mail.store.imap.ImapSearcher,ImapSearcher,Service Provider,interface,k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\ImapSearcher.java
+src.main.java.com.fsck.k9.mail.store.imap.ImapSettings,ImapSettings,Information Holder,interface,k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\ImapSettings.java
+src.main.java.com.fsck.k9.mail.store.imap.ImapStore.StoreImapSettings,StoreImapSettings,Information Holder,class,k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\ImapStore.StoreImapSettings.java
+src.main.java.com.fsck.k9.mail.store.imap.ImapStore,ImapStore,Structurer,class,k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\ImapStore.java
+src.main.java.com.fsck.k9.mail.store.imap.ImapStoreSettings,ImapStoreSettings,Information Holder,class,k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\ImapStoreSettings.java
+src.main.java.com.fsck.k9.mail.store.imap.ImapStoreUriCreator,ImapStoreUriCreator,Service Provider,class,k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\ImapStoreUriCreator.java
+src.main.java.com.fsck.k9.mail.store.imap.ImapStoreUriDecoder,ImapStoreUriDecoder,Service Provider,class,k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\ImapStoreUriDecoder.java
+src.main.java.com.fsck.k9.mail.store.imap.ImapUtility,ImapUtility,Service Provider,class,k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\ImapUtility.java
+src.main.java.com.fsck.k9.mail.store.imap.ListResponse,ListResponse,Service Provider,class,k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\ListResponse.java
+src.main.java.com.fsck.k9.mail.store.imap.NamespaceResponse,NamespaceResponse,Service Provider,class,k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\NamespaceResponse.java
+src.main.java.com.fsck.k9.mail.store.imap.NegativeImapResponseException,NegativeImapResponseException,Information Holder,class,k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\NegativeImapResponseException.java
+src.main.java.com.fsck.k9.mail.store.imap.PermanentFlagsResponse,PermanentFlagsResponse,Service Provider,class,k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\PermanentFlagsResponse.java
+src.main.java.com.fsck.k9.mail.store.imap.ResponseCodeExtractor,ResponseCodeExtractor,Service Provider,class,k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\ResponseCodeExtractor.java
+src.main.java.com.fsck.k9.mail.store.imap.Responses,Responses,Information Holder,class,k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\Responses.java
+src.main.java.com.fsck.k9.mail.store.imap.SearchResponse,SearchResponse,Structurer,class,k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\SearchResponse.java
+src.main.java.com.fsck.k9.mail.store.imap.SelectOrExamineResponse,SelectOrExamineResponse,Service Provider,class,k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\SelectOrExamineResponse.java
+src.main.java.com.fsck.k9.mail.store.imap.UidCopyResponse,UidCopyResponse,Service Provider,class,k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\UidCopyResponse.java
+src.main.java.com.fsck.k9.mail.store.imap.UidSearchCommandBuilder,UidSearchCommandBuilder,Information Holder,class,k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\UidSearchCommandBuilder.java
+src.main.java.com.fsck.k9.mail.store.imap.UntaggedHandler,UntaggedHandler,Service Provider,interface,k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\UntaggedHandler.java
+src.main.java.com.fsck.k9.mail.ssl.DefaultTrustedSocketFactory,DefaultTrustedSocketFactory,Structurer,class,k9mail-library\src\main\java\com\fsck\k9\mail\ssl\DefaultTrustedSocketFactory.java
+src.main.java.com.fsck.k9.mail.ssl.KeyChainKeyManager,KeyChainKeyManager,Service Provider,class,k9mail-library\src\main\java\com\fsck\k9\mail\ssl\KeyChainKeyManager.java
+src.main.java.com.fsck.k9.mail.ssl.LocalKeyStore.LocalKeyStoreHolder,LocalKeyStoreHolder,Information Holder,class,k9mail-library\src\main\java\com\fsck\k9\mail\ssl\LocalKeyStore.LocalKeyStoreHolder.java
+src.main.java.com.fsck.k9.mail.ssl.LocalKeyStore,LocalKeyStore,Information Holder,class,k9mail-library\src\main\java\com\fsck\k9\mail\ssl\LocalKeyStore.java
+src.main.java.com.fsck.k9.mail.ssl.TrustManagerFactory.SecureX509TrustManager,SecureX509TrustManager,Service Provider,class,k9mail-library\src\main\java\com\fsck\k9\mail\ssl\TrustManagerFactory.SecureX509TrustManager.java
+src.main.java.com.fsck.k9.mail.ssl.TrustManagerFactory,TrustManagerFactory,Service Provider,class,k9mail-library\src\main\java\com\fsck\k9\mail\ssl\TrustManagerFactory.java
+src.main.java.com.fsck.k9.mail.ssl.TrustedSocketFactory,TrustedSocketFactory,Service Provider,interface,k9mail-library\src\main\java\com\fsck\k9\mail\ssl\TrustedSocketFactory.java
+src.main.java.com.fsck.k9.mail.power.TracingPowerManager.TracingWakeLock,TracingWakeLock,Service Provider,class,k9mail-library\src\main\java\com\fsck\k9\mail\power\TracingPowerManager.TracingWakeLock.java
+src.main.java.com.fsck.k9.mail.power.TracingPowerManager,TracingPowerManager,Service Provider,class,k9mail-library\src\main\java\com\fsck\k9\mail\power\TracingPowerManager.java
+src.main.java.com.fsck.k9.mail.oauth.AuthorizationException,AuthorizationException,Information Holder,class,k9mail-library\src\main\java\com\fsck\k9\mail\oauth\AuthorizationException.java
+src.main.java.com.fsck.k9.mail.oauth.OAuth2TokenProvider.OAuth2TokenProviderAuthCallback,OAuth2TokenProviderAuthCallback,Information Holder,interface,k9mail-library\src\main\java\com\fsck\k9\mail\oauth\OAuth2TokenProvider.OAuth2TokenProviderAuthCallback.java
+src.main.java.com.fsck.k9.mail.oauth.OAuth2TokenProvider,OAuth2TokenProvider,Service Provider,interface,k9mail-library\src\main\java\com\fsck\k9\mail\oauth\OAuth2TokenProvider.java
+src.main.java.com.fsck.k9.mail.oauth.XOAuth2ChallengeParser,XOAuth2ChallengeParser,Coordinator,class,k9mail-library\src\main\java\com\fsck\k9\mail\oauth\XOAuth2ChallengeParser.java
+src.main.java.com.fsck.k9.mail.message.MessageHeaderParser.MessageHeaderParserContentHandler,MessageHeaderParserContentHandler,Structurer,class,k9mail-library\src\main\java\com\fsck\k9\mail\message\MessageHeaderParser.MessageHeaderParserContentHandler.java
+src.main.java.com.fsck.k9.mail.message.MessageHeaderParser,MessageHeaderParser,Service Provider,class,k9mail-library\src\main\java\com\fsck\k9\mail\message\MessageHeaderParser.java
+src.main.java.com.fsck.k9.mail.internet.BinaryTempFileBody.BinaryTempFileBodyInputStream,BinaryTempFileBodyInputStream,Service Provider,class,k9mail-library\src\main\java\com\fsck\k9\mail\internet\BinaryTempFileBody.BinaryTempFileBodyInputStream.java
+src.main.java.com.fsck.k9.mail.internet.BinaryTempFileBody,BinaryTempFileBody,Information Holder,class,k9mail-library\src\main\java\com\fsck\k9\mail\internet\BinaryTempFileBody.java
+src.main.java.com.fsck.k9.mail.internet.BinaryTempFileMessageBody,BinaryTempFileMessageBody,Information Holder,class,k9mail-library\src\main\java\com\fsck\k9\mail\internet\BinaryTempFileMessageBody.java
+src.main.java.com.fsck.k9.mail.internet.CharsetSupport,CharsetSupport,Service Provider,class,k9mail-library\src\main\java\com\fsck\k9\mail\internet\CharsetSupport.java
+src.main.java.com.fsck.k9.mail.internet.DecoderUtil.EncodedWord,EncodedWord,Information Holder,class,k9mail-library\src\main\java\com\fsck\k9\mail\internet\DecoderUtil.EncodedWord.java
+src.main.java.com.fsck.k9.mail.internet.DecoderUtil,DecoderUtil,Service Provider,class,k9mail-library\src\main\java\com\fsck\k9\mail\internet\DecoderUtil.java
+src.main.java.com.fsck.k9.mail.internet.EncoderUtil.Encoding,Encoding,Information Holder,enum,k9mail-library\src\main\java\com\fsck\k9\mail\internet\EncoderUtil.Encoding.java
+src.main.java.com.fsck.k9.mail.internet.EncoderUtil,EncoderUtil,Service Provider,class,k9mail-library\src\main\java\com\fsck\k9\mail\internet\EncoderUtil.java
+src.main.java.com.fsck.k9.mail.internet.FlowedMessageUtils,FlowedMessageUtils,Service Provider,class,k9mail-library\src\main\java\com\fsck\k9\mail\internet\FlowedMessageUtils.java
+src.main.java.com.fsck.k9.mail.internet.Iso2022JpToShiftJisInputStream.Charset,Charset,Information Holder,enum,k9mail-library\src\main\java\com\fsck\k9\mail\internet\Iso2022JpToShiftJisInputStream.Charset.java
+src.main.java.com.fsck.k9.mail.internet.Iso2022JpToShiftJisInputStream,Iso2022JpToShiftJisInputStream,Service Provider,class,k9mail-library\src\main\java\com\fsck\k9\mail\internet\Iso2022JpToShiftJisInputStream.java
+src.main.java.com.fsck.k9.mail.internet.JisSupport,JisSupport,Service Provider,class,k9mail-library\src\main\java\com\fsck\k9\mail\internet\JisSupport.java
+src.main.java.com.fsck.k9.mail.internet.ListHeaders,ListHeaders,Service Provider,class,k9mail-library\src\main\java\com\fsck\k9\mail\internet\ListHeaders.java
+src.main.java.com.fsck.k9.mail.internet.MessageExtractor,MessageExtractor,Service Provider,class,k9mail-library\src\main\java\com\fsck\k9\mail\internet\MessageExtractor.java
+src.main.java.com.fsck.k9.mail.internet.MessageIdGenerator,MessageIdGenerator,Coordinator,class,k9mail-library\src\main\java\com\fsck\k9\mail\internet\MessageIdGenerator.java
+src.main.java.com.fsck.k9.mail.internet.MimeBodyPart,MimeBodyPart,Structurer,class,k9mail-library\src\main\java\com\fsck\k9\mail\internet\MimeBodyPart.java
+src.main.java.com.fsck.k9.mail.internet.MimeHeader.Field,Field,Information Holder,class,k9mail-library\src\main\java\com\fsck\k9\mail\internet\MimeHeader.Field.java
+src.main.java.com.fsck.k9.mail.internet.MimeHeader,MimeHeader,Structurer,class,k9mail-library\src\main\java\com\fsck\k9\mail\internet\MimeHeader.java
+src.main.java.com.fsck.k9.mail.internet.MimeMessage.MimeMessageBuilder,MimeMessageBuilder,Structurer,class,k9mail-library\src\main\java\com\fsck\k9\mail\internet\MimeMessage.MimeMessageBuilder.java
+src.main.java.com.fsck.k9.mail.internet.MimeMessage,MimeMessage,Coordinator,class,k9mail-library\src\main\java\com\fsck\k9\mail\internet\MimeMessage.java
+src.main.java.com.fsck.k9.mail.internet.MimeMessageHelper,MimeMessageHelper,Service Provider,class,k9mail-library\src\main\java\com\fsck\k9\mail\internet\MimeMessageHelper.java
+src.main.java.com.fsck.k9.mail.internet.MimeMultipart,MimeMultipart,Information Holder,class,k9mail-library\src\main\java\com\fsck\k9\mail\internet\MimeMultipart.java
+src.main.java.com.fsck.k9.mail.internet.MimeUtility,MimeUtility,Service Provider,class,k9mail-library\src\main\java\com\fsck\k9\mail\internet\MimeUtility.java
+src.main.java.com.fsck.k9.mail.internet.RawDataBody,RawDataBody,Service Provider,interface,k9mail-library\src\main\java\com\fsck\k9\mail\internet\RawDataBody.java
+src.main.java.com.fsck.k9.mail.internet.SizeAware,SizeAware,Service Provider,interface,k9mail-library\src\main\java\com\fsck\k9\mail\internet\SizeAware.java
+src.main.java.com.fsck.k9.mail.internet.TextBody,TextBody,Information Holder,class,k9mail-library\src\main\java\com\fsck\k9\mail\internet\TextBody.java
+src.main.java.com.fsck.k9.mail.internet.Viewable.Alternative,Alternative,Information Holder,class,k9mail-library\src\main\java\com\fsck\k9\mail\internet\Viewable.Alternative.java
+src.main.java.com.fsck.k9.mail.internet.Viewable.Flowed,Flowed,Information Holder,class,k9mail-library\src\main\java\com\fsck\k9\mail\internet\Viewable.Flowed.java
+src.main.java.com.fsck.k9.mail.internet.Viewable.Html,Html,Information Holder,class,k9mail-library\src\main\java\com\fsck\k9\mail\internet\Viewable.Html.java
+src.main.java.com.fsck.k9.mail.internet.Viewable.MessageHeader,MessageHeader,Information Holder,class,k9mail-library\src\main\java\com\fsck\k9\mail\internet\Viewable.MessageHeader.java
+src.main.java.com.fsck.k9.mail.internet.Viewable.Text,Text,Information Holder,class,k9mail-library\src\main\java\com\fsck\k9\mail\internet\Viewable.Text.java
+src.main.java.com.fsck.k9.mail.internet.Viewable.Textual,Textual,Information Holder,abstract class,k9mail-library\src\main\java\com\fsck\k9\mail\internet\Viewable.Textual.java
+src.main.java.com.fsck.k9.mail.internet.Viewable,Viewable,Information Holder,interface,k9mail-library\src\main\java\com\fsck\k9\mail\internet\Viewable.java
+src.main.java.com.fsck.k9.mail.helper.UrlEncodingHelper,UrlEncodingHelper,Coordinator,class,k9mail-library\src\main\java\com\fsck\k9\mail\helper\UrlEncodingHelper.java
+src.main.java.com.fsck.k9.mail.filter.Base64.DecoderException,DecoderException,Information Holder,class,k9mail-library\src\main\java\com\fsck\k9\mail\filter\Base64.DecoderException.java
+src.main.java.com.fsck.k9.mail.filter.Base64.EncoderException,EncoderException,Information Holder,class,k9mail-library\src\main\java\com\fsck\k9\mail\filter\Base64.EncoderException.java
+src.main.java.com.fsck.k9.mail.filter.Base64,Base64,Service Provider,class,k9mail-library\src\main\java\com\fsck\k9\mail\filter\Base64.java
+src.main.java.com.fsck.k9.mail.filter.Base64OutputStream,Base64OutputStream,Coordinator,class,k9mail-library\src\main\java\com\fsck\k9\mail\filter\Base64OutputStream.java
+src.main.java.com.fsck.k9.mail.filter.CountingOutputStream,CountingOutputStream,Information Holder,class,k9mail-library\src\main\java\com\fsck\k9\mail\filter\CountingOutputStream.java
+src.main.java.com.fsck.k9.mail.filter.EOLConvertingOutputStream,EOLConvertingOutputStream,Service Provider,class,k9mail-library\src\main\java\com\fsck\k9\mail\filter\EOLConvertingOutputStream.java
+src.main.java.com.fsck.k9.mail.filter.FixedLengthInputStream,FixedLengthInputStream,Coordinator,class,k9mail-library\src\main\java\com\fsck\k9\mail\filter\FixedLengthInputStream.java
+src.main.java.com.fsck.k9.mail.filter.Hex,Hex,Service Provider,class,k9mail-library\src\main\java\com\fsck\k9\mail\filter\Hex.java
+src.main.java.com.fsck.k9.mail.filter.LineWrapOutputStream,LineWrapOutputStream,Service Provider,class,k9mail-library\src\main\java\com\fsck\k9\mail\filter\LineWrapOutputStream.java
+src.main.java.com.fsck.k9.mail.filter.PeekableInputStream,PeekableInputStream,Service Provider,class,k9mail-library\src\main\java\com\fsck\k9\mail\filter\PeekableInputStream.java
+src.main.java.com.fsck.k9.mail.filter.SignSafeOutputStream.State,State,Information Holder,enum,k9mail-library\src\main\java\com\fsck\k9\mail\filter\SignSafeOutputStream.State.java
+src.main.java.com.fsck.k9.mail.filter.SignSafeOutputStream,SignSafeOutputStream,Service Provider,class,k9mail-library\src\main\java\com\fsck\k9\mail\filter\SignSafeOutputStream.java
+src.main.java.com.fsck.k9.mail.filter.SmtpDataStuffing,SmtpDataStuffing,Service Provider,class,k9mail-library\src\main\java\com\fsck\k9\mail\filter\SmtpDataStuffing.java
+src.main.java.com.fsck.k9.Account.DeletePolicy,DeletePolicy,Information Holder,enum,k9mail\src\main\java\com\fsck\k9\Account.DeletePolicy.java
+src.main.java.com.fsck.k9.Account.Expunge,Expunge,Information Holder,enum,k9mail\src\main\java\com\fsck\k9\Account.Expunge.java
+src.main.java.com.fsck.k9.Account.FolderMode,FolderMode,Information Holder,enum,k9mail\src\main\java\com\fsck\k9\Account.FolderMode.java
+src.main.java.com.fsck.k9.Account.MessageFormat,MessageFormat,Information Holder,enum,k9mail\src\main\java\com\fsck\k9\Account.MessageFormat.java
+src.main.java.com.fsck.k9.Account.QuoteStyle,QuoteStyle,Information Holder,enum,k9mail\src\main\java\com\fsck\k9\Account.QuoteStyle.java
+src.main.java.com.fsck.k9.Account.Searchable,Searchable,Information Holder,enum,k9mail\src\main\java\com\fsck\k9\Account.Searchable.java
+src.main.java.com.fsck.k9.Account.ShowPictures,ShowPictures,Information Holder,enum,k9mail\src\main\java\com\fsck\k9\Account.ShowPictures.java
+src.main.java.com.fsck.k9.Account.SortType,SortType,Information Holder,enum,k9mail\src\main\java\com\fsck\k9\Account.SortType.java
+src.main.java.com.fsck.k9.AccountStats,AccountStats,Information Holder,class,k9mail\src\main\java\com\fsck\k9\AccountStats.java
+src.main.java.com.fsck.k9.BaseAccount,BaseAccount,Information Holder,interface,k9mail\src\main\java\com\fsck\k9\BaseAccount.java
+src.main.java.com.fsck.k9.Clock,Clock,Service Provider,class,k9mail\src\main\java\com\fsck\k9\Clock.java
+src.main.java.com.fsck.k9.EmailAddressValidator,EmailAddressValidator,Service Provider,class,k9mail\src\main\java\com\fsck\k9\EmailAddressValidator.java
+src.main.java.com.fsck.k9.FontSizes,FontSizes,Information Holder,class,k9mail\src\main\java\com\fsck\k9\FontSizes.java
+src.main.java.com.fsck.k9.Globals,Globals,Information Holder,class,k9mail\src\main\java\com\fsck\k9\Globals.java
+src.main.java.com.fsck.k9.Identity,Identity,Information Holder,class,k9mail\src\main\java\com\fsck\k9\Identity.java
+src.main.java.com.fsck.k9.Account,Account,Information Holder,class,k9mail\src\main\java\com\fsck\k9\Account.java
+src.main.java.com.fsck.k9.K9.ApplicationAware,ApplicationAware,Service Provider,interface,k9mail\src\main\java\com\fsck\k9\K9.ApplicationAware.java
+src.main.java.com.fsck.k9.K9.BACKGROUND_OPS,BACKGROUND_OPS,Information Holder,enum,k9mail\src\main\java\com\fsck\k9\K9.BACKGROUND_OPS.java
+src.main.java.com.fsck.k9.K9.Intents,Intents,Information Holder,class,k9mail\src\main\java\com\fsck\k9\K9.Intents.java
+src.main.java.com.fsck.k9.K9.LockScreenNotificationVisibility,LockScreenNotificationVisibility,Information Holder,enum,k9mail\src\main\java\com\fsck\k9\K9.LockScreenNotificationVisibility.java
+src.main.java.com.fsck.k9.K9.NotificationHideSubject,NotificationHideSubject,Information Holder,enum,k9mail\src\main\java\com\fsck\k9\K9.NotificationHideSubject.java
+src.main.java.com.fsck.k9.K9.NotificationQuickDelete,NotificationQuickDelete,Information Holder,enum,k9mail\src\main\java\com\fsck\k9\K9.NotificationQuickDelete.java
+src.main.java.com.fsck.k9.K9.SplitViewMode,SplitViewMode,Information Holder,enum,k9mail\src\main\java\com\fsck\k9\K9.SplitViewMode.java
+src.main.java.com.fsck.k9.K9.Theme,Theme,Information Holder,enum,k9mail\src\main\java\com\fsck\k9\K9.Theme.java
+src.main.java.com.fsck.k9.K9,K9,Controller,class,k9mail\src\main\java\com\fsck\k9\K9.java
+src.main.java.com.fsck.k9.NotificationSetting,NotificationSetting,Information Holder,class,k9mail\src\main\java\com\fsck\k9\NotificationSetting.java
+src.main.java.com.fsck.k9.PRNGFixes.LinuxPRNGSecureRandom,LinuxPRNGSecureRandom,Service Provider,class,k9mail\src\main\java\com\fsck\k9\PRNGFixes.LinuxPRNGSecureRandom.java
+src.main.java.com.fsck.k9.PRNGFixes.LinuxPRNGSecureRandomProvider,LinuxPRNGSecureRandomProvider,Service Provider,class,k9mail\src\main\java\com\fsck\k9\PRNGFixes.LinuxPRNGSecureRandomProvider.java
+src.main.java.com.fsck.k9.PRNGFixes,PRNGFixes,Service Provider,class,k9mail\src\main\java\com\fsck\k9\PRNGFixes.java
+src.main.java.com.fsck.k9.Preferences,Preferences,Structurer,class,k9mail\src\main\java\com\fsck\k9\Preferences.java
+src.main.java.com.fsck.k9.Throttle.MyTimerTask,MyTimerTask,Coordinator,class,k9mail\src\main\java\com\fsck\k9\Throttle.MyTimerTask.java
+src.main.java.com.fsck.k9.Throttle,Throttle,Controller,class,k9mail\src\main\java\com\fsck\k9\Throttle.java
+src.main.java.com.fsck.k9.widget.list.MessageListRemoteViewFactory.MailItem,MailItem,Information Holder,class,k9mail\src\main\java\com\fsck\k9\widget\list\MessageListRemoteViewFactory.MailItem.java
+src.main.java.com.fsck.k9.widget.list.MessageListRemoteViewFactory,MessageListRemoteViewFactory,Interfacer,class,k9mail\src\main\java\com\fsck\k9\widget\list\MessageListRemoteViewFactory.java
+src.main.java.com.fsck.k9.widget.list.MessageListWidgetProvider,MessageListWidgetProvider,Controller,class,k9mail\src\main\java\com\fsck\k9\widget\list\MessageListWidgetProvider.java
+src.main.java.com.fsck.k9.widget.list.MessageListWidgetService,MessageListWidgetService,Service Provider,class,k9mail\src\main\java\com\fsck\k9\widget\list\MessageListWidgetService.java
+src.main.java.com.fsck.k9.view.ClientCertificateSpinner.OnClientCertificateChangedListener,OnClientCertificateChangedListener,Service Provider,interface,k9mail\src\main\java\com\fsck\k9\view\ClientCertificateSpinner.OnClientCertificateChangedListener.java
+src.main.java.com.fsck.k9.view.ClientCertificateSpinner,ClientCertificateSpinner,Interfacer,class,k9mail\src\main\java\com\fsck\k9\view\ClientCertificateSpinner.java
+src.main.java.com.fsck.k9.view.ColorChip,ColorChip,Coordinator,class,k9mail\src\main\java\com\fsck\k9\view\ColorChip.java
+src.main.java.com.fsck.k9.view.CryptoModeSelector.CryptoModeSelectorState,CryptoModeSelectorState,Information Holder,enum,k9mail\src\main\java\com\fsck\k9\view\CryptoModeSelector.CryptoModeSelectorState.java
+src.main.java.com.fsck.k9.view.CryptoModeSelector.CryptoStatusSelectedListener,CryptoStatusSelectedListener,Service Provider,interface,k9mail\src\main\java\com\fsck\k9\view\CryptoModeSelector.CryptoStatusSelectedListener.java
+src.main.java.com.fsck.k9.view.CryptoModeSelector,CryptoModeSelector,Information Holder,interface,k9mail\src\main\java\com\fsck\k9\view\CryptoModeSelector.java
+src.main.java.com.fsck.k9.view.FoldableLinearLayout.SavedState,SavedState,Coordinator,class,k9mail\src\main\java\com\fsck\k9\view\FoldableLinearLayout.SavedState.java
+src.main.java.com.fsck.k9.view.FoldableLinearLayout,FoldableLinearLayout,Interfacer,class,k9mail\src\main\java\com\fsck\k9\view\FoldableLinearLayout.java
+src.main.java.com.fsck.k9.view.HighlightDialogFragment,HighlightDialogFragment,Service Provider,class,k9mail\src\main\java\com\fsck\k9\view\HighlightDialogFragment.java
+src.main.java.com.fsck.k9.view.K9WebViewClient.LollipopWebViewClient,LollipopWebViewClient,Interfacer,class,k9mail\src\main\java\com\fsck\k9\view\K9WebViewClient.LollipopWebViewClient.java
+src.main.java.com.fsck.k9.view.K9WebViewClient.PreLollipopWebViewClient,PreLollipopWebViewClient,Interfacer,class,k9mail\src\main\java\com\fsck\k9\view\K9WebViewClient.PreLollipopWebViewClient.java
+src.main.java.com.fsck.k9.view.K9WebViewClient,K9WebViewClient,Interfacer,abstract class,k9mail\src\main\java\com\fsck\k9\view\K9WebViewClient.java
+src.main.java.com.fsck.k9.view.LinearViewAnimator,LinearViewAnimator,Service Provider,class,k9mail\src\main\java\com\fsck\k9\view\LinearViewAnimator.java
+src.main.java.com.fsck.k9.view.MessageCryptoDisplayStatus,MessageCryptoDisplayStatus,Information Holder,enum,k9mail\src\main\java\com\fsck\k9\view\MessageCryptoDisplayStatus.java
+src.main.java.com.fsck.k9.view.MessageCryptoStatusView,MessageCryptoStatusView,Interfacer,class,k9mail\src\main\java\com\fsck\k9\view\MessageCryptoStatusView.java
+src.main.java.com.fsck.k9.view.MessageHeader.HeaderEntry,HeaderEntry,Information Holder,class,k9mail\src\main\java\com\fsck\k9\view\MessageHeader.HeaderEntry.java
+src.main.java.com.fsck.k9.view.MessageHeader.OnLayoutChangedListener,OnLayoutChangedListener,Service Provider,interface,k9mail\src\main\java\com\fsck\k9\view\MessageHeader.OnLayoutChangedListener.java
+src.main.java.com.fsck.k9.view.MessageHeader.SavedState,SavedState,Information Holder,class,k9mail\src\main\java\com\fsck\k9\view\MessageHeader.SavedState.java
+src.main.java.com.fsck.k9.view.MessageTitleView,MessageTitleView,Interfacer,class,k9mail\src\main\java\com\fsck\k9\view\MessageTitleView.java
+src.main.java.com.fsck.k9.view.MessageHeader,MessageHeader,Interfacer,class,k9mail\src\main\java\com\fsck\k9\view\MessageHeader.java
+src.main.java.com.fsck.k9.view.MessageWebView.OnPageFinishedListener,OnPageFinishedListener,Service Provider,interface,k9mail\src\main\java\com\fsck\k9\view\MessageWebView.OnPageFinishedListener.java
+src.main.java.com.fsck.k9.view.MessageWebView,MessageWebView,Coordinator,class,k9mail\src\main\java\com\fsck\k9\view\MessageWebView.java
+src.main.java.com.fsck.k9.view.NonLockingScrollView.HierarchyTreeChangeListener,HierarchyTreeChangeListener,Service Provider,class,k9mail\src\main\java\com\fsck\k9\view\NonLockingScrollView.HierarchyTreeChangeListener.java
+src.main.java.com.fsck.k9.view.NonLockingScrollView,NonLockingScrollView,Interfacer,class,k9mail\src\main\java\com\fsck\k9\view\NonLockingScrollView.java
+src.main.java.com.fsck.k9.view.RecipientSelectView.Recipient,Recipient,Information Holder,class,k9mail\src\main\java\com\fsck\k9\view\RecipientSelectView.Recipient.java
+src.main.java.com.fsck.k9.view.RecipientSelectView.RecipientCryptoStatus,RecipientCryptoStatus,Information Holder,enum,k9mail\src\main\java\com\fsck\k9\view\RecipientSelectView.RecipientCryptoStatus.java
+src.main.java.com.fsck.k9.view.RecipientSelectView.RecipientTokenSpan,RecipientTokenSpan,Information Holder,class,k9mail\src\main\java\com\fsck\k9\view\RecipientSelectView.RecipientTokenSpan.java
+src.main.java.com.fsck.k9.view.RecipientSelectView.RecipientTokenViewHolder,RecipientTokenViewHolder,Information Holder,class,k9mail\src\main\java\com\fsck\k9\view\RecipientSelectView.RecipientTokenViewHolder.java
+src.main.java.com.fsck.k9.view.RecipientSelectView.TokenListener,TokenListener,Service Provider,interface,k9mail\src\main\java\com\fsck\k9\view\RecipientSelectView.TokenListener.java
+src.main.java.com.fsck.k9.view.RigidWebView,RigidWebView,Information Holder,class,k9mail\src\main\java\com\fsck\k9\view\RigidWebView.java
+src.main.java.com.fsck.k9.view.ThemeUtils,ThemeUtils,Coordinator,class,k9mail\src\main\java\com\fsck\k9\view\ThemeUtils.java
+src.main.java.com.fsck.k9.view.ViewSwitcher.OnSwitchCompleteListener,OnSwitchCompleteListener,Service Provider,interface,k9mail\src\main\java\com\fsck\k9\view\ViewSwitcher.OnSwitchCompleteListener.java
+src.main.java.com.fsck.k9.view.ToolableViewAnimator,ToolableViewAnimator,Interfacer,class,k9mail\src\main\java\com\fsck\k9\view\ToolableViewAnimator.java
+src.main.java.com.fsck.k9.view.RecipientSelectView,RecipientSelectView,Interfacer,class,k9mail\src\main\java\com\fsck\k9\view\RecipientSelectView.java
+src.main.java.com.fsck.k9.view.ViewSwitcher,ViewSwitcher,Service Provider,class,k9mail\src\main\java\com\fsck\k9\view\ViewSwitcher.java
+src.main.java.com.fsck.k9.ui.ContactBadge.QueryHandler,QueryHandler,Controller,class,k9mail\src\main\java\com\fsck\k9\ui\ContactBadge.QueryHandler.java
+src.main.java.com.fsck.k9.ui.ContactBadge,ContactBadge,Interfacer,class,k9mail\src\main\java\com\fsck\k9\ui\ContactBadge.java
+src.main.java.com.fsck.k9.ui.EolConvertingEditText,EolConvertingEditText,Service Provider,class,k9mail\src\main\java\com\fsck\k9\ui\EolConvertingEditText.java
+src.main.java.com.fsck.k9.ui.messageview.AttachmentController.IntentAndResolvedActivitiesCount,IntentAndResolvedActivitiesCount,Information Holder,class,k9mail\src\main\java\com\fsck\k9\ui\messageview\AttachmentController.IntentAndResolvedActivitiesCount.java
+src.main.java.com.fsck.k9.ui.messageview.AttachmentController.SaveAttachmentAsyncTask,SaveAttachmentAsyncTask,Service Provider,class,k9mail\src\main\java\com\fsck\k9\ui\messageview\AttachmentController.SaveAttachmentAsyncTask.java
+src.main.java.com.fsck.k9.ui.messageview.AttachmentController.ViewAttachmentAsyncTask,ViewAttachmentAsyncTask,Service Provider,class,k9mail\src\main\java\com\fsck\k9\ui\messageview\AttachmentController.ViewAttachmentAsyncTask.java
+src.main.java.com.fsck.k9.ui.messageview.AttachmentViewCallback,AttachmentViewCallback,Service Provider,interface,k9mail\src\main\java\com\fsck\k9\ui\messageview\AttachmentViewCallback.java
+src.main.java.com.fsck.k9.ui.messageview.AttachmentView,AttachmentView,Coordinator,class,k9mail\src\main\java\com\fsck\k9\ui\messageview\AttachmentView.java
+src.main.java.com.fsck.k9.ui.messageview.AttachmentController,AttachmentController,Controller,class,k9mail\src\main\java\com\fsck\k9\ui\messageview\AttachmentController.java
+src.main.java.com.fsck.k9.ui.messageview.CryptoInfoDialog.OnClickShowCryptoKeyListener,OnClickShowCryptoKeyListener,Service Provider,interface,k9mail\src\main\java\com\fsck\k9\ui\messageview\CryptoInfoDialog.OnClickShowCryptoKeyListener.java
+src.main.java.com.fsck.k9.ui.messageview.CryptoInfoDialog,CryptoInfoDialog,Interfacer,class,k9mail\src\main\java\com\fsck\k9\ui\messageview\CryptoInfoDialog.java
+src.main.java.com.fsck.k9.ui.messageview.DownloadImageTask,DownloadImageTask,Service Provider,class,k9mail\src\main\java\com\fsck\k9\ui\messageview\DownloadImageTask.java
+src.main.java.com.fsck.k9.ui.messageview.LockedAttachmentView,LockedAttachmentView,Interfacer,class,k9mail\src\main\java\com\fsck\k9\ui\messageview\LockedAttachmentView.java
+src.main.java.com.fsck.k9.ui.messageview.MessageContainerView.OnRenderingFinishedListener,OnRenderingFinishedListener,Service Provider,interface,k9mail\src\main\java\com\fsck\k9\ui\messageview\MessageContainerView.OnRenderingFinishedListener.java
+src.main.java.com.fsck.k9.ui.messageview.MessageContainerView.SavedState,SavedState,Information Holder,class,k9mail\src\main\java\com\fsck\k9\ui\messageview\MessageContainerView.SavedState.java
+src.main.java.com.fsck.k9.ui.messageview.MessageCryptoPresenter.MessageCryptoMvpView,MessageCryptoMvpView,Service Provider,interface,k9mail\src\main\java\com\fsck\k9\ui\messageview\MessageCryptoPresenter.MessageCryptoMvpView.java
+src.main.java.com.fsck.k9.ui.messageview.MessageCryptoPresenter,MessageCryptoPresenter,Controller,class,k9mail\src\main\java\com\fsck\k9\ui\messageview\MessageCryptoPresenter.java
+src.main.java.com.fsck.k9.ui.messageview.MessageViewFragment.MessageViewFragmentListener,MessageViewFragmentListener,Service Provider,interface,k9mail\src\main\java\com\fsck\k9\ui\messageview\MessageViewFragment.MessageViewFragmentListener.java
+src.main.java.com.fsck.k9.ui.messageview.MessageContainerView,MessageContainerView,Interfacer,class,k9mail\src\main\java\com\fsck\k9\ui\messageview\MessageContainerView.java
+src.main.java.com.fsck.k9.ui.messageview.MessageTopView,MessageTopView,Interfacer,class,k9mail\src\main\java\com\fsck\k9\ui\messageview\MessageTopView.java
+src.main.java.com.fsck.k9.ui.messageview.OnCryptoClickListener,OnCryptoClickListener,Service Provider,interface,k9mail\src\main\java\com\fsck\k9\ui\messageview\OnCryptoClickListener.java
+src.main.java.com.fsck.k9.ui.message.LocalMessageExtractorLoader,LocalMessageExtractorLoader,Service Provider,class,k9mail\src\main\java\com\fsck\k9\ui\message\LocalMessageExtractorLoader.java
+src.main.java.com.fsck.k9.ui.message.LocalMessageLoader,LocalMessageLoader,Service Provider,class,k9mail\src\main\java\com\fsck\k9\ui\message\LocalMessageLoader.java
+src.main.java.com.fsck.k9.ui.dialog.ApgDeprecationWarningDialog,ApgDeprecationWarningDialog,Interfacer,class,k9mail\src\main\java\com\fsck\k9\ui\dialog\ApgDeprecationWarningDialog.java
+src.main.java.com.fsck.k9.ui.crypto.MessageCryptoAnnotations,MessageCryptoAnnotations,Structurer,class,k9mail\src\main\java\com\fsck\k9\ui\crypto\MessageCryptoAnnotations.java
+src.main.java.com.fsck.k9.ui.crypto.MessageCryptoCallback,MessageCryptoCallback,Service Provider,interface,k9mail\src\main\java\com\fsck\k9\ui\crypto\MessageCryptoCallback.java
+src.main.java.com.fsck.k9.ui.messageview.MessageViewFragment,MessageViewFragment,Interfacer,class,k9mail\src\main\java\com\fsck\k9\ui\messageview\MessageViewFragment.java
+src.main.java.com.fsck.k9.ui.crypto.MessageCryptoHelper.CryptoPart,CryptoPart,Information Holder,class,k9mail\src\main\java\com\fsck\k9\ui\crypto\MessageCryptoHelper.CryptoPart.java
+src.main.java.com.fsck.k9.ui.crypto.MessageCryptoHelper.CryptoPartType,CryptoPartType,Information Holder,enum,k9mail\src\main\java\com\fsck\k9\ui\crypto\MessageCryptoHelper.CryptoPartType.java
+src.main.java.com.fsck.k9.ui.crypto.MessageCryptoHelper.State,State,Information Holder,enum,k9mail\src\main\java\com\fsck\k9\ui\crypto\MessageCryptoHelper.State.java
+src.main.java.com.fsck.k9.ui.crypto.OpenPgpApiFactory,OpenPgpApiFactory,Service Provider,class,k9mail\src\main\java\com\fsck\k9\ui\crypto\OpenPgpApiFactory.java
+src.main.java.com.fsck.k9.ui.compose.QuotedMessageMvpView,QuotedMessageMvpView,Interfacer,class,k9mail\src\main\java\com\fsck\k9\ui\compose\QuotedMessageMvpView.java
+src.main.java.com.fsck.k9.setup.ServerNameSuggester,ServerNameSuggester,Service Provider,class,k9mail\src\main\java\com\fsck\k9\setup\ServerNameSuggester.java
+src.main.java.com.fsck.k9.ui.compose.QuotedMessagePresenter,QuotedMessagePresenter,Structurer,class,k9mail\src\main\java\com\fsck\k9\ui\compose\QuotedMessagePresenter.java
+src.main.java.com.fsck.k9.ui.crypto.MessageCryptoHelper,MessageCryptoHelper,Service Provider,class,k9mail\src\main\java\com\fsck\k9\ui\crypto\MessageCryptoHelper.java
+src.main.java.com.fsck.k9.service.BootReceiver,BootReceiver,Service Provider,class,k9mail\src\main\java\com\fsck\k9\service\BootReceiver.java
+src.main.java.com.fsck.k9.service.CoreReceiver,CoreReceiver,Service Provider,class,k9mail\src\main\java\com\fsck\k9\service\CoreReceiver.java
+src.main.java.com.fsck.k9.service.CoreService,CoreService,Service Provider,abstract class,k9mail\src\main\java\com\fsck\k9\service\CoreService.java
+src.main.java.com.fsck.k9.service.DatabaseUpgradeService,DatabaseUpgradeService,Service Provider,class,k9mail\src\main\java\com\fsck\k9\service\DatabaseUpgradeService.java
+src.main.java.com.fsck.k9.service.PollService.Listener,Listener,Service Provider,class,k9mail\src\main\java\com\fsck\k9\service\PollService.Listener.java
+src.main.java.com.fsck.k9.service.PollService,PollService,Service Provider,class,k9mail\src\main\java\com\fsck\k9\service\PollService.java
+src.main.java.com.fsck.k9.service.PushService,PushService,Service Provider,class,k9mail\src\main\java\com\fsck\k9\service\PushService.java
+src.main.java.com.fsck.k9.service.RemoteControlReceiver,RemoteControlReceiver,Service Provider,class,k9mail\src\main\java\com\fsck\k9\service\RemoteControlReceiver.java
+src.main.java.com.fsck.k9.service.MailService,MailService,Controller,class,k9mail\src\main\java\com\fsck\k9\service\MailService.java
+src.main.java.com.fsck.k9.service.ShutdownReceiver,ShutdownReceiver,Service Provider,class,k9mail\src\main\java\com\fsck\k9\service\ShutdownReceiver.java
+src.main.java.com.fsck.k9.service.SleepService.SleepDatum,SleepDatum,Information Holder,class,k9mail\src\main\java\com\fsck\k9\service\SleepService.SleepDatum.java
+src.main.java.com.fsck.k9.service.RemoteControlService,RemoteControlService,Controller,class,k9mail\src\main\java\com\fsck\k9\service\RemoteControlService.java
+src.main.java.com.fsck.k9.service.StorageGoneReceiver,StorageGoneReceiver,Service Provider,class,k9mail\src\main\java\com\fsck\k9\service\StorageGoneReceiver.java
+src.main.java.com.fsck.k9.service.SleepService,SleepService,Service Provider,class,k9mail\src\main\java\com\fsck\k9\service\SleepService.java
+src.main.java.com.fsck.k9.service.StorageReceiver,StorageReceiver,Service Provider,class,k9mail\src\main\java\com\fsck\k9\service\StorageReceiver.java
+src.main.java.com.fsck.k9.search.ConditionsTreeNode.Operator,Operator,Information Holder,enum,k9mail\src\main\java\com\fsck\k9\search\ConditionsTreeNode.Operator.java
+src.main.java.com.fsck.k9.search.ConditionsTreeNode,ConditionsTreeNode,Structurer,class,k9mail\src\main\java\com\fsck\k9\search\ConditionsTreeNode.java
+src.main.java.com.fsck.k9.search.SearchAccount,SearchAccount,Coordinator,class,k9mail\src\main\java\com\fsck\k9\search\SearchAccount.java
+src.main.java.com.fsck.k9.search.LocalSearch,LocalSearch,Structurer,class,k9mail\src\main\java\com\fsck\k9\search\LocalSearch.java
+src.main.java.com.fsck.k9.search.SearchSpecification.Attribute,Attribute,Information Holder,enum,k9mail\src\main\java\com\fsck\k9\search\SearchSpecification.Attribute.java
+src.main.java.com.fsck.k9.search.SearchSpecification.SearchCondition,SearchCondition,Information Holder,class,k9mail\src\main\java\com\fsck\k9\search\SearchSpecification.SearchCondition.java
+src.main.java.com.fsck.k9.search.SearchSpecification.SearchField,SearchField,Information Holder,enum,k9mail\src\main\java\com\fsck\k9\search\SearchSpecification.SearchField.java
+src.main.java.com.fsck.k9.search.SearchSpecification,SearchSpecification,Information Holder,interface,k9mail\src\main\java\com\fsck\k9\search\SearchSpecification.java
+src.main.java.com.fsck.k9.remotecontrol.AccountReceiver,AccountReceiver,Service Provider,class,k9mail\src\main\java\com\fsck\k9\remotecontrol\AccountReceiver.java
+src.main.java.com.fsck.k9.remotecontrol.K9AccountReceptor,K9AccountReceptor,Service Provider,interface,k9mail\src\main\java\com\fsck\k9\remotecontrol\K9AccountReceptor.java
+src.main.java.com.fsck.k9.search.SqlQueryBuilder,SqlQueryBuilder,Service Provider,class,k9mail\src\main\java\com\fsck\k9\search\SqlQueryBuilder.java
+src.main.java.com.fsck.k9.provider.AttachmentProvider.AttachmentProviderColumns,AttachmentProviderColumns,Information Holder,class,k9mail\src\main\java\com\fsck\k9\provider\AttachmentProvider.AttachmentProviderColumns.java
+src.main.java.com.fsck.k9.remotecontrol.K9RemoteControl,K9RemoteControl,Information Holder,class,k9mail\src\main\java\com\fsck\k9\remotecontrol\K9RemoteControl.java
+src.main.java.com.fsck.k9.provider.AttachmentTempFileProvider.AttachmentTempFileProviderCleanupReceiver,AttachmentTempFileProviderCleanupReceiver,Service Provider,class,k9mail\src\main\java\com\fsck\k9\provider\AttachmentTempFileProvider.AttachmentTempFileProviderCleanupReceiver.java
+src.main.java.com.fsck.k9.provider.AttachmentProvider,AttachmentProvider,Service Provider,class,k9mail\src\main\java\com\fsck\k9\provider\AttachmentProvider.java
+src.main.java.com.fsck.k9.provider.DecryptedFileProvider.DecryptedFileProviderCleanupReceiver,DecryptedFileProviderCleanupReceiver,Service Provider,class,k9mail\src\main\java\com\fsck\k9\provider\DecryptedFileProvider.DecryptedFileProviderCleanupReceiver.java
+src.main.java.com.fsck.k9.provider.AttachmentTempFileProvider,AttachmentTempFileProvider,Service Provider,class,k9mail\src\main\java\com\fsck\k9\provider\AttachmentTempFileProvider.java
+src.main.java.com.fsck.k9.provider.EmailProvider.FolderColumns,FolderColumns,Information Holder,interface,k9mail\src\main\java\com\fsck\k9\provider\EmailProvider.FolderColumns.java
+src.main.java.com.fsck.k9.provider.DecryptedFileProvider,DecryptedFileProvider,Service Provider,class,k9mail\src\main\java\com\fsck\k9\provider\DecryptedFileProvider.java
+src.main.java.com.fsck.k9.provider.EmailProvider.IdTrickeryCursor,IdTrickeryCursor,Service Provider,class,k9mail\src\main\java\com\fsck\k9\provider\EmailProvider.IdTrickeryCursor.java
+src.main.java.com.fsck.k9.provider.EmailProvider.InternalMessageColumns,InternalMessageColumns,Information Holder,interface,k9mail\src\main\java\com\fsck\k9\provider\EmailProvider.InternalMessageColumns.java
+src.main.java.com.fsck.k9.provider.EmailProvider.MessageColumns,MessageColumns,Information Holder,interface,k9mail\src\main\java\com\fsck\k9\provider\EmailProvider.MessageColumns.java
+src.main.java.com.fsck.k9.provider.EmailProvider.SpecialColumns,SpecialColumns,Information Holder,interface,k9mail\src\main\java\com\fsck\k9\provider\EmailProvider.SpecialColumns.java
+src.main.java.com.fsck.k9.provider.EmailProvider.StatsColumns,StatsColumns,Information Holder,interface,k9mail\src\main\java\com\fsck\k9\provider\EmailProvider.StatsColumns.java
+src.main.java.com.fsck.k9.provider.EmailProvider.SpecialColumnsCursor,SpecialColumnsCursor,Information Holder,class,k9mail\src\main\java\com\fsck\k9\provider\EmailProvider.SpecialColumnsCursor.java
+src.main.java.com.fsck.k9.provider.EmailProvider.ThreadColumns,ThreadColumns,Information Holder,interface,k9mail\src\main\java\com\fsck\k9\provider\EmailProvider.ThreadColumns.java
+src.main.java.com.fsck.k9.provider.MessageProvider.AccountColorExtractor,AccountColorExtractor,Coordinator,class,k9mail\src\main\java\com\fsck\k9\provider\MessageProvider.AccountColorExtractor.java
+src.main.java.com.fsck.k9.provider.MessageProvider.AccountColumns,AccountColumns,Information Holder,interface,k9mail\src\main\java\com\fsck\k9\provider\MessageProvider.AccountColumns.java
+src.main.java.com.fsck.k9.provider.MessageProvider.AccountExtractor,AccountExtractor,Coordinator,class,k9mail\src\main\java\com\fsck\k9\provider\MessageProvider.AccountExtractor.java
+src.main.java.com.fsck.k9.provider.MessageProvider.AccountNumberExtractor,AccountNumberExtractor,Coordinator,class,k9mail\src\main\java\com\fsck\k9\provider\MessageProvider.AccountNumberExtractor.java
+src.main.java.com.fsck.k9.provider.MessageProvider.AccountsQueryHandler,AccountsQueryHandler,Service Provider,class,k9mail\src\main\java\com\fsck\k9\provider\MessageProvider.AccountsQueryHandler.java
+src.main.java.com.fsck.k9.provider.MessageProvider.CountExtractor,CountExtractor,Information Holder,class,k9mail\src\main\java\com\fsck\k9\provider\MessageProvider.CountExtractor.java
+src.main.java.com.fsck.k9.provider.EmailProvider,EmailProvider,Service Provider,class,k9mail\src\main\java\com\fsck\k9\provider\EmailProvider.java
+src.main.java.com.fsck.k9.provider.MessageProvider.DeleteUriExtractor,DeleteUriExtractor,Coordinator,class,k9mail\src\main\java\com\fsck\k9\provider\MessageProvider.DeleteUriExtractor.java
+src.main.java.com.fsck.k9.provider.MessageProvider.FieldExtractor,FieldExtractor,Structurer,interface,k9mail\src\main\java\com\fsck\k9\provider\MessageProvider.FieldExtractor.java
+src.main.java.com.fsck.k9.provider.MessageProvider.HasAttachmentsExtractor,HasAttachmentsExtractor,Coordinator,class,k9mail\src\main\java\com\fsck\k9\provider\MessageProvider.HasAttachmentsExtractor.java
+src.main.java.com.fsck.k9.provider.MessageProvider.HasStarExtractor,HasStarExtractor,Coordinator,class,k9mail\src\main\java\com\fsck\k9\provider\MessageProvider.HasStarExtractor.java
+src.main.java.com.fsck.k9.provider.MessageProvider.IdExtractor,IdExtractor,Coordinator,class,k9mail\src\main\java\com\fsck\k9\provider\MessageProvider.IdExtractor.java
+src.main.java.com.fsck.k9.provider.MessageProvider.IncrementExtractor,IncrementExtractor,Information Holder,class,k9mail\src\main\java\com\fsck\k9\provider\MessageProvider.IncrementExtractor.java
+src.main.java.com.fsck.k9.provider.MessageProvider.MessageColumns,MessageColumns,Information Holder,interface,k9mail\src\main\java\com\fsck\k9\provider\MessageProvider.MessageColumns.java
+src.main.java.com.fsck.k9.provider.MessageProvider.MessageInfoHolderRetrieverListener,MessageInfoHolderRetrieverListener,Structurer,class,k9mail\src\main\java\com\fsck\k9\provider\MessageProvider.MessageInfoHolderRetrieverListener.java
+src.main.java.com.fsck.k9.provider.MessageProvider.MessagesQueryHandler,MessagesQueryHandler,Structurer,class,k9mail\src\main\java\com\fsck\k9\provider\MessageProvider.MessagesQueryHandler.java
+src.main.java.com.fsck.k9.provider.MessageProvider.PreviewExtractor,PreviewExtractor,Coordinator,class,k9mail\src\main\java\com\fsck\k9\provider\MessageProvider.PreviewExtractor.java
+src.main.java.com.fsck.k9.provider.MessageProvider.QueryHandler,QueryHandler,Service Provider,interface,k9mail\src\main\java\com\fsck\k9\provider\MessageProvider.QueryHandler.java
+src.main.java.com.fsck.k9.provider.MessageProvider.MonitoredCursor,MonitoredCursor,Service Provider,class,k9mail\src\main\java\com\fsck\k9\provider\MessageProvider.MonitoredCursor.java
+src.main.java.com.fsck.k9.provider.MessageProvider.ReverseDateComparator,ReverseDateComparator,Service Provider,class,k9mail\src\main\java\com\fsck\k9\provider\MessageProvider.ReverseDateComparator.java
+src.main.java.com.fsck.k9.provider.MessageProvider.SendDateExtractor,SendDateExtractor,Coordinator,class,k9mail\src\main\java\com\fsck\k9\provider\MessageProvider.SendDateExtractor.java
+src.main.java.com.fsck.k9.provider.MessageProvider.SenderAddressExtractor,SenderAddressExtractor,Coordinator,class,k9mail\src\main\java\com\fsck\k9\provider\MessageProvider.SenderAddressExtractor.java
+src.main.java.com.fsck.k9.provider.MessageProvider.SenderExtractor,SenderExtractor,Coordinator,class,k9mail\src\main\java\com\fsck\k9\provider\MessageProvider.SenderExtractor.java
+src.main.java.com.fsck.k9.provider.MessageProvider.SubjectExtractor,SubjectExtractor,Coordinator,class,k9mail\src\main\java\com\fsck\k9\provider\MessageProvider.SubjectExtractor.java
+src.main.java.com.fsck.k9.provider.MessageProvider.ThrottlingQueryHandler,ThrottlingQueryHandler,Service Provider,class,k9mail\src\main\java\com\fsck\k9\provider\MessageProvider.ThrottlingQueryHandler.java
+src.main.java.com.fsck.k9.provider.MessageProvider.UnreadColumns,UnreadColumns,Information Holder,interface,k9mail\src\main\java\com\fsck\k9\provider\MessageProvider.UnreadColumns.java
+src.main.java.com.fsck.k9.provider.MessageProvider.UnreadExtractor,UnreadExtractor,Coordinator,class,k9mail\src\main\java\com\fsck\k9\provider\MessageProvider.UnreadExtractor.java
+src.main.java.com.fsck.k9.provider.MessageProvider.UnreadQueryHandler,UnreadQueryHandler,Service Provider,class,k9mail\src\main\java\com\fsck\k9\provider\MessageProvider.UnreadQueryHandler.java
+src.main.java.com.fsck.k9.provider.MessageProvider.UriExtractor,UriExtractor,Coordinator,class,k9mail\src\main\java\com\fsck\k9\provider\MessageProvider.UriExtractor.java
+src.main.java.com.fsck.k9.provider.MessageProvider,MessageProvider,Coordinator,class,k9mail\src\main\java\com\fsck\k9\provider\MessageProvider.java
+src.main.java.com.fsck.k9.provider.UnreadWidgetProvider,UnreadWidgetProvider,Controller,class,k9mail\src\main\java\com\fsck\k9\provider\UnreadWidgetProvider.java
+src.main.java.com.fsck.k9.preferences.AccountSettings.DeletePolicySetting,DeletePolicySetting,Structurer,class,k9mail\src\main\java\com\fsck\k9\preferences\AccountSettings.DeletePolicySetting.java
+src.main.java.com.fsck.k9.preferences.AccountSettings.IntegerResourceSetting,IntegerResourceSetting,Structurer,class,k9mail\src\main\java\com\fsck\k9\preferences\AccountSettings.IntegerResourceSetting.java
+src.main.java.com.fsck.k9.preferences.AccountSettings.RingtoneSetting,RingtoneSetting,Service Provider,class,k9mail\src\main\java\com\fsck\k9\preferences\AccountSettings.RingtoneSetting.java
+src.main.java.com.fsck.k9.preferences.AccountSettings.StorageProviderSetting,StorageProviderSetting,Service Provider,class,k9mail\src\main\java\com\fsck\k9\preferences\AccountSettings.StorageProviderSetting.java
+src.main.java.com.fsck.k9.preferences.AccountSettings.StringResourceSetting,StringResourceSetting,Structurer,class,k9mail\src\main\java\com\fsck\k9\preferences\AccountSettings.StringResourceSetting.java
+src.main.java.com.fsck.k9.preferences.CheckBoxListPreference,CheckBoxListPreference,Service Provider,class,k9mail\src\main\java\com\fsck\k9\preferences\CheckBoxListPreference.java
+src.main.java.com.fsck.k9.preferences.FolderSettings,FolderSettings,Coordinator,class,k9mail\src\main\java\com\fsck\k9\preferences\FolderSettings.java
+src.main.java.com.fsck.k9.preferences.GlobalSettings.DirectorySetting,DirectorySetting,Service Provider,class,k9mail\src\main\java\com\fsck\k9\preferences\GlobalSettings.DirectorySetting.java
+src.main.java.com.fsck.k9.preferences.AccountSettings,AccountSettings,Coordinator,class,k9mail\src\main\java\com\fsck\k9\preferences\AccountSettings.java
+src.main.java.com.fsck.k9.preferences.GlobalSettings.LanguageSetting,LanguageSetting,Structurer,class,k9mail\src\main\java\com\fsck\k9\preferences\GlobalSettings.LanguageSetting.java
+src.main.java.com.fsck.k9.preferences.GlobalSettings.SettingsUpgraderV12,SettingsUpgraderV12,Service Provider,class,k9mail\src\main\java\com\fsck\k9\preferences\GlobalSettings.SettingsUpgraderV12.java
+src.main.java.com.fsck.k9.preferences.GlobalSettings.SettingsUpgraderV24,SettingsUpgraderV24,Service Provider,class,k9mail\src\main\java\com\fsck\k9\preferences\GlobalSettings.SettingsUpgraderV24.java
+src.main.java.com.fsck.k9.preferences.GlobalSettings.SettingsUpgraderV31,SettingsUpgraderV31,Service Provider,class,k9mail\src\main\java\com\fsck\k9\preferences\GlobalSettings.SettingsUpgraderV31.java
+src.main.java.com.fsck.k9.preferences.GlobalSettings.SubThemeSetting,SubThemeSetting,Service Provider,class,k9mail\src\main\java\com\fsck\k9\preferences\GlobalSettings.SubThemeSetting.java
+src.main.java.com.fsck.k9.preferences.GlobalSettings.ThemeSetting,ThemeSetting,Service Provider,class,k9mail\src\main\java\com\fsck\k9\preferences\GlobalSettings.ThemeSetting.java
+src.main.java.com.fsck.k9.preferences.GlobalSettings.TimeSetting,TimeSetting,Service Provider,class,k9mail\src\main\java\com\fsck\k9\preferences\GlobalSettings.TimeSetting.java
+src.main.java.com.fsck.k9.preferences.IdentitySettings.OptionalEmailAddressSetting,OptionalEmailAddressSetting,Service Provider,class,k9mail\src\main\java\com\fsck\k9\preferences\IdentitySettings.OptionalEmailAddressSetting.java
+src.main.java.com.fsck.k9.preferences.IdentitySettings.SignatureSetting,SignatureSetting,Service Provider,class,k9mail\src\main\java\com\fsck\k9\preferences\IdentitySettings.SignatureSetting.java
+src.main.java.com.fsck.k9.preferences.IdentitySettings,IdentitySettings,Coordinator,class,k9mail\src\main\java\com\fsck\k9\preferences\IdentitySettings.java
+src.main.java.com.fsck.k9.preferences.Settings.BooleanSetting,BooleanSetting,Service Provider,class,k9mail\src\main\java\com\fsck\k9\preferences\Settings.BooleanSetting.java
+src.main.java.com.fsck.k9.preferences.GlobalSettings,GlobalSettings,Coordinator,class,k9mail\src\main\java\com\fsck\k9\preferences\GlobalSettings.java
+src.main.java.com.fsck.k9.preferences.Settings.ColorSetting,ColorSetting,Service Provider,class,k9mail\src\main\java\com\fsck\k9\preferences\Settings.ColorSetting.java
+src.main.java.com.fsck.k9.preferences.Settings.EnumSetting,EnumSetting,Service Provider,class,k9mail\src\main\java\com\fsck\k9\preferences\Settings.EnumSetting.java
+src.main.java.com.fsck.k9.preferences.Settings.FontSizeSetting,FontSizeSetting,Structurer,class,k9mail\src\main\java\com\fsck\k9\preferences\Settings.FontSizeSetting.java
+src.main.java.com.fsck.k9.preferences.Settings.IntegerRangeSetting,IntegerRangeSetting,Service Provider,class,k9mail\src\main\java\com\fsck\k9\preferences\Settings.IntegerRangeSetting.java
+src.main.java.com.fsck.k9.preferences.Settings.InvalidSettingValueException,InvalidSettingValueException,Information Holder,class,k9mail\src\main\java\com\fsck\k9\preferences\Settings.InvalidSettingValueException.java
+src.main.java.com.fsck.k9.preferences.Settings.PseudoEnumSetting,PseudoEnumSetting,Service Provider,abstract class,k9mail\src\main\java\com\fsck\k9\preferences\Settings.PseudoEnumSetting.java
+src.main.java.com.fsck.k9.preferences.Settings.SettingsDescription,SettingsDescription,Information Holder,abstract class,k9mail\src\main\java\com\fsck\k9\preferences\Settings.SettingsDescription.java
+src.main.java.com.fsck.k9.preferences.Settings.SettingsUpgrader,SettingsUpgrader,Service Provider,interface,k9mail\src\main\java\com\fsck\k9\preferences\Settings.SettingsUpgrader.java
+src.main.java.com.fsck.k9.preferences.Settings.StringSetting,StringSetting,Service Provider,class,k9mail\src\main\java\com\fsck\k9\preferences\Settings.StringSetting.java
+src.main.java.com.fsck.k9.preferences.Settings.V,V,Information Holder,class,k9mail\src\main\java\com\fsck\k9\preferences\Settings.V.java
+src.main.java.com.fsck.k9.preferences.Settings.WebFontSizeSetting,WebFontSizeSetting,Structurer,class,k9mail\src\main\java\com\fsck\k9\preferences\Settings.WebFontSizeSetting.java
+src.main.java.com.fsck.k9.preferences.Settings,Settings,Service Provider,class,k9mail\src\main\java\com\fsck\k9\preferences\Settings.java
+src.main.java.com.fsck.k9.preferences.SettingsImportExportException,SettingsImportExportException,Information Holder,class,k9mail\src\main\java\com\fsck\k9\preferences\SettingsImportExportException.java
+src.main.java.com.fsck.k9.preferences.SettingsImporter.AccountDescription,AccountDescription,Information Holder,class,k9mail\src\main\java\com\fsck\k9\preferences\SettingsImporter.AccountDescription.java
+src.main.java.com.fsck.k9.preferences.SettingsImporter.AccountDescriptionPair,AccountDescriptionPair,Information Holder,class,k9mail\src\main\java\com\fsck\k9\preferences\SettingsImporter.AccountDescriptionPair.java
+src.main.java.com.fsck.k9.preferences.SettingsImporter.ImportContents,ImportContents,Information Holder,class,k9mail\src\main\java\com\fsck\k9\preferences\SettingsImporter.ImportContents.java
+src.main.java.com.fsck.k9.preferences.SettingsImporter.ImportResults,ImportResults,Information Holder,class,k9mail\src\main\java\com\fsck\k9\preferences\SettingsImporter.ImportResults.java
+src.main.java.com.fsck.k9.preferences.SettingsImporter.Imported,Imported,Information Holder,class,k9mail\src\main\java\com\fsck\k9\preferences\SettingsImporter.Imported.java
+src.main.java.com.fsck.k9.preferences.SettingsImporter.ImportedAccount,ImportedAccount,Information Holder,class,k9mail\src\main\java\com\fsck\k9\preferences\SettingsImporter.ImportedAccount.java
+src.main.java.com.fsck.k9.preferences.SettingsExporter,SettingsExporter,Service Provider,class,k9mail\src\main\java\com\fsck\k9\preferences\SettingsExporter.java
+src.main.java.com.fsck.k9.preferences.SettingsImporter.ImportedFolder,ImportedFolder,Information Holder,class,k9mail\src\main\java\com\fsck\k9\preferences\SettingsImporter.ImportedFolder.java
+src.main.java.com.fsck.k9.preferences.SettingsImporter.ImportedIdentity,ImportedIdentity,Information Holder,class,k9mail\src\main\java\com\fsck\k9\preferences\SettingsImporter.ImportedIdentity.java
+src.main.java.com.fsck.k9.preferences.SettingsImporter.ImportedServer,ImportedServer,Information Holder,class,k9mail\src\main\java\com\fsck\k9\preferences\SettingsImporter.ImportedServer.java
+src.main.java.com.fsck.k9.preferences.SettingsImporter.ImportedServerSettings,ImportedServerSettings,Information Holder,class,k9mail\src\main\java\com\fsck\k9\preferences\SettingsImporter.ImportedServerSettings.java
+src.main.java.com.fsck.k9.preferences.SettingsImporter.ImportedSettings,ImportedSettings,Information Holder,class,k9mail\src\main\java\com\fsck\k9\preferences\SettingsImporter.ImportedSettings.java
+src.main.java.com.fsck.k9.preferences.StorageEditor,StorageEditor,Structurer,class,k9mail\src\main\java\com\fsck\k9\preferences\StorageEditor.java
+src.main.java.com.fsck.k9.preferences.TimePickerPreference,TimePickerPreference,Interfacer,class,k9mail\src\main\java\com\fsck\k9\preferences\TimePickerPreference.java
+src.main.java.com.fsck.k9.preferences.Storage,Storage,Structurer,class,k9mail\src\main\java\com\fsck\k9\preferences\Storage.java
+src.main.java.com.fsck.k9.power.DeviceIdleManager.NoOpDeviceIdleManager,NoOpDeviceIdleManager,Service Provider,class,k9mail\src\main\java\com\fsck\k9\power\DeviceIdleManager.NoOpDeviceIdleManager.java
+src.main.java.com.fsck.k9.power.DeviceIdleManager.RealDeviceIdleManager,RealDeviceIdleManager,Service Provider,class,k9mail\src\main\java\com\fsck\k9\power\DeviceIdleManager.RealDeviceIdleManager.java
+src.main.java.com.fsck.k9.preferences.SettingsImporter,SettingsImporter,Service Provider,class,k9mail\src\main\java\com\fsck\k9\preferences\SettingsImporter.java
+src.main.java.com.fsck.k9.power.DeviceIdleManager,DeviceIdleManager,Service Provider,abstract class,k9mail\src\main\java\com\fsck\k9\power\DeviceIdleManager.java
+src.main.java.com.fsck.k9.power.DeviceIdleReceiver,DeviceIdleReceiver,Coordinator,class,k9mail\src\main\java\com\fsck\k9\power\DeviceIdleReceiver.java
+src.main.java.com.fsck.k9.power.DozeChecker,DozeChecker,Coordinator,class,k9mail\src\main\java\com\fsck\k9\power\DozeChecker.java
+src.main.java.com.fsck.k9.notification.AddNotificationResult,AddNotificationResult,Information Holder,class,k9mail\src\main\java\com\fsck\k9\notification\AddNotificationResult.java
+src.main.java.com.fsck.k9.notification.AuthenticationErrorNotifications,AuthenticationErrorNotifications,Coordinator,class,k9mail\src\main\java\com\fsck\k9\notification\AuthenticationErrorNotifications.java
+src.main.java.com.fsck.k9.notification.BaseNotifications,BaseNotifications,Coordinator,abstract class,k9mail\src\main\java\com\fsck\k9\notification\BaseNotifications.java
+src.main.java.com.fsck.k9.notification.CertificateErrorNotifications,CertificateErrorNotifications,Coordinator,class,k9mail\src\main\java\com\fsck\k9\notification\CertificateErrorNotifications.java
+src.main.java.com.fsck.k9.notification.DeviceNotifications,DeviceNotifications,Service Provider,class,k9mail\src\main\java\com\fsck\k9\notification\DeviceNotifications.java
+src.main.java.com.fsck.k9.notification.LockScreenNotification,LockScreenNotification,Coordinator,class,k9mail\src\main\java\com\fsck\k9\notification\LockScreenNotification.java
+src.main.java.com.fsck.k9.notification.NewMailNotifications,NewMailNotifications,Coordinator,class,k9mail\src\main\java\com\fsck\k9\notification\NewMailNotifications.java
+src.main.java.com.fsck.k9.notification.NotificationActionCreator,NotificationActionCreator,Service Provider,class,k9mail\src\main\java\com\fsck\k9\notification\NotificationActionCreator.java
+src.main.java.com.fsck.k9.notification.NotificationActionService,NotificationActionService,Controller,class,k9mail\src\main\java\com\fsck\k9\notification\NotificationActionService.java
+src.main.java.com.fsck.k9.notification.NotificationContent,NotificationContent,Information Holder,class,k9mail\src\main\java\com\fsck\k9\notification\NotificationContent.java
+src.main.java.com.fsck.k9.notification.NotificationContentCreator,NotificationContentCreator,Service Provider,class,k9mail\src\main\java\com\fsck\k9\notification\NotificationContentCreator.java
+src.main.java.com.fsck.k9.notification.NotificationController,NotificationController,Controller,class,k9mail\src\main\java\com\fsck\k9\notification\NotificationController.java
+src.main.java.com.fsck.k9.notification.NotificationData,NotificationData,Structurer,class,k9mail\src\main\java\com\fsck\k9\notification\NotificationData.java
+src.main.java.com.fsck.k9.notification.NotificationGroupKeys,NotificationGroupKeys,Information Holder,class,k9mail\src\main\java\com\fsck\k9\notification\NotificationGroupKeys.java
+src.main.java.com.fsck.k9.notification.NotificationHolder,NotificationHolder,Information Holder,class,k9mail\src\main\java\com\fsck\k9\notification\NotificationHolder.java
+src.main.java.com.fsck.k9.notification.NotificationIds,NotificationIds,Information Holder,class,k9mail\src\main\java\com\fsck\k9\notification\NotificationIds.java
+src.main.java.com.fsck.k9.notification.RemoveNotificationResult,RemoveNotificationResult,Information Holder,class,k9mail\src\main\java\com\fsck\k9\notification\RemoveNotificationResult.java
+src.main.java.com.fsck.k9.notification.SendFailedNotifications,SendFailedNotifications,Coordinator,class,k9mail\src\main\java\com\fsck\k9\notification\SendFailedNotifications.java
+src.main.java.com.fsck.k9.notification.SyncNotifications,SyncNotifications,Coordinator,class,k9mail\src\main\java\com\fsck\k9\notification\SyncNotifications.java
+src.main.java.com.fsck.k9.notification.WearNotifications,WearNotifications,Coordinator,class,k9mail\src\main\java\com\fsck\k9\notification\WearNotifications.java
+src.main.java.com.fsck.k9.message.AutocryptStatusInteractor.RecipientAutocryptStatus,RecipientAutocryptStatus,Information Holder,class,k9mail\src\main\java\com\fsck\k9\message\AutocryptStatusInteractor.RecipientAutocryptStatus.java
+src.main.java.com.fsck.k9.message.AutocryptStatusInteractor.RecipientAutocryptStatusType,RecipientAutocryptStatusType,Information Holder,enum,k9mail\src\main\java\com\fsck\k9\message\AutocryptStatusInteractor.RecipientAutocryptStatusType.java
+src.main.java.com.fsck.k9.message.AutocryptStatusInteractor,AutocryptStatusInteractor,Service Provider,class,k9mail\src\main\java\com\fsck\k9\message\AutocryptStatusInteractor.java
+src.main.java.com.fsck.k9.message.ComposePgpEnableByDefaultDecider,ComposePgpEnableByDefaultDecider,Service Provider,class,k9mail\src\main\java\com\fsck\k9\message\ComposePgpEnableByDefaultDecider.java
+src.main.java.com.fsck.k9.message.ComposePgpInlineDecider,ComposePgpInlineDecider,Service Provider,class,k9mail\src\main\java\com\fsck\k9\message\ComposePgpInlineDecider.java
+src.main.java.com.fsck.k9.message.IdentityField,IdentityField,Information Holder,enum,k9mail\src\main\java\com\fsck\k9\message\IdentityField.java
+src.main.java.com.fsck.k9.message.IdentityHeaderBuilder,IdentityHeaderBuilder,Service Provider,class,k9mail\src\main\java\com\fsck\k9\message\IdentityHeaderBuilder.java
+src.main.java.com.fsck.k9.message.IdentityHeaderParser,IdentityHeaderParser,Service Provider,class,k9mail\src\main\java\com\fsck\k9\message\IdentityHeaderParser.java
+src.main.java.com.fsck.k9.message.MessageBuilder.Callback,Callback,Service Provider,interface,k9mail\src\main\java\com\fsck\k9\message\MessageBuilder.Callback.java
+src.main.java.com.fsck.k9.message.MessageBuilder,MessageBuilder,Service Provider,abstract class,k9mail\src\main\java\com\fsck\k9\message\MessageBuilder.java
+src.main.java.com.fsck.k9.message.PgpMessageBuilder,PgpMessageBuilder,Service Provider,class,k9mail\src\main\java\com\fsck\k9\message\PgpMessageBuilder.java
+src.main.java.com.fsck.k9.message.QuotedTextMode,QuotedTextMode,Information Holder,enum,k9mail\src\main\java\com\fsck\k9\message\QuotedTextMode.java
+src.main.java.com.fsck.k9.message.SimpleMessageBuilder,SimpleMessageBuilder,Service Provider,class,k9mail\src\main\java\com\fsck\k9\message\SimpleMessageBuilder.java
+src.main.java.com.fsck.k9.message.SimpleMessageFormat,SimpleMessageFormat,Information Holder,enum,k9mail\src\main\java\com\fsck\k9\message\SimpleMessageFormat.java
+src.main.java.com.fsck.k9.message.TextBodyBuilder,TextBodyBuilder,Service Provider,class,k9mail\src\main\java\com\fsck\k9\message\TextBodyBuilder.java
+src.main.java.com.fsck.k9.message.signature.HtmlSignatureRemover.StripSignatureFilter,StripSignatureFilter,Service Provider,class,k9mail\src\main\java\com\fsck\k9\message\signature\HtmlSignatureRemover.StripSignatureFilter.java
+src.main.java.com.fsck.k9.message.signature.HtmlSignatureRemover,HtmlSignatureRemover,Coordinator,class,k9mail\src\main\java\com\fsck\k9\message\signature\HtmlSignatureRemover.java
+src.main.java.com.fsck.k9.message.signature.TextSignatureRemover,TextSignatureRemover,Service Provider,class,k9mail\src\main\java\com\fsck\k9\message\signature\TextSignatureRemover.java
+src.main.java.com.fsck.k9.message.quote.HtmlQuoteCreator,HtmlQuoteCreator,Service Provider,class,k9mail\src\main\java\com\fsck\k9\message\quote\HtmlQuoteCreator.java
+src.main.java.com.fsck.k9.message.quote.InsertableHtmlContent.InsertionLocation,InsertionLocation,Information Holder,enum,k9mail\src\main\java\com\fsck\k9\message\quote\InsertableHtmlContent.InsertionLocation.java
+src.main.java.com.fsck.k9.message.quote.InsertableHtmlContent,InsertableHtmlContent,Information Holder,class,k9mail\src\main\java\com\fsck\k9\message\quote\InsertableHtmlContent.java
+src.main.java.com.fsck.k9.message.quote.QuoteHelper,QuoteHelper,Service Provider,class,k9mail\src\main\java\com\fsck\k9\message\quote\QuoteHelper.java
+src.main.java.com.fsck.k9.message.quote.TextQuoteCreator,TextQuoteCreator,Service Provider,class,k9mail\src\main\java\com\fsck\k9\message\quote\TextQuoteCreator.java
+src.main.java.com.fsck.k9.message.html.BitcoinUriParser,BitcoinUriParser,Service Provider,class,k9mail\src\main\java\com\fsck\k9\message\html\BitcoinUriParser.java
+src.main.java.com.fsck.k9.message.html.EthereumUriParser,EthereumUriParser,Service Provider,class,k9mail\src\main\java\com\fsck\k9\message\html\EthereumUriParser.java
+src.main.java.com.fsck.k9.message.html.HeadCleaner.CleaningVisitor,CleaningVisitor,Structurer,class,k9mail\src\main\java\com\fsck\k9\message\html\HeadCleaner.CleaningVisitor.java
+src.main.java.com.fsck.k9.message.html.HeadCleaner,HeadCleaner,Coordinator,class,k9mail\src\main\java\com\fsck\k9\message\html\HeadCleaner.java
+src.main.java.com.fsck.k9.message.html.HtmlConverter.HtmlToTextTagHandler,HtmlToTextTagHandler,Service Provider,class,k9mail\src\main\java\com\fsck\k9\message\html\HtmlConverter.HtmlToTextTagHandler.java
+src.main.java.com.fsck.k9.message.html.HtmlConverter.ListTagHandler,ListTagHandler,Service Provider,class,k9mail\src\main\java\com\fsck\k9\message\html\HtmlConverter.ListTagHandler.java
+src.main.java.com.fsck.k9.message.html.HtmlConverter,HtmlConverter,Service Provider,class,k9mail\src\main\java\com\fsck\k9\message\html\HtmlConverter.java
+src.main.java.com.fsck.k9.message.html.HtmlProcessor,HtmlProcessor,Service Provider,class,k9mail\src\main\java\com\fsck\k9\message\html\HtmlProcessor.java
+src.main.java.com.fsck.k9.message.html.HtmlSanitizer,HtmlSanitizer,Coordinator,class,k9mail\src\main\java\com\fsck\k9\message\html\HtmlSanitizer.java
+src.main.java.com.fsck.k9.message.html.HttpUriParser,HttpUriParser,Service Provider,class,k9mail\src\main\java\com\fsck\k9\message\html\HttpUriParser.java
+src.main.java.com.fsck.k9.message.html.UriLinkifier,UriLinkifier,Service Provider,class,k9mail\src\main\java\com\fsck\k9\message\html\UriLinkifier.java
+src.main.java.com.fsck.k9.message.html.UriParser,UriParser,Service Provider,interface,k9mail\src\main\java\com\fsck\k9\message\html\UriParser.java
+src.main.java.com.fsck.k9.message.extractors.AttachmentCounter,AttachmentCounter,Service Provider,class,k9mail\src\main\java\com\fsck\k9\message\extractors\AttachmentCounter.java
+src.main.java.com.fsck.k9.message.extractors.AttachmentInfoExtractor,AttachmentInfoExtractor,Service Provider,class,k9mail\src\main\java\com\fsck\k9\message\extractors\AttachmentInfoExtractor.java
+src.main.java.com.fsck.k9.message.extractors.BodyTextExtractor,BodyTextExtractor,Interfacer,class,k9mail\src\main\java\com\fsck\k9\message\extractors\BodyTextExtractor.java
+src.main.java.com.fsck.k9.message.extractors.EncryptionDetector,EncryptionDetector,Service Provider,class,k9mail\src\main\java\com\fsck\k9\message\extractors\EncryptionDetector.java
+src.main.java.com.fsck.k9.message.extractors.MessageFulltextCreator,MessageFulltextCreator,Service Provider,class,k9mail\src\main\java\com\fsck\k9\message\extractors\MessageFulltextCreator.java
+src.main.java.com.fsck.k9.message.extractors.MessagePreviewCreator,MessagePreviewCreator,Service Provider,class,k9mail\src\main\java\com\fsck\k9\message\extractors\MessagePreviewCreator.java
+src.main.java.com.fsck.k9.message.extractors.PreviewExtractionException,PreviewExtractionException,Service Provider,class,k9mail\src\main\java\com\fsck\k9\message\extractors\PreviewExtractionException.java
+src.main.java.com.fsck.k9.message.extractors.PreviewResult.PreviewType,PreviewType,Information Holder,enum,k9mail\src\main\java\com\fsck\k9\message\extractors\PreviewResult.PreviewType.java
+src.main.java.com.fsck.k9.message.extractors.PreviewResult,PreviewResult,Information Holder,class,k9mail\src\main\java\com\fsck\k9\message\extractors\PreviewResult.java
+src.main.java.com.fsck.k9.message.extractors.PreviewTextExtractor,PreviewTextExtractor,Service Provider,class,k9mail\src\main\java\com\fsck\k9\message\extractors\PreviewTextExtractor.java
+src.main.java.com.fsck.k9.message.extractors.TextPartFinder,TextPartFinder,Service Provider,class,k9mail\src\main\java\com\fsck\k9\message\extractors\TextPartFinder.java
+src.main.java.com.fsck.k9.mailstore.AttachmentResolver,AttachmentResolver,Service Provider,class,k9mail\src\main\java\com\fsck\k9\mailstore\AttachmentResolver.java
+src.main.java.com.fsck.k9.mailstore.AttachmentViewInfo,AttachmentViewInfo,Information Holder,class,k9mail\src\main\java\com\fsck\k9\mailstore\AttachmentViewInfo.java
+src.main.java.com.fsck.k9.mailstore.BinaryAttachmentBody,BinaryAttachmentBody,Service Provider,abstract class,k9mail\src\main\java\com\fsck\k9\mailstore\BinaryAttachmentBody.java
+src.main.java.com.fsck.k9.mailstore.CryptoResultAnnotation.CryptoError,CryptoError,Information Holder,enum,k9mail\src\main\java\com\fsck\k9\mailstore\CryptoResultAnnotation.CryptoError.java
+src.main.java.com.fsck.k9.mailstore.DatabasePreviewType,DatabasePreviewType,Information Holder,enum,k9mail\src\main\java\com\fsck\k9\mailstore\DatabasePreviewType.java
+src.main.java.com.fsck.k9.mailstore.CryptoResultAnnotation,CryptoResultAnnotation,Information Holder,class,k9mail\src\main\java\com\fsck\k9\mailstore\CryptoResultAnnotation.java
+src.main.java.com.fsck.k9.mailstore.DeferredFileBody,DeferredFileBody,Service Provider,class,k9mail\src\main\java\com\fsck\k9\mailstore\DeferredFileBody.java
+src.main.java.com.fsck.k9.mailstore.FileBackedBody,FileBackedBody,Information Holder,class,k9mail\src\main\java\com\fsck\k9\mailstore\FileBackedBody.java
+src.main.java.com.fsck.k9.mailstore.LocalBodyPart,LocalBodyPart,Information Holder,class,k9mail\src\main\java\com\fsck\k9\mailstore\LocalBodyPart.java
+src.main.java.com.fsck.k9.mailstore.LocalFolder.DataLocation,DataLocation,Information Holder,class,k9mail\src\main\java\com\fsck\k9\mailstore\LocalFolder.DataLocation.java
+src.main.java.com.fsck.k9.mailstore.LocalFolder.MessagePartType,MessagePartType,Information Holder,class,k9mail\src\main\java\com\fsck\k9\mailstore\LocalFolder.MessagePartType.java
+src.main.java.com.fsck.k9.mailstore.LocalFolder.MoreMessages,MoreMessages,Information Holder,enum,k9mail\src\main\java\com\fsck\k9\mailstore\LocalFolder.MoreMessages.java
+src.main.java.com.fsck.k9.mailstore.LocalFolder.PartContainer,PartContainer,Information Holder,class,k9mail\src\main\java\com\fsck\k9\mailstore\LocalFolder.PartContainer.java
+src.main.java.com.fsck.k9.mailstore.LocalFolder.PreferencesHolder,PreferencesHolder,Information Holder,class,k9mail\src\main\java\com\fsck\k9\mailstore\LocalFolder.PreferencesHolder.java
+src.main.java.com.fsck.k9.mailstore.LocalMimeMessage,LocalMimeMessage,Information Holder,class,k9mail\src\main\java\com\fsck\k9\mailstore\LocalMimeMessage.java
+src.main.java.com.fsck.k9.mailstore.LocalPart,LocalPart,Structurer,interface,k9mail\src\main\java\com\fsck\k9\mailstore\LocalPart.java
+src.main.java.com.fsck.k9.mailstore.LockableDatabase.DbCallback,DbCallback,Coordinator,interface,k9mail\src\main\java\com\fsck\k9\mailstore\LockableDatabase.DbCallback.java
+src.main.java.com.fsck.k9.mailstore.LockableDatabase.SchemaDefinition,SchemaDefinition,Service Provider,interface,k9mail\src\main\java\com\fsck\k9\mailstore\LockableDatabase.SchemaDefinition.java
+src.main.java.com.fsck.k9.mailstore.LocalMessage,LocalMessage,Information Holder,class,k9mail\src\main\java\com\fsck\k9\mailstore\LocalMessage.java
+src.main.java.com.fsck.k9.mailstore.LockableDatabase.StorageListener,StorageListener,Service Provider,class,k9mail\src\main\java\com\fsck\k9\mailstore\LockableDatabase.StorageListener.java
+src.main.java.com.fsck.k9.mailstore.LockableDatabase.WrappedException,WrappedException,Service Provider,class,k9mail\src\main\java\com\fsck\k9\mailstore\LockableDatabase.WrappedException.java
+src.main.java.com.fsck.k9.mailstore.LockableDatabase,LockableDatabase,Service Provider,class,k9mail\src\main\java\com\fsck\k9\mailstore\LockableDatabase.java
+src.main.java.com.fsck.k9.mailstore.LocalStore,LocalStore,Service Provider,interface,k9mail\src\main\java\com\fsck\k9\mailstore\LocalStore.java
+src.main.java.com.fsck.k9.mailstore.MessageHelper,MessageHelper,Service Provider,class,k9mail\src\main\java\com\fsck\k9\mailstore\MessageHelper.java
+src.main.java.com.fsck.k9.mailstore.MessageRemovalListener,MessageRemovalListener,Service Provider,interface,k9mail\src\main\java\com\fsck\k9\mailstore\MessageRemovalListener.java
+src.main.java.com.fsck.k9.mailstore.MessageViewInfo,MessageViewInfo,Information Holder,class,k9mail\src\main\java\com\fsck\k9\mailstore\MessageViewInfo.java
+src.main.java.com.fsck.k9.mailstore.MessageViewInfoExtractor.ViewableExtractedText,ViewableExtractedText,Information Holder,class,k9mail\src\main\java\com\fsck\k9\mailstore\MessageViewInfoExtractor.ViewableExtractedText.java
+src.main.java.com.fsck.k9.mailstore.MessageViewInfoExtractor,MessageViewInfoExtractor,Controller,class,k9mail\src\main\java\com\fsck\k9\mailstore\MessageViewInfoExtractor.java
+src.main.java.com.fsck.k9.mailstore.MimePartStreamParser.PartBuilder,PartBuilder,Structurer,class,k9mail\src\main\java\com\fsck\k9\mailstore\MimePartStreamParser.PartBuilder.java
+src.main.java.com.fsck.k9.mailstore.MimePartStreamParser,MimePartStreamParser,Service Provider,class,k9mail\src\main\java\com\fsck\k9\mailstore\MimePartStreamParser.java
+src.main.java.com.fsck.k9.mailstore.StorageManager.ExternalStorageProvider,ExternalStorageProvider,Information Holder,class,k9mail\src\main\java\com\fsck\k9\mailstore\StorageManager.ExternalStorageProvider.java
+src.main.java.com.fsck.k9.mailstore.StorageManager.FixedStorageProviderBase,FixedStorageProviderBase,Information Holder,abstract class,k9mail\src\main\java\com\fsck\k9\mailstore\StorageManager.FixedStorageProviderBase.java
+src.main.java.com.fsck.k9.mailstore.LocalFolder,LocalFolder,Information Holder,class,k9mail\src\main\java\com\fsck\k9\mailstore\LocalFolder.java
+src.main.java.com.fsck.k9.mailstore.StorageManager.HtcIncredibleStorageProvider,HtcIncredibleStorageProvider,Information Holder,class,k9mail\src\main\java\com\fsck\k9\mailstore\StorageManager.HtcIncredibleStorageProvider.java
+src.main.java.com.fsck.k9.mailstore.StorageManager.InternalStorageProvider,InternalStorageProvider,Information Holder,class,k9mail\src\main\java\com\fsck\k9\mailstore\StorageManager.InternalStorageProvider.java
+src.main.java.com.fsck.k9.mailstore.StorageManager.SamsungGalaxySStorageProvider,SamsungGalaxySStorageProvider,Information Holder,class,k9mail\src\main\java\com\fsck\k9\mailstore\StorageManager.SamsungGalaxySStorageProvider.java
+src.main.java.com.fsck.k9.mailstore.StorageManager.StorageListener,StorageListener,Structurer,interface,k9mail\src\main\java\com\fsck\k9\mailstore\StorageManager.StorageListener.java
+src.main.java.com.fsck.k9.mailstore.StorageManager.StorageProvider,StorageProvider,Information Holder,interface,k9mail\src\main\java\com\fsck\k9\mailstore\StorageManager.StorageProvider.java
+src.main.java.com.fsck.k9.mailstore.StorageManager.SynchronizationAid,SynchronizationAid,Information Holder,class,k9mail\src\main\java\com\fsck\k9\mailstore\StorageManager.SynchronizationAid.java
+src.main.java.com.fsck.k9.mailstore.StoreSchemaDefinition.RealMigrationsHelper,RealMigrationsHelper,Information Holder,class,k9mail\src\main\java\com\fsck\k9\mailstore\StoreSchemaDefinition.RealMigrationsHelper.java
+src.main.java.com.fsck.k9.mailstore.StorageManager,StorageManager,Service Provider,class,k9mail\src\main\java\com\fsck\k9\mailstore\StorageManager.java
+src.main.java.com.fsck.k9.mailstore.StoreSchemaDefinition,StoreSchemaDefinition,Service Provider,class,k9mail\src\main\java\com\fsck\k9\mailstore\StoreSchemaDefinition.java
+src.main.java.com.fsck.k9.mailstore.TempFileBody,TempFileBody,Information Holder,class,k9mail\src\main\java\com\fsck\k9\mailstore\TempFileBody.java
+src.main.java.com.fsck.k9.mailstore.ThreadInfo,ThreadInfo,Information Holder,class,k9mail\src\main\java\com\fsck\k9\mailstore\ThreadInfo.java
+src.main.java.com.fsck.k9.mailstore.UnavailableStorageException,UnavailableStorageException,Information Holder,class,k9mail\src\main\java\com\fsck\k9\mailstore\UnavailableStorageException.java
+src.main.java.com.fsck.k9.mailstore.util.DeferredFileOutputStream,DeferredFileOutputStream,Information Holder,class,k9mail\src\main\java\com\fsck\k9\mailstore\util\DeferredFileOutputStream.java
+src.main.java.com.fsck.k9.mailstore.util.FileFactory,FileFactory,Service Provider,interface,k9mail\src\main\java\com\fsck\k9\mailstore\util\FileFactory.java
+src.main.java.com.fsck.k9.mailstore.migrations.MigrationTo30,MigrationTo30,Service Provider,class,k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo30.java
+src.main.java.com.fsck.k9.mailstore.migrations.MigrationTo31,MigrationTo31,Service Provider,class,k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo31.java
+src.main.java.com.fsck.k9.mailstore.util.FlowedMessageUtils,FlowedMessageUtils,Service Provider,class,k9mail\src\main\java\com\fsck\k9\mailstore\util\FlowedMessageUtils.java
+src.main.java.com.fsck.k9.mailstore.migrations.MigrationTo32,MigrationTo32,Service Provider,class,k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo32.java
+src.main.java.com.fsck.k9.mailstore.migrations.MigrationTo33,MigrationTo33,Service Provider,class,k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo33.java
+src.main.java.com.fsck.k9.mailstore.migrations.MigrationTo34,MigrationTo34,Service Provider,class,k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo34.java
+src.main.java.com.fsck.k9.mailstore.migrations.MigrationTo35,MigrationTo35,Service Provider,class,k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo35.java
+src.main.java.com.fsck.k9.mailstore.migrations.MigrationTo36,MigrationTo36,Service Provider,class,k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo36.java
+src.main.java.com.fsck.k9.mailstore.migrations.MigrationTo37,MigrationTo37,Service Provider,class,k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo37.java
+src.main.java.com.fsck.k9.mailstore.migrations.MigrationTo39,MigrationTo39,Service Provider,class,k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo39.java
+src.main.java.com.fsck.k9.mailstore.migrations.MigrationTo40,MigrationTo40,Service Provider,class,k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo40.java
+src.main.java.com.fsck.k9.mailstore.migrations.MigrationTo41,MigrationTo41,Service Provider,class,k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo41.java
+src.main.java.com.fsck.k9.mailstore.migrations.MigrationTo42,MigrationTo42,Service Provider,class,k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo42.java
+src.main.java.com.fsck.k9.mailstore.migrations.MigrationTo43,MigrationTo43,Service Provider,class,k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo43.java
+src.main.java.com.fsck.k9.mailstore.migrations.MigrationTo44,MigrationTo44,Service Provider,class,k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo44.java
+src.main.java.com.fsck.k9.mailstore.migrations.MigrationTo45,MigrationTo45,Service Provider,class,k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo45.java
+src.main.java.com.fsck.k9.mailstore.migrations.MigrationTo46,MigrationTo46,Service Provider,class,k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo46.java
+src.main.java.com.fsck.k9.mailstore.migrations.MigrationTo47,MigrationTo47,Service Provider,class,k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo47.java
+src.main.java.com.fsck.k9.mailstore.migrations.MigrationTo48,MigrationTo48,Service Provider,class,k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo48.java
+src.main.java.com.fsck.k9.mailstore.migrations.MigrationTo49,MigrationTo49,Service Provider,class,k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo49.java
+src.main.java.com.fsck.k9.mailstore.migrations.MigrationTo50,MigrationTo50,Service Provider,class,k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo50.java
+src.main.java.com.fsck.k9.mailstore.migrations.MigrationTo51.MimeStructureState,MimeStructureState,Information Holder,class,k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo51.MimeStructureState.java
+src.main.java.com.fsck.k9.mailstore.migrations.MigrationTo52,MigrationTo52,Service Provider,class,k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo52.java
+src.main.java.com.fsck.k9.mailstore.migrations.MigrationTo53,MigrationTo53,Service Provider,class,k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo53.java
+src.main.java.com.fsck.k9.mailstore.migrations.MigrationTo54,MigrationTo54,Service Provider,class,k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo54.java
+src.main.java.com.fsck.k9.mailstore.migrations.MigrationTo55,MigrationTo55,Service Provider,class,k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo55.java
+src.main.java.com.fsck.k9.mailstore.migrations.MigrationTo56,MigrationTo56,Service Provider,class,k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo56.java
+src.main.java.com.fsck.k9.mailstore.migrations.MigrationTo57,MigrationTo57,Service Provider,class,k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo57.java
+src.main.java.com.fsck.k9.mailstore.migrations.MigrationTo58,MigrationTo58,Service Provider,class,k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo58.java
+src.main.java.com.fsck.k9.mailstore.migrations.MigrationTo51,MigrationTo51,Service Provider,class,k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo51.java
+src.main.java.com.fsck.k9.mailstore.migrations.MigrationTo59,MigrationTo59,Service Provider,class,k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo59.java
+src.main.java.com.fsck.k9.mailstore.migrations.MigrationTo60.OldPendingCommand,OldPendingCommand,Information Holder,class,k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo60.OldPendingCommand.java
+src.main.java.com.fsck.k9.mailstore.migrations.MigrationTo61,MigrationTo61,Service Provider,class,k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo61.java
+src.main.java.com.fsck.k9.mailstore.migrations.MigrationTo60,MigrationTo60,Service Provider,class,k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo60.java
+src.main.java.com.fsck.k9.mailstore.migrations.Migrations,Migrations,Coordinator,class,k9mail\src\main\java\com\fsck\k9\mailstore\migrations\Migrations.java
+src.main.java.com.fsck.k9.mailstore.migrations.MigrationsHelper,MigrationsHelper,Structurer,interface,k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationsHelper.java
+src.main.java.com.fsck.k9.helper.ClipboardManager,ClipboardManager,Service Provider,class,k9mail\src\main\java\com\fsck\k9\helper\ClipboardManager.java
+src.main.java.com.fsck.k9.helper.ContactItem,ContactItem,Information Holder,class,k9mail\src\main\java\com\fsck\k9\helper\ContactItem.java
+src.main.java.com.fsck.k9.helper.ContactPicture,ContactPicture,Service Provider,class,k9mail\src\main\java\com\fsck\k9\helper\ContactPicture.java
+src.main.java.com.fsck.k9.helper.EmailHelper,EmailHelper,Service Provider,class,k9mail\src\main\java\com\fsck\k9\helper\EmailHelper.java
+src.main.java.com.fsck.k9.helper.Contacts,Contacts,Service Provider,class,k9mail\src\main\java\com\fsck\k9\helper\Contacts.java
+src.main.java.com.fsck.k9.helper.ExceptionHelper,ExceptionHelper,Service Provider,class,k9mail\src\main\java\com\fsck\k9\helper\ExceptionHelper.java
+src.main.java.com.fsck.k9.helper.FileBrowserHelper.FileBrowserFailOverCallback,FileBrowserFailOverCallback,Service Provider,interface,k9mail\src\main\java\com\fsck\k9\helper\FileBrowserHelper.FileBrowserFailOverCallback.java
+src.main.java.com.fsck.k9.helper.FileBrowserHelper,FileBrowserHelper,Service Provider,class,k9mail\src\main\java\com\fsck\k9\helper\FileBrowserHelper.java
+src.main.java.com.fsck.k9.helper.IdentityHelper,IdentityHelper,Service Provider,class,k9mail\src\main\java\com\fsck\k9\helper\IdentityHelper.java
+src.main.java.com.fsck.k9.helper.FileHelper,FileHelper,Service Provider,class,k9mail\src\main\java\com\fsck\k9\helper\FileHelper.java
+src.main.java.com.fsck.k9.helper.K9AlarmManager,K9AlarmManager,Coordinator,class,k9mail\src\main\java\com\fsck\k9\helper\K9AlarmManager.java
+src.main.java.com.fsck.k9.helper.MailTo.CaseInsensitiveParamWrapper,CaseInsensitiveParamWrapper,Service Provider,class,k9mail\src\main\java\com\fsck\k9\helper\MailTo.CaseInsensitiveParamWrapper.java
+src.main.java.com.fsck.k9.helper.MailTo,MailTo,Service Provider,class,k9mail\src\main\java\com\fsck\k9\helper\MailTo.java
+src.main.java.com.fsck.k9.helper.MergeCursorWithUniqueId,MergeCursorWithUniqueId,Information Holder,class,k9mail\src\main\java\com\fsck\k9\helper\MergeCursorWithUniqueId.java
+src.main.java.com.fsck.k9.helper.ParcelableUtil,ParcelableUtil,Service Provider,class,k9mail\src\main\java\com\fsck\k9\helper\ParcelableUtil.java
+src.main.java.com.fsck.k9.helper.MergeCursor,MergeCursor,Service Provider,class,k9mail\src\main\java\com\fsck\k9\helper\MergeCursor.java
+src.main.java.com.fsck.k9.helper.MessageHelper,MessageHelper,Service Provider,class,k9mail\src\main\java\com\fsck\k9\helper\MessageHelper.java
+src.main.java.com.fsck.k9.helper.Preconditions,Preconditions,Service Provider,class,k9mail\src\main\java\com\fsck\k9\helper\Preconditions.java
+src.main.java.com.fsck.k9.helper.ReplyToParser.ReplyToAddresses,ReplyToAddresses,Information Holder,class,k9mail\src\main\java\com\fsck\k9\helper\ReplyToParser.ReplyToAddresses.java
+src.main.java.com.fsck.k9.helper.ReplyToParser,ReplyToParser,Service Provider,class,k9mail\src\main\java\com\fsck\k9\helper\ReplyToParser.java
+src.main.java.com.fsck.k9.helper.RetainFragment,RetainFragment,Information Holder,class,k9mail\src\main\java\com\fsck\k9\helper\RetainFragment.java
+src.main.java.com.fsck.k9.helper.SimpleTextWatcher,SimpleTextWatcher,Service Provider,class,k9mail\src\main\java\com\fsck\k9\helper\SimpleTextWatcher.java
+src.main.java.com.fsck.k9.helper.SizeFormatter,SizeFormatter,Service Provider,class,k9mail\src\main\java\com\fsck\k9\helper\SizeFormatter.java
+src.main.java.com.fsck.k9.helper.UnreadWidgetProperties.Type,Type,Information Holder,enum,k9mail\src\main\java\com\fsck\k9\helper\UnreadWidgetProperties.Type.java
+src.main.java.com.fsck.k9.helper.UnreadWidgetProperties,UnreadWidgetProperties,Coordinator,class,k9mail\src\main\java\com\fsck\k9\helper\UnreadWidgetProperties.java
+src.main.java.com.fsck.k9.helper.UrlEncodingHelper,UrlEncodingHelper,Service Provider,class,k9mail\src\main\java\com\fsck\k9\helper\UrlEncodingHelper.java
+src.main.java.com.fsck.k9.helper.jsoup.AdvancedNodeTraversor.FilterResult,FilterResult,Information Holder,enum,k9mail\src\main\java\com\fsck\k9\helper\jsoup\AdvancedNodeTraversor.FilterResult.java
+src.main.java.com.fsck.k9.helper.Utility,Utility,Service Provider,class,k9mail\src\main\java\com\fsck\k9\helper\Utility.java
+src.main.java.com.fsck.k9.helper.jsoup.AdvancedNodeTraversor,AdvancedNodeTraversor,Service Provider,class,k9mail\src\main\java\com\fsck\k9\helper\jsoup\AdvancedNodeTraversor.java
+src.main.java.com.fsck.k9.helper.jsoup.NodeFilter.HeadFilterDecision,HeadFilterDecision,Information Holder,enum,k9mail\src\main\java\com\fsck\k9\helper\jsoup\NodeFilter.HeadFilterDecision.java
+src.main.java.com.fsck.k9.helper.jsoup.NodeFilter.TailFilterDecision,TailFilterDecision,Information Holder,enum,k9mail\src\main\java\com\fsck\k9\helper\jsoup\NodeFilter.TailFilterDecision.java
+src.main.java.com.fsck.k9.helper.jsoup.NodeFilter,NodeFilter,Service Provider,interface,k9mail\src\main\java\com\fsck\k9\helper\jsoup\NodeFilter.java
+src.main.java.com.fsck.k9.fragment.AttachmentDownloadDialogFragment.AttachmentDownloadCancelListener,AttachmentDownloadCancelListener,Interfacer,interface,k9mail\src\main\java\com\fsck\k9\fragment\AttachmentDownloadDialogFragment.AttachmentDownloadCancelListener.java
+src.main.java.com.fsck.k9.fragment.AttachmentDownloadDialogFragment,AttachmentDownloadDialogFragment,Interfacer,class,k9mail\src\main\java\com\fsck\k9\fragment\AttachmentDownloadDialogFragment.java
+src.main.java.com.fsck.k9.fragment.ConfirmationDialogFragment.ConfirmationDialogFragmentListener,ConfirmationDialogFragmentListener,Interfacer,interface,k9mail\src\main\java\com\fsck\k9\fragment\ConfirmationDialogFragment.ConfirmationDialogFragmentListener.java
+src.main.java.com.fsck.k9.fragment.ConfirmationDialogFragment,ConfirmationDialogFragment,Coordinator,class,k9mail\src\main\java\com\fsck\k9\fragment\ConfirmationDialogFragment.java
+src.main.java.com.fsck.k9.fragment.MLFProjectionInfo,MLFProjectionInfo,Information Holder,class,k9mail\src\main\java\com\fsck\k9\fragment\MLFProjectionInfo.java
+src.main.java.com.fsck.k9.fragment.MessageListFragment.FolderOperation,FolderOperation,Information Holder,enum,k9mail\src\main\java\com\fsck\k9\fragment\MessageListFragment.FolderOperation.java
+src.main.java.com.fsck.k9.fragment.MessageListFragment.ActionModeCallback,ActionModeCallback,Interfacer,class,k9mail\src\main\java\com\fsck\k9\fragment\MessageListFragment.ActionModeCallback.java
+src.main.java.com.fsck.k9.fragment.MessageListFragment.FooterViewHolder,FooterViewHolder,Information Holder,class,k9mail\src\main\java\com\fsck\k9\fragment\MessageListFragment.FooterViewHolder.java
+src.main.java.com.fsck.k9.fragment.MessageListAdapter,MessageListAdapter,Interfacer,class,k9mail\src\main\java\com\fsck\k9\fragment\MessageListAdapter.java
+src.main.java.com.fsck.k9.fragment.MessageListFragment.MessageListActivityListener,MessageListActivityListener,Coordinator,class,k9mail\src\main\java\com\fsck\k9\fragment\MessageListFragment.MessageListActivityListener.java
+src.main.java.com.fsck.k9.fragment.MessageListFragment.MessageListFragmentListener,MessageListFragmentListener,Service Provider,interface,k9mail\src\main\java\com\fsck\k9\fragment\MessageListFragment.MessageListFragmentListener.java
+src.main.java.com.fsck.k9.fragment.MessageListFragmentComparators.ArrivalComparator,ArrivalComparator,Service Provider,class,k9mail\src\main\java\com\fsck\k9\fragment\MessageListFragmentComparators.ArrivalComparator.java
+src.main.java.com.fsck.k9.fragment.MessageListFragmentComparators.AttachmentComparator,AttachmentComparator,Service Provider,class,k9mail\src\main\java\com\fsck\k9\fragment\MessageListFragmentComparators.AttachmentComparator.java
+src.main.java.com.fsck.k9.fragment.MessageListFragmentComparators.ComparatorChain,ComparatorChain,Service Provider,class,k9mail\src\main\java\com\fsck\k9\fragment\MessageListFragmentComparators.ComparatorChain.java
+src.main.java.com.fsck.k9.fragment.MessageListFragmentComparators.DateComparator,DateComparator,Service Provider,class,k9mail\src\main\java\com\fsck\k9\fragment\MessageListFragmentComparators.DateComparator.java
+src.main.java.com.fsck.k9.fragment.MessageListFragmentComparators.FlaggedComparator,FlaggedComparator,Service Provider,class,k9mail\src\main\java\com\fsck\k9\fragment\MessageListFragmentComparators.FlaggedComparator.java
+src.main.java.com.fsck.k9.fragment.MessageListFragmentComparators.ReverseComparator,ReverseComparator,Coordinator,class,k9mail\src\main\java\com\fsck\k9\fragment\MessageListFragmentComparators.ReverseComparator.java
+src.main.java.com.fsck.k9.fragment.MessageListFragmentComparators.ReverseIdComparator,ReverseIdComparator,Service Provider,class,k9mail\src\main\java\com\fsck\k9\fragment\MessageListFragmentComparators.ReverseIdComparator.java
+src.main.java.com.fsck.k9.fragment.MessageListFragmentComparators.SenderComparator,SenderComparator,Service Provider,class,k9mail\src\main\java\com\fsck\k9\fragment\MessageListFragmentComparators.SenderComparator.java
+src.main.java.com.fsck.k9.fragment.MessageListFragmentComparators.SubjectComparator,SubjectComparator,Service Provider,class,k9mail\src\main\java\com\fsck\k9\fragment\MessageListFragmentComparators.SubjectComparator.java
+src.main.java.com.fsck.k9.fragment.MessageListFragmentComparators.UnreadComparator,UnreadComparator,Service Provider,class,k9mail\src\main\java\com\fsck\k9\fragment\MessageListFragmentComparators.UnreadComparator.java
+src.main.java.com.fsck.k9.fragment.MessageListFragmentComparators,MessageListFragmentComparators,Service Provider,class,k9mail\src\main\java\com\fsck\k9\fragment\MessageListFragmentComparators.java
+src.main.java.com.fsck.k9.fragment.MessageViewHolder,MessageViewHolder,Interfacer,class,k9mail\src\main\java\com\fsck\k9\fragment\MessageViewHolder.java
+src.main.java.com.fsck.k9.fragment.MessageListHandler,MessageListHandler,Interfacer,class,k9mail\src\main\java\com\fsck\k9\fragment\MessageListHandler.java
+src.main.java.com.fsck.k9.fragment.MlfUtils,MlfUtils,Service Provider,class,k9mail\src\main\java\com\fsck\k9\fragment\MlfUtils.java
+src.main.java.com.fsck.k9.fragment.ProgressDialogFragment.CancelListener,CancelListener,Service Provider,interface,k9mail\src\main\java\com\fsck\k9\fragment\ProgressDialogFragment.CancelListener.java
+src.main.java.com.fsck.k9.fragment.ProgressDialogFragment,ProgressDialogFragment,Interfacer,class,k9mail\src\main\java\com\fsck\k9\fragment\ProgressDialogFragment.java
+src.main.java.com.fsck.k9.crypto.OpenPgpApiHelper,OpenPgpApiHelper,Service Provider,class,k9mail\src\main\java\com\fsck\k9\crypto\OpenPgpApiHelper.java
+src.main.java.com.fsck.k9.controller.MemorizingMessagingListener.MemorizingState,MemorizingState,Information Holder,enum,k9mail\src\main\java\com\fsck\k9\controller\MemorizingMessagingListener.MemorizingState.java
+src.main.java.com.fsck.k9.controller.MemorizingMessagingListener.Memory,Memory,Information Holder,class,k9mail\src\main\java\com\fsck\k9\controller\MemorizingMessagingListener.Memory.java
+src.main.java.com.fsck.k9.crypto.MessageCryptoStructureDetector,MessageCryptoStructureDetector,Service Provider,class,k9mail\src\main\java\com\fsck\k9\crypto\MessageCryptoStructureDetector.java
+src.main.java.com.fsck.k9.controller.MessagingController.Command,Command,Controller,class,k9mail\src\main\java\com\fsck\k9\controller\MessagingController.Command.java
+src.main.java.com.fsck.k9.fragment.MessageListFragment,MessageListFragment,Interfacer,class,k9mail\src\main\java\com\fsck\k9\fragment\MessageListFragment.java
+src.main.java.com.fsck.k9.controller.MessagingController.MessageActor,MessageActor,Service Provider,interface,k9mail\src\main\java\com\fsck\k9\controller\MessagingController.MessageActor.java
+src.main.java.com.fsck.k9.controller.MemorizingMessagingListener,MemorizingMessagingListener,Controller,class,k9mail\src\main\java\com\fsck\k9\controller\MemorizingMessagingListener.java
+src.main.java.com.fsck.k9.controller.MessagingControllerCommands.PendingAppend,PendingAppend,Coordinator,class,k9mail\src\main\java\com\fsck\k9\controller\MessagingControllerCommands.PendingAppend.java
+src.main.java.com.fsck.k9.controller.MessagingControllerCommands.PendingCommand,PendingCommand,Coordinator,abstract class,k9mail\src\main\java\com\fsck\k9\controller\MessagingControllerCommands.PendingCommand.java
+src.main.java.com.fsck.k9.controller.MessagingControllerCommands.PendingEmptyTrash,PendingEmptyTrash,Coordinator,class,k9mail\src\main\java\com\fsck\k9\controller\MessagingControllerCommands.PendingEmptyTrash.java
+src.main.java.com.fsck.k9.controller.MessagingControllerCommands.PendingExpunge,PendingExpunge,Coordinator,class,k9mail\src\main\java\com\fsck\k9\controller\MessagingControllerCommands.PendingExpunge.java
+src.main.java.com.fsck.k9.controller.MessagingControllerCommands.PendingMarkAllAsRead,PendingMarkAllAsRead,Coordinator,class,k9mail\src\main\java\com\fsck\k9\controller\MessagingControllerCommands.PendingMarkAllAsRead.java
+src.main.java.com.fsck.k9.controller.MessagingControllerCommands.PendingMoveOrCopy,PendingMoveOrCopy,Coordinator,class,k9mail\src\main\java\com\fsck\k9\controller\MessagingControllerCommands.PendingMoveOrCopy.java
+src.main.java.com.fsck.k9.controller.MessagingControllerCommands.PendingSetFlag,PendingSetFlag,Coordinator,class,k9mail\src\main\java\com\fsck\k9\controller\MessagingControllerCommands.PendingSetFlag.java
+src.main.java.com.fsck.k9.controller.MessagingControllerCommands,MessagingControllerCommands,Information Holder,class,k9mail\src\main\java\com\fsck\k9\controller\MessagingControllerCommands.java
+src.main.java.com.fsck.k9.controller.MessagingControllerPushReceiver,MessagingControllerPushReceiver,Coordinator,class,k9mail\src\main\java\com\fsck\k9\controller\MessagingControllerPushReceiver.java
+src.main.java.com.fsck.k9.controller.MessagingListener,MessagingListener,Service Provider,interface,k9mail\src\main\java\com\fsck\k9\controller\MessagingListener.java
+src.main.java.com.fsck.k9.controller.PendingCommandSerializer,PendingCommandSerializer,Coordinator,class,k9mail\src\main\java\com\fsck\k9\controller\PendingCommandSerializer.java
+src.main.java.com.fsck.k9.controller.ProgressBodyFactory.ProgressListener,ProgressListener,Interfacer,interface,k9mail\src\main\java\com\fsck\k9\controller\ProgressBodyFactory.ProgressListener.java
+src.main.java.com.fsck.k9.controller.ProgressBodyFactory,ProgressBodyFactory,Coordinator,class,k9mail\src\main\java\com\fsck\k9\controller\ProgressBodyFactory.java
+src.main.java.com.fsck.k9.controller.UidReverseComparator,UidReverseComparator,Service Provider,class,k9mail\src\main\java\com\fsck\k9\controller\UidReverseComparator.java
+src.main.java.com.fsck.k9.controller.SimpleMessagingListener,SimpleMessagingListener,Service Provider,abstract class,k9mail\src\main\java\com\fsck\k9\controller\SimpleMessagingListener.java
+src.main.java.com.fsck.k9.controller.UnavailableAccountException,UnavailableAccountException,Service Provider,class,k9mail\src\main\java\com\fsck\k9\controller\UnavailableAccountException.java
+src.main.java.com.fsck.k9.cache.EmailProviderCache,EmailProviderCache,Structurer,class,k9mail\src\main\java\com\fsck\k9\cache\EmailProviderCache.java
+src.main.java.com.fsck.k9.cache.EmailProviderCacheCursor,EmailProviderCacheCursor,Structurer,class,k9mail\src\main\java\com\fsck\k9\cache\EmailProviderCacheCursor.java
+src.main.java.com.fsck.k9.cache.TemporaryAttachmentStore,TemporaryAttachmentStore,Service Provider,class,k9mail\src\main\java\com\fsck\k9\cache\TemporaryAttachmentStore.java
+src.main.java.com.fsck.k9.autocrypt.AutocryptHeader,AutocryptHeader,Service Provider,class,k9mail\src\main\java\com\fsck\k9\autocrypt\AutocryptHeader.java
+src.main.java.com.fsck.k9.autocrypt.AutocryptHeaderParser,AutocryptHeaderParser,Service Provider,class,k9mail\src\main\java\com\fsck\k9\autocrypt\AutocryptHeaderParser.java
+src.main.java.com.fsck.k9.autocrypt.AutocryptOpenPgpApiInteractor,AutocryptOpenPgpApiInteractor,Coordinator,class,k9mail\src\main\java\com\fsck\k9\autocrypt\AutocryptOpenPgpApiInteractor.java
+src.main.java.com.fsck.k9.autocrypt.AutocryptOperations,AutocryptOperations,Service Provider,class,k9mail\src\main\java\com\fsck\k9\autocrypt\AutocryptOperations.java
+src.main.java.com.fsck.k9.activity.AccountList.LoadAccounts,LoadAccounts,Service Provider,class,k9mail\src\main\java\com\fsck\k9\activity\AccountList.LoadAccounts.java
+src.main.java.com.fsck.k9.activity.Accounts.ACCOUNT_LOCATION,ACCOUNT_LOCATION,Information Holder,enum,k9mail\src\main\java\com\fsck\k9\activity\Accounts.ACCOUNT_LOCATION.java
+src.main.java.com.fsck.k9.activity.AccountList.AccountsAdapter,AccountsAdapter,Interfacer,class,k9mail\src\main\java\com\fsck\k9\activity\AccountList.AccountsAdapter.java
+src.main.java.com.fsck.k9.activity.AccountList,AccountList,Interfacer,abstract class,k9mail\src\main\java\com\fsck\k9\activity\AccountList.java
+src.main.java.com.fsck.k9.activity.Accounts.AccountClickListener,AccountClickListener,Coordinator,class,k9mail\src\main\java\com\fsck\k9\activity\Accounts.AccountClickListener.java
+src.main.java.com.fsck.k9.activity.Accounts.AccountsHandler,AccountsHandler,Interfacer,class,k9mail\src\main\java\com\fsck\k9\activity\Accounts.AccountsHandler.java
+src.main.java.com.fsck.k9.activity.Accounts.AccountsAdapter,AccountsAdapter,Interfacer,class,k9mail\src\main\java\com\fsck\k9\activity\Accounts.AccountsAdapter.java
+src.main.java.com.fsck.k9.activity.Accounts.AccountsImportedDialog,AccountsImportedDialog,Coordinator,class,k9mail\src\main\java\com\fsck\k9\activity\Accounts.AccountsImportedDialog.java
+src.main.java.com.fsck.k9.activity.Accounts.ExportAsyncTask,ExportAsyncTask,Service Provider,class,k9mail\src\main\java\com\fsck\k9\activity\Accounts.ExportAsyncTask.java
+src.main.java.com.fsck.k9.activity.Accounts.ImportAsyncTask,ImportAsyncTask,Service Provider,class,k9mail\src\main\java\com\fsck\k9\activity\Accounts.ImportAsyncTask.java
+src.main.java.com.fsck.k9.activity.Accounts.ImportSelectionDialog,ImportSelectionDialog,Interfacer,class,k9mail\src\main\java\com\fsck\k9\activity\Accounts.ImportSelectionDialog.java
+src.main.java.com.fsck.k9.activity.Accounts.ListImportContentsAsyncTask,ListImportContentsAsyncTask,Service Provider,class,k9mail\src\main\java\com\fsck\k9\activity\Accounts.ListImportContentsAsyncTask.java
+src.main.java.com.fsck.k9.controller.MessagingController,MessagingController,Controller,class,k9mail\src\main\java\com\fsck\k9\controller\MessagingController.java
+src.main.java.com.fsck.k9.activity.Accounts.MoveAccountAsyncTask,MoveAccountAsyncTask,Service Provider,class,k9mail\src\main\java\com\fsck\k9\activity\Accounts.MoveAccountAsyncTask.java
+src.main.java.com.fsck.k9.activity.Accounts.SimpleDialog,SimpleDialog,Coordinator,class,k9mail\src\main\java\com\fsck\k9\activity\Accounts.SimpleDialog.java
+src.main.java.com.fsck.k9.activity.Accounts.PasswordPromptDialog,PasswordPromptDialog,Interfacer,class,k9mail\src\main\java\com\fsck\k9\activity\Accounts.PasswordPromptDialog.java
+src.main.java.com.fsck.k9.activity.Accounts.SetPasswordsAsyncTask,SetPasswordsAsyncTask,Service Provider,class,k9mail\src\main\java\com\fsck\k9\activity\Accounts.SetPasswordsAsyncTask.java
+src.main.java.com.fsck.k9.activity.ActivityListener,ActivityListener,Service Provider,class,k9mail\src\main\java\com\fsck\k9\activity\ActivityListener.java
+src.main.java.com.fsck.k9.activity.AlternateRecipientAdapter.AlternateRecipientListener,AlternateRecipientListener,Structurer,interface,k9mail\src\main\java\com\fsck\k9\activity\AlternateRecipientAdapter.AlternateRecipientListener.java
+src.main.java.com.fsck.k9.activity.Accounts,Accounts,Coordinator,class,k9mail\src\main\java\com\fsck\k9\activity\Accounts.java
+src.main.java.com.fsck.k9.activity.AlternateRecipientAdapter.RecipientTokenHolder,RecipientTokenHolder,Information Holder,class,k9mail\src\main\java\com\fsck\k9\activity\AlternateRecipientAdapter.RecipientTokenHolder.java
+src.main.java.com.fsck.k9.activity.AlternateRecipientAdapter,AlternateRecipientAdapter,Interfacer,class,k9mail\src\main\java\com\fsck\k9\activity\AlternateRecipientAdapter.java
+src.main.java.com.fsck.k9.activity.ChooseAccount,ChooseAccount,Service Provider,class,k9mail\src\main\java\com\fsck\k9\activity\ChooseAccount.java
+src.main.java.com.fsck.k9.activity.ChooseFolder.ChooseFolderHandler,ChooseFolderHandler,Service Provider,class,k9mail\src\main\java\com\fsck\k9\activity\ChooseFolder.ChooseFolderHandler.java
+src.main.java.com.fsck.k9.activity.ChooseFolder,ChooseFolder,Interfacer,class,k9mail\src\main\java\com\fsck\k9\activity\ChooseFolder.java
+src.main.java.com.fsck.k9.activity.ChooseIdentity,ChooseIdentity,Interfacer,class,k9mail\src\main\java\com\fsck\k9\activity\ChooseIdentity.java
+src.main.java.com.fsck.k9.activity.ColorPickerDialog.OnColorChangedListener,OnColorChangedListener,Service Provider,interface,k9mail\src\main\java\com\fsck\k9\activity\ColorPickerDialog.OnColorChangedListener.java
+src.main.java.com.fsck.k9.activity.ColorPickerDialog,ColorPickerDialog,Interfacer,class,k9mail\src\main\java\com\fsck\k9\activity\ColorPickerDialog.java
+src.main.java.com.fsck.k9.activity.ConfirmationDialog,ConfirmationDialog,Interfacer,class,k9mail\src\main\java\com\fsck\k9\activity\ConfirmationDialog.java
+src.main.java.com.fsck.k9.activity.EditIdentity,EditIdentity,Interfacer,class,k9mail\src\main\java\com\fsck\k9\activity\EditIdentity.java
+src.main.java.com.fsck.k9.activity.EmailAddressList,EmailAddressList,Interfacer,class,k9mail\src\main\java\com\fsck\k9\activity\EmailAddressList.java
+src.main.java.com.fsck.k9.activity.FolderInfoHolder,FolderInfoHolder,Information Holder,class,k9mail\src\main\java\com\fsck\k9\activity\FolderInfoHolder.java
+src.main.java.com.fsck.k9.activity.FolderList.FolderClickListener,FolderClickListener,Service Provider,class,k9mail\src\main\java\com\fsck\k9\activity\FolderList.FolderClickListener.java
+src.main.java.com.fsck.k9.activity.FolderList.FolderListAdapter,FolderListAdapter,Interfacer,class,k9mail\src\main\java\com\fsck\k9\activity\FolderList.FolderListAdapter.java
+src.main.java.com.fsck.k9.activity.FolderList.FolderListHandler,FolderListHandler,Service Provider,class,k9mail\src\main\java\com\fsck\k9\activity\FolderList.FolderListHandler.java
+src.main.java.com.fsck.k9.activity.FolderList.FolderViewHolder,FolderViewHolder,Information Holder,class,k9mail\src\main\java\com\fsck\k9\activity\FolderList.FolderViewHolder.java
+src.main.java.com.fsck.k9.activity.FolderList,FolderList,Interfacer,class,k9mail\src\main\java\com\fsck\k9\activity\FolderList.java
+src.main.java.com.fsck.k9.activity.FolderListFilter,FolderListFilter,Service Provider,class,k9mail\src\main\java\com\fsck\k9\activity\FolderListFilter.java
+src.main.java.com.fsck.k9.activity.K9Activity,K9Activity,Interfacer,abstract class,k9mail\src\main\java\com\fsck\k9\activity\K9Activity.java
+src.main.java.com.fsck.k9.activity.K9ActivityCommon.K9ActivityMagic,K9ActivityMagic,Service Provider,interface,k9mail\src\main\java\com\fsck\k9\activity\K9ActivityCommon.K9ActivityMagic.java
+src.main.java.com.fsck.k9.activity.K9ActivityCommon,K9ActivityCommon,Coordinator,class,k9mail\src\main\java\com\fsck\k9\activity\K9ActivityCommon.java
+src.main.java.com.fsck.k9.activity.K9ListActivity,K9ListActivity,Interfacer,abstract class,k9mail\src\main\java\com\fsck\k9\activity\K9ListActivity.java
+src.main.java.com.fsck.k9.activity.K9PreferenceActivity.PreferenceChangeListener,PreferenceChangeListener,Service Provider,class,k9mail\src\main\java\com\fsck\k9\activity\K9PreferenceActivity.PreferenceChangeListener.java
+src.main.java.com.fsck.k9.activity.K9PreferenceActivity,K9PreferenceActivity,Coordinator,abstract class,k9mail\src\main\java\com\fsck\k9\activity\K9PreferenceActivity.java
+src.main.java.com.fsck.k9.activity.LauncherShortcuts,LauncherShortcuts,Interfacer,class,k9mail\src\main\java\com\fsck\k9\activity\LauncherShortcuts.java
+src.main.java.com.fsck.k9.activity.ManageIdentities,ManageIdentities,Interfacer,class,k9mail\src\main\java\com\fsck\k9\activity\ManageIdentities.java
+src.main.java.com.fsck.k9.activity.MessageCompose.Action,Action,Information Holder,enum,k9mail\src\main\java\com\fsck\k9\activity\MessageCompose.Action.java
+src.main.java.com.fsck.k9.activity.MessageCompose.SendMessageTask,SendMessageTask,Service Provider,class,k9mail\src\main\java\com\fsck\k9\activity\MessageCompose.SendMessageTask.java
+src.main.java.com.fsck.k9.activity.MessageCompose,MessageCompose,Controller,class,k9mail\src\main\java\com\fsck\k9\activity\MessageCompose.java
+src.main.java.com.fsck.k9.activity.MessageInfoHolder,MessageInfoHolder,Information Holder,class,k9mail\src\main\java\com\fsck\k9\activity\MessageInfoHolder.java
+src.main.java.com.fsck.k9.activity.MessageList.DisplayMode,DisplayMode,Information Holder,enum,k9mail\src\main\java\com\fsck\k9\activity\MessageList.DisplayMode.java
+src.main.java.com.fsck.k9.activity.MessageList.StorageListenerImplementation,StorageListenerImplementation,Service Provider,class,k9mail\src\main\java\com\fsck\k9\activity\MessageList.StorageListenerImplementation.java
+src.main.java.com.fsck.k9.activity.MessageList,MessageList,Interfacer,class,k9mail\src\main\java\com\fsck\k9\activity\MessageList.java
+src.main.java.com.fsck.k9.activity.MessageLoaderHelper.MessageLoaderCallbacks,MessageLoaderCallbacks,Interfacer,interface,k9mail\src\main\java\com\fsck\k9\activity\MessageLoaderHelper.MessageLoaderCallbacks.java
+src.main.java.com.fsck.k9.activity.MessageLoaderHelper,MessageLoaderHelper,Service Provider,class,k9mail\src\main\java\com\fsck\k9\activity\MessageLoaderHelper.java
+src.main.java.com.fsck.k9.activity.MessageReference,MessageReference,Information Holder,class,k9mail\src\main\java\com\fsck\k9\activity\MessageReference.java
+src.main.java.com.fsck.k9.activity.MessageReferenceHelper,MessageReferenceHelper,Service Provider,class,k9mail\src\main\java\com\fsck\k9\activity\MessageReferenceHelper.java
+src.main.java.com.fsck.k9.activity.NotificationDeleteConfirmation,NotificationDeleteConfirmation,Interfacer,class,k9mail\src\main\java\com\fsck\k9\activity\NotificationDeleteConfirmation.java
+src.main.java.com.fsck.k9.activity.Search,Search,Interfacer,class,k9mail\src\main\java\com\fsck\k9\activity\Search.java
+src.main.java.com.fsck.k9.activity.UnreadWidgetConfiguration,UnreadWidgetConfiguration,Interfacer,class,k9mail\src\main\java\com\fsck\k9\activity\UnreadWidgetConfiguration.java
+src.main.java.com.fsck.k9.activity.UpgradeDatabases.UpgradeDatabaseBroadcastReceiver,UpgradeDatabaseBroadcastReceiver,Controller,class,k9mail\src\main\java\com\fsck\k9\activity\UpgradeDatabases.UpgradeDatabaseBroadcastReceiver.java
+src.main.java.com.fsck.k9.activity.UpgradeDatabases,UpgradeDatabases,Coordinator,class,k9mail\src\main\java\com\fsck\k9\activity\UpgradeDatabases.java
+src.main.java.com.fsck.k9.activity.setup.AccountSettings.PopulateFolderPrefsTask,PopulateFolderPrefsTask,Interfacer,class,k9mail\src\main\java\com\fsck\k9\activity\setup\AccountSettings.PopulateFolderPrefsTask.java
+src.main.java.com.fsck.k9.activity.setup.AccountSettings,AccountSettings,Interfacer,class,k9mail\src\main\java\com\fsck\k9\activity\setup\AccountSettings.java
+src.main.java.com.fsck.k9.activity.setup.AccountSetupAccountType,AccountSetupAccountType,Interfacer,class,k9mail\src\main\java\com\fsck\k9\activity\setup\AccountSetupAccountType.java
+src.main.java.com.fsck.k9.activity.setup.AccountSetupBasics.Provider,Provider,Information Holder,class,k9mail\src\main\java\com\fsck\k9\activity\setup\AccountSetupBasics.Provider.java
+src.main.java.com.fsck.k9.activity.setup.AccountSetupBasics,AccountSetupBasics,Interfacer,class,k9mail\src\main\java\com\fsck\k9\activity\setup\AccountSetupBasics.java
+src.main.java.com.fsck.k9.activity.setup.AccountSetupCheckSettings.CheckAccountTask,CheckAccountTask,Coordinator,class,k9mail\src\main\java\com\fsck\k9\activity\setup\AccountSetupCheckSettings.CheckAccountTask.java
+src.main.java.com.fsck.k9.activity.setup.AccountSetupCheckSettings.CheckDirection,CheckDirection,Information Holder,enum,k9mail\src\main\java\com\fsck\k9\activity\setup\AccountSetupCheckSettings.CheckDirection.java
+src.main.java.com.fsck.k9.activity.setup.AccountSetupCheckSettings,AccountSetupCheckSettings,Interfacer,class,k9mail\src\main\java\com\fsck\k9\activity\setup\AccountSetupCheckSettings.java
+src.main.java.com.fsck.k9.activity.setup.AccountSetupComposition,AccountSetupComposition,Interfacer,class,k9mail\src\main\java\com\fsck\k9\activity\setup\AccountSetupComposition.java
+src.main.java.com.fsck.k9.activity.setup.AccountSetupIncoming,AccountSetupIncoming,Interfacer,class,k9mail\src\main\java\com\fsck\k9\activity\setup\AccountSetupIncoming.java
+src.main.java.com.fsck.k9.activity.setup.AccountSetupNames,AccountSetupNames,Interfacer,class,k9mail\src\main\java\com\fsck\k9\activity\setup\AccountSetupNames.java
+src.main.java.com.fsck.k9.activity.setup.AccountSetupOptions,AccountSetupOptions,Interfacer,class,k9mail\src\main\java\com\fsck\k9\activity\setup\AccountSetupOptions.java
+src.main.java.com.fsck.k9.activity.setup.AccountSetupOutgoing,AccountSetupOutgoing,Interfacer,class,k9mail\src\main\java\com\fsck\k9\activity\setup\AccountSetupOutgoing.java
+src.main.java.com.fsck.k9.activity.setup.AuthTypeAdapter,AuthTypeAdapter,Structurer,class,k9mail\src\main\java\com\fsck\k9\activity\setup\AuthTypeAdapter.java
+src.main.java.com.fsck.k9.activity.setup.AuthTypeHolder,AuthTypeHolder,Information Holder,class,k9mail\src\main\java\com\fsck\k9\activity\setup\AuthTypeHolder.java
+src.main.java.com.fsck.k9.activity.setup.ConnectionSecurityAdapter,ConnectionSecurityAdapter,Interfacer,class,k9mail\src\main\java\com\fsck\k9\activity\setup\ConnectionSecurityAdapter.java
+src.main.java.com.fsck.k9.activity.setup.ConnectionSecurityHolder,ConnectionSecurityHolder,Information Holder,class,k9mail\src\main\java\com\fsck\k9\activity\setup\ConnectionSecurityHolder.java
+src.main.java.com.fsck.k9.activity.setup.FolderSettings,FolderSettings,Interfacer,class,k9mail\src\main\java\com\fsck\k9\activity\setup\FolderSettings.java
+src.main.java.com.fsck.k9.activity.setup.FontSizeSettings,FontSizeSettings,Coordinator,class,k9mail\src\main\java\com\fsck\k9\activity\setup\FontSizeSettings.java
+src.main.java.com.fsck.k9.activity.setup.OpenPgpAppSelectDialog.ApgDeprecationDialogFragment,ApgDeprecationDialogFragment,Coordinator,class,k9mail\src\main\java\com\fsck\k9\activity\setup\OpenPgpAppSelectDialog.ApgDeprecationDialogFragment.java
+src.main.java.com.fsck.k9.activity.setup.OpenPgpAppSelectDialog.OpenPgpAppSelectFragment,OpenPgpAppSelectFragment,Structurer,class,k9mail\src\main\java\com\fsck\k9\activity\setup\OpenPgpAppSelectDialog.OpenPgpAppSelectFragment.java
+src.main.java.com.fsck.k9.activity.setup.OpenPgpAppSelectDialog.OpenPgpProviderEntry,OpenPgpProviderEntry,Information Holder,class,k9mail\src\main\java\com\fsck\k9\activity\setup\OpenPgpAppSelectDialog.OpenPgpProviderEntry.java
+src.main.java.com.fsck.k9.activity.setup.OpenPgpAppSelectDialog,OpenPgpAppSelectDialog,Interfacer,class,k9mail\src\main\java\com\fsck\k9\activity\setup\OpenPgpAppSelectDialog.java
+src.main.java.com.fsck.k9.activity.setup.Prefs,Prefs,Interfacer,class,k9mail\src\main\java\com\fsck\k9\activity\setup\Prefs.java
+src.main.java.com.fsck.k9.activity.setup.SliderPreference,SliderPreference,Information Holder,class,k9mail\src\main\java\com\fsck\k9\activity\setup\SliderPreference.java
+src.main.java.com.fsck.k9.activity.setup.SpinnerOption,SpinnerOption,Information Holder,class,k9mail\src\main\java\com\fsck\k9\activity\setup\SpinnerOption.java
+src.main.java.com.fsck.k9.activity.setup.WelcomeMessage,WelcomeMessage,Interfacer,class,k9mail\src\main\java\com\fsck\k9\activity\setup\WelcomeMessage.java
+src.main.java.com.fsck.k9.activity.misc.Attachment.LoadingState,LoadingState,Information Holder,enum,k9mail\src\main\java\com\fsck\k9\activity\misc\Attachment.LoadingState.java
+src.main.java.com.fsck.k9.activity.misc.Attachment,Attachment,Information Holder,class,k9mail\src\main\java\com\fsck\k9\activity\misc\Attachment.java
+src.main.java.com.fsck.k9.activity.misc.ContactPictureLoader.FallbackGlideBitmapDecoder,FallbackGlideBitmapDecoder,Service Provider,class,k9mail\src\main\java\com\fsck\k9\activity\misc\ContactPictureLoader.FallbackGlideBitmapDecoder.java
+src.main.java.com.fsck.k9.activity.misc.ContactPictureLoader.FallbackGlideModelLoader,FallbackGlideModelLoader,Service Provider,class,k9mail\src\main\java\com\fsck\k9\activity\misc\ContactPictureLoader.FallbackGlideModelLoader.java
+src.main.java.com.fsck.k9.activity.misc.ContactPictureLoader.FallbackGlideParams,FallbackGlideParams,Information Holder,class,k9mail\src\main\java\com\fsck\k9\activity\misc\ContactPictureLoader.FallbackGlideParams.java
+src.main.java.com.fsck.k9.activity.misc.ContactPictureLoader,ContactPictureLoader,Service Provider,class,k9mail\src\main\java\com\fsck\k9\activity\misc\ContactPictureLoader.java
+src.main.java.com.fsck.k9.activity.misc.ExtendedAsyncTask,ExtendedAsyncTask,Coordinator,abstract class,k9mail\src\main\java\com\fsck\k9\activity\misc\ExtendedAsyncTask.java
+src.main.java.com.fsck.k9.activity.misc.NonConfigurationInstance,NonConfigurationInstance,Service Provider,interface,k9mail\src\main\java\com\fsck\k9\activity\misc\NonConfigurationInstance.java
+src.main.java.com.fsck.k9.activity.misc.SwipeGestureDetector.OnSwipeGestureListener,OnSwipeGestureListener,Interfacer,interface,k9mail\src\main\java\com\fsck\k9\activity\misc\SwipeGestureDetector.OnSwipeGestureListener.java
+src.main.java.com.fsck.k9.activity.misc.SwipeGestureDetector,SwipeGestureDetector,Interfacer,class,k9mail\src\main\java\com\fsck\k9\activity\misc\SwipeGestureDetector.java
+src.main.java.com.fsck.k9.activity.loader.AttachmentContentLoader,AttachmentContentLoader,Service Provider,class,k9mail\src\main\java\com\fsck\k9\activity\loader\AttachmentContentLoader.java
+src.main.java.com.fsck.k9.activity.loader.AttachmentInfoLoader,AttachmentInfoLoader,Service Provider,class,k9mail\src\main\java\com\fsck\k9\activity\loader\AttachmentInfoLoader.java
+src.main.java.com.fsck.k9.activity.compose.AttachmentPresenter.AttachmentMvpView,AttachmentMvpView,Service Provider,interface,k9mail\src\main\java\com\fsck\k9\activity\compose\AttachmentPresenter.AttachmentMvpView.java
+src.main.java.com.fsck.k9.activity.compose.AttachmentPresenter.AttachmentsChangedListener,AttachmentsChangedListener,Service Provider,interface,k9mail\src\main\java\com\fsck\k9\activity\compose\AttachmentPresenter.AttachmentsChangedListener.java
+src.main.java.com.fsck.k9.activity.compose.AttachmentPresenter.WaitingAction,WaitingAction,Information Holder,enum,k9mail\src\main\java\com\fsck\k9\activity\compose\AttachmentPresenter.WaitingAction.java
+src.main.java.com.fsck.k9.activity.compose.AttachmentPresenter,AttachmentPresenter,Coordinator,class,k9mail\src\main\java\com\fsck\k9\activity\compose\AttachmentPresenter.java
+src.main.java.com.fsck.k9.activity.compose.ComposeCryptoStatus.AttachErrorState,AttachErrorState,Information Holder,enum,k9mail\src\main\java\com\fsck\k9\activity\compose\ComposeCryptoStatus.AttachErrorState.java
+src.main.java.com.fsck.k9.activity.compose.ComposeCryptoStatus.ComposeCryptoStatusBuilder,ComposeCryptoStatusBuilder,Service Provider,class,k9mail\src\main\java\com\fsck\k9\activity\compose\ComposeCryptoStatus.ComposeCryptoStatusBuilder.java
+src.main.java.com.fsck.k9.activity.compose.ComposeCryptoStatus.SendErrorState,SendErrorState,Information Holder,enum,k9mail\src\main\java\com\fsck\k9\activity\compose\ComposeCryptoStatus.SendErrorState.java
+src.main.java.com.fsck.k9.activity.compose.ComposeCryptoStatus,ComposeCryptoStatus,Information Holder,class,k9mail\src\main\java\com\fsck\k9\activity\compose\ComposeCryptoStatus.java
+src.main.java.com.fsck.k9.activity.compose.IdentityAdapter.AccountHolder,AccountHolder,Information Holder,class,k9mail\src\main\java\com\fsck\k9\activity\compose\IdentityAdapter.AccountHolder.java
+src.main.java.com.fsck.k9.activity.compose.IdentityAdapter.IdentityContainer,IdentityContainer,Information Holder,class,k9mail\src\main\java\com\fsck\k9\activity\compose\IdentityAdapter.IdentityContainer.java
+src.main.java.com.fsck.k9.activity.compose.IdentityAdapter.IdentityHolder,IdentityHolder,Information Holder,class,k9mail\src\main\java\com\fsck\k9\activity\compose\IdentityAdapter.IdentityHolder.java
+src.main.java.com.fsck.k9.activity.compose.IdentityAdapter,IdentityAdapter,Structurer,class,k9mail\src\main\java\com\fsck\k9\activity\compose\IdentityAdapter.java
+src.main.java.com.fsck.k9.activity.compose.MessageActions,MessageActions,Service Provider,class,k9mail\src\main\java\com\fsck\k9\activity\compose\MessageActions.java
+src.main.java.com.fsck.k9.activity.compose.PgpEnabledErrorDialog.OnOpenPgpDisableListener,OnOpenPgpDisableListener,Service Provider,interface,k9mail\src\main\java\com\fsck\k9\activity\compose\PgpEnabledErrorDialog.OnOpenPgpDisableListener.java
+src.main.java.com.fsck.k9.activity.compose.PgpEnabledErrorDialog,PgpEnabledErrorDialog,Coordinator,class,k9mail\src\main\java\com\fsck\k9\activity\compose\PgpEnabledErrorDialog.java
+src.main.java.com.fsck.k9.activity.compose.PgpEncryptDescriptionDialog,PgpEncryptDescriptionDialog,Coordinator,class,k9mail\src\main\java\com\fsck\k9\activity\compose\PgpEncryptDescriptionDialog.java
+src.main.java.com.fsck.k9.activity.compose.PgpInlineDialog.OnOpenPgpInlineChangeListener,OnOpenPgpInlineChangeListener,Service Provider,interface,k9mail\src\main\java\com\fsck\k9\activity\compose\PgpInlineDialog.OnOpenPgpInlineChangeListener.java
+src.main.java.com.fsck.k9.activity.compose.PgpInlineDialog,PgpInlineDialog,Interfacer,class,k9mail\src\main\java\com\fsck\k9\activity\compose\PgpInlineDialog.java
+src.main.java.com.fsck.k9.activity.compose.PgpSignOnlyDialog.OnOpenPgpSignOnlyChangeListener,OnOpenPgpSignOnlyChangeListener,Service Provider,interface,k9mail\src\main\java\com\fsck\k9\activity\compose\PgpSignOnlyDialog.OnOpenPgpSignOnlyChangeListener.java
+src.main.java.com.fsck.k9.activity.compose.PgpSignOnlyDialog,PgpSignOnlyDialog,Interfacer,class,k9mail\src\main\java\com\fsck\k9\activity\compose\PgpSignOnlyDialog.java
+src.main.java.com.fsck.k9.activity.compose.RecipientAdapter.RecipientTokenHolder,RecipientTokenHolder,Information Holder,class,k9mail\src\main\java\com\fsck\k9\activity\compose\RecipientAdapter.RecipientTokenHolder.java
+src.main.java.com.fsck.k9.activity.compose.RecipientAdapter,RecipientAdapter,Interfacer,class,k9mail\src\main\java\com\fsck\k9\activity\compose\RecipientAdapter.java
+src.main.java.com.fsck.k9.activity.compose.RecipientLoader,RecipientLoader,Service Provider,class,k9mail\src\main\java\com\fsck\k9\activity\compose\RecipientLoader.java
+src.main.java.com.fsck.k9.activity.compose.RecipientMvpView.CryptoStatusDisplayType,CryptoStatusDisplayType,Information Holder,enum,k9mail\src\main\java\com\fsck\k9\activity\compose\RecipientMvpView.CryptoStatusDisplayType.java
+src.main.java.com.fsck.k9.activity.compose.RecipientMvpView,RecipientMvpView,Interfacer,class,k9mail\src\main\java\com\fsck\k9\activity\compose\RecipientMvpView.java
+src.main.java.com.fsck.k9.activity.compose.RecipientPresenter.CryptoMode,CryptoMode,Information Holder,enum,k9mail\src\main\java\com\fsck\k9\activity\compose\RecipientPresenter.CryptoMode.java
+src.main.java.com.fsck.k9.activity.compose.RecipientPresenter.CryptoProviderState,CryptoProviderState,Information Holder,enum,k9mail\src\main\java\com\fsck\k9\activity\compose\RecipientPresenter.CryptoProviderState.java
+src.main.java.com.fsck.k9.activity.compose.RecipientPresenter.RecipientsChangedListener,RecipientsChangedListener,Service Provider,interface,k9mail\src\main\java\com\fsck\k9\activity\compose\RecipientPresenter.RecipientsChangedListener.java
+src.main.java.com.fsck.k9.activity.compose.RecipientPresenter,RecipientPresenter,Coordinator,class,k9mail\src\main\java\com\fsck\k9\activity\compose\RecipientPresenter.java
+src.main.java.com.fsck.k9.activity.compose.SaveMessageTask,SaveMessageTask,Service Provider,class,k9mail\src\main\java\com\fsck\k9\activity\compose\SaveMessageTask.java
+src.main.java.com.fsck.k9.account.AccountCreator,AccountCreator,Service Provider,class,k9mail\src\main\java\com\fsck\k9\account\AccountCreator.java

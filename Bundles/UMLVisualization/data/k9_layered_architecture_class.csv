@@ -1,0 +1,780 @@
+index,fullpathname,classname,library,label,layer_number
+0,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\AuthType.java,AuthType,k9mail-library,Information Holder,3.4.
+1,new_version\k9mail-library\src\main\java\com\fsck\k9\mailstore\BinaryMemoryBody.java,BinaryMemoryBody,k9mail-library,Information Holder,3.4.
+2,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\Address.java,Address,k9mail-library,Service Provider,3.4.
+3,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\Authentication.java,Authentication,k9mail-library,Service Provider,3.3.
+4,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\AuthenticationFailedException.java,AuthenticationFailedException,k9mail-library,Information Holder,3.4.
+5,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\Body.java,Body,k9mail-library,Service Provider,3.4.
+6,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\BodyFactory.java,BodyFactory,k9mail-library,Service Provider,3.3.
+7,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\BodyPart.java,BodyPart,k9mail-library,Information Holder,3.4.
+8,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\BoundaryGenerator.java,BoundaryGenerator,k9mail-library,Service Provider,3.3.
+9,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\CertificateChainException.java,CertificateChainException,k9mail-library,Information Holder,3.4.
+10,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\CertificateValidationException.Reason.java,Reason,k9mail-library,Information Holder,3.4.
+11,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\CertificateValidationException.java,CertificateValidationException,k9mail-library,Information Holder,3.4.
+12,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\ConnectionSecurity.java,ConnectionSecurity,k9mail-library,Information Holder,3.4.
+13,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\DefaultBodyFactory.java,DefaultBodyFactory,k9mail-library,Service Provider,3.3.
+14,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\FetchProfile.Item.java,Item,k9mail-library,Information Holder,3.4.
+15,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\FetchProfile.java,FetchProfile,k9mail-library,Structurer,3.3.
+16,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\Flag.java,Flag,k9mail-library,Information Holder,3.4.
+17,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\Folder.FolderClass.java,FolderClass,k9mail-library,Information Holder,3.4.
+18,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\Folder.FolderType.java,FolderType,k9mail-library,Information Holder,3.4.
+19,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\Folder.java,Folder,k9mail-library,Structurer,3.4.
+20,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\K9MailLib.DebugStatus.java,DebugStatus,k9mail-library,Information Holder,3.4.
+21,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\K9MailLib.DefaultDebugStatus.java,DefaultDebugStatus,k9mail-library,Information Holder,3.4.
+22,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\K9MailLib.WritableDebugStatus.java,WritableDebugStatus,k9mail-library,Information Holder,3.4.
+23,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\K9MailLib.java,K9MailLib,k9mail-library,Information Holder,3.4.
+24,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\Message.RecipientType.java,RecipientType,k9mail-library,Information Holder,3.4.
+25,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\Message.java,Message,k9mail-library,Structurer,3.4.
+26,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\MessageRetrievalListener.java,MessageRetrievalListener,k9mail-library,Structurer,3.4.
+27,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\MessagingException.java,MessagingException,k9mail-library,Information Holder,3.4.
+28,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\Multipart.java,Multipart,k9mail-library,Structurer,3.4.
+29,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\NetworkType.java,NetworkType,k9mail-library,Information Holder,3.4.
+30,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\Part.java,Part,k9mail-library,Service Provider,3.4.
+31,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\PushReceiver.java,PushReceiver,k9mail-library,Service Provider,3.4.
+32,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\Pusher.java,Pusher,k9mail-library,Service Provider,3.4.
+33,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\ServerSettings.Type.java,Type,k9mail-library,Information Holder,3.4.
+34,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\ServerSettings.java,ServerSettings,k9mail-library,Information Holder,3.4.
+35,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\Store.java,Store,k9mail-library,Information Holder,3.4.
+36,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\Transport.java,Transport,k9mail-library,Service Provider,3.4.
+37,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\TransportProvider.java,TransportProvider,k9mail-library,Service Provider,3.3.
+38,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\TransportUris.java,TransportUris,k9mail-library,Service Provider,3.4.
+39,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\transport\WebDavTransport.java,WebDavTransport,k9mail-library,Service Provider,3.2.2.
+40,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\transport\smtp\EnhancedNegativeSmtpReplyException.java,EnhancedNegativeSmtpReplyException,k9mail-library,Information Holder,3.2.2.
+41,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\transport\smtp\NegativeSmtpReplyException.java,NegativeSmtpReplyException,k9mail-library,Information Holder,3.2.2.
+42,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\transport\smtp\SmtpTransport.CommandResponse.java,CommandResponse,k9mail-library,Information Holder,3.2.2.
+43,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\transport\smtp\SmtpTransport.java,SmtpTransport,k9mail-library,Service Provider,3.2.2.
+44,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\transport\smtp\StatusCodeClass.java,StatusCodeClass,k9mail-library,Information Holder,3.4.
+45,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\transport\smtp\StatusCodeDetail.java,StatusCodeDetail,k9mail-library,Information Holder,3.4.
+46,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\transport\smtp\StatusCodeSubject.java,StatusCodeSubject,k9mail-library,Information Holder,3.4.
+47,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\RemoteStore.java,RemoteStore,k9mail-library,Structurer,3.2.2.
+48,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\StoreConfig.java,StoreConfig,k9mail-library,Information Holder,3.4.
+49,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\webdav\ConnectionInfo.java,ConnectionInfo,k9mail-library,Information Holder,4.
+50,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\webdav\DataSet.java,DataSet,k9mail-library,Structurer,4.
+51,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\webdav\HttpGeneric.java,HttpGeneric,k9mail-library,Information Holder,3.2.2.
+52,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\webdav\ParsedMessageEnvelope.java,ParsedMessageEnvelope,k9mail-library,Structurer,3.2.2.
+53,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\webdav\WebDavConstants.java,WebDavConstants,k9mail-library,Information Holder,3.4.
+54,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\webdav\WebDavFolder.java,WebDavFolder,k9mail-library,Service Provider,3.4.
+55,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\webdav\WebDavHandler.java,WebDavHandler,k9mail-library,Structurer,3.2.2.
+56,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\webdav\WebDavHttpClient.WebDavHttpClientFactory.java,WebDavHttpClientFactory,k9mail-library,Service Provider,3.2.2.
+57,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\webdav\WebDavHttpClient.java,WebDavHttpClient,k9mail-library,Service Provider,3.4.
+58,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\webdav\WebDavMessage.java,WebDavMessage,k9mail-library,Service Provider,3.4.
+59,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\webdav\WebDavSocketFactory.java,WebDavSocketFactory,k9mail-library,Service Provider,3.2.2.
+60,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\webdav\WebDavStore.java,WebDavStore,k9mail-library,Information Holder,3.2.2.
+61,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\webdav\WebDavStoreSettings.java,WebDavStoreSettings,k9mail-library,Information Holder,3.4.
+62,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\webdav\WebDavStoreUriCreator.java,WebDavStoreUriCreator,k9mail-library,Service Provider,3.2.2.
+63,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\webdav\WebDavStoreUriDecoder.java,WebDavStoreUriDecoder,k9mail-library,Service Provider,3.2.2.
+64,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\pop3\Pop3Store.Pop3Capabilities.java,Pop3Capabilities,k9mail-library,Service Provider,3.4.
+65,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\pop3\Pop3Store.Pop3ErrorResponse.java,Pop3ErrorResponse,k9mail-library,Information Holder,3.4.
+66,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\pop3\Pop3Store.Pop3Folder.java,Pop3Folder,k9mail-library,Controller,3.4.
+67,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\pop3\Pop3Store.Pop3Message.java,Pop3Message,k9mail-library,Service Provider,3.2.2.
+68,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\pop3\Pop3Store.Pop3ResponseInputStream.java,Pop3ResponseInputStream,k9mail-library,Service Provider,3.2.2.
+69,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\pop3\Pop3Store.java,Pop3Store,k9mail-library,Service Provider,3.2.2.
+70,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\AlertResponse.java,AlertResponse,k9mail-library,Service Provider,3.2.2.
+71,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\Capabilities.java,Capabilities,k9mail-library,Information Holder,3.2.2.
+72,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\CapabilityResponse.java,CapabilityResponse,k9mail-library,Service Provider,3.2.2.
+73,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\Commands.java,Commands,k9mail-library,Information Holder,3.4.
+74,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\FetchBodyCallback.java,FetchBodyCallback,k9mail-library,Service Provider,3.2.2.
+75,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\FetchPartCallback.java,FetchPartCallback,k9mail-library,Coordinator,3.2.2.
+76,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\FolderNameCodec.java,FolderNameCodec,k9mail-library,Service Provider,3.4.
+77,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\IdGrouper.ContiguousIdGroup.java,ContiguousIdGroup,k9mail-library,Information Holder,3.4.
+78,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\IdGrouper.GroupedIds.java,GroupedIds,k9mail-library,Information Holder,3.4.
+79,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\IdGrouper.java,IdGrouper,k9mail-library,Structurer,3.4.
+80,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\ImapCommandSplitter.java,ImapCommandSplitter,k9mail-library,Structurer,3.4.
+81,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\ImapConnection.java,ImapConnection,k9mail-library,Service Provider,3.2.2.
+82,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\ImapFolder.java,ImapFolder,k9mail-library,Structurer,3.4.
+83,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\ImapFolderPusher.IdleStopper.java,IdleStopper,k9mail-library,Service Provider,3.2.2.
+84,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\ImapFolderPusher.PushRunnable.java,PushRunnable,k9mail-library,Controller,3.2.2.
+85,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\ImapFolderPusher.java,ImapFolderPusher,k9mail-library,Controller,3.2.2.
+86,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\ImapList.java,ImapList,k9mail-library,Structurer,3.4.
+87,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\ImapMessage.java,ImapMessage,k9mail-library,Structurer,3.4.
+88,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\ImapPushState.java,ImapPushState,k9mail-library,Service Provider,3.2.2.
+89,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\ImapPusher.java,ImapPusher,k9mail-library,Service Provider,3.2.2.
+90,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\ImapResponse.java,ImapResponse,k9mail-library,Information Holder,3.4.
+91,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\ImapResponseCallback.java,ImapResponseCallback,k9mail-library,Service Provider,3.2.2.
+92,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\ImapResponseParser.java,ImapResponseParser,k9mail-library,Service Provider,3.2.2.
+93,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\ImapResponseParserException.java,ImapResponseParserException,k9mail-library,Information Holder,3.4.
+94,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\ImapSearcher.java,ImapSearcher,k9mail-library,Service Provider,3.2.2.
+95,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\ImapSettings.java,ImapSettings,k9mail-library,Information Holder,3.4.
+96,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\ImapStore.StoreImapSettings.java,StoreImapSettings,k9mail-library,Information Holder,3.4.
+97,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\ImapStore.java,ImapStore,k9mail-library,Structurer,3.4.
+98,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\ImapStoreSettings.java,ImapStoreSettings,k9mail-library,Information Holder,3.4.
+99,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\ImapStoreUriCreator.java,ImapStoreUriCreator,k9mail-library,Service Provider,3.2.2.
+100,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\ImapStoreUriDecoder.java,ImapStoreUriDecoder,k9mail-library,Service Provider,3.2.2.
+101,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\ImapUtility.java,ImapUtility,k9mail-library,Service Provider,3.2.2.
+102,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\ListResponse.java,ListResponse,k9mail-library,Service Provider,3.2.2.
+103,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\NamespaceResponse.java,NamespaceResponse,k9mail-library,Service Provider,3.2.2.
+104,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\NegativeImapResponseException.java,NegativeImapResponseException,k9mail-library,Information Holder,3.4.
+105,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\PermanentFlagsResponse.java,PermanentFlagsResponse,k9mail-library,Service Provider,3.2.2.
+106,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\ResponseCodeExtractor.java,ResponseCodeExtractor,k9mail-library,Service Provider,3.2.2.
+107,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\Responses.java,Responses,k9mail-library,Information Holder,3.4.
+108,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\SearchResponse.java,SearchResponse,k9mail-library,Structurer,3.4.
+109,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\SelectOrExamineResponse.java,SelectOrExamineResponse,k9mail-library,Service Provider,3.2.2.
+110,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\UidCopyResponse.java,UidCopyResponse,k9mail-library,Service Provider,3.2.2.
+111,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\UidSearchCommandBuilder.java,UidSearchCommandBuilder,k9mail-library,Information Holder,3.4.
+112,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\store\imap\UntaggedHandler.java,UntaggedHandler,k9mail-library,Service Provider,3.2.2.
+113,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\ssl\DefaultTrustedSocketFactory.java,DefaultTrustedSocketFactory,k9mail-library,Structurer,3.3.
+114,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\ssl\KeyChainKeyManager.java,KeyChainKeyManager,k9mail-library,Service Provider,3.3.
+115,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\ssl\LocalKeyStore.LocalKeyStoreHolder.java,LocalKeyStoreHolder,k9mail-library,Information Holder,3.4.
+116,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\ssl\LocalKeyStore.java,LocalKeyStore,k9mail-library,Information Holder,3.4.
+117,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\ssl\TrustManagerFactory.SecureX509TrustManager.java,SecureX509TrustManager,k9mail-library,Service Provider,3.3.
+118,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\ssl\TrustManagerFactory.java,TrustManagerFactory,k9mail-library,Service Provider,3.3.
+119,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\ssl\TrustedSocketFactory.java,TrustedSocketFactory,k9mail-library,Service Provider,3.3.
+120,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\power\TracingPowerManager.TracingWakeLock.java,TracingWakeLock,k9mail-library,Service Provider,3.3.
+121,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\power\TracingPowerManager.java,TracingPowerManager,k9mail-library,Service Provider,3.3.
+122,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\oauth\AuthorizationException.java,AuthorizationException,k9mail-library,Information Holder,3.4.
+123,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\oauth\OAuth2TokenProvider.OAuth2TokenProviderAuthCallback.java,OAuth2TokenProviderAuthCallback,k9mail-library,Information Holder,3.4.
+124,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\oauth\OAuth2TokenProvider.java,OAuth2TokenProvider,k9mail-library,Service Provider,3.3.
+125,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\oauth\XOAuth2ChallengeParser.java,XOAuth2ChallengeParser,k9mail-library,Coordinator,3.3.
+126,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\message\MessageHeaderParser.MessageHeaderParserContentHandler.java,MessageHeaderParserContentHandler,k9mail-library,Structurer,3.3.
+127,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\message\MessageHeaderParser.java,MessageHeaderParser,k9mail-library,Service Provider,3.3.
+128,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\internet\BinaryTempFileBody.BinaryTempFileBodyInputStream.java,BinaryTempFileBodyInputStream,k9mail-library,Service Provider,3.3.
+129,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\internet\BinaryTempFileBody.java,BinaryTempFileBody,k9mail-library,Information Holder,3.4.
+130,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\internet\BinaryTempFileMessageBody.java,BinaryTempFileMessageBody,k9mail-library,Information Holder,3.4.
+131,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\internet\CharsetSupport.java,CharsetSupport,k9mail-library,Service Provider,3.2.3.
+132,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\internet\DecoderUtil.EncodedWord.java,EncodedWord,k9mail-library,Information Holder,3.4.
+133,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\internet\DecoderUtil.java,DecoderUtil,k9mail-library,Service Provider,3.2.3.
+134,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\internet\EncoderUtil.Encoding.java,Encoding,k9mail-library,Information Holder,3.4.
+135,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\internet\EncoderUtil.java,EncoderUtil,k9mail-library,Service Provider,3.2.3.
+136,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\internet\FlowedMessageUtils.java,FlowedMessageUtils,k9mail-library,Service Provider,3.2.3.
+137,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\internet\Iso2022JpToShiftJisInputStream.Charset.java,Charset,k9mail-library,Information Holder,3.4.
+138,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\internet\Iso2022JpToShiftJisInputStream.java,Iso2022JpToShiftJisInputStream,k9mail-library,Service Provider,3.2.3.
+139,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\internet\JisSupport.java,JisSupport,k9mail-library,Service Provider,3.2.3.
+140,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\internet\ListHeaders.java,ListHeaders,k9mail-library,Service Provider,3.2.3.
+141,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\internet\MessageExtractor.java,MessageExtractor,k9mail-library,Service Provider,3.2.3.
+142,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\internet\MessageIdGenerator.java,MessageIdGenerator,k9mail-library,Coordinator,3.2.3.
+143,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\internet\MimeBodyPart.java,MimeBodyPart,k9mail-library,Structurer,3.4.
+144,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\internet\MimeHeader.Field.java,Field,k9mail-library,Information Holder,3.4.
+145,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\internet\MimeHeader.java,MimeHeader,k9mail-library,Structurer,3.4.
+146,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\internet\MimeMessage.MimeMessageBuilder.java,MimeMessageBuilder,k9mail-library,Structurer,3.4.
+147,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\internet\MimeMessage.java,MimeMessage,k9mail-library,Coordinator,3.2.3.
+148,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\internet\MimeMessageHelper.java,MimeMessageHelper,k9mail-library,Service Provider,3.2.3.
+149,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\internet\MimeMultipart.java,MimeMultipart,k9mail-library,Information Holder,3.4.
+150,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\internet\MimeUtility.java,MimeUtility,k9mail-library,Service Provider,3.2.3.
+151,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\internet\RawDataBody.java,RawDataBody,k9mail-library,Service Provider,3.2.3.
+152,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\internet\SizeAware.java,SizeAware,k9mail-library,Service Provider,3.2.3.
+153,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\internet\TextBody.java,TextBody,k9mail-library,Information Holder,3.4.
+154,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\internet\Viewable.Alternative.java,Alternative,k9mail-library,Information Holder,3.4.
+155,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\internet\Viewable.Flowed.java,Flowed,k9mail-library,Information Holder,3.4.
+156,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\internet\Viewable.Html.java,Html,k9mail-library,Information Holder,3.4.
+157,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\internet\Viewable.MessageHeader.java,MessageHeader,k9mail-library,Information Holder,3.4.
+158,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\internet\Viewable.Text.java,Text,k9mail-library,Information Holder,3.4.
+159,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\internet\Viewable.Textual.java,Textual,k9mail-library,Information Holder,3.4.
+160,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\internet\Viewable.java,Viewable,k9mail-library,Information Holder,3.4.
+161,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\helper\UrlEncodingHelper.java,UrlEncodingHelper,k9mail-library,Coordinator,3.3.
+162,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\filter\Base64.DecoderException.java,DecoderException,k9mail-library,Information Holder,3.4.
+163,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\filter\Base64.EncoderException.java,EncoderException,k9mail-library,Information Holder,3.4.
+164,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\filter\Base64.java,Base64,k9mail-library,Service Provider,3.4.
+165,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\filter\Base64OutputStream.java,Base64OutputStream,k9mail-library,Coordinator,3.3.
+166,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\filter\CountingOutputStream.java,CountingOutputStream,k9mail-library,Information Holder,3.3.
+167,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\filter\EOLConvertingOutputStream.java,EOLConvertingOutputStream,k9mail-library,Service Provider,3.3.
+168,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\filter\FixedLengthInputStream.java,FixedLengthInputStream,k9mail-library,Coordinator,3.3.
+169,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\filter\Hex.java,Hex,k9mail-library,Service Provider,3.4.
+170,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\filter\LineWrapOutputStream.java,LineWrapOutputStream,k9mail-library,Service Provider,3.3.
+171,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\filter\PeekableInputStream.java,PeekableInputStream,k9mail-library,Service Provider,3.3.
+172,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\filter\SignSafeOutputStream.State.java,State,k9mail-library,Information Holder,3.2.3.
+173,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\filter\SignSafeOutputStream.java,SignSafeOutputStream,k9mail-library,Service Provider,3.2.3.
+174,new_version\k9mail-library\src\main\java\com\fsck\k9\mail\filter\SmtpDataStuffing.java,SmtpDataStuffing,k9mail-library,Service Provider,3.2.3.
+175,new_version\k9mail\src\main\java\com\fsck\k9\Account.DeletePolicy.java,DeletePolicy,k9mail,Information Holder,3.3.
+176,new_version\k9mail\src\main\java\com\fsck\k9\Account.Expunge.java,Expunge,k9mail,Information Holder,3.3.
+177,new_version\k9mail\src\main\java\com\fsck\k9\Account.FolderMode.java,FolderMode,k9mail,Information Holder,3.3.
+178,new_version\k9mail\src\main\java\com\fsck\k9\Account.MessageFormat.java,MessageFormat,k9mail,Information Holder,3.3.
+179,new_version\k9mail\src\main\java\com\fsck\k9\Account.QuoteStyle.java,QuoteStyle,k9mail,Information Holder,3.3.
+180,new_version\k9mail\src\main\java\com\fsck\k9\Account.Searchable.java,Searchable,k9mail,Information Holder,3.3.
+181,new_version\k9mail\src\main\java\com\fsck\k9\Account.ShowPictures.java,ShowPictures,k9mail,Information Holder,3.3.
+182,new_version\k9mail\src\main\java\com\fsck\k9\Account.SortType.java,SortType,k9mail,Information Holder,3.3.
+183,new_version\k9mail\src\main\java\com\fsck\k9\Account.java,Account,k9mail,Information Holder,3.4.
+184,new_version\k9mail\src\main\java\com\fsck\k9\AccountStats.java,AccountStats,k9mail,Information Holder,3.4.
+185,new_version\k9mail\src\main\java\com\fsck\k9\BaseAccount.java,BaseAccount,k9mail,Information Holder,3.4.
+186,new_version\k9mail\src\main\java\com\fsck\k9\Clock.java,Clock,k9mail,Service Provider,3.3.
+187,new_version\k9mail\src\main\java\com\fsck\k9\EmailAddressValidator.java,EmailAddressValidator,k9mail,Service Provider,3.3.
+188,new_version\k9mail\src\main\java\com\fsck\k9\FontSizes.java,FontSizes,k9mail,Information Holder,3.4.
+189,new_version\k9mail\src\main\java\com\fsck\k9\Globals.java,Globals,k9mail,Information Holder,3.4.
+190,new_version\k9mail\src\main\java\com\fsck\k9\Identity.java,Identity,k9mail,Information Holder,3.4.
+191,new_version\k9mail\src\main\java\com\fsck\k9\K9.ApplicationAware.java,ApplicationAware,k9mail,Service Provider,3.3.
+192,new_version\k9mail\src\main\java\com\fsck\k9\K9.BACKGROUND_OPS.java,BACKGROUND_OPS,k9mail,Information Holder,3.4.
+193,new_version\k9mail\src\main\java\com\fsck\k9\K9.Intents.java,Intents,k9mail,Information Holder,3.2.1.
+194,new_version\k9mail\src\main\java\com\fsck\k9\K9.LockScreenNotificationVisibility.java,LockScreenNotificationVisibility,k9mail,Information Holder,3.4.
+195,new_version\k9mail\src\main\java\com\fsck\k9\K9.NotificationHideSubject.java,NotificationHideSubject,k9mail,Information Holder,3.4.
+196,new_version\k9mail\src\main\java\com\fsck\k9\K9.NotificationQuickDelete.java,NotificationQuickDelete,k9mail,Information Holder,3.4.
+197,new_version\k9mail\src\main\java\com\fsck\k9\K9.SplitViewMode.java,SplitViewMode,k9mail,Information Holder,3.4.
+198,new_version\k9mail\src\main\java\com\fsck\k9\K9.Theme.java,Theme,k9mail,Information Holder,3.4.
+199,new_version\k9mail\src\main\java\com\fsck\k9\K9.java,K9,k9mail,Controller,3.1.
+200,new_version\k9mail\src\main\java\com\fsck\k9\NotificationSetting.java,NotificationSetting,k9mail,Information Holder,3.3.
+201,new_version\k9mail\src\main\java\com\fsck\k9\PRNGFixes.LinuxPRNGSecureRandom.java,LinuxPRNGSecureRandom,k9mail,Service Provider,3.3.
+202,new_version\k9mail\src\main\java\com\fsck\k9\PRNGFixes.LinuxPRNGSecureRandomProvider.java,LinuxPRNGSecureRandomProvider,k9mail,Service Provider,3.3.
+203,new_version\k9mail\src\main\java\com\fsck\k9\PRNGFixes.java,PRNGFixes,k9mail,Service Provider,3.3.
+204,new_version\k9mail\src\main\java\com\fsck\k9\Preferences.java,Preferences,k9mail,Structurer,3.4.
+205,new_version\k9mail\src\main\java\com\fsck\k9\Throttle.MyTimerTask.java,MyTimerTask,k9mail,Coordinator,3.3.
+206,new_version\k9mail\src\main\java\com\fsck\k9\Throttle.java,Throttle,k9mail,Controller,3.4.
+207,new_version\k9mail\src\main\java\com\fsck\k9\widget\list\MessageListRemoteViewFactory.MailItem.java,MailItem,k9mail,Information Holder,1.2.
+208,new_version\k9mail\src\main\java\com\fsck\k9\widget\list\MessageListRemoteViewFactory.java,MessageListRemoteViewFactory,k9mail,Interfacer,1.2.
+209,new_version\k9mail\src\main\java\com\fsck\k9\widget\list\MessageListWidgetProvider.java,MessageListWidgetProvider,k9mail,Controller,1.2.
+210,new_version\k9mail\src\main\java\com\fsck\k9\widget\list\MessageListWidgetService.java,MessageListWidgetService,k9mail,Service Provider,1.2.
+211,new_version\k9mail\src\main\java\com\fsck\k9\view\ClientCertificateSpinner.OnClientCertificateChangedListener.java,OnClientCertificateChangedListener,k9mail,Service Provider,1.2.
+212,new_version\k9mail\src\main\java\com\fsck\k9\view\ClientCertificateSpinner.java,ClientCertificateSpinner,k9mail,Interfacer,1.2.
+213,new_version\k9mail\src\main\java\com\fsck\k9\view\ColorChip.java,ColorChip,k9mail,Coordinator,1.2.
+214,new_version\k9mail\src\main\java\com\fsck\k9\view\CryptoModeSelector.CryptoModeSelectorState.java,CryptoModeSelectorState,k9mail,Information Holder,1.2.
+215,new_version\k9mail\src\main\java\com\fsck\k9\view\CryptoModeSelector.CryptoStatusSelectedListener.java,CryptoStatusSelectedListener,k9mail,Service Provider,1.2.
+216,new_version\k9mail\src\main\java\com\fsck\k9\view\CryptoModeSelector.java,CryptoModeSelector,k9mail,Information Holder,1.2.
+217,new_version\k9mail\src\main\java\com\fsck\k9\view\FoldableLinearLayout.SavedState.java,SavedState,k9mail,Coordinator,1.2.
+218,new_version\k9mail\src\main\java\com\fsck\k9\view\FoldableLinearLayout.java,FoldableLinearLayout,k9mail,Interfacer,1.2.
+219,new_version\k9mail\src\main\java\com\fsck\k9\view\HighlightDialogFragment.java,HighlightDialogFragment,k9mail,Service Provider,1.2.
+220,new_version\k9mail\src\main\java\com\fsck\k9\view\K9WebViewClient.LollipopWebViewClient.java,LollipopWebViewClient,k9mail,Interfacer,1.2.
+221,new_version\k9mail\src\main\java\com\fsck\k9\view\K9WebViewClient.PreLollipopWebViewClient.java,PreLollipopWebViewClient,k9mail,Interfacer,1.2.
+222,new_version\k9mail\src\main\java\com\fsck\k9\view\K9WebViewClient.java,K9WebViewClient,k9mail,Interfacer,1.2.
+223,new_version\k9mail\src\main\java\com\fsck\k9\view\LinearViewAnimator.java,LinearViewAnimator,k9mail,Service Provider,1.2.
+224,new_version\k9mail\src\main\java\com\fsck\k9\view\MessageCryptoDisplayStatus.java,MessageCryptoDisplayStatus,k9mail,Information Holder,1.2.
+225,new_version\k9mail\src\main\java\com\fsck\k9\view\MessageCryptoStatusView.java,MessageCryptoStatusView,k9mail,Interfacer,1.2.
+226,new_version\k9mail\src\main\java\com\fsck\k9\view\MessageHeader.HeaderEntry.java,HeaderEntry,k9mail,Information Holder,1.2.
+227,new_version\k9mail\src\main\java\com\fsck\k9\view\MessageHeader.OnLayoutChangedListener.java,OnLayoutChangedListener,k9mail,Service Provider,1.2.
+228,new_version\k9mail\src\main\java\com\fsck\k9\view\MessageHeader.SavedState.java,SavedState,k9mail,Information Holder,1.2.
+229,new_version\k9mail\src\main\java\com\fsck\k9\view\MessageHeader.java,MessageHeader,k9mail,Interfacer,1.2.
+230,new_version\k9mail\src\main\java\com\fsck\k9\view\MessageTitleView.java,MessageTitleView,k9mail,Interfacer,1.2.
+231,new_version\k9mail\src\main\java\com\fsck\k9\view\MessageWebView.OnPageFinishedListener.java,OnPageFinishedListener,k9mail,Service Provider,1.2.
+232,new_version\k9mail\src\main\java\com\fsck\k9\view\MessageWebView.java,MessageWebView,k9mail,Coordinator,1.2.
+233,new_version\k9mail\src\main\java\com\fsck\k9\view\NonLockingScrollView.HierarchyTreeChangeListener.java,HierarchyTreeChangeListener,k9mail,Service Provider,1.2.
+234,new_version\k9mail\src\main\java\com\fsck\k9\view\NonLockingScrollView.java,NonLockingScrollView,k9mail,Interfacer,1.2.
+235,new_version\k9mail\src\main\java\com\fsck\k9\view\RecipientSelectView.Recipient.java,Recipient,k9mail,Information Holder,1.2.
+236,new_version\k9mail\src\main\java\com\fsck\k9\view\RecipientSelectView.RecipientCryptoStatus.java,RecipientCryptoStatus,k9mail,Information Holder,1.2.
+237,new_version\k9mail\src\main\java\com\fsck\k9\view\RecipientSelectView.RecipientTokenSpan.java,RecipientTokenSpan,k9mail,Information Holder,1.2.
+238,new_version\k9mail\src\main\java\com\fsck\k9\view\RecipientSelectView.RecipientTokenViewHolder.java,RecipientTokenViewHolder,k9mail,Information Holder,1.2.
+239,new_version\k9mail\src\main\java\com\fsck\k9\view\RecipientSelectView.TokenListener.java,TokenListener,k9mail,Service Provider,1.2.
+240,new_version\k9mail\src\main\java\com\fsck\k9\view\RecipientSelectView.java,RecipientSelectView,k9mail,Interfacer,1.2.
+241,new_version\k9mail\src\main\java\com\fsck\k9\view\RigidWebView.java,RigidWebView,k9mail,Information Holder,1.2.
+242,new_version\k9mail\src\main\java\com\fsck\k9\view\ThemeUtils.java,ThemeUtils,k9mail,Coordinator,1.2.
+243,new_version\k9mail\src\main\java\com\fsck\k9\view\ToolableViewAnimator.java,ToolableViewAnimator,k9mail,Interfacer,1.2.
+244,new_version\k9mail\src\main\java\com\fsck\k9\view\ViewSwitcher.OnSwitchCompleteListener.java,OnSwitchCompleteListener,k9mail,Service Provider,1.2.
+245,new_version\k9mail\src\main\java\com\fsck\k9\view\ViewSwitcher.java,ViewSwitcher,k9mail,Service Provider,1.2.
+246,new_version\k9mail\src\main\java\com\fsck\k9\ui\ContactBadge.QueryHandler.java,QueryHandler,k9mail,Controller,1.2.
+247,new_version\k9mail\src\main\java\com\fsck\k9\ui\ContactBadge.java,ContactBadge,k9mail,Interfacer,1.2.
+248,new_version\k9mail\src\main\java\com\fsck\k9\ui\EolConvertingEditText.java,EolConvertingEditText,k9mail,Service Provider,1.2.
+249,new_version\k9mail\src\main\java\com\fsck\k9\ui\messageview\AttachmentController.IntentAndResolvedActivitiesCount.java,IntentAndResolvedActivitiesCount,k9mail,Information Holder,1.2.
+250,new_version\k9mail\src\main\java\com\fsck\k9\ui\messageview\AttachmentController.SaveAttachmentAsyncTask.java,SaveAttachmentAsyncTask,k9mail,Service Provider,1.2.
+251,new_version\k9mail\src\main\java\com\fsck\k9\ui\messageview\AttachmentController.ViewAttachmentAsyncTask.java,ViewAttachmentAsyncTask,k9mail,Service Provider,1.2.
+252,new_version\k9mail\src\main\java\com\fsck\k9\ui\messageview\AttachmentController.java,AttachmentController,k9mail,Controller,1.2.
+253,new_version\k9mail\src\main\java\com\fsck\k9\ui\messageview\AttachmentView.java,AttachmentView,k9mail,Coordinator,1.2.
+254,new_version\k9mail\src\main\java\com\fsck\k9\ui\messageview\AttachmentViewCallback.java,AttachmentViewCallback,k9mail,Service Provider,1.2.
+255,new_version\k9mail\src\main\java\com\fsck\k9\ui\messageview\CryptoInfoDialog.OnClickShowCryptoKeyListener.java,OnClickShowCryptoKeyListener,k9mail,Service Provider,1.2.
+256,new_version\k9mail\src\main\java\com\fsck\k9\ui\messageview\CryptoInfoDialog.java,CryptoInfoDialog,k9mail,Interfacer,1.2.
+257,new_version\k9mail\src\main\java\com\fsck\k9\ui\messageview\DownloadImageTask.java,DownloadImageTask,k9mail,Service Provider,1.2.
+258,new_version\k9mail\src\main\java\com\fsck\k9\ui\messageview\LockedAttachmentView.java,LockedAttachmentView,k9mail,Interfacer,1.2.
+259,new_version\k9mail\src\main\java\com\fsck\k9\ui\messageview\MessageContainerView.OnRenderingFinishedListener.java,OnRenderingFinishedListener,k9mail,Service Provider,1.2.
+260,new_version\k9mail\src\main\java\com\fsck\k9\ui\messageview\MessageContainerView.SavedState.java,SavedState,k9mail,Information Holder,1.2.
+261,new_version\k9mail\src\main\java\com\fsck\k9\ui\messageview\MessageContainerView.java,MessageContainerView,k9mail,Interfacer,1.2.
+262,new_version\k9mail\src\main\java\com\fsck\k9\ui\messageview\MessageCryptoPresenter.MessageCryptoMvpView.java,MessageCryptoMvpView,k9mail,Service Provider,1.2.
+263,new_version\k9mail\src\main\java\com\fsck\k9\ui\messageview\MessageCryptoPresenter.java,MessageCryptoPresenter,k9mail,Controller,1.2.
+264,new_version\k9mail\src\main\java\com\fsck\k9\ui\messageview\MessageTopView.java,MessageTopView,k9mail,Interfacer,1.2.
+265,new_version\k9mail\src\main\java\com\fsck\k9\ui\messageview\MessageViewFragment.MessageViewFragmentListener.java,MessageViewFragmentListener,k9mail,Service Provider,1.2.
+266,new_version\k9mail\src\main\java\com\fsck\k9\ui\messageview\MessageViewFragment.java,MessageViewFragment,k9mail,Interfacer,1.2.
+267,new_version\k9mail\src\main\java\com\fsck\k9\ui\messageview\OnCryptoClickListener.java,OnCryptoClickListener,k9mail,Service Provider,1.2.
+268,new_version\k9mail\src\main\java\com\fsck\k9\ui\message\LocalMessageExtractorLoader.java,LocalMessageExtractorLoader,k9mail,Service Provider,1.2.
+269,new_version\k9mail\src\main\java\com\fsck\k9\ui\message\LocalMessageLoader.java,LocalMessageLoader,k9mail,Service Provider,1.2.
+270,new_version\k9mail\src\main\java\com\fsck\k9\ui\dialog\ApgDeprecationWarningDialog.java,ApgDeprecationWarningDialog,k9mail,Interfacer,1.2.
+271,new_version\k9mail\src\main\java\com\fsck\k9\ui\crypto\MessageCryptoAnnotations.java,MessageCryptoAnnotations,k9mail,Structurer,1.2.
+272,new_version\k9mail\src\main\java\com\fsck\k9\ui\crypto\MessageCryptoCallback.java,MessageCryptoCallback,k9mail,Service Provider,1.2.
+273,new_version\k9mail\src\main\java\com\fsck\k9\ui\crypto\MessageCryptoHelper.CryptoPart.java,CryptoPart,k9mail,Information Holder,1.2.
+274,new_version\k9mail\src\main\java\com\fsck\k9\ui\crypto\MessageCryptoHelper.CryptoPartType.java,CryptoPartType,k9mail,Information Holder,1.2.
+275,new_version\k9mail\src\main\java\com\fsck\k9\ui\crypto\MessageCryptoHelper.State.java,State,k9mail,Information Holder,1.2.
+276,new_version\k9mail\src\main\java\com\fsck\k9\ui\crypto\MessageCryptoHelper.java,MessageCryptoHelper,k9mail,Service Provider,1.2.
+277,new_version\k9mail\src\main\java\com\fsck\k9\ui\crypto\OpenPgpApiFactory.java,OpenPgpApiFactory,k9mail,Service Provider,1.2.
+278,new_version\k9mail\src\main\java\com\fsck\k9\ui\compose\QuotedMessageMvpView.java,QuotedMessageMvpView,k9mail,Interfacer,1.2.
+279,new_version\k9mail\src\main\java\com\fsck\k9\ui\compose\QuotedMessagePresenter.java,QuotedMessagePresenter,k9mail,Structurer,1.2.
+280,new_version\k9mail\src\main\java\com\fsck\k9\setup\ServerNameSuggester.java,ServerNameSuggester,k9mail,Service Provider,3.3.
+281,new_version\k9mail\src\main\java\com\fsck\k9\service\BootReceiver.java,BootReceiver,k9mail,Service Provider,3.2.1.
+282,new_version\k9mail\src\main\java\com\fsck\k9\service\CoreReceiver.java,CoreReceiver,k9mail,Service Provider,3.2.1.
+283,new_version\k9mail\src\main\java\com\fsck\k9\service\CoreService.java,CoreService,k9mail,Service Provider,3.2.1.
+284,new_version\k9mail\src\main\java\com\fsck\k9\service\DatabaseUpgradeService.java,DatabaseUpgradeService,k9mail,Service Provider,3.2.1.
+285,new_version\k9mail\src\main\java\com\fsck\k9\service\MailService.java,MailService,k9mail,Controller,3.2.1.
+286,new_version\k9mail\src\main\java\com\fsck\k9\service\PollService.Listener.java,Listener,k9mail,Service Provider,3.2.1.
+287,new_version\k9mail\src\main\java\com\fsck\k9\service\PollService.java,PollService,k9mail,Service Provider,3.2.1.
+288,new_version\k9mail\src\main\java\com\fsck\k9\service\PushService.java,PushService,k9mail,Service Provider,3.2.1.
+289,new_version\k9mail\src\main\java\com\fsck\k9\service\RemoteControlReceiver.java,RemoteControlReceiver,k9mail,Service Provider,3.2.1.
+290,new_version\k9mail\src\main\java\com\fsck\k9\service\RemoteControlService.java,RemoteControlService,k9mail,Controller,3.2.1.
+291,new_version\k9mail\src\main\java\com\fsck\k9\service\ShutdownReceiver.java,ShutdownReceiver,k9mail,Service Provider,3.2.1.
+292,new_version\k9mail\src\main\java\com\fsck\k9\service\SleepService.SleepDatum.java,SleepDatum,k9mail,Information Holder,3.2.1.
+293,new_version\k9mail\src\main\java\com\fsck\k9\service\SleepService.java,SleepService,k9mail,Service Provider,3.2.1.
+294,new_version\k9mail\src\main\java\com\fsck\k9\service\StorageGoneReceiver.java,StorageGoneReceiver,k9mail,Service Provider,3.2.1.
+295,new_version\k9mail\src\main\java\com\fsck\k9\service\StorageReceiver.java,StorageReceiver,k9mail,Service Provider,3.2.1.
+296,new_version\k9mail\src\main\java\com\fsck\k9\search\ConditionsTreeNode.Operator.java,Operator,k9mail,Information Holder,3.2.1.
+297,new_version\k9mail\src\main\java\com\fsck\k9\search\ConditionsTreeNode.java,ConditionsTreeNode,k9mail,Structurer,3.3.4.
+298,new_version\k9mail\src\main\java\com\fsck\k9\search\LocalSearch.java,LocalSearch,k9mail,Structurer,3.3.4.
+299,new_version\k9mail\src\main\java\com\fsck\k9\search\SearchAccount.java,SearchAccount,k9mail,Coordinator,3.3.4.
+300,new_version\k9mail\src\main\java\com\fsck\k9\search\SearchSpecification.Attribute.java,Attribute,k9mail,Information Holder,3.4.
+301,new_version\k9mail\src\main\java\com\fsck\k9\search\SearchSpecification.SearchCondition.java,SearchCondition,k9mail,Information Holder,3.4.
+302,new_version\k9mail\src\main\java\com\fsck\k9\search\SearchSpecification.SearchField.java,SearchField,k9mail,Information Holder,3.4.
+303,new_version\k9mail\src\main\java\com\fsck\k9\search\SearchSpecification.java,SearchSpecification,k9mail,Information Holder,3.4.
+304,new_version\k9mail\src\main\java\com\fsck\k9\search\SqlQueryBuilder.java,SqlQueryBuilder,k9mail,Service Provider,3.3.4.
+305,new_version\k9mail\src\main\java\com\fsck\k9\remotecontrol\AccountReceiver.java,AccountReceiver,k9mail,Service Provider,3.2.1.
+306,new_version\k9mail\src\main\java\com\fsck\k9\remotecontrol\K9AccountReceptor.java,K9AccountReceptor,k9mail,Service Provider,3.2.1.
+307,new_version\k9mail\src\main\java\com\fsck\k9\remotecontrol\K9RemoteControl.java,K9RemoteControl,k9mail,Information Holder,3.2.1.
+308,new_version\k9mail\src\main\java\com\fsck\k9\provider\AttachmentProvider.AttachmentProviderColumns.java,AttachmentProviderColumns,k9mail,Information Holder,2.1.
+309,new_version\k9mail\src\main\java\com\fsck\k9\provider\AttachmentProvider.java,AttachmentProvider,k9mail,Service Provider,2.1.
+310,new_version\k9mail\src\main\java\com\fsck\k9\provider\AttachmentTempFileProvider.AttachmentTempFileProviderCleanupReceiver.java,AttachmentTempFileProviderCleanupReceiver,k9mail,Service Provider,2.1.
+311,new_version\k9mail\src\main\java\com\fsck\k9\provider\AttachmentTempFileProvider.java,AttachmentTempFileProvider,k9mail,Service Provider,2.1.
+312,new_version\k9mail\src\main\java\com\fsck\k9\provider\DecryptedFileProvider.DecryptedFileProviderCleanupReceiver.java,DecryptedFileProviderCleanupReceiver,k9mail,Service Provider,2.1.
+313,new_version\k9mail\src\main\java\com\fsck\k9\provider\DecryptedFileProvider.java,DecryptedFileProvider,k9mail,Service Provider,2.1.
+314,new_version\k9mail\src\main\java\com\fsck\k9\provider\EmailProvider.FolderColumns.java,FolderColumns,k9mail,Information Holder,2.1.
+315,new_version\k9mail\src\main\java\com\fsck\k9\provider\EmailProvider.IdTrickeryCursor.java,IdTrickeryCursor,k9mail,Service Provider,2.1.
+316,new_version\k9mail\src\main\java\com\fsck\k9\provider\EmailProvider.InternalMessageColumns.java,InternalMessageColumns,k9mail,Information Holder,2.1.
+317,new_version\k9mail\src\main\java\com\fsck\k9\provider\EmailProvider.MessageColumns.java,MessageColumns,k9mail,Information Holder,2.1.
+318,new_version\k9mail\src\main\java\com\fsck\k9\provider\EmailProvider.SpecialColumns.java,SpecialColumns,k9mail,Information Holder,2.1.
+319,new_version\k9mail\src\main\java\com\fsck\k9\provider\EmailProvider.SpecialColumnsCursor.java,SpecialColumnsCursor,k9mail,Information Holder,2.1.
+320,new_version\k9mail\src\main\java\com\fsck\k9\provider\EmailProvider.StatsColumns.java,StatsColumns,k9mail,Information Holder,2.1.
+321,new_version\k9mail\src\main\java\com\fsck\k9\provider\EmailProvider.ThreadColumns.java,ThreadColumns,k9mail,Information Holder,2.1.
+322,new_version\k9mail\src\main\java\com\fsck\k9\provider\EmailProvider.java,EmailProvider,k9mail,Service Provider,2.1.
+323,new_version\k9mail\src\main\java\com\fsck\k9\provider\MessageProvider.AccountColorExtractor.java,AccountColorExtractor,k9mail,Coordinator,2.1.
+324,new_version\k9mail\src\main\java\com\fsck\k9\provider\MessageProvider.AccountColumns.java,AccountColumns,k9mail,Information Holder,2.1.
+325,new_version\k9mail\src\main\java\com\fsck\k9\provider\MessageProvider.AccountExtractor.java,AccountExtractor,k9mail,Coordinator,2.1.
+326,new_version\k9mail\src\main\java\com\fsck\k9\provider\MessageProvider.AccountNumberExtractor.java,AccountNumberExtractor,k9mail,Coordinator,2.1.
+327,new_version\k9mail\src\main\java\com\fsck\k9\provider\MessageProvider.AccountsQueryHandler.java,AccountsQueryHandler,k9mail,Service Provider,2.1.
+328,new_version\k9mail\src\main\java\com\fsck\k9\provider\MessageProvider.CountExtractor.java,CountExtractor,k9mail,Information Holder,2.1.
+329,new_version\k9mail\src\main\java\com\fsck\k9\provider\MessageProvider.DeleteUriExtractor.java,DeleteUriExtractor,k9mail,Coordinator,2.1.
+330,new_version\k9mail\src\main\java\com\fsck\k9\provider\MessageProvider.FieldExtractor.java,FieldExtractor,k9mail,Structurer,2.1.
+331,new_version\k9mail\src\main\java\com\fsck\k9\provider\MessageProvider.HasAttachmentsExtractor.java,HasAttachmentsExtractor,k9mail,Coordinator,2.1.
+332,new_version\k9mail\src\main\java\com\fsck\k9\provider\MessageProvider.HasStarExtractor.java,HasStarExtractor,k9mail,Coordinator,2.1.
+333,new_version\k9mail\src\main\java\com\fsck\k9\provider\MessageProvider.IdExtractor.java,IdExtractor,k9mail,Coordinator,2.1.
+334,new_version\k9mail\src\main\java\com\fsck\k9\provider\MessageProvider.IncrementExtractor.java,IncrementExtractor,k9mail,Information Holder,2.1.
+335,new_version\k9mail\src\main\java\com\fsck\k9\provider\MessageProvider.MessageColumns.java,MessageColumns,k9mail,Information Holder,2.1.
+336,new_version\k9mail\src\main\java\com\fsck\k9\provider\MessageProvider.MessageInfoHolderRetrieverListener.java,MessageInfoHolderRetrieverListener,k9mail,Structurer,2.1.
+337,new_version\k9mail\src\main\java\com\fsck\k9\provider\MessageProvider.MessagesQueryHandler.java,MessagesQueryHandler,k9mail,Structurer,2.1.
+338,new_version\k9mail\src\main\java\com\fsck\k9\provider\MessageProvider.MonitoredCursor.java,MonitoredCursor,k9mail,Service Provider,2.1.
+339,new_version\k9mail\src\main\java\com\fsck\k9\provider\MessageProvider.PreviewExtractor.java,PreviewExtractor,k9mail,Coordinator,2.1.
+340,new_version\k9mail\src\main\java\com\fsck\k9\provider\MessageProvider.QueryHandler.java,QueryHandler,k9mail,Service Provider,2.1.
+341,new_version\k9mail\src\main\java\com\fsck\k9\provider\MessageProvider.ReverseDateComparator.java,ReverseDateComparator,k9mail,Service Provider,2.1.
+342,new_version\k9mail\src\main\java\com\fsck\k9\provider\MessageProvider.SendDateExtractor.java,SendDateExtractor,k9mail,Coordinator,2.1.
+343,new_version\k9mail\src\main\java\com\fsck\k9\provider\MessageProvider.SenderAddressExtractor.java,SenderAddressExtractor,k9mail,Coordinator,2.1.
+344,new_version\k9mail\src\main\java\com\fsck\k9\provider\MessageProvider.SenderExtractor.java,SenderExtractor,k9mail,Coordinator,2.1.
+345,new_version\k9mail\src\main\java\com\fsck\k9\provider\MessageProvider.SubjectExtractor.java,SubjectExtractor,k9mail,Coordinator,2.1.
+346,new_version\k9mail\src\main\java\com\fsck\k9\provider\MessageProvider.ThrottlingQueryHandler.java,ThrottlingQueryHandler,k9mail,Service Provider,2.1.
+347,new_version\k9mail\src\main\java\com\fsck\k9\provider\MessageProvider.UnreadColumns.java,UnreadColumns,k9mail,Information Holder,2.1.
+348,new_version\k9mail\src\main\java\com\fsck\k9\provider\MessageProvider.UnreadExtractor.java,UnreadExtractor,k9mail,Coordinator,2.1.
+349,new_version\k9mail\src\main\java\com\fsck\k9\provider\MessageProvider.UnreadQueryHandler.java,UnreadQueryHandler,k9mail,Service Provider,2.1.
+350,new_version\k9mail\src\main\java\com\fsck\k9\provider\MessageProvider.UriExtractor.java,UriExtractor,k9mail,Coordinator,2.1.
+351,new_version\k9mail\src\main\java\com\fsck\k9\provider\MessageProvider.java,MessageProvider,k9mail,Coordinator,2.1.
+352,new_version\k9mail\src\main\java\com\fsck\k9\provider\UnreadWidgetProvider.java,UnreadWidgetProvider,k9mail,Controller,2.1.
+353,new_version\k9mail\src\main\java\com\fsck\k9\preferences\AccountSettings.DeletePolicySetting.java,DeletePolicySetting,k9mail,Structurer,3.4.
+354,new_version\k9mail\src\main\java\com\fsck\k9\preferences\AccountSettings.IntegerResourceSetting.java,IntegerResourceSetting,k9mail,Structurer,3.4.
+355,new_version\k9mail\src\main\java\com\fsck\k9\preferences\AccountSettings.RingtoneSetting.java,RingtoneSetting,k9mail,Service Provider,3.3.
+356,new_version\k9mail\src\main\java\com\fsck\k9\preferences\AccountSettings.StorageProviderSetting.java,StorageProviderSetting,k9mail,Service Provider,3.3.
+357,new_version\k9mail\src\main\java\com\fsck\k9\preferences\AccountSettings.StringResourceSetting.java,StringResourceSetting,k9mail,Structurer,3.4.
+358,new_version\k9mail\src\main\java\com\fsck\k9\preferences\AccountSettings.java,AccountSettings,k9mail,Coordinator,3.3.
+359,new_version\k9mail\src\main\java\com\fsck\k9\preferences\CheckBoxListPreference.java,CheckBoxListPreference,k9mail,Service Provider,3.4.
+360,new_version\k9mail\src\main\java\com\fsck\k9\preferences\FolderSettings.java,FolderSettings,k9mail,Coordinator,3.3.
+361,new_version\k9mail\src\main\java\com\fsck\k9\preferences\GlobalSettings.DirectorySetting.java,DirectorySetting,k9mail,Service Provider,3.3.
+362,new_version\k9mail\src\main\java\com\fsck\k9\preferences\GlobalSettings.LanguageSetting.java,LanguageSetting,k9mail,Structurer,3.3.
+363,new_version\k9mail\src\main\java\com\fsck\k9\preferences\GlobalSettings.SettingsUpgraderV12.java,SettingsUpgraderV12,k9mail,Service Provider,3.3.
+364,new_version\k9mail\src\main\java\com\fsck\k9\preferences\GlobalSettings.SettingsUpgraderV24.java,SettingsUpgraderV24,k9mail,Service Provider,3.3.
+365,new_version\k9mail\src\main\java\com\fsck\k9\preferences\GlobalSettings.SettingsUpgraderV31.java,SettingsUpgraderV31,k9mail,Service Provider,3.3.
+366,new_version\k9mail\src\main\java\com\fsck\k9\preferences\GlobalSettings.SubThemeSetting.java,SubThemeSetting,k9mail,Service Provider,3.3.
+367,new_version\k9mail\src\main\java\com\fsck\k9\preferences\GlobalSettings.ThemeSetting.java,ThemeSetting,k9mail,Service Provider,3.3.
+368,new_version\k9mail\src\main\java\com\fsck\k9\preferences\GlobalSettings.TimeSetting.java,TimeSetting,k9mail,Service Provider,3.3.
+369,new_version\k9mail\src\main\java\com\fsck\k9\preferences\GlobalSettings.java,GlobalSettings,k9mail,Coordinator,3.3.
+370,new_version\k9mail\src\main\java\com\fsck\k9\preferences\IdentitySettings.OptionalEmailAddressSetting.java,OptionalEmailAddressSetting,k9mail,Service Provider,3.3.
+371,new_version\k9mail\src\main\java\com\fsck\k9\preferences\IdentitySettings.SignatureSetting.java,SignatureSetting,k9mail,Service Provider,3.3.
+372,new_version\k9mail\src\main\java\com\fsck\k9\preferences\IdentitySettings.java,IdentitySettings,k9mail,Coordinator,3.3.
+373,new_version\k9mail\src\main\java\com\fsck\k9\preferences\Settings.BooleanSetting.java,BooleanSetting,k9mail,Service Provider,3.3.
+374,new_version\k9mail\src\main\java\com\fsck\k9\preferences\Settings.ColorSetting.java,ColorSetting,k9mail,Service Provider,3.3.
+375,new_version\k9mail\src\main\java\com\fsck\k9\preferences\Settings.EnumSetting.java,EnumSetting,k9mail,Service Provider,3.3.
+376,new_version\k9mail\src\main\java\com\fsck\k9\preferences\Settings.FontSizeSetting.java,FontSizeSetting,k9mail,Structurer,3.3.
+377,new_version\k9mail\src\main\java\com\fsck\k9\preferences\Settings.IntegerRangeSetting.java,IntegerRangeSetting,k9mail,Service Provider,3.3.
+378,new_version\k9mail\src\main\java\com\fsck\k9\preferences\Settings.InvalidSettingValueException.java,InvalidSettingValueException,k9mail,Information Holder,3.4.
+379,new_version\k9mail\src\main\java\com\fsck\k9\preferences\Settings.PseudoEnumSetting.java,PseudoEnumSetting,k9mail,Service Provider,3.3.
+380,new_version\k9mail\src\main\java\com\fsck\k9\preferences\Settings.SettingsDescription.java,SettingsDescription,k9mail,Information Holder,3.4.
+381,new_version\k9mail\src\main\java\com\fsck\k9\preferences\Settings.SettingsUpgrader.java,SettingsUpgrader,k9mail,Service Provider,3.3.
+382,new_version\k9mail\src\main\java\com\fsck\k9\preferences\Settings.StringSetting.java,StringSetting,k9mail,Service Provider,3.3.
+383,new_version\k9mail\src\main\java\com\fsck\k9\preferences\Settings.V.java,V,k9mail,Information Holder,3.4.
+384,new_version\k9mail\src\main\java\com\fsck\k9\preferences\Settings.WebFontSizeSetting.java,WebFontSizeSetting,k9mail,Structurer,3.3.
+385,new_version\k9mail\src\main\java\com\fsck\k9\preferences\Settings.java,Settings,k9mail,Service Provider,3.3.
+386,new_version\k9mail\src\main\java\com\fsck\k9\preferences\SettingsExporter.java,SettingsExporter,k9mail,Service Provider,3.3.
+387,new_version\k9mail\src\main\java\com\fsck\k9\preferences\SettingsImportExportException.java,SettingsImportExportException,k9mail,Information Holder,3.4.
+388,new_version\k9mail\src\main\java\com\fsck\k9\preferences\SettingsImporter.AccountDescription.java,AccountDescription,k9mail,Information Holder,3.4.
+389,new_version\k9mail\src\main\java\com\fsck\k9\preferences\SettingsImporter.AccountDescriptionPair.java,AccountDescriptionPair,k9mail,Information Holder,3.4.
+390,new_version\k9mail\src\main\java\com\fsck\k9\preferences\SettingsImporter.ImportContents.java,ImportContents,k9mail,Information Holder,3.4.
+391,new_version\k9mail\src\main\java\com\fsck\k9\preferences\SettingsImporter.ImportResults.java,ImportResults,k9mail,Information Holder,3.4.
+392,new_version\k9mail\src\main\java\com\fsck\k9\preferences\SettingsImporter.Imported.java,Imported,k9mail,Information Holder,3.4.
+393,new_version\k9mail\src\main\java\com\fsck\k9\preferences\SettingsImporter.ImportedAccount.java,ImportedAccount,k9mail,Information Holder,3.4.
+394,new_version\k9mail\src\main\java\com\fsck\k9\preferences\SettingsImporter.ImportedFolder.java,ImportedFolder,k9mail,Information Holder,3.4.
+395,new_version\k9mail\src\main\java\com\fsck\k9\preferences\SettingsImporter.ImportedIdentity.java,ImportedIdentity,k9mail,Information Holder,3.4.
+396,new_version\k9mail\src\main\java\com\fsck\k9\preferences\SettingsImporter.ImportedServer.java,ImportedServer,k9mail,Information Holder,3.4.
+397,new_version\k9mail\src\main\java\com\fsck\k9\preferences\SettingsImporter.ImportedServerSettings.java,ImportedServerSettings,k9mail,Information Holder,3.3.
+398,new_version\k9mail\src\main\java\com\fsck\k9\preferences\SettingsImporter.ImportedSettings.java,ImportedSettings,k9mail,Information Holder,3.3.
+399,new_version\k9mail\src\main\java\com\fsck\k9\preferences\SettingsImporter.java,SettingsImporter,k9mail,Service Provider,3.3.
+400,new_version\k9mail\src\main\java\com\fsck\k9\preferences\Storage.java,Storage,k9mail,Structurer,3.3.
+401,new_version\k9mail\src\main\java\com\fsck\k9\preferences\StorageEditor.java,StorageEditor,k9mail,Structurer,3.3.
+402,new_version\k9mail\src\main\java\com\fsck\k9\preferences\TimePickerPreference.java,TimePickerPreference,k9mail,Interfacer,3.3.
+403,new_version\k9mail\src\main\java\com\fsck\k9\power\DeviceIdleManager.NoOpDeviceIdleManager.java,NoOpDeviceIdleManager,k9mail,Service Provider,3.2.4.
+404,new_version\k9mail\src\main\java\com\fsck\k9\power\DeviceIdleManager.RealDeviceIdleManager.java,RealDeviceIdleManager,k9mail,Service Provider,3.2.4.
+405,new_version\k9mail\src\main\java\com\fsck\k9\power\DeviceIdleManager.java,DeviceIdleManager,k9mail,Service Provider,3.2.4.
+406,new_version\k9mail\src\main\java\com\fsck\k9\power\DeviceIdleReceiver.java,DeviceIdleReceiver,k9mail,Coordinator,3.2.4.
+407,new_version\k9mail\src\main\java\com\fsck\k9\power\DozeChecker.java,DozeChecker,k9mail,Coordinator,3.2.4.
+408,new_version\k9mail\src\main\java\com\fsck\k9\notification\AddNotificationResult.java,AddNotificationResult,k9mail,Information Holder,1.2.
+409,new_version\k9mail\src\main\java\com\fsck\k9\notification\AuthenticationErrorNotifications.java,AuthenticationErrorNotifications,k9mail,Coordinator,1.2.
+410,new_version\k9mail\src\main\java\com\fsck\k9\notification\BaseNotifications.java,BaseNotifications,k9mail,Coordinator,1.2.
+411,new_version\k9mail\src\main\java\com\fsck\k9\notification\CertificateErrorNotifications.java,CertificateErrorNotifications,k9mail,Coordinator,1.2.
+412,new_version\k9mail\src\main\java\com\fsck\k9\notification\DeviceNotifications.java,DeviceNotifications,k9mail,Service Provider,1.2.
+413,new_version\k9mail\src\main\java\com\fsck\k9\notification\LockScreenNotification.java,LockScreenNotification,k9mail,Coordinator,1.2.
+414,new_version\k9mail\src\main\java\com\fsck\k9\notification\NewMailNotifications.java,NewMailNotifications,k9mail,Coordinator,1.2.
+415,new_version\k9mail\src\main\java\com\fsck\k9\notification\NotificationActionCreator.java,NotificationActionCreator,k9mail,Service Provider,1.2.
+416,new_version\k9mail\src\main\java\com\fsck\k9\notification\NotificationActionService.java,NotificationActionService,k9mail,Controller,1.2.
+417,new_version\k9mail\src\main\java\com\fsck\k9\notification\NotificationContent.java,NotificationContent,k9mail,Information Holder,1.2.
+418,new_version\k9mail\src\main\java\com\fsck\k9\notification\NotificationContentCreator.java,NotificationContentCreator,k9mail,Service Provider,1.2.
+419,new_version\k9mail\src\main\java\com\fsck\k9\notification\NotificationController.java,NotificationController,k9mail,Controller,1.2.
+420,new_version\k9mail\src\main\java\com\fsck\k9\notification\NotificationData.java,NotificationData,k9mail,Structurer,1.2.
+421,new_version\k9mail\src\main\java\com\fsck\k9\notification\NotificationGroupKeys.java,NotificationGroupKeys,k9mail,Information Holder,1.2.
+422,new_version\k9mail\src\main\java\com\fsck\k9\notification\NotificationHolder.java,NotificationHolder,k9mail,Information Holder,1.2.
+423,new_version\k9mail\src\main\java\com\fsck\k9\notification\NotificationIds.java,NotificationIds,k9mail,Information Holder,1.2.
+424,new_version\k9mail\src\main\java\com\fsck\k9\notification\RemoveNotificationResult.java,RemoveNotificationResult,k9mail,Information Holder,1.2.
+425,new_version\k9mail\src\main\java\com\fsck\k9\notification\SendFailedNotifications.java,SendFailedNotifications,k9mail,Coordinator,1.2.
+426,new_version\k9mail\src\main\java\com\fsck\k9\notification\SyncNotifications.java,SyncNotifications,k9mail,Coordinator,1.2.
+427,new_version\k9mail\src\main\java\com\fsck\k9\notification\WearNotifications.java,WearNotifications,k9mail,Coordinator,1.2.
+428,new_version\k9mail\src\main\java\com\fsck\k9\message\AutocryptStatusInteractor.RecipientAutocryptStatus.java,RecipientAutocryptStatus,k9mail,Information Holder,3.4.
+429,new_version\k9mail\src\main\java\com\fsck\k9\message\AutocryptStatusInteractor.RecipientAutocryptStatusType.java,RecipientAutocryptStatusType,k9mail,Information Holder,3.4.
+430,new_version\k9mail\src\main\java\com\fsck\k9\message\AutocryptStatusInteractor.java,AutocryptStatusInteractor,k9mail,Service Provider,3.3.
+431,new_version\k9mail\src\main\java\com\fsck\k9\message\ComposePgpEnableByDefaultDecider.java,ComposePgpEnableByDefaultDecider,k9mail,Service Provider,3.3.
+432,new_version\k9mail\src\main\java\com\fsck\k9\message\ComposePgpInlineDecider.java,ComposePgpInlineDecider,k9mail,Service Provider,3.3.
+433,new_version\k9mail\src\main\java\com\fsck\k9\message\IdentityField.java,IdentityField,k9mail,Information Holder,3.4.
+434,new_version\k9mail\src\main\java\com\fsck\k9\message\IdentityHeaderBuilder.java,IdentityHeaderBuilder,k9mail,Service Provider,3.3.
+435,new_version\k9mail\src\main\java\com\fsck\k9\message\IdentityHeaderParser.java,IdentityHeaderParser,k9mail,Service Provider,3.3.
+436,new_version\k9mail\src\main\java\com\fsck\k9\message\MessageBuilder.Callback.java,Callback,k9mail,Service Provider,3.3.
+437,new_version\k9mail\src\main\java\com\fsck\k9\message\MessageBuilder.java,MessageBuilder,k9mail,Service Provider,3.3.
+438,new_version\k9mail\src\main\java\com\fsck\k9\message\PgpMessageBuilder.java,PgpMessageBuilder,k9mail,Service Provider,3.3.
+439,new_version\k9mail\src\main\java\com\fsck\k9\message\QuotedTextMode.java,QuotedTextMode,k9mail,Information Holder,3.4.
+440,new_version\k9mail\src\main\java\com\fsck\k9\message\SimpleMessageBuilder.java,SimpleMessageBuilder,k9mail,Service Provider,3.3.
+441,new_version\k9mail\src\main\java\com\fsck\k9\message\SimpleMessageFormat.java,SimpleMessageFormat,k9mail,Information Holder,3.4.
+442,new_version\k9mail\src\main\java\com\fsck\k9\message\TextBodyBuilder.java,TextBodyBuilder,k9mail,Service Provider,3.3.
+443,new_version\k9mail\src\main\java\com\fsck\k9\message\signature\HtmlSignatureRemover.StripSignatureFilter.java,StripSignatureFilter,k9mail,Service Provider,3.3.
+444,new_version\k9mail\src\main\java\com\fsck\k9\message\signature\HtmlSignatureRemover.java,HtmlSignatureRemover,k9mail,Coordinator,3.3.
+445,new_version\k9mail\src\main\java\com\fsck\k9\message\signature\TextSignatureRemover.java,TextSignatureRemover,k9mail,Service Provider,3.3.
+446,new_version\k9mail\src\main\java\com\fsck\k9\message\quote\HtmlQuoteCreator.java,HtmlQuoteCreator,k9mail,Service Provider,3.3.
+447,new_version\k9mail\src\main\java\com\fsck\k9\message\quote\InsertableHtmlContent.InsertionLocation.java,InsertionLocation,k9mail,Information Holder,3.4.
+448,new_version\k9mail\src\main\java\com\fsck\k9\message\quote\InsertableHtmlContent.java,InsertableHtmlContent,k9mail,Information Holder,3.4.
+449,new_version\k9mail\src\main\java\com\fsck\k9\message\quote\QuoteHelper.java,QuoteHelper,k9mail,Service Provider,3.3.
+450,new_version\k9mail\src\main\java\com\fsck\k9\message\quote\TextQuoteCreator.java,TextQuoteCreator,k9mail,Service Provider,3.3.
+451,new_version\k9mail\src\main\java\com\fsck\k9\message\html\BitcoinUriParser.java,BitcoinUriParser,k9mail,Service Provider,3.3.
+452,new_version\k9mail\src\main\java\com\fsck\k9\message\html\EthereumUriParser.java,EthereumUriParser,k9mail,Service Provider,3.3.
+453,new_version\k9mail\src\main\java\com\fsck\k9\message\html\HeadCleaner.CleaningVisitor.java,CleaningVisitor,k9mail,Structurer,3.4.
+454,new_version\k9mail\src\main\java\com\fsck\k9\message\html\HeadCleaner.java,HeadCleaner,k9mail,Coordinator,3.3.
+455,new_version\k9mail\src\main\java\com\fsck\k9\message\html\HtmlConverter.HtmlToTextTagHandler.java,HtmlToTextTagHandler,k9mail,Service Provider,3.3.
+456,new_version\k9mail\src\main\java\com\fsck\k9\message\html\HtmlConverter.ListTagHandler.java,ListTagHandler,k9mail,Service Provider,3.3.
+457,new_version\k9mail\src\main\java\com\fsck\k9\message\html\HtmlConverter.java,HtmlConverter,k9mail,Service Provider,3.3.
+458,new_version\k9mail\src\main\java\com\fsck\k9\message\html\HtmlProcessor.java,HtmlProcessor,k9mail,Service Provider,3.3.
+459,new_version\k9mail\src\main\java\com\fsck\k9\message\html\HtmlSanitizer.java,HtmlSanitizer,k9mail,Coordinator,3.3.
+460,new_version\k9mail\src\main\java\com\fsck\k9\message\html\HttpUriParser.java,HttpUriParser,k9mail,Service Provider,3.3.
+461,new_version\k9mail\src\main\java\com\fsck\k9\message\html\UriLinkifier.java,UriLinkifier,k9mail,Service Provider,3.3.
+462,new_version\k9mail\src\main\java\com\fsck\k9\message\html\UriParser.java,UriParser,k9mail,Service Provider,3.3.
+463,new_version\k9mail\src\main\java\com\fsck\k9\message\extractors\AttachmentCounter.java,AttachmentCounter,k9mail,Service Provider,3.3.
+464,new_version\k9mail\src\main\java\com\fsck\k9\message\extractors\AttachmentInfoExtractor.java,AttachmentInfoExtractor,k9mail,Service Provider,3.3.
+465,new_version\k9mail\src\main\java\com\fsck\k9\message\extractors\BodyTextExtractor.java,BodyTextExtractor,k9mail,Interfacer,3.3.
+466,new_version\k9mail\src\main\java\com\fsck\k9\message\extractors\EncryptionDetector.java,EncryptionDetector,k9mail,Service Provider,3.3.
+467,new_version\k9mail\src\main\java\com\fsck\k9\message\extractors\MessageFulltextCreator.java,MessageFulltextCreator,k9mail,Service Provider,3.3.
+468,new_version\k9mail\src\main\java\com\fsck\k9\message\extractors\MessagePreviewCreator.java,MessagePreviewCreator,k9mail,Service Provider,3.3.
+469,new_version\k9mail\src\main\java\com\fsck\k9\message\extractors\PreviewExtractionException.java,PreviewExtractionException,k9mail,Service Provider,3.3.
+470,new_version\k9mail\src\main\java\com\fsck\k9\message\extractors\PreviewResult.PreviewType.java,PreviewType,k9mail,Information Holder,3.4.
+471,new_version\k9mail\src\main\java\com\fsck\k9\message\extractors\PreviewResult.java,PreviewResult,k9mail,Information Holder,3.4.
+472,new_version\k9mail\src\main\java\com\fsck\k9\message\extractors\PreviewTextExtractor.java,PreviewTextExtractor,k9mail,Service Provider,3.3.
+473,new_version\k9mail\src\main\java\com\fsck\k9\message\extractors\TextPartFinder.java,TextPartFinder,k9mail,Service Provider,3.3.
+474,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\AttachmentResolver.java,AttachmentResolver,k9mail,Service Provider,4.1.
+475,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\AttachmentViewInfo.java,AttachmentViewInfo,k9mail,Information Holder,4.1.
+476,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\BinaryAttachmentBody.java,BinaryAttachmentBody,k9mail,Service Provider,4.2.
+477,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\CryptoResultAnnotation.CryptoError.java,CryptoError,k9mail,Information Holder,4.2.
+478,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\CryptoResultAnnotation.java,CryptoResultAnnotation,k9mail,Information Holder,4.2.
+479,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\DatabasePreviewType.java,DatabasePreviewType,k9mail,Information Holder,4.2.
+480,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\DeferredFileBody.java,DeferredFileBody,k9mail,Service Provider,4.2.
+481,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\FileBackedBody.java,FileBackedBody,k9mail,Information Holder,4.2.
+482,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\LocalBodyPart.java,LocalBodyPart,k9mail,Information Holder,4.2.
+483,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\LocalFolder.DataLocation.java,DataLocation,k9mail,Information Holder,4.2.
+484,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\LocalFolder.MessagePartType.java,MessagePartType,k9mail,Information Holder,4.2.
+485,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\LocalFolder.MoreMessages.java,MoreMessages,k9mail,Information Holder,4.2.
+486,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\LocalFolder.PartContainer.java,PartContainer,k9mail,Information Holder,4.2.
+487,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\LocalFolder.PreferencesHolder.java,PreferencesHolder,k9mail,Information Holder,4.2.
+488,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\LocalFolder.java,LocalFolder,k9mail,Information Holder,4.2.
+489,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\LocalMessage.java,LocalMessage,k9mail,Information Holder,4.2.
+490,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\LocalMimeMessage.java,LocalMimeMessage,k9mail,Information Holder,4.2.
+491,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\LocalPart.java,LocalPart,k9mail,Structurer,4.2.
+492,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\LocalStore.java,LocalStore,k9mail,Service Provider,4.2.
+493,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\LockableDatabase.DbCallback.java,DbCallback,k9mail,Coordinator,4.2.
+494,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\LockableDatabase.SchemaDefinition.java,SchemaDefinition,k9mail,Service Provider,4.2.
+495,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\LockableDatabase.StorageListener.java,StorageListener,k9mail,Service Provider,4.2.
+496,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\LockableDatabase.WrappedException.java,WrappedException,k9mail,Service Provider,4.2.
+497,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\LockableDatabase.java,LockableDatabase,k9mail,Service Provider,4.2.
+498,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\MessageHelper.java,MessageHelper,k9mail,Service Provider,4.1.
+499,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\MessageRemovalListener.java,MessageRemovalListener,k9mail,Service Provider,4.1.
+500,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\MessageViewInfo.java,MessageViewInfo,k9mail,Information Holder,4.1.
+501,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\MessageViewInfoExtractor.ViewableExtractedText.java,ViewableExtractedText,k9mail,Information Holder,4.1.
+502,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\MessageViewInfoExtractor.java,MessageViewInfoExtractor,k9mail,Controller,4.1.
+503,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\MimePartStreamParser.PartBuilder.java,PartBuilder,k9mail,Structurer,3.2.2.
+504,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\MimePartStreamParser.java,MimePartStreamParser,k9mail,Service Provider,3.2.2.
+505,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\StorageManager.ExternalStorageProvider.java,ExternalStorageProvider,k9mail,Information Holder,4.1.
+506,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\StorageManager.FixedStorageProviderBase.java,FixedStorageProviderBase,k9mail,Information Holder,4.1.
+507,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\StorageManager.HtcIncredibleStorageProvider.java,HtcIncredibleStorageProvider,k9mail,Information Holder,4.1.
+508,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\StorageManager.InternalStorageProvider.java,InternalStorageProvider,k9mail,Information Holder,4.1.
+509,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\StorageManager.SamsungGalaxySStorageProvider.java,SamsungGalaxySStorageProvider,k9mail,Information Holder,4.1.
+510,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\StorageManager.StorageListener.java,StorageListener,k9mail,Structurer,4.1.
+511,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\StorageManager.StorageProvider.java,StorageProvider,k9mail,Information Holder,4.1.
+512,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\StorageManager.SynchronizationAid.java,SynchronizationAid,k9mail,Information Holder,4.1.
+513,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\StorageManager.java,StorageManager,k9mail,Service Provider,4.1.
+514,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\StoreSchemaDefinition.RealMigrationsHelper.java,RealMigrationsHelper,k9mail,Information Holder,4.2.
+515,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\StoreSchemaDefinition.java,StoreSchemaDefinition,k9mail,Service Provider,4.2.
+516,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\TempFileBody.java,TempFileBody,k9mail,Information Holder,4.2.
+517,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\ThreadInfo.java,ThreadInfo,k9mail,Information Holder,4.2.
+518,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\UnavailableStorageException.java,UnavailableStorageException,k9mail,Information Holder,4.1.
+519,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\util\DeferredFileOutputStream.java,DeferredFileOutputStream,k9mail,Information Holder,4.2.
+520,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\util\FileFactory.java,FileFactory,k9mail,Service Provider,4.2.
+521,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\util\FlowedMessageUtils.java,FlowedMessageUtils,k9mail,Service Provider,4.2.
+522,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo30.java,MigrationTo30,k9mail,Service Provider,3.2.4.
+523,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo31.java,MigrationTo31,k9mail,Service Provider,3.2.4.
+524,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo32.java,MigrationTo32,k9mail,Service Provider,3.2.4.
+525,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo33.java,MigrationTo33,k9mail,Service Provider,3.2.4.
+526,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo34.java,MigrationTo34,k9mail,Service Provider,3.2.4.
+527,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo35.java,MigrationTo35,k9mail,Service Provider,3.2.4.
+528,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo36.java,MigrationTo36,k9mail,Service Provider,3.2.4.
+529,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo37.java,MigrationTo37,k9mail,Service Provider,3.2.4.
+530,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo39.java,MigrationTo39,k9mail,Service Provider,3.2.4.
+531,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo40.java,MigrationTo40,k9mail,Service Provider,3.2.4.
+532,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo41.java,MigrationTo41,k9mail,Service Provider,3.2.4.
+533,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo42.java,MigrationTo42,k9mail,Service Provider,3.2.4.
+534,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo43.java,MigrationTo43,k9mail,Service Provider,3.2.4.
+535,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo44.java,MigrationTo44,k9mail,Service Provider,3.2.4.
+536,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo45.java,MigrationTo45,k9mail,Service Provider,3.2.4.
+537,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo46.java,MigrationTo46,k9mail,Service Provider,3.2.4.
+538,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo47.java,MigrationTo47,k9mail,Service Provider,3.2.4.
+539,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo48.java,MigrationTo48,k9mail,Service Provider,3.2.4.
+540,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo49.java,MigrationTo49,k9mail,Service Provider,3.2.4.
+541,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo50.java,MigrationTo50,k9mail,Service Provider,3.2.4.
+542,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo51.MimeStructureState.java,MimeStructureState,k9mail,Information Holder,3.2.4.
+543,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo51.java,MigrationTo51,k9mail,Service Provider,3.2.4.
+544,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo52.java,MigrationTo52,k9mail,Service Provider,3.2.4.
+545,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo53.java,MigrationTo53,k9mail,Service Provider,3.2.4.
+546,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo54.java,MigrationTo54,k9mail,Service Provider,3.2.4.
+547,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo55.java,MigrationTo55,k9mail,Service Provider,3.2.4.
+548,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo56.java,MigrationTo56,k9mail,Service Provider,3.2.4.
+549,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo57.java,MigrationTo57,k9mail,Service Provider,3.2.4.
+550,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo58.java,MigrationTo58,k9mail,Service Provider,3.2.4.
+551,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo59.java,MigrationTo59,k9mail,Service Provider,3.2.4.
+552,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo60.OldPendingCommand.java,OldPendingCommand,k9mail,Information Holder,3.2.4.
+553,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo60.java,MigrationTo60,k9mail,Service Provider,3.2.4.
+554,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationTo61.java,MigrationTo61,k9mail,Service Provider,3.2.4.
+555,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\migrations\Migrations.java,Migrations,k9mail,Coordinator,3.2.4.
+556,new_version\k9mail\src\main\java\com\fsck\k9\mailstore\migrations\MigrationsHelper.java,MigrationsHelper,k9mail,Structurer,3.2.4.
+557,new_version\k9mail\src\main\java\com\fsck\k9\helper\ClipboardManager.java,ClipboardManager,k9mail,Service Provider,5.
+558,new_version\k9mail\src\main\java\com\fsck\k9\helper\ContactItem.java,ContactItem,k9mail,Information Holder,5.
+559,new_version\k9mail\src\main\java\com\fsck\k9\helper\ContactPicture.java,ContactPicture,k9mail,Service Provider,5.
+560,new_version\k9mail\src\main\java\com\fsck\k9\helper\Contacts.java,Contacts,k9mail,Service Provider,5.
+561,new_version\k9mail\src\main\java\com\fsck\k9\helper\EmailHelper.java,EmailHelper,k9mail,Service Provider,5.
+562,new_version\k9mail\src\main\java\com\fsck\k9\helper\ExceptionHelper.java,ExceptionHelper,k9mail,Service Provider,5.
+563,new_version\k9mail\src\main\java\com\fsck\k9\helper\FileBrowserHelper.FileBrowserFailOverCallback.java,FileBrowserFailOverCallback,k9mail,Service Provider,5.
+564,new_version\k9mail\src\main\java\com\fsck\k9\helper\FileBrowserHelper.java,FileBrowserHelper,k9mail,Service Provider,5.
+565,new_version\k9mail\src\main\java\com\fsck\k9\helper\FileHelper.java,FileHelper,k9mail,Service Provider,5.
+566,new_version\k9mail\src\main\java\com\fsck\k9\helper\IdentityHelper.java,IdentityHelper,k9mail,Service Provider,5.
+567,new_version\k9mail\src\main\java\com\fsck\k9\helper\K9AlarmManager.java,K9AlarmManager,k9mail,Coordinator,5.
+568,new_version\k9mail\src\main\java\com\fsck\k9\helper\MailTo.CaseInsensitiveParamWrapper.java,CaseInsensitiveParamWrapper,k9mail,Service Provider,5.
+569,new_version\k9mail\src\main\java\com\fsck\k9\helper\MailTo.java,MailTo,k9mail,Service Provider,5.
+570,new_version\k9mail\src\main\java\com\fsck\k9\helper\MergeCursor.java,MergeCursor,k9mail,Service Provider,5.
+571,new_version\k9mail\src\main\java\com\fsck\k9\helper\MergeCursorWithUniqueId.java,MergeCursorWithUniqueId,k9mail,Information Holder,5.
+572,new_version\k9mail\src\main\java\com\fsck\k9\helper\MessageHelper.java,MessageHelper,k9mail,Service Provider,5.
+573,new_version\k9mail\src\main\java\com\fsck\k9\helper\ParcelableUtil.java,ParcelableUtil,k9mail,Service Provider,5.
+574,new_version\k9mail\src\main\java\com\fsck\k9\helper\Preconditions.java,Preconditions,k9mail,Service Provider,5.
+575,new_version\k9mail\src\main\java\com\fsck\k9\helper\ReplyToParser.ReplyToAddresses.java,ReplyToAddresses,k9mail,Information Holder,5.
+576,new_version\k9mail\src\main\java\com\fsck\k9\helper\ReplyToParser.java,ReplyToParser,k9mail,Service Provider,5.
+577,new_version\k9mail\src\main\java\com\fsck\k9\helper\RetainFragment.java,RetainFragment,k9mail,Information Holder,5.
+578,new_version\k9mail\src\main\java\com\fsck\k9\helper\SimpleTextWatcher.java,SimpleTextWatcher,k9mail,Service Provider,5.
+579,new_version\k9mail\src\main\java\com\fsck\k9\helper\SizeFormatter.java,SizeFormatter,k9mail,Service Provider,5.
+580,new_version\k9mail\src\main\java\com\fsck\k9\helper\UnreadWidgetProperties.Type.java,Type,k9mail,Information Holder,5.
+581,new_version\k9mail\src\main\java\com\fsck\k9\helper\UnreadWidgetProperties.java,UnreadWidgetProperties,k9mail,Coordinator,5.
+582,new_version\k9mail\src\main\java\com\fsck\k9\helper\UrlEncodingHelper.java,UrlEncodingHelper,k9mail,Service Provider,5.
+583,new_version\k9mail\src\main\java\com\fsck\k9\helper\Utility.java,Utility,k9mail,Service Provider,5.
+584,new_version\k9mail\src\main\java\com\fsck\k9\helper\jsoup\AdvancedNodeTraversor.FilterResult.java,FilterResult,k9mail,Information Holder,5.
+585,new_version\k9mail\src\main\java\com\fsck\k9\helper\jsoup\AdvancedNodeTraversor.java,AdvancedNodeTraversor,k9mail,Service Provider,5.
+586,new_version\k9mail\src\main\java\com\fsck\k9\helper\jsoup\NodeFilter.HeadFilterDecision.java,HeadFilterDecision,k9mail,Information Holder,5.
+587,new_version\k9mail\src\main\java\com\fsck\k9\helper\jsoup\NodeFilter.TailFilterDecision.java,TailFilterDecision,k9mail,Information Holder,5.
+588,new_version\k9mail\src\main\java\com\fsck\k9\helper\jsoup\NodeFilter.java,NodeFilter,k9mail,Service Provider,5.
+589,new_version\k9mail\src\main\java\com\fsck\k9\fragment\AttachmentDownloadDialogFragment.AttachmentDownloadCancelListener.java,AttachmentDownloadCancelListener,k9mail,Interfacer,1.2.
+590,new_version\k9mail\src\main\java\com\fsck\k9\fragment\AttachmentDownloadDialogFragment.java,AttachmentDownloadDialogFragment,k9mail,Interfacer,1.2.
+591,new_version\k9mail\src\main\java\com\fsck\k9\fragment\ConfirmationDialogFragment.ConfirmationDialogFragmentListener.java,ConfirmationDialogFragmentListener,k9mail,Interfacer,1.2.
+592,new_version\k9mail\src\main\java\com\fsck\k9\fragment\ConfirmationDialogFragment.java,ConfirmationDialogFragment,k9mail,Coordinator,1.2.
+593,new_version\k9mail\src\main\java\com\fsck\k9\fragment\MLFProjectionInfo.java,MLFProjectionInfo,k9mail,Information Holder,1.2.
+594,new_version\k9mail\src\main\java\com\fsck\k9\fragment\MessageListAdapter.java,MessageListAdapter,k9mail,Interfacer,1.2.
+595,new_version\k9mail\src\main\java\com\fsck\k9\fragment\MessageListFragment.ActionModeCallback.java,ActionModeCallback,k9mail,Interfacer,1.2.
+596,new_version\k9mail\src\main\java\com\fsck\k9\fragment\MessageListFragment.FolderOperation.java,FolderOperation,k9mail,Information Holder,1.2.
+597,new_version\k9mail\src\main\java\com\fsck\k9\fragment\MessageListFragment.FooterViewHolder.java,FooterViewHolder,k9mail,Information Holder,1.2.
+598,new_version\k9mail\src\main\java\com\fsck\k9\fragment\MessageListFragment.MessageListActivityListener.java,MessageListActivityListener,k9mail,Coordinator,1.2.
+599,new_version\k9mail\src\main\java\com\fsck\k9\fragment\MessageListFragment.MessageListFragmentListener.java,MessageListFragmentListener,k9mail,Service Provider,1.2.
+600,new_version\k9mail\src\main\java\com\fsck\k9\fragment\MessageListFragment.java,MessageListFragment,k9mail,Interfacer,1.2.
+601,new_version\k9mail\src\main\java\com\fsck\k9\fragment\MessageListFragmentComparators.ArrivalComparator.java,ArrivalComparator,k9mail,Service Provider,1.2.
+602,new_version\k9mail\src\main\java\com\fsck\k9\fragment\MessageListFragmentComparators.AttachmentComparator.java,AttachmentComparator,k9mail,Service Provider,1.2.
+603,new_version\k9mail\src\main\java\com\fsck\k9\fragment\MessageListFragmentComparators.ComparatorChain.java,ComparatorChain,k9mail,Service Provider,1.2.
+604,new_version\k9mail\src\main\java\com\fsck\k9\fragment\MessageListFragmentComparators.DateComparator.java,DateComparator,k9mail,Service Provider,1.2.
+605,new_version\k9mail\src\main\java\com\fsck\k9\fragment\MessageListFragmentComparators.FlaggedComparator.java,FlaggedComparator,k9mail,Service Provider,1.2.
+606,new_version\k9mail\src\main\java\com\fsck\k9\fragment\MessageListFragmentComparators.ReverseComparator.java,ReverseComparator,k9mail,Coordinator,1.2.
+607,new_version\k9mail\src\main\java\com\fsck\k9\fragment\MessageListFragmentComparators.ReverseIdComparator.java,ReverseIdComparator,k9mail,Service Provider,1.2.
+608,new_version\k9mail\src\main\java\com\fsck\k9\fragment\MessageListFragmentComparators.SenderComparator.java,SenderComparator,k9mail,Service Provider,1.2.
+609,new_version\k9mail\src\main\java\com\fsck\k9\fragment\MessageListFragmentComparators.SubjectComparator.java,SubjectComparator,k9mail,Service Provider,1.2.
+610,new_version\k9mail\src\main\java\com\fsck\k9\fragment\MessageListFragmentComparators.UnreadComparator.java,UnreadComparator,k9mail,Service Provider,1.2.
+611,new_version\k9mail\src\main\java\com\fsck\k9\fragment\MessageListFragmentComparators.java,MessageListFragmentComparators,k9mail,Service Provider,1.2.
+612,new_version\k9mail\src\main\java\com\fsck\k9\fragment\MessageListHandler.java,MessageListHandler,k9mail,Interfacer,1.2.
+613,new_version\k9mail\src\main\java\com\fsck\k9\fragment\MessageViewHolder.java,MessageViewHolder,k9mail,Interfacer,1.2.
+614,new_version\k9mail\src\main\java\com\fsck\k9\fragment\MlfUtils.java,MlfUtils,k9mail,Service Provider,1.2.
+615,new_version\k9mail\src\main\java\com\fsck\k9\fragment\ProgressDialogFragment.CancelListener.java,CancelListener,k9mail,Service Provider,1.2.
+616,new_version\k9mail\src\main\java\com\fsck\k9\fragment\ProgressDialogFragment.java,ProgressDialogFragment,k9mail,Interfacer,1.2.
+617,new_version\k9mail\src\main\java\com\fsck\k9\crypto\MessageCryptoStructureDetector.java,MessageCryptoStructureDetector,k9mail,Service Provider,5.
+618,new_version\k9mail\src\main\java\com\fsck\k9\crypto\OpenPgpApiHelper.java,OpenPgpApiHelper,k9mail,Service Provider,5.
+619,new_version\k9mail\src\main\java\com\fsck\k9\controller\MemorizingMessagingListener.MemorizingState.java,MemorizingState,k9mail,Information Holder,3.1.
+620,new_version\k9mail\src\main\java\com\fsck\k9\controller\MemorizingMessagingListener.Memory.java,Memory,k9mail,Information Holder,3.1.
+621,new_version\k9mail\src\main\java\com\fsck\k9\controller\MemorizingMessagingListener.java,MemorizingMessagingListener,k9mail,Controller,3.1.
+622,new_version\k9mail\src\main\java\com\fsck\k9\controller\MessagingController.Command.java,Command,k9mail,Controller,3.1.
+623,new_version\k9mail\src\main\java\com\fsck\k9\controller\MessagingController.MessageActor.java,MessageActor,k9mail,Service Provider,3.1.
+624,new_version\k9mail\src\main\java\com\fsck\k9\controller\MessagingController.java,MessagingController,k9mail,Controller,3.1.
+625,new_version\k9mail\src\main\java\com\fsck\k9\controller\MessagingControllerCommands.PendingAppend.java,PendingAppend,k9mail,Coordinator,3.1.
+626,new_version\k9mail\src\main\java\com\fsck\k9\controller\MessagingControllerCommands.PendingCommand.java,PendingCommand,k9mail,Coordinator,3.1.
+627,new_version\k9mail\src\main\java\com\fsck\k9\controller\MessagingControllerCommands.PendingEmptyTrash.java,PendingEmptyTrash,k9mail,Coordinator,3.1.
+628,new_version\k9mail\src\main\java\com\fsck\k9\controller\MessagingControllerCommands.PendingExpunge.java,PendingExpunge,k9mail,Coordinator,3.1.
+629,new_version\k9mail\src\main\java\com\fsck\k9\controller\MessagingControllerCommands.PendingMarkAllAsRead.java,PendingMarkAllAsRead,k9mail,Coordinator,3.1.
+630,new_version\k9mail\src\main\java\com\fsck\k9\controller\MessagingControllerCommands.PendingMoveOrCopy.java,PendingMoveOrCopy,k9mail,Coordinator,3.1.
+631,new_version\k9mail\src\main\java\com\fsck\k9\controller\MessagingControllerCommands.PendingSetFlag.java,PendingSetFlag,k9mail,Coordinator,3.1.
+632,new_version\k9mail\src\main\java\com\fsck\k9\controller\MessagingControllerCommands.java,MessagingControllerCommands,k9mail,Information Holder,3.1.
+633,new_version\k9mail\src\main\java\com\fsck\k9\controller\MessagingControllerPushReceiver.java,MessagingControllerPushReceiver,k9mail,Coordinator,3.1.
+634,new_version\k9mail\src\main\java\com\fsck\k9\controller\MessagingListener.java,MessagingListener,k9mail,Service Provider,3.1.
+635,new_version\k9mail\src\main\java\com\fsck\k9\controller\PendingCommandSerializer.java,PendingCommandSerializer,k9mail,Coordinator,3.1.
+636,new_version\k9mail\src\main\java\com\fsck\k9\controller\ProgressBodyFactory.ProgressListener.java,ProgressListener,k9mail,Interfacer,3.1.
+637,new_version\k9mail\src\main\java\com\fsck\k9\controller\ProgressBodyFactory.java,ProgressBodyFactory,k9mail,Coordinator,3.1.
+638,new_version\k9mail\src\main\java\com\fsck\k9\controller\SimpleMessagingListener.java,SimpleMessagingListener,k9mail,Service Provider,3.1.
+639,new_version\k9mail\src\main\java\com\fsck\k9\controller\UidReverseComparator.java,UidReverseComparator,k9mail,Service Provider,3.1.
+640,new_version\k9mail\src\main\java\com\fsck\k9\controller\UnavailableAccountException.java,UnavailableAccountException,k9mail,Service Provider,3.1.
+641,new_version\k9mail\src\main\java\com\fsck\k9\cache\EmailProviderCache.java,EmailProviderCache,k9mail,Structurer,5.
+642,new_version\k9mail\src\main\java\com\fsck\k9\cache\EmailProviderCacheCursor.java,EmailProviderCacheCursor,k9mail,Structurer,5.
+643,new_version\k9mail\src\main\java\com\fsck\k9\cache\TemporaryAttachmentStore.java,TemporaryAttachmentStore,k9mail,Service Provider,5.
+644,new_version\k9mail\src\main\java\com\fsck\k9\autocrypt\AutocryptHeader.java,AutocryptHeader,k9mail,Service Provider,5.
+645,new_version\k9mail\src\main\java\com\fsck\k9\autocrypt\AutocryptHeaderParser.java,AutocryptHeaderParser,k9mail,Service Provider,5.
+646,new_version\k9mail\src\main\java\com\fsck\k9\autocrypt\AutocryptOpenPgpApiInteractor.java,AutocryptOpenPgpApiInteractor,k9mail,Coordinator,5.
+647,new_version\k9mail\src\main\java\com\fsck\k9\autocrypt\AutocryptOperations.java,AutocryptOperations,k9mail,Service Provider,5.
+648,new_version\k9mail\src\main\java\com\fsck\k9\activity\AccountList.AccountsAdapter.java,AccountsAdapter,k9mail,Interfacer,1.2.
+649,new_version\k9mail\src\main\java\com\fsck\k9\activity\AccountList.LoadAccounts.java,LoadAccounts,k9mail,Service Provider,1.2.
+650,new_version\k9mail\src\main\java\com\fsck\k9\activity\AccountList.java,AccountList,k9mail,Interfacer,1.2.
+651,new_version\k9mail\src\main\java\com\fsck\k9\activity\Accounts.ACCOUNT_LOCATION.java,ACCOUNT_LOCATION,k9mail,Information Holder,1.2.
+652,new_version\k9mail\src\main\java\com\fsck\k9\activity\Accounts.AccountClickListener.java,AccountClickListener,k9mail,Coordinator,1.2.
+653,new_version\k9mail\src\main\java\com\fsck\k9\activity\Accounts.AccountsAdapter.java,AccountsAdapter,k9mail,Interfacer,1.2.
+654,new_version\k9mail\src\main\java\com\fsck\k9\activity\Accounts.AccountsHandler.java,AccountsHandler,k9mail,Interfacer,1.2.
+655,new_version\k9mail\src\main\java\com\fsck\k9\activity\Accounts.AccountsImportedDialog.java,AccountsImportedDialog,k9mail,Coordinator,1.2.
+656,new_version\k9mail\src\main\java\com\fsck\k9\activity\Accounts.ExportAsyncTask.java,ExportAsyncTask,k9mail,Service Provider,1.2.
+657,new_version\k9mail\src\main\java\com\fsck\k9\activity\Accounts.ImportAsyncTask.java,ImportAsyncTask,k9mail,Service Provider,1.2.
+658,new_version\k9mail\src\main\java\com\fsck\k9\activity\Accounts.ImportSelectionDialog.java,ImportSelectionDialog,k9mail,Interfacer,1.2.
+659,new_version\k9mail\src\main\java\com\fsck\k9\activity\Accounts.ListImportContentsAsyncTask.java,ListImportContentsAsyncTask,k9mail,Service Provider,1.2.
+660,new_version\k9mail\src\main\java\com\fsck\k9\activity\Accounts.MoveAccountAsyncTask.java,MoveAccountAsyncTask,k9mail,Service Provider,1.2.
+661,new_version\k9mail\src\main\java\com\fsck\k9\activity\Accounts.PasswordPromptDialog.java,PasswordPromptDialog,k9mail,Interfacer,1.2.
+662,new_version\k9mail\src\main\java\com\fsck\k9\activity\Accounts.SetPasswordsAsyncTask.java,SetPasswordsAsyncTask,k9mail,Service Provider,1.2.
+663,new_version\k9mail\src\main\java\com\fsck\k9\activity\Accounts.SimpleDialog.java,SimpleDialog,k9mail,Coordinator,1.2.
+664,new_version\k9mail\src\main\java\com\fsck\k9\activity\Accounts.java,Accounts,k9mail,Coordinator,1.2.
+665,new_version\k9mail\src\main\java\com\fsck\k9\activity\ActivityListener.java,ActivityListener,k9mail,Service Provider,1.2.
+666,new_version\k9mail\src\main\java\com\fsck\k9\activity\AlternateRecipientAdapter.AlternateRecipientListener.java,AlternateRecipientListener,k9mail,Structurer,1.2.
+667,new_version\k9mail\src\main\java\com\fsck\k9\activity\AlternateRecipientAdapter.RecipientTokenHolder.java,RecipientTokenHolder,k9mail,Information Holder,1.2.
+668,new_version\k9mail\src\main\java\com\fsck\k9\activity\AlternateRecipientAdapter.java,AlternateRecipientAdapter,k9mail,Interfacer,1.2.
+669,new_version\k9mail\src\main\java\com\fsck\k9\activity\ChooseAccount.java,ChooseAccount,k9mail,Service Provider,1.2.
+670,new_version\k9mail\src\main\java\com\fsck\k9\activity\ChooseFolder.ChooseFolderHandler.java,ChooseFolderHandler,k9mail,Service Provider,1.2.
+671,new_version\k9mail\src\main\java\com\fsck\k9\activity\ChooseFolder.java,ChooseFolder,k9mail,Interfacer,1.2.
+672,new_version\k9mail\src\main\java\com\fsck\k9\activity\ChooseIdentity.java,ChooseIdentity,k9mail,Interfacer,1.2.
+673,new_version\k9mail\src\main\java\com\fsck\k9\activity\ColorPickerDialog.OnColorChangedListener.java,OnColorChangedListener,k9mail,Service Provider,1.2.
+674,new_version\k9mail\src\main\java\com\fsck\k9\activity\ColorPickerDialog.java,ColorPickerDialog,k9mail,Interfacer,1.2.
+675,new_version\k9mail\src\main\java\com\fsck\k9\activity\ConfirmationDialog.java,ConfirmationDialog,k9mail,Interfacer,1.2.
+676,new_version\k9mail\src\main\java\com\fsck\k9\activity\EditIdentity.java,EditIdentity,k9mail,Interfacer,1.2.
+677,new_version\k9mail\src\main\java\com\fsck\k9\activity\EmailAddressList.java,EmailAddressList,k9mail,Interfacer,1.2.
+678,new_version\k9mail\src\main\java\com\fsck\k9\activity\FolderInfoHolder.java,FolderInfoHolder,k9mail,Information Holder,1.2.
+679,new_version\k9mail\src\main\java\com\fsck\k9\activity\FolderList.FolderClickListener.java,FolderClickListener,k9mail,Service Provider,1.2.
+680,new_version\k9mail\src\main\java\com\fsck\k9\activity\FolderList.FolderListAdapter.java,FolderListAdapter,k9mail,Interfacer,1.2.
+681,new_version\k9mail\src\main\java\com\fsck\k9\activity\FolderList.FolderListHandler.java,FolderListHandler,k9mail,Service Provider,1.2.
+682,new_version\k9mail\src\main\java\com\fsck\k9\activity\FolderList.FolderViewHolder.java,FolderViewHolder,k9mail,Information Holder,1.2.
+683,new_version\k9mail\src\main\java\com\fsck\k9\activity\FolderList.java,FolderList,k9mail,Interfacer,1.2.
+684,new_version\k9mail\src\main\java\com\fsck\k9\activity\FolderListFilter.java,FolderListFilter,k9mail,Service Provider,1.2.
+685,new_version\k9mail\src\main\java\com\fsck\k9\activity\K9Activity.java,K9Activity,k9mail,Interfacer,1.2.
+686,new_version\k9mail\src\main\java\com\fsck\k9\activity\K9ActivityCommon.K9ActivityMagic.java,K9ActivityMagic,k9mail,Service Provider,1.2.
+687,new_version\k9mail\src\main\java\com\fsck\k9\activity\K9ActivityCommon.java,K9ActivityCommon,k9mail,Coordinator,1.2.
+688,new_version\k9mail\src\main\java\com\fsck\k9\activity\K9ListActivity.java,K9ListActivity,k9mail,Interfacer,1.2.
+689,new_version\k9mail\src\main\java\com\fsck\k9\activity\K9PreferenceActivity.PreferenceChangeListener.java,PreferenceChangeListener,k9mail,Service Provider,1.2.
+690,new_version\k9mail\src\main\java\com\fsck\k9\activity\K9PreferenceActivity.java,K9PreferenceActivity,k9mail,Coordinator,1.2.
+691,new_version\k9mail\src\main\java\com\fsck\k9\activity\LauncherShortcuts.java,LauncherShortcuts,k9mail,Interfacer,1.2.
+692,new_version\k9mail\src\main\java\com\fsck\k9\activity\ManageIdentities.java,ManageIdentities,k9mail,Interfacer,1.2.
+693,new_version\k9mail\src\main\java\com\fsck\k9\activity\MessageCompose.Action.java,Action,k9mail,Information Holder,1.2.
+694,new_version\k9mail\src\main\java\com\fsck\k9\activity\MessageCompose.SendMessageTask.java,SendMessageTask,k9mail,Service Provider,1.2.
+695,new_version\k9mail\src\main\java\com\fsck\k9\activity\MessageCompose.java,MessageCompose,k9mail,Controller,1.2.
+696,new_version\k9mail\src\main\java\com\fsck\k9\activity\MessageInfoHolder.java,MessageInfoHolder,k9mail,Information Holder,1.2.
+697,new_version\k9mail\src\main\java\com\fsck\k9\activity\MessageList.DisplayMode.java,DisplayMode,k9mail,Information Holder,1.2.
+698,new_version\k9mail\src\main\java\com\fsck\k9\activity\MessageList.StorageListenerImplementation.java,StorageListenerImplementation,k9mail,Service Provider,1.2.
+699,new_version\k9mail\src\main\java\com\fsck\k9\activity\MessageList.java,MessageList,k9mail,Interfacer,1.2.
+700,new_version\k9mail\src\main\java\com\fsck\k9\activity\MessageLoaderHelper.MessageLoaderCallbacks.java,MessageLoaderCallbacks,k9mail,Interfacer,1.2.
+701,new_version\k9mail\src\main\java\com\fsck\k9\activity\MessageLoaderHelper.java,MessageLoaderHelper,k9mail,Service Provider,1.2.
+702,new_version\k9mail\src\main\java\com\fsck\k9\activity\MessageReference.java,MessageReference,k9mail,Information Holder,1.2.
+703,new_version\k9mail\src\main\java\com\fsck\k9\activity\MessageReferenceHelper.java,MessageReferenceHelper,k9mail,Service Provider,1.2.
+704,new_version\k9mail\src\main\java\com\fsck\k9\activity\NotificationDeleteConfirmation.java,NotificationDeleteConfirmation,k9mail,Interfacer,1.2.
+705,new_version\k9mail\src\main\java\com\fsck\k9\activity\Search.java,Search,k9mail,Interfacer,1.2.
+706,new_version\k9mail\src\main\java\com\fsck\k9\activity\UnreadWidgetConfiguration.java,UnreadWidgetConfiguration,k9mail,Interfacer,1.2.
+707,new_version\k9mail\src\main\java\com\fsck\k9\activity\UpgradeDatabases.UpgradeDatabaseBroadcastReceiver.java,UpgradeDatabaseBroadcastReceiver,k9mail,Controller,1.2.
+708,new_version\k9mail\src\main\java\com\fsck\k9\activity\UpgradeDatabases.java,UpgradeDatabases,k9mail,Coordinator,1.2.
+709,new_version\k9mail\src\main\java\com\fsck\k9\activity\setup\AccountSettings.PopulateFolderPrefsTask.java,PopulateFolderPrefsTask,k9mail,Interfacer,1.2.
+710,new_version\k9mail\src\main\java\com\fsck\k9\activity\setup\AccountSettings.java,AccountSettings,k9mail,Interfacer,1.2.
+711,new_version\k9mail\src\main\java\com\fsck\k9\activity\setup\AccountSetupAccountType.java,AccountSetupAccountType,k9mail,Interfacer,1.2.
+712,new_version\k9mail\src\main\java\com\fsck\k9\activity\setup\AccountSetupBasics.Provider.java,Provider,k9mail,Information Holder,1.2.
+713,new_version\k9mail\src\main\java\com\fsck\k9\activity\setup\AccountSetupBasics.java,AccountSetupBasics,k9mail,Interfacer,1.2.
+714,new_version\k9mail\src\main\java\com\fsck\k9\activity\setup\AccountSetupCheckSettings.CheckAccountTask.java,CheckAccountTask,k9mail,Coordinator,1.2.
+715,new_version\k9mail\src\main\java\com\fsck\k9\activity\setup\AccountSetupCheckSettings.CheckDirection.java,CheckDirection,k9mail,Information Holder,1.2.
+716,new_version\k9mail\src\main\java\com\fsck\k9\activity\setup\AccountSetupCheckSettings.java,AccountSetupCheckSettings,k9mail,Interfacer,1.2.
+717,new_version\k9mail\src\main\java\com\fsck\k9\activity\setup\AccountSetupComposition.java,AccountSetupComposition,k9mail,Interfacer,1.2.
+718,new_version\k9mail\src\main\java\com\fsck\k9\activity\setup\AccountSetupIncoming.java,AccountSetupIncoming,k9mail,Interfacer,1.2.
+719,new_version\k9mail\src\main\java\com\fsck\k9\activity\setup\AccountSetupNames.java,AccountSetupNames,k9mail,Interfacer,1.2.
+720,new_version\k9mail\src\main\java\com\fsck\k9\activity\setup\AccountSetupOptions.java,AccountSetupOptions,k9mail,Interfacer,1.2.
+721,new_version\k9mail\src\main\java\com\fsck\k9\activity\setup\AccountSetupOutgoing.java,AccountSetupOutgoing,k9mail,Interfacer,1.2.
+722,new_version\k9mail\src\main\java\com\fsck\k9\activity\setup\AuthTypeAdapter.java,AuthTypeAdapter,k9mail,Structurer,1.2.
+723,new_version\k9mail\src\main\java\com\fsck\k9\activity\setup\AuthTypeHolder.java,AuthTypeHolder,k9mail,Information Holder,1.2.
+724,new_version\k9mail\src\main\java\com\fsck\k9\activity\setup\ConnectionSecurityAdapter.java,ConnectionSecurityAdapter,k9mail,Interfacer,1.2.
+725,new_version\k9mail\src\main\java\com\fsck\k9\activity\setup\ConnectionSecurityHolder.java,ConnectionSecurityHolder,k9mail,Information Holder,1.2.
+726,new_version\k9mail\src\main\java\com\fsck\k9\activity\setup\FolderSettings.java,FolderSettings,k9mail,Interfacer,1.2.
+727,new_version\k9mail\src\main\java\com\fsck\k9\activity\setup\FontSizeSettings.java,FontSizeSettings,k9mail,Coordinator,1.2.
+728,new_version\k9mail\src\main\java\com\fsck\k9\activity\setup\OpenPgpAppSelectDialog.ApgDeprecationDialogFragment.java,ApgDeprecationDialogFragment,k9mail,Coordinator,1.2.
+729,new_version\k9mail\src\main\java\com\fsck\k9\activity\setup\OpenPgpAppSelectDialog.OpenPgpAppSelectFragment.java,OpenPgpAppSelectFragment,k9mail,Structurer,1.2.
+730,new_version\k9mail\src\main\java\com\fsck\k9\activity\setup\OpenPgpAppSelectDialog.OpenPgpProviderEntry.java,OpenPgpProviderEntry,k9mail,Information Holder,1.2.
+731,new_version\k9mail\src\main\java\com\fsck\k9\activity\setup\OpenPgpAppSelectDialog.java,OpenPgpAppSelectDialog,k9mail,Interfacer,1.2.
+732,new_version\k9mail\src\main\java\com\fsck\k9\activity\setup\Prefs.java,Prefs,k9mail,Interfacer,1.2.
+733,new_version\k9mail\src\main\java\com\fsck\k9\activity\setup\SliderPreference.java,SliderPreference,k9mail,Information Holder,1.2.
+734,new_version\k9mail\src\main\java\com\fsck\k9\activity\setup\SpinnerOption.java,SpinnerOption,k9mail,Information Holder,1.2.
+735,new_version\k9mail\src\main\java\com\fsck\k9\activity\setup\WelcomeMessage.java,WelcomeMessage,k9mail,Interfacer,1.2.
+736,new_version\k9mail\src\main\java\com\fsck\k9\activity\misc\Attachment.LoadingState.java,LoadingState,k9mail,Information Holder,1.2.
+737,new_version\k9mail\src\main\java\com\fsck\k9\activity\misc\Attachment.java,Attachment,k9mail,Information Holder,1.2.
+738,new_version\k9mail\src\main\java\com\fsck\k9\activity\misc\ContactPictureLoader.FallbackGlideBitmapDecoder.java,FallbackGlideBitmapDecoder,k9mail,Service Provider,1.2.
+739,new_version\k9mail\src\main\java\com\fsck\k9\activity\misc\ContactPictureLoader.FallbackGlideModelLoader.java,FallbackGlideModelLoader,k9mail,Service Provider,1.2.
+740,new_version\k9mail\src\main\java\com\fsck\k9\activity\misc\ContactPictureLoader.FallbackGlideParams.java,FallbackGlideParams,k9mail,Information Holder,1.2.
+741,new_version\k9mail\src\main\java\com\fsck\k9\activity\misc\ContactPictureLoader.java,ContactPictureLoader,k9mail,Service Provider,1.2.
+742,new_version\k9mail\src\main\java\com\fsck\k9\activity\misc\ExtendedAsyncTask.java,ExtendedAsyncTask,k9mail,Coordinator,1.2.
+743,new_version\k9mail\src\main\java\com\fsck\k9\activity\misc\NonConfigurationInstance.java,NonConfigurationInstance,k9mail,Service Provider,1.2.
+744,new_version\k9mail\src\main\java\com\fsck\k9\activity\misc\SwipeGestureDetector.OnSwipeGestureListener.java,OnSwipeGestureListener,k9mail,Interfacer,1.2.
+745,new_version\k9mail\src\main\java\com\fsck\k9\activity\misc\SwipeGestureDetector.java,SwipeGestureDetector,k9mail,Interfacer,1.2.
+746,new_version\k9mail\src\main\java\com\fsck\k9\activity\loader\AttachmentContentLoader.java,AttachmentContentLoader,k9mail,Service Provider,1.2.
+747,new_version\k9mail\src\main\java\com\fsck\k9\activity\loader\AttachmentInfoLoader.java,AttachmentInfoLoader,k9mail,Service Provider,1.2.
+748,new_version\k9mail\src\main\java\com\fsck\k9\activity\compose\AttachmentPresenter.AttachmentMvpView.java,AttachmentMvpView,k9mail,Service Provider,1.2.
+749,new_version\k9mail\src\main\java\com\fsck\k9\activity\compose\AttachmentPresenter.AttachmentsChangedListener.java,AttachmentsChangedListener,k9mail,Service Provider,1.2.
+750,new_version\k9mail\src\main\java\com\fsck\k9\activity\compose\AttachmentPresenter.WaitingAction.java,WaitingAction,k9mail,Information Holder,1.2.
+751,new_version\k9mail\src\main\java\com\fsck\k9\activity\compose\AttachmentPresenter.java,AttachmentPresenter,k9mail,Coordinator,1.2.
+752,new_version\k9mail\src\main\java\com\fsck\k9\activity\compose\ComposeCryptoStatus.AttachErrorState.java,AttachErrorState,k9mail,Information Holder,1.2.
+753,new_version\k9mail\src\main\java\com\fsck\k9\activity\compose\ComposeCryptoStatus.ComposeCryptoStatusBuilder.java,ComposeCryptoStatusBuilder,k9mail,Service Provider,1.2.
+754,new_version\k9mail\src\main\java\com\fsck\k9\activity\compose\ComposeCryptoStatus.SendErrorState.java,SendErrorState,k9mail,Information Holder,1.2.
+755,new_version\k9mail\src\main\java\com\fsck\k9\activity\compose\ComposeCryptoStatus.java,ComposeCryptoStatus,k9mail,Information Holder,1.2.
+756,new_version\k9mail\src\main\java\com\fsck\k9\activity\compose\IdentityAdapter.AccountHolder.java,AccountHolder,k9mail,Information Holder,1.2.
+757,new_version\k9mail\src\main\java\com\fsck\k9\activity\compose\IdentityAdapter.IdentityContainer.java,IdentityContainer,k9mail,Information Holder,1.2.
+758,new_version\k9mail\src\main\java\com\fsck\k9\activity\compose\IdentityAdapter.IdentityHolder.java,IdentityHolder,k9mail,Information Holder,1.2.
+759,new_version\k9mail\src\main\java\com\fsck\k9\activity\compose\IdentityAdapter.java,IdentityAdapter,k9mail,Structurer,1.2.
+760,new_version\k9mail\src\main\java\com\fsck\k9\activity\compose\MessageActions.java,MessageActions,k9mail,Service Provider,1.2.
+761,new_version\k9mail\src\main\java\com\fsck\k9\activity\compose\PgpEnabledErrorDialog.OnOpenPgpDisableListener.java,OnOpenPgpDisableListener,k9mail,Service Provider,1.2.
+762,new_version\k9mail\src\main\java\com\fsck\k9\activity\compose\PgpEnabledErrorDialog.java,PgpEnabledErrorDialog,k9mail,Coordinator,1.2.
+763,new_version\k9mail\src\main\java\com\fsck\k9\activity\compose\PgpEncryptDescriptionDialog.java,PgpEncryptDescriptionDialog,k9mail,Coordinator,1.2.
+764,new_version\k9mail\src\main\java\com\fsck\k9\activity\compose\PgpInlineDialog.OnOpenPgpInlineChangeListener.java,OnOpenPgpInlineChangeListener,k9mail,Service Provider,1.2.
+765,new_version\k9mail\src\main\java\com\fsck\k9\activity\compose\PgpInlineDialog.java,PgpInlineDialog,k9mail,Interfacer,1.2.
+766,new_version\k9mail\src\main\java\com\fsck\k9\activity\compose\PgpSignOnlyDialog.OnOpenPgpSignOnlyChangeListener.java,OnOpenPgpSignOnlyChangeListener,k9mail,Service Provider,1.2.
+767,new_version\k9mail\src\main\java\com\fsck\k9\activity\compose\PgpSignOnlyDialog.java,PgpSignOnlyDialog,k9mail,Interfacer,1.2.
+768,new_version\k9mail\src\main\java\com\fsck\k9\activity\compose\RecipientAdapter.RecipientTokenHolder.java,RecipientTokenHolder,k9mail,Information Holder,1.2.
+769,new_version\k9mail\src\main\java\com\fsck\k9\activity\compose\RecipientAdapter.java,RecipientAdapter,k9mail,Interfacer,1.2.
+770,new_version\k9mail\src\main\java\com\fsck\k9\activity\compose\RecipientLoader.java,RecipientLoader,k9mail,Service Provider,1.2.
+771,new_version\k9mail\src\main\java\com\fsck\k9\activity\compose\RecipientMvpView.CryptoStatusDisplayType.java,CryptoStatusDisplayType,k9mail,Information Holder,1.2.
+772,new_version\k9mail\src\main\java\com\fsck\k9\activity\compose\RecipientMvpView.java,RecipientMvpView,k9mail,Interfacer,1.2.
+773,new_version\k9mail\src\main\java\com\fsck\k9\activity\compose\RecipientPresenter.CryptoMode.java,CryptoMode,k9mail,Information Holder,1.2.
+774,new_version\k9mail\src\main\java\com\fsck\k9\activity\compose\RecipientPresenter.CryptoProviderState.java,CryptoProviderState,k9mail,Information Holder,1.2.
+775,new_version\k9mail\src\main\java\com\fsck\k9\activity\compose\RecipientPresenter.RecipientsChangedListener.java,RecipientsChangedListener,k9mail,Service Provider,1.2.
+776,new_version\k9mail\src\main\java\com\fsck\k9\activity\compose\RecipientPresenter.java,RecipientPresenter,k9mail,Coordinator,1.2.
+777,new_version\k9mail\src\main\java\com\fsck\k9\activity\compose\SaveMessageTask.java,SaveMessageTask,k9mail,Service Provider,1.2.
+778,new_version\k9mail\src\main\java\com\fsck\k9\account\AccountCreator.java,AccountCreator,k9mail,Service Provider,3.3.

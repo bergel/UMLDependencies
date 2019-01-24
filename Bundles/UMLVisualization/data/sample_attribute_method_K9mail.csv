@@ -1,0 +1,779 @@
+src.main.java.com.fsck.k9.mail.AuthType,AuthType,public int age,1
+src.main.java.com.fsck.k9.mail.AuthType,AuthType,private string name,1
+src.main.java.com.fsck.k9.mail.AuthType,AuthType,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.AuthType,AuthType,private string convert(int x),0
+src.main.java.com.fsck.k9.mailstore.BinaryMemoryBody,BinaryMemoryBody,public int age,1
+src.main.java.com.fsck.k9.mailstore.BinaryMemoryBody,BinaryMemoryBody,private string name,1
+src.main.java.com.fsck.k9.mailstore.BinaryMemoryBody,BinaryMemoryBody,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mailstore.BinaryMemoryBody,BinaryMemoryBody,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.AuthenticationFailedException,AuthenticationFailedException,public int age,1
+src.main.java.com.fsck.k9.mail.AuthenticationFailedException,AuthenticationFailedException,private string name,1
+src.main.java.com.fsck.k9.mail.AuthenticationFailedException,AuthenticationFailedException,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.AuthenticationFailedException,AuthenticationFailedException,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.Address,Address,public int age,1
+src.main.java.com.fsck.k9.mail.Address,Address,private string name,1
+src.main.java.com.fsck.k9.mail.Address,Address,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.Address,Address,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.Authentication,Authentication,public int age,1
+src.main.java.com.fsck.k9.mail.Authentication,Authentication,private string name,1
+src.main.java.com.fsck.k9.mail.Authentication,Authentication,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.Authentication,Authentication,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.Body,Body,public int age,1
+src.main.java.com.fsck.k9.mail.Body,Body,private string name,1
+src.main.java.com.fsck.k9.mail.Body,Body,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.Body,Body,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.BodyFactory,BodyFactory,public int age,1
+src.main.java.com.fsck.k9.mail.BodyFactory,BodyFactory,private string name,1
+src.main.java.com.fsck.k9.mail.BodyFactory,BodyFactory,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.BodyFactory,BodyFactory,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.BodyPart,BodyPart,public int age,1
+src.main.java.com.fsck.k9.mail.BodyPart,BodyPart,private string name,1
+src.main.java.com.fsck.k9.mail.BodyPart,BodyPart,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.BodyPart,BodyPart,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.BoundaryGenerator,BoundaryGenerator,public int age,1
+src.main.java.com.fsck.k9.mail.BoundaryGenerator,BoundaryGenerator,private string name,1
+src.main.java.com.fsck.k9.mail.BoundaryGenerator,BoundaryGenerator,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.BoundaryGenerator,BoundaryGenerator,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.CertificateChainException,CertificateChainException,public int age,1
+src.main.java.com.fsck.k9.mail.CertificateChainException,CertificateChainException,private string name,1
+src.main.java.com.fsck.k9.mail.CertificateChainException,CertificateChainException,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.CertificateChainException,CertificateChainException,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.CertificateValidationException.Reason,Reason,public int age,1
+src.main.java.com.fsck.k9.mail.CertificateValidationException.Reason,Reason,private string name,1
+src.main.java.com.fsck.k9.mail.CertificateValidationException.Reason,Reason,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.CertificateValidationException.Reason,Reason,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.CertificateValidationException,CertificateValidationException,public int age,1
+src.main.java.com.fsck.k9.mail.CertificateValidationException,CertificateValidationException,private string name,1
+src.main.java.com.fsck.k9.mail.CertificateValidationException,CertificateValidationException,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.CertificateValidationException,CertificateValidationException,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.ConnectionSecurity,ConnectionSecurity,public int age,1
+src.main.java.com.fsck.k9.mail.ConnectionSecurity,ConnectionSecurity,private string name,1
+src.main.java.com.fsck.k9.mail.ConnectionSecurity,ConnectionSecurity,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.ConnectionSecurity,ConnectionSecurity,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.DefaultBodyFactory,DefaultBodyFactory,public int age,1
+src.main.java.com.fsck.k9.mail.DefaultBodyFactory,DefaultBodyFactory,private string name,1
+src.main.java.com.fsck.k9.mail.DefaultBodyFactory,DefaultBodyFactory,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.DefaultBodyFactory,DefaultBodyFactory,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.FetchProfile.Item,Item,public int age,1
+src.main.java.com.fsck.k9.mail.FetchProfile.Item,Item,private string name,1
+src.main.java.com.fsck.k9.mail.FetchProfile.Item,Item,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.FetchProfile.Item,Item,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.FetchProfile,FetchProfile,public int age,1
+src.main.java.com.fsck.k9.mail.FetchProfile,FetchProfile,private string name,1
+src.main.java.com.fsck.k9.mail.FetchProfile,FetchProfile,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.FetchProfile,FetchProfile,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.Flag,Flag,public int age,1
+src.main.java.com.fsck.k9.mail.Flag,Flag,private string name,1
+src.main.java.com.fsck.k9.mail.Flag,Flag,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.Flag,Flag,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.Folder.FolderClass,FolderClass,public int age,1
+src.main.java.com.fsck.k9.mail.Folder.FolderClass,FolderClass,private string name,1
+src.main.java.com.fsck.k9.mail.Folder.FolderClass,FolderClass,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.Folder.FolderClass,FolderClass,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.Folder.FolderType,FolderType,public int age,1
+src.main.java.com.fsck.k9.mail.Folder.FolderType,FolderType,private string name,1
+src.main.java.com.fsck.k9.mail.Folder.FolderType,FolderType,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.Folder.FolderType,FolderType,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.K9MailLib.DebugStatus,DebugStatus,public int age,1
+src.main.java.com.fsck.k9.mail.K9MailLib.DebugStatus,DebugStatus,private string name,1
+src.main.java.com.fsck.k9.mail.K9MailLib.DebugStatus,DebugStatus,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.K9MailLib.DebugStatus,DebugStatus,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.Folder,Folder,public int age,1
+src.main.java.com.fsck.k9.mail.Folder,Folder,private string name,1
+src.main.java.com.fsck.k9.mail.Folder,Folder,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.Folder,Folder,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.K9MailLib.DefaultDebugStatus,DefaultDebugStatus,public int age,1
+src.main.java.com.fsck.k9.mail.K9MailLib.DefaultDebugStatus,DefaultDebugStatus,private string name,1
+src.main.java.com.fsck.k9.mail.K9MailLib.DefaultDebugStatus,DefaultDebugStatus,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.K9MailLib.DefaultDebugStatus,DefaultDebugStatus,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.K9MailLib.WritableDebugStatus,WritableDebugStatus,public int age,1
+src.main.java.com.fsck.k9.mail.K9MailLib.WritableDebugStatus,WritableDebugStatus,private string name,1
+src.main.java.com.fsck.k9.mail.K9MailLib.WritableDebugStatus,WritableDebugStatus,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.K9MailLib.WritableDebugStatus,WritableDebugStatus,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.K9MailLib,K9MailLib,public int age,1
+src.main.java.com.fsck.k9.mail.K9MailLib,K9MailLib,private string name,1
+src.main.java.com.fsck.k9.mail.K9MailLib,K9MailLib,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.K9MailLib,K9MailLib,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.Message.RecipientType,RecipientType,public int age,1
+src.main.java.com.fsck.k9.mail.Message.RecipientType,RecipientType,private string name,1
+src.main.java.com.fsck.k9.mail.Message.RecipientType,RecipientType,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.Message.RecipientType,RecipientType,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.MessageRetrievalListener,MessageRetrievalListener,public int age,1
+src.main.java.com.fsck.k9.mail.MessageRetrievalListener,MessageRetrievalListener,private string name,1
+src.main.java.com.fsck.k9.mail.MessageRetrievalListener,MessageRetrievalListener,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.MessageRetrievalListener,MessageRetrievalListener,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.MessagingException,MessagingException,public int age,1
+src.main.java.com.fsck.k9.mail.MessagingException,MessagingException,private string name,1
+src.main.java.com.fsck.k9.mail.MessagingException,MessagingException,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.MessagingException,MessagingException,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.Message,Message,public int age,1
+src.main.java.com.fsck.k9.mail.Message,Message,private string name,1
+src.main.java.com.fsck.k9.mail.Message,Message,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.Message,Message,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.Multipart,Multipart,public int age,1
+src.main.java.com.fsck.k9.mail.Multipart,Multipart,private string name,1
+src.main.java.com.fsck.k9.mail.Multipart,Multipart,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.Multipart,Multipart,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.NetworkType,NetworkType,public int age,1
+src.main.java.com.fsck.k9.mail.NetworkType,NetworkType,private string name,1
+src.main.java.com.fsck.k9.mail.NetworkType,NetworkType,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.NetworkType,NetworkType,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.Part,Part,public int age,1
+src.main.java.com.fsck.k9.mail.Part,Part,private string name,1
+src.main.java.com.fsck.k9.mail.Part,Part,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.Part,Part,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.PushReceiver,PushReceiver,public int age,1
+src.main.java.com.fsck.k9.mail.PushReceiver,PushReceiver,private string name,1
+src.main.java.com.fsck.k9.mail.PushReceiver,PushReceiver,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.PushReceiver,PushReceiver,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.Pusher,Pusher,public int age,1
+src.main.java.com.fsck.k9.mail.Pusher,Pusher,private string name,1
+src.main.java.com.fsck.k9.mail.Pusher,Pusher,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.Pusher,Pusher,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.ServerSettings.Type,Type,public int age,1
+src.main.java.com.fsck.k9.mail.ServerSettings.Type,Type,private string name,1
+src.main.java.com.fsck.k9.mail.ServerSettings.Type,Type,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.ServerSettings.Type,Type,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.Store,Store,public int age,1
+src.main.java.com.fsck.k9.mail.Store,Store,private string name,1
+src.main.java.com.fsck.k9.mail.Store,Store,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.Store,Store,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.ServerSettings,ServerSettings,public int age,1
+src.main.java.com.fsck.k9.mail.ServerSettings,ServerSettings,private string name,1
+src.main.java.com.fsck.k9.mail.ServerSettings,ServerSettings,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.ServerSettings,ServerSettings,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.Transport,Transport,public int age,1
+src.main.java.com.fsck.k9.mail.Transport,Transport,private string name,1
+src.main.java.com.fsck.k9.mail.Transport,Transport,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.Transport,Transport,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.TransportProvider,TransportProvider,public int age,1
+src.main.java.com.fsck.k9.mail.TransportProvider,TransportProvider,private string name,1
+src.main.java.com.fsck.k9.mail.TransportProvider,TransportProvider,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.TransportProvider,TransportProvider,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.transport.WebDavTransport,WebDavTransport,public int age,1
+src.main.java.com.fsck.k9.mail.transport.WebDavTransport,WebDavTransport,private string name,1
+src.main.java.com.fsck.k9.mail.transport.WebDavTransport,WebDavTransport,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.transport.WebDavTransport,WebDavTransport,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.TransportUris,TransportUris,public int age,1
+src.main.java.com.fsck.k9.mail.TransportUris,TransportUris,private string name,1
+src.main.java.com.fsck.k9.mail.TransportUris,TransportUris,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.TransportUris,TransportUris,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.transport.smtp.EnhancedNegativeSmtpReplyException,EnhancedNegativeSmtpReplyException,public int age,1
+src.main.java.com.fsck.k9.mail.transport.smtp.EnhancedNegativeSmtpReplyException,EnhancedNegativeSmtpReplyException,private string name,1
+src.main.java.com.fsck.k9.mail.transport.smtp.EnhancedNegativeSmtpReplyException,EnhancedNegativeSmtpReplyException,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.transport.smtp.EnhancedNegativeSmtpReplyException,EnhancedNegativeSmtpReplyException,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.transport.smtp.NegativeSmtpReplyException,NegativeSmtpReplyException,public int age,1
+src.main.java.com.fsck.k9.mail.transport.smtp.NegativeSmtpReplyException,NegativeSmtpReplyException,private string name,1
+src.main.java.com.fsck.k9.mail.transport.smtp.NegativeSmtpReplyException,NegativeSmtpReplyException,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.transport.smtp.NegativeSmtpReplyException,NegativeSmtpReplyException,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.transport.smtp.SmtpTransport.CommandResponse,CommandResponse,public int age,1
+src.main.java.com.fsck.k9.mail.transport.smtp.SmtpTransport.CommandResponse,CommandResponse,private string name,1
+src.main.java.com.fsck.k9.mail.transport.smtp.SmtpTransport.CommandResponse,CommandResponse,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.transport.smtp.SmtpTransport.CommandResponse,CommandResponse,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.transport.smtp.StatusCodeClass,StatusCodeClass,public int age,1
+src.main.java.com.fsck.k9.mail.transport.smtp.StatusCodeClass,StatusCodeClass,private string name,1
+src.main.java.com.fsck.k9.mail.transport.smtp.StatusCodeClass,StatusCodeClass,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.transport.smtp.StatusCodeClass,StatusCodeClass,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.transport.smtp.StatusCodeSubject,StatusCodeSubject,public int age,1
+src.main.java.com.fsck.k9.mail.transport.smtp.StatusCodeSubject,StatusCodeSubject,private string name,1
+src.main.java.com.fsck.k9.mail.transport.smtp.StatusCodeSubject,StatusCodeSubject,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.transport.smtp.StatusCodeSubject,StatusCodeSubject,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.transport.smtp.StatusCodeDetail,StatusCodeDetail,public int age,1
+src.main.java.com.fsck.k9.mail.transport.smtp.StatusCodeDetail,StatusCodeDetail,private string name,1
+src.main.java.com.fsck.k9.mail.transport.smtp.StatusCodeDetail,StatusCodeDetail,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.transport.smtp.StatusCodeDetail,StatusCodeDetail,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.RemoteStore,RemoteStore,public int age,1
+src.main.java.com.fsck.k9.mail.store.RemoteStore,RemoteStore,private string name,1
+src.main.java.com.fsck.k9.mail.store.RemoteStore,RemoteStore,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.RemoteStore,RemoteStore,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.StoreConfig,StoreConfig,public int age,1
+src.main.java.com.fsck.k9.mail.store.StoreConfig,StoreConfig,private string name,1
+src.main.java.com.fsck.k9.mail.store.StoreConfig,StoreConfig,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.StoreConfig,StoreConfig,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.transport.smtp.SmtpTransport,SmtpTransport,public int age,1
+src.main.java.com.fsck.k9.mail.transport.smtp.SmtpTransport,SmtpTransport,private string name,1
+src.main.java.com.fsck.k9.mail.transport.smtp.SmtpTransport,SmtpTransport,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.transport.smtp.SmtpTransport,SmtpTransport,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.webdav.ConnectionInfo,ConnectionInfo,public int age,1
+src.main.java.com.fsck.k9.mail.store.webdav.ConnectionInfo,ConnectionInfo,private string name,1
+src.main.java.com.fsck.k9.mail.store.webdav.ConnectionInfo,ConnectionInfo,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.webdav.ConnectionInfo,ConnectionInfo,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.webdav.DataSet,DataSet,public int age,1
+src.main.java.com.fsck.k9.mail.store.webdav.DataSet,DataSet,private string name,1
+src.main.java.com.fsck.k9.mail.store.webdav.DataSet,DataSet,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.webdav.DataSet,DataSet,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.webdav.HttpGeneric,HttpGeneric,public int age,1
+src.main.java.com.fsck.k9.mail.store.webdav.HttpGeneric,HttpGeneric,private string name,1
+src.main.java.com.fsck.k9.mail.store.webdav.HttpGeneric,HttpGeneric,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.webdav.HttpGeneric,HttpGeneric,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.webdav.ParsedMessageEnvelope,ParsedMessageEnvelope,public int age,1
+src.main.java.com.fsck.k9.mail.store.webdav.ParsedMessageEnvelope,ParsedMessageEnvelope,private string name,1
+src.main.java.com.fsck.k9.mail.store.webdav.ParsedMessageEnvelope,ParsedMessageEnvelope,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.webdav.ParsedMessageEnvelope,ParsedMessageEnvelope,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.webdav.WebDavConstants,WebDavConstants,public int age,1
+src.main.java.com.fsck.k9.mail.store.webdav.WebDavConstants,WebDavConstants,private string name,1
+src.main.java.com.fsck.k9.mail.store.webdav.WebDavConstants,WebDavConstants,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.webdav.WebDavConstants,WebDavConstants,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.webdav.WebDavFolder,WebDavFolder,public int age,1
+src.main.java.com.fsck.k9.mail.store.webdav.WebDavFolder,WebDavFolder,private string name,1
+src.main.java.com.fsck.k9.mail.store.webdav.WebDavFolder,WebDavFolder,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.webdav.WebDavFolder,WebDavFolder,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.webdav.WebDavHandler,WebDavHandler,public int age,1
+src.main.java.com.fsck.k9.mail.store.webdav.WebDavHandler,WebDavHandler,private string name,1
+src.main.java.com.fsck.k9.mail.store.webdav.WebDavHandler,WebDavHandler,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.webdav.WebDavHandler,WebDavHandler,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.webdav.WebDavHttpClient.WebDavHttpClientFactory,WebDavHttpClientFactory,public int age,1
+src.main.java.com.fsck.k9.mail.store.webdav.WebDavHttpClient.WebDavHttpClientFactory,WebDavHttpClientFactory,private string name,1
+src.main.java.com.fsck.k9.mail.store.webdav.WebDavHttpClient.WebDavHttpClientFactory,WebDavHttpClientFactory,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.webdav.WebDavHttpClient.WebDavHttpClientFactory,WebDavHttpClientFactory,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.webdav.WebDavHttpClient,WebDavHttpClient,public int age,1
+src.main.java.com.fsck.k9.mail.store.webdav.WebDavHttpClient,WebDavHttpClient,private string name,1
+src.main.java.com.fsck.k9.mail.store.webdav.WebDavHttpClient,WebDavHttpClient,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.webdav.WebDavHttpClient,WebDavHttpClient,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.webdav.WebDavMessage,WebDavMessage,public int age,1
+src.main.java.com.fsck.k9.mail.store.webdav.WebDavMessage,WebDavMessage,private string name,1
+src.main.java.com.fsck.k9.mail.store.webdav.WebDavMessage,WebDavMessage,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.webdav.WebDavMessage,WebDavMessage,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.webdav.WebDavSocketFactory,WebDavSocketFactory,public int age,1
+src.main.java.com.fsck.k9.mail.store.webdav.WebDavSocketFactory,WebDavSocketFactory,private string name,1
+src.main.java.com.fsck.k9.mail.store.webdav.WebDavSocketFactory,WebDavSocketFactory,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.webdav.WebDavSocketFactory,WebDavSocketFactory,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.webdav.WebDavStore,WebDavStore,public int age,1
+src.main.java.com.fsck.k9.mail.store.webdav.WebDavStore,WebDavStore,private string name,1
+src.main.java.com.fsck.k9.mail.store.webdav.WebDavStore,WebDavStore,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.webdav.WebDavStore,WebDavStore,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.webdav.WebDavStoreSettings,WebDavStoreSettings,public int age,1
+src.main.java.com.fsck.k9.mail.store.webdav.WebDavStoreSettings,WebDavStoreSettings,private string name,1
+src.main.java.com.fsck.k9.mail.store.webdav.WebDavStoreSettings,WebDavStoreSettings,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.webdav.WebDavStoreSettings,WebDavStoreSettings,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.webdav.WebDavStoreUriCreator,WebDavStoreUriCreator,public int age,1
+src.main.java.com.fsck.k9.mail.store.webdav.WebDavStoreUriCreator,WebDavStoreUriCreator,private string name,1
+src.main.java.com.fsck.k9.mail.store.webdav.WebDavStoreUriCreator,WebDavStoreUriCreator,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.webdav.WebDavStoreUriCreator,WebDavStoreUriCreator,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.webdav.WebDavStoreUriDecoder,WebDavStoreUriDecoder,public int age,1
+src.main.java.com.fsck.k9.mail.store.webdav.WebDavStoreUriDecoder,WebDavStoreUriDecoder,private string name,1
+src.main.java.com.fsck.k9.mail.store.webdav.WebDavStoreUriDecoder,WebDavStoreUriDecoder,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.webdav.WebDavStoreUriDecoder,WebDavStoreUriDecoder,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.pop3.Pop3Store.Pop3Capabilities,Pop3Capabilities,public int age,1
+src.main.java.com.fsck.k9.mail.store.pop3.Pop3Store.Pop3Capabilities,Pop3Capabilities,private string name,1
+src.main.java.com.fsck.k9.mail.store.pop3.Pop3Store.Pop3Capabilities,Pop3Capabilities,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.pop3.Pop3Store.Pop3Capabilities,Pop3Capabilities,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.pop3.Pop3Store.Pop3ErrorResponse,Pop3ErrorResponse,public int age,1
+src.main.java.com.fsck.k9.mail.store.pop3.Pop3Store.Pop3ErrorResponse,Pop3ErrorResponse,private string name,1
+src.main.java.com.fsck.k9.mail.store.pop3.Pop3Store.Pop3ErrorResponse,Pop3ErrorResponse,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.pop3.Pop3Store.Pop3ErrorResponse,Pop3ErrorResponse,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.pop3.Pop3Store.Pop3Folder,Pop3Folder,public int age,1
+src.main.java.com.fsck.k9.mail.store.pop3.Pop3Store.Pop3Folder,Pop3Folder,private string name,1
+src.main.java.com.fsck.k9.mail.store.pop3.Pop3Store.Pop3Folder,Pop3Folder,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.pop3.Pop3Store.Pop3Folder,Pop3Folder,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.pop3.Pop3Store.Pop3Message,Pop3Message,public int age,1
+src.main.java.com.fsck.k9.mail.store.pop3.Pop3Store.Pop3Message,Pop3Message,private string name,1
+src.main.java.com.fsck.k9.mail.store.pop3.Pop3Store.Pop3Message,Pop3Message,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.pop3.Pop3Store.Pop3Message,Pop3Message,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.pop3.Pop3Store.Pop3ResponseInputStream,Pop3ResponseInputStream,public int age,1
+src.main.java.com.fsck.k9.mail.store.pop3.Pop3Store.Pop3ResponseInputStream,Pop3ResponseInputStream,private string name,1
+src.main.java.com.fsck.k9.mail.store.pop3.Pop3Store.Pop3ResponseInputStream,Pop3ResponseInputStream,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.pop3.Pop3Store.Pop3ResponseInputStream,Pop3ResponseInputStream,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.pop3.Pop3Store,Pop3Store,public int age,1
+src.main.java.com.fsck.k9.mail.store.pop3.Pop3Store,Pop3Store,private string name,1
+src.main.java.com.fsck.k9.mail.store.pop3.Pop3Store,Pop3Store,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.pop3.Pop3Store,Pop3Store,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.imap.AlertResponse,AlertResponse,public int age,1
+src.main.java.com.fsck.k9.mail.store.imap.AlertResponse,AlertResponse,private string name,1
+src.main.java.com.fsck.k9.mail.store.imap.AlertResponse,AlertResponse,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.imap.AlertResponse,AlertResponse,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.imap.Capabilities,Capabilities,public int age,1
+src.main.java.com.fsck.k9.mail.store.imap.Capabilities,Capabilities,private string name,1
+src.main.java.com.fsck.k9.mail.store.imap.Capabilities,Capabilities,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.imap.Capabilities,Capabilities,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.imap.CapabilityResponse,CapabilityResponse,public int age,1
+src.main.java.com.fsck.k9.mail.store.imap.CapabilityResponse,CapabilityResponse,private string name,1
+src.main.java.com.fsck.k9.mail.store.imap.CapabilityResponse,CapabilityResponse,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.imap.CapabilityResponse,CapabilityResponse,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.imap.Commands,Commands,public int age,1
+src.main.java.com.fsck.k9.mail.store.imap.Commands,Commands,private string name,1
+src.main.java.com.fsck.k9.mail.store.imap.Commands,Commands,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.imap.Commands,Commands,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.imap.FetchBodyCallback,FetchBodyCallback,public int age,1
+src.main.java.com.fsck.k9.mail.store.imap.FetchBodyCallback,FetchBodyCallback,private string name,1
+src.main.java.com.fsck.k9.mail.store.imap.FetchBodyCallback,FetchBodyCallback,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.imap.FetchBodyCallback,FetchBodyCallback,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.imap.FetchPartCallback,FetchPartCallback,public int age,1
+src.main.java.com.fsck.k9.mail.store.imap.FetchPartCallback,FetchPartCallback,private string name,1
+src.main.java.com.fsck.k9.mail.store.imap.FetchPartCallback,FetchPartCallback,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.imap.FetchPartCallback,FetchPartCallback,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.imap.FolderNameCodec,FolderNameCodec,public int age,1
+src.main.java.com.fsck.k9.mail.store.imap.FolderNameCodec,FolderNameCodec,private string name,1
+src.main.java.com.fsck.k9.mail.store.imap.FolderNameCodec,FolderNameCodec,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.imap.FolderNameCodec,FolderNameCodec,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.imap.IdGrouper.ContiguousIdGroup,ContiguousIdGroup,public int age,1
+src.main.java.com.fsck.k9.mail.store.imap.IdGrouper.ContiguousIdGroup,ContiguousIdGroup,private string name,1
+src.main.java.com.fsck.k9.mail.store.imap.IdGrouper.ContiguousIdGroup,ContiguousIdGroup,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.imap.IdGrouper.ContiguousIdGroup,ContiguousIdGroup,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.imap.IdGrouper.GroupedIds,GroupedIds,public int age,1
+src.main.java.com.fsck.k9.mail.store.imap.IdGrouper.GroupedIds,GroupedIds,private string name,1
+src.main.java.com.fsck.k9.mail.store.imap.IdGrouper.GroupedIds,GroupedIds,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.imap.IdGrouper.GroupedIds,GroupedIds,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.imap.IdGrouper,IdGrouper,public int age,1
+src.main.java.com.fsck.k9.mail.store.imap.IdGrouper,IdGrouper,private string name,1
+src.main.java.com.fsck.k9.mail.store.imap.IdGrouper,IdGrouper,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.imap.IdGrouper,IdGrouper,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.imap.ImapCommandSplitter,ImapCommandSplitter,public int age,1
+src.main.java.com.fsck.k9.mail.store.imap.ImapCommandSplitter,ImapCommandSplitter,private string name,1
+src.main.java.com.fsck.k9.mail.store.imap.ImapCommandSplitter,ImapCommandSplitter,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.imap.ImapCommandSplitter,ImapCommandSplitter,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.imap.ImapConnection,ImapConnection,public int age,1
+src.main.java.com.fsck.k9.mail.store.imap.ImapConnection,ImapConnection,private string name,1
+src.main.java.com.fsck.k9.mail.store.imap.ImapConnection,ImapConnection,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.imap.ImapConnection,ImapConnection,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.imap.ImapFolder,ImapFolder,public int age,1
+src.main.java.com.fsck.k9.mail.store.imap.ImapFolder,ImapFolder,private string name,1
+src.main.java.com.fsck.k9.mail.store.imap.ImapFolder,ImapFolder,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.imap.ImapFolder,ImapFolder,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.imap.ImapFolderPusher.IdleStopper,IdleStopper,public int age,1
+src.main.java.com.fsck.k9.mail.store.imap.ImapFolderPusher.IdleStopper,IdleStopper,private string name,1
+src.main.java.com.fsck.k9.mail.store.imap.ImapFolderPusher.IdleStopper,IdleStopper,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.imap.ImapFolderPusher.IdleStopper,IdleStopper,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.imap.ImapFolderPusher.PushRunnable,PushRunnable,public int age,1
+src.main.java.com.fsck.k9.mail.store.imap.ImapFolderPusher.PushRunnable,PushRunnable,private string name,1
+src.main.java.com.fsck.k9.mail.store.imap.ImapFolderPusher.PushRunnable,PushRunnable,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.imap.ImapFolderPusher.PushRunnable,PushRunnable,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.imap.ImapFolderPusher,ImapFolderPusher,public int age,1
+src.main.java.com.fsck.k9.mail.store.imap.ImapFolderPusher,ImapFolderPusher,private string name,1
+src.main.java.com.fsck.k9.mail.store.imap.ImapFolderPusher,ImapFolderPusher,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.imap.ImapFolderPusher,ImapFolderPusher,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.imap.ImapList,ImapList,public int age,1
+src.main.java.com.fsck.k9.mail.store.imap.ImapList,ImapList,private string name,1
+src.main.java.com.fsck.k9.mail.store.imap.ImapList,ImapList,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.imap.ImapList,ImapList,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.imap.ImapMessage,ImapMessage,public int age,1
+src.main.java.com.fsck.k9.mail.store.imap.ImapMessage,ImapMessage,private string name,1
+src.main.java.com.fsck.k9.mail.store.imap.ImapMessage,ImapMessage,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.imap.ImapMessage,ImapMessage,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.imap.ImapPushState,ImapPushState,public int age,1
+src.main.java.com.fsck.k9.mail.store.imap.ImapPushState,ImapPushState,private string name,1
+src.main.java.com.fsck.k9.mail.store.imap.ImapPushState,ImapPushState,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.imap.ImapPushState,ImapPushState,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.imap.ImapPusher,ImapPusher,public int age,1
+src.main.java.com.fsck.k9.mail.store.imap.ImapPusher,ImapPusher,private string name,1
+src.main.java.com.fsck.k9.mail.store.imap.ImapPusher,ImapPusher,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.imap.ImapPusher,ImapPusher,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.imap.ImapResponse,ImapResponse,public int age,1
+src.main.java.com.fsck.k9.mail.store.imap.ImapResponse,ImapResponse,private string name,1
+src.main.java.com.fsck.k9.mail.store.imap.ImapResponse,ImapResponse,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.imap.ImapResponse,ImapResponse,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.imap.ImapResponseCallback,ImapResponseCallback,public int age,1
+src.main.java.com.fsck.k9.mail.store.imap.ImapResponseCallback,ImapResponseCallback,private string name,1
+src.main.java.com.fsck.k9.mail.store.imap.ImapResponseCallback,ImapResponseCallback,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.imap.ImapResponseCallback,ImapResponseCallback,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.imap.ImapResponseParser,ImapResponseParser,public int age,1
+src.main.java.com.fsck.k9.mail.store.imap.ImapResponseParser,ImapResponseParser,private string name,1
+src.main.java.com.fsck.k9.mail.store.imap.ImapResponseParser,ImapResponseParser,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.imap.ImapResponseParser,ImapResponseParser,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.imap.ImapResponseParserException,ImapResponseParserException,public int age,1
+src.main.java.com.fsck.k9.mail.store.imap.ImapResponseParserException,ImapResponseParserException,private string name,1
+src.main.java.com.fsck.k9.mail.store.imap.ImapResponseParserException,ImapResponseParserException,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.imap.ImapResponseParserException,ImapResponseParserException,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.imap.ImapSearcher,ImapSearcher,public int age,1
+src.main.java.com.fsck.k9.mail.store.imap.ImapSearcher,ImapSearcher,private string name,1
+src.main.java.com.fsck.k9.mail.store.imap.ImapSearcher,ImapSearcher,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.imap.ImapSearcher,ImapSearcher,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.imap.ImapSettings,ImapSettings,public int age,1
+src.main.java.com.fsck.k9.mail.store.imap.ImapSettings,ImapSettings,private string name,1
+src.main.java.com.fsck.k9.mail.store.imap.ImapSettings,ImapSettings,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.imap.ImapSettings,ImapSettings,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.imap.ImapStore.StoreImapSettings,StoreImapSettings,public int age,1
+src.main.java.com.fsck.k9.mail.store.imap.ImapStore.StoreImapSettings,StoreImapSettings,private string name,1
+src.main.java.com.fsck.k9.mail.store.imap.ImapStore.StoreImapSettings,StoreImapSettings,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.imap.ImapStore.StoreImapSettings,StoreImapSettings,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.imap.ImapStore,ImapStore,public int age,1
+src.main.java.com.fsck.k9.mail.store.imap.ImapStore,ImapStore,private string name,1
+src.main.java.com.fsck.k9.mail.store.imap.ImapStore,ImapStore,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.imap.ImapStore,ImapStore,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.imap.ImapStoreSettings,ImapStoreSettings,public int age,1
+src.main.java.com.fsck.k9.mail.store.imap.ImapStoreSettings,ImapStoreSettings,private string name,1
+src.main.java.com.fsck.k9.mail.store.imap.ImapStoreSettings,ImapStoreSettings,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.imap.ImapStoreSettings,ImapStoreSettings,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.imap.ImapStoreUriCreator,ImapStoreUriCreator,public int age,1
+src.main.java.com.fsck.k9.mail.store.imap.ImapStoreUriCreator,ImapStoreUriCreator,private string name,1
+src.main.java.com.fsck.k9.mail.store.imap.ImapStoreUriCreator,ImapStoreUriCreator,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.imap.ImapStoreUriCreator,ImapStoreUriCreator,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.imap.ImapStoreUriDecoder,ImapStoreUriDecoder,public int age,1
+src.main.java.com.fsck.k9.mail.store.imap.ImapStoreUriDecoder,ImapStoreUriDecoder,private string name,1
+src.main.java.com.fsck.k9.mail.store.imap.ImapStoreUriDecoder,ImapStoreUriDecoder,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.imap.ImapStoreUriDecoder,ImapStoreUriDecoder,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.imap.ImapUtility,ImapUtility,public int age,1
+src.main.java.com.fsck.k9.mail.store.imap.ImapUtility,ImapUtility,private string name,1
+src.main.java.com.fsck.k9.mail.store.imap.ImapUtility,ImapUtility,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.imap.ImapUtility,ImapUtility,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.imap.ListResponse,ListResponse,public int age,1
+src.main.java.com.fsck.k9.mail.store.imap.ListResponse,ListResponse,private string name,1
+src.main.java.com.fsck.k9.mail.store.imap.ListResponse,ListResponse,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.imap.ListResponse,ListResponse,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.imap.NamespaceResponse,NamespaceResponse,public int age,1
+src.main.java.com.fsck.k9.mail.store.imap.NamespaceResponse,NamespaceResponse,private string name,1
+src.main.java.com.fsck.k9.mail.store.imap.NamespaceResponse,NamespaceResponse,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.imap.NamespaceResponse,NamespaceResponse,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.imap.NegativeImapResponseException,NegativeImapResponseException,public int age,1
+src.main.java.com.fsck.k9.mail.store.imap.NegativeImapResponseException,NegativeImapResponseException,private string name,1
+src.main.java.com.fsck.k9.mail.store.imap.NegativeImapResponseException,NegativeImapResponseException,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.imap.NegativeImapResponseException,NegativeImapResponseException,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.imap.PermanentFlagsResponse,PermanentFlagsResponse,public int age,1
+src.main.java.com.fsck.k9.mail.store.imap.PermanentFlagsResponse,PermanentFlagsResponse,private string name,1
+src.main.java.com.fsck.k9.mail.store.imap.PermanentFlagsResponse,PermanentFlagsResponse,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.imap.PermanentFlagsResponse,PermanentFlagsResponse,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.imap.ResponseCodeExtractor,ResponseCodeExtractor,public int age,1
+src.main.java.com.fsck.k9.mail.store.imap.ResponseCodeExtractor,ResponseCodeExtractor,private string name,1
+src.main.java.com.fsck.k9.mail.store.imap.ResponseCodeExtractor,ResponseCodeExtractor,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.imap.ResponseCodeExtractor,ResponseCodeExtractor,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.imap.Responses,Responses,public int age,1
+src.main.java.com.fsck.k9.mail.store.imap.Responses,Responses,private string name,1
+src.main.java.com.fsck.k9.mail.store.imap.Responses,Responses,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.imap.Responses,Responses,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.imap.SearchResponse,SearchResponse,public int age,1
+src.main.java.com.fsck.k9.mail.store.imap.SearchResponse,SearchResponse,private string name,1
+src.main.java.com.fsck.k9.mail.store.imap.SearchResponse,SearchResponse,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.imap.SearchResponse,SearchResponse,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.imap.SelectOrExamineResponse,SelectOrExamineResponse,public int age,1
+src.main.java.com.fsck.k9.mail.store.imap.SelectOrExamineResponse,SelectOrExamineResponse,private string name,1
+src.main.java.com.fsck.k9.mail.store.imap.SelectOrExamineResponse,SelectOrExamineResponse,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.imap.SelectOrExamineResponse,SelectOrExamineResponse,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.imap.UidCopyResponse,UidCopyResponse,public int age,1
+src.main.java.com.fsck.k9.mail.store.imap.UidCopyResponse,UidCopyResponse,private string name,1
+src.main.java.com.fsck.k9.mail.store.imap.UidCopyResponse,UidCopyResponse,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.imap.UidCopyResponse,UidCopyResponse,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.imap.UidSearchCommandBuilder,UidSearchCommandBuilder,public int age,1
+src.main.java.com.fsck.k9.mail.store.imap.UidSearchCommandBuilder,UidSearchCommandBuilder,private string name,1
+src.main.java.com.fsck.k9.mail.store.imap.UidSearchCommandBuilder,UidSearchCommandBuilder,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.imap.UidSearchCommandBuilder,UidSearchCommandBuilder,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.store.imap.UntaggedHandler,UntaggedHandler,public int age,1
+src.main.java.com.fsck.k9.mail.store.imap.UntaggedHandler,UntaggedHandler,private string name,1
+src.main.java.com.fsck.k9.mail.store.imap.UntaggedHandler,UntaggedHandler,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.store.imap.UntaggedHandler,UntaggedHandler,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.ssl.DefaultTrustedSocketFactory,DefaultTrustedSocketFactory,public int age,1
+src.main.java.com.fsck.k9.mail.ssl.DefaultTrustedSocketFactory,DefaultTrustedSocketFactory,private string name,1
+src.main.java.com.fsck.k9.mail.ssl.DefaultTrustedSocketFactory,DefaultTrustedSocketFactory,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.ssl.DefaultTrustedSocketFactory,DefaultTrustedSocketFactory,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.ssl.KeyChainKeyManager,KeyChainKeyManager,public int age,1
+src.main.java.com.fsck.k9.mail.ssl.KeyChainKeyManager,KeyChainKeyManager,private string name,1
+src.main.java.com.fsck.k9.mail.ssl.KeyChainKeyManager,KeyChainKeyManager,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.ssl.KeyChainKeyManager,KeyChainKeyManager,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.ssl.LocalKeyStore.LocalKeyStoreHolder,LocalKeyStoreHolder,public int age,1
+src.main.java.com.fsck.k9.mail.ssl.LocalKeyStore.LocalKeyStoreHolder,LocalKeyStoreHolder,private string name,1
+src.main.java.com.fsck.k9.mail.ssl.LocalKeyStore.LocalKeyStoreHolder,LocalKeyStoreHolder,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.ssl.LocalKeyStore.LocalKeyStoreHolder,LocalKeyStoreHolder,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.ssl.LocalKeyStore,LocalKeyStore,public int age,1
+src.main.java.com.fsck.k9.mail.ssl.LocalKeyStore,LocalKeyStore,private string name,1
+src.main.java.com.fsck.k9.mail.ssl.LocalKeyStore,LocalKeyStore,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.ssl.LocalKeyStore,LocalKeyStore,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.ssl.TrustManagerFactory.SecureX509TrustManager,SecureX509TrustManager,public int age,1
+src.main.java.com.fsck.k9.mail.ssl.TrustManagerFactory.SecureX509TrustManager,SecureX509TrustManager,private string name,1
+src.main.java.com.fsck.k9.mail.ssl.TrustManagerFactory.SecureX509TrustManager,SecureX509TrustManager,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.ssl.TrustManagerFactory.SecureX509TrustManager,SecureX509TrustManager,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.ssl.TrustManagerFactory,TrustManagerFactory,public int age,1
+src.main.java.com.fsck.k9.mail.ssl.TrustManagerFactory,TrustManagerFactory,private string name,1
+src.main.java.com.fsck.k9.mail.ssl.TrustManagerFactory,TrustManagerFactory,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.ssl.TrustManagerFactory,TrustManagerFactory,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.ssl.TrustedSocketFactory,TrustedSocketFactory,public int age,1
+src.main.java.com.fsck.k9.mail.ssl.TrustedSocketFactory,TrustedSocketFactory,private string name,1
+src.main.java.com.fsck.k9.mail.ssl.TrustedSocketFactory,TrustedSocketFactory,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.ssl.TrustedSocketFactory,TrustedSocketFactory,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.power.TracingPowerManager.TracingWakeLock,TracingWakeLock,public int age,1
+src.main.java.com.fsck.k9.mail.power.TracingPowerManager.TracingWakeLock,TracingWakeLock,private string name,1
+src.main.java.com.fsck.k9.mail.power.TracingPowerManager.TracingWakeLock,TracingWakeLock,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.power.TracingPowerManager.TracingWakeLock,TracingWakeLock,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.power.TracingPowerManager,TracingPowerManager,public int age,1
+src.main.java.com.fsck.k9.mail.power.TracingPowerManager,TracingPowerManager,private string name,1
+src.main.java.com.fsck.k9.mail.power.TracingPowerManager,TracingPowerManager,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.power.TracingPowerManager,TracingPowerManager,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.oauth.AuthorizationException,AuthorizationException,public int age,1
+src.main.java.com.fsck.k9.mail.oauth.AuthorizationException,AuthorizationException,private string name,1
+src.main.java.com.fsck.k9.mail.oauth.AuthorizationException,AuthorizationException,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.oauth.AuthorizationException,AuthorizationException,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.oauth.OAuth2TokenProvider.OAuth2TokenProviderAuthCallback,OAuth2TokenProviderAuthCallback,public int age,1
+src.main.java.com.fsck.k9.mail.oauth.OAuth2TokenProvider.OAuth2TokenProviderAuthCallback,OAuth2TokenProviderAuthCallback,private string name,1
+src.main.java.com.fsck.k9.mail.oauth.OAuth2TokenProvider.OAuth2TokenProviderAuthCallback,OAuth2TokenProviderAuthCallback,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.oauth.OAuth2TokenProvider.OAuth2TokenProviderAuthCallback,OAuth2TokenProviderAuthCallback,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.oauth.OAuth2TokenProvider,OAuth2TokenProvider,public int age,1
+src.main.java.com.fsck.k9.mail.oauth.OAuth2TokenProvider,OAuth2TokenProvider,private string name,1
+src.main.java.com.fsck.k9.mail.oauth.OAuth2TokenProvider,OAuth2TokenProvider,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.oauth.OAuth2TokenProvider,OAuth2TokenProvider,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.oauth.XOAuth2ChallengeParser,XOAuth2ChallengeParser,public int age,1
+src.main.java.com.fsck.k9.mail.oauth.XOAuth2ChallengeParser,XOAuth2ChallengeParser,private string name,1
+src.main.java.com.fsck.k9.mail.oauth.XOAuth2ChallengeParser,XOAuth2ChallengeParser,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.oauth.XOAuth2ChallengeParser,XOAuth2ChallengeParser,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.message.MessageHeaderParser.MessageHeaderParserContentHandler,MessageHeaderParserContentHandler,public int age,1
+src.main.java.com.fsck.k9.mail.message.MessageHeaderParser.MessageHeaderParserContentHandler,MessageHeaderParserContentHandler,private string name,1
+src.main.java.com.fsck.k9.mail.message.MessageHeaderParser.MessageHeaderParserContentHandler,MessageHeaderParserContentHandler,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.message.MessageHeaderParser.MessageHeaderParserContentHandler,MessageHeaderParserContentHandler,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.message.MessageHeaderParser,MessageHeaderParser,public int age,1
+src.main.java.com.fsck.k9.mail.message.MessageHeaderParser,MessageHeaderParser,private string name,1
+src.main.java.com.fsck.k9.mail.message.MessageHeaderParser,MessageHeaderParser,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.message.MessageHeaderParser,MessageHeaderParser,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.internet.BinaryTempFileBody.BinaryTempFileBodyInputStream,BinaryTempFileBodyInputStream,public int age,1
+src.main.java.com.fsck.k9.mail.internet.BinaryTempFileBody.BinaryTempFileBodyInputStream,BinaryTempFileBodyInputStream,private string name,1
+src.main.java.com.fsck.k9.mail.internet.BinaryTempFileBody.BinaryTempFileBodyInputStream,BinaryTempFileBodyInputStream,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.internet.BinaryTempFileBody.BinaryTempFileBodyInputStream,BinaryTempFileBodyInputStream,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.internet.BinaryTempFileBody,BinaryTempFileBody,public int age,1
+src.main.java.com.fsck.k9.mail.internet.BinaryTempFileBody,BinaryTempFileBody,private string name,1
+src.main.java.com.fsck.k9.mail.internet.BinaryTempFileBody,BinaryTempFileBody,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.internet.BinaryTempFileBody,BinaryTempFileBody,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.internet.BinaryTempFileMessageBody,BinaryTempFileMessageBody,public int age,1
+src.main.java.com.fsck.k9.mail.internet.BinaryTempFileMessageBody,BinaryTempFileMessageBody,private string name,1
+src.main.java.com.fsck.k9.mail.internet.BinaryTempFileMessageBody,BinaryTempFileMessageBody,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.internet.BinaryTempFileMessageBody,BinaryTempFileMessageBody,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.internet.CharsetSupport,CharsetSupport,public int age,1
+src.main.java.com.fsck.k9.mail.internet.CharsetSupport,CharsetSupport,private string name,1
+src.main.java.com.fsck.k9.mail.internet.CharsetSupport,CharsetSupport,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.internet.CharsetSupport,CharsetSupport,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.internet.DecoderUtil.EncodedWord,EncodedWord,public int age,1
+src.main.java.com.fsck.k9.mail.internet.DecoderUtil.EncodedWord,EncodedWord,private string name,1
+src.main.java.com.fsck.k9.mail.internet.DecoderUtil.EncodedWord,EncodedWord,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.internet.DecoderUtil.EncodedWord,EncodedWord,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.internet.DecoderUtil,DecoderUtil,public int age,1
+src.main.java.com.fsck.k9.mail.internet.DecoderUtil,DecoderUtil,private string name,1
+src.main.java.com.fsck.k9.mail.internet.DecoderUtil,DecoderUtil,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.internet.DecoderUtil,DecoderUtil,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.internet.EncoderUtil.Encoding,Encoding,public int age,1
+src.main.java.com.fsck.k9.mail.internet.EncoderUtil.Encoding,Encoding,private string name,1
+src.main.java.com.fsck.k9.mail.internet.EncoderUtil.Encoding,Encoding,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.internet.EncoderUtil.Encoding,Encoding,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.internet.EncoderUtil,EncoderUtil,public int age,1
+src.main.java.com.fsck.k9.mail.internet.EncoderUtil,EncoderUtil,private string name,1
+src.main.java.com.fsck.k9.mail.internet.EncoderUtil,EncoderUtil,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.internet.EncoderUtil,EncoderUtil,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.internet.FlowedMessageUtils,FlowedMessageUtils,public int age,1
+src.main.java.com.fsck.k9.mail.internet.FlowedMessageUtils,FlowedMessageUtils,private string name,1
+src.main.java.com.fsck.k9.mail.internet.FlowedMessageUtils,FlowedMessageUtils,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.internet.FlowedMessageUtils,FlowedMessageUtils,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.internet.Iso2022JpToShiftJisInputStream.Charset,Charset,public int age,1
+src.main.java.com.fsck.k9.mail.internet.Iso2022JpToShiftJisInputStream.Charset,Charset,private string name,1
+src.main.java.com.fsck.k9.mail.internet.Iso2022JpToShiftJisInputStream.Charset,Charset,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.internet.Iso2022JpToShiftJisInputStream.Charset,Charset,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.internet.Iso2022JpToShiftJisInputStream,Iso2022JpToShiftJisInputStream,public int age,1
+src.main.java.com.fsck.k9.mail.internet.Iso2022JpToShiftJisInputStream,Iso2022JpToShiftJisInputStream,private string name,1
+src.main.java.com.fsck.k9.mail.internet.Iso2022JpToShiftJisInputStream,Iso2022JpToShiftJisInputStream,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.internet.Iso2022JpToShiftJisInputStream,Iso2022JpToShiftJisInputStream,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.internet.JisSupport,JisSupport,public int age,1
+src.main.java.com.fsck.k9.mail.internet.JisSupport,JisSupport,private string name,1
+src.main.java.com.fsck.k9.mail.internet.JisSupport,JisSupport,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.internet.JisSupport,JisSupport,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.internet.ListHeaders,ListHeaders,public int age,1
+src.main.java.com.fsck.k9.mail.internet.ListHeaders,ListHeaders,private string name,1
+src.main.java.com.fsck.k9.mail.internet.ListHeaders,ListHeaders,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.internet.ListHeaders,ListHeaders,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.internet.MessageExtractor,MessageExtractor,public int age,1
+src.main.java.com.fsck.k9.mail.internet.MessageExtractor,MessageExtractor,private string name,1
+src.main.java.com.fsck.k9.mail.internet.MessageExtractor,MessageExtractor,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.internet.MessageExtractor,MessageExtractor,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.internet.MessageIdGenerator,MessageIdGenerator,public int age,1
+src.main.java.com.fsck.k9.mail.internet.MessageIdGenerator,MessageIdGenerator,private string name,1
+src.main.java.com.fsck.k9.mail.internet.MessageIdGenerator,MessageIdGenerator,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.internet.MessageIdGenerator,MessageIdGenerator,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.internet.MimeBodyPart,MimeBodyPart,public int age,1
+src.main.java.com.fsck.k9.mail.internet.MimeBodyPart,MimeBodyPart,private string name,1
+src.main.java.com.fsck.k9.mail.internet.MimeBodyPart,MimeBodyPart,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.internet.MimeBodyPart,MimeBodyPart,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.internet.MimeHeader.Field,Field,public int age,1
+src.main.java.com.fsck.k9.mail.internet.MimeHeader.Field,Field,private string name,1
+src.main.java.com.fsck.k9.mail.internet.MimeHeader.Field,Field,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.internet.MimeHeader.Field,Field,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.internet.MimeHeader,MimeHeader,public int age,1
+src.main.java.com.fsck.k9.mail.internet.MimeHeader,MimeHeader,private string name,1
+src.main.java.com.fsck.k9.mail.internet.MimeHeader,MimeHeader,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.internet.MimeHeader,MimeHeader,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.internet.MimeMessage.MimeMessageBuilder,MimeMessageBuilder,public int age,1
+src.main.java.com.fsck.k9.mail.internet.MimeMessage.MimeMessageBuilder,MimeMessageBuilder,private string name,1
+src.main.java.com.fsck.k9.mail.internet.MimeMessage.MimeMessageBuilder,MimeMessageBuilder,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.internet.MimeMessage.MimeMessageBuilder,MimeMessageBuilder,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.internet.MimeMessage,MimeMessage,public int age,1
+src.main.java.com.fsck.k9.mail.internet.MimeMessage,MimeMessage,private string name,1
+src.main.java.com.fsck.k9.mail.internet.MimeMessage,MimeMessage,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.internet.MimeMessage,MimeMessage,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.internet.MimeMessageHelper,MimeMessageHelper,public int age,1
+src.main.java.com.fsck.k9.mail.internet.MimeMessageHelper,MimeMessageHelper,private string name,1
+src.main.java.com.fsck.k9.mail.internet.MimeMessageHelper,MimeMessageHelper,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.internet.MimeMessageHelper,MimeMessageHelper,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.internet.MimeMultipart,MimeMultipart,public int age,1
+src.main.java.com.fsck.k9.mail.internet.MimeMultipart,MimeMultipart,private string name,1
+src.main.java.com.fsck.k9.mail.internet.MimeMultipart,MimeMultipart,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.internet.MimeMultipart,MimeMultipart,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.internet.MimeUtility,MimeUtility,public int age,1
+src.main.java.com.fsck.k9.mail.internet.MimeUtility,MimeUtility,private string name,1
+src.main.java.com.fsck.k9.mail.internet.MimeUtility,MimeUtility,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.internet.MimeUtility,MimeUtility,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.internet.RawDataBody,RawDataBody,public int age,1
+src.main.java.com.fsck.k9.mail.internet.RawDataBody,RawDataBody,private string name,1
+src.main.java.com.fsck.k9.mail.internet.RawDataBody,RawDataBody,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.internet.RawDataBody,RawDataBody,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.internet.SizeAware,SizeAware,public int age,1
+src.main.java.com.fsck.k9.mail.internet.SizeAware,SizeAware,private string name,1
+src.main.java.com.fsck.k9.mail.internet.SizeAware,SizeAware,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.internet.SizeAware,SizeAware,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.internet.TextBody,TextBody,public int age,1
+src.main.java.com.fsck.k9.mail.internet.TextBody,TextBody,private string name,1
+src.main.java.com.fsck.k9.mail.internet.TextBody,TextBody,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.internet.TextBody,TextBody,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.internet.Viewable.Alternative,Alternative,public int age,1
+src.main.java.com.fsck.k9.mail.internet.Viewable.Alternative,Alternative,private string name,1
+src.main.java.com.fsck.k9.mail.internet.Viewable.Alternative,Alternative,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.internet.Viewable.Alternative,Alternative,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.internet.Viewable.Flowed,Flowed,public int age,1
+src.main.java.com.fsck.k9.mail.internet.Viewable.Flowed,Flowed,private string name,1
+src.main.java.com.fsck.k9.mail.internet.Viewable.Flowed,Flowed,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.internet.Viewable.Flowed,Flowed,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.internet.Viewable.Html,Html,public int age,1
+src.main.java.com.fsck.k9.mail.internet.Viewable.Html,Html,private string name,1
+src.main.java.com.fsck.k9.mail.internet.Viewable.Html,Html,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.internet.Viewable.Html,Html,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.internet.Viewable.MessageHeader,MessageHeader,public int age,1
+src.main.java.com.fsck.k9.mail.internet.Viewable.MessageHeader,MessageHeader,private string name,1
+src.main.java.com.fsck.k9.mail.internet.Viewable.MessageHeader,MessageHeader,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.internet.Viewable.MessageHeader,MessageHeader,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.internet.Viewable.Text,Text,public int age,1
+src.main.java.com.fsck.k9.mail.internet.Viewable.Text,Text,private string name,1
+src.main.java.com.fsck.k9.mail.internet.Viewable.Text,Text,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.internet.Viewable.Text,Text,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.internet.Viewable.Textual,Textual,public int age,1
+src.main.java.com.fsck.k9.mail.internet.Viewable.Textual,Textual,private string name,1
+src.main.java.com.fsck.k9.mail.internet.Viewable.Textual,Textual,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.internet.Viewable.Textual,Textual,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.internet.Viewable,Viewable,public int age,1
+src.main.java.com.fsck.k9.mail.internet.Viewable,Viewable,private string name,1
+src.main.java.com.fsck.k9.mail.internet.Viewable,Viewable,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.internet.Viewable,Viewable,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.helper.UrlEncodingHelper,UrlEncodingHelper,public int age,1
+src.main.java.com.fsck.k9.mail.helper.UrlEncodingHelper,UrlEncodingHelper,private string name,1
+src.main.java.com.fsck.k9.mail.helper.UrlEncodingHelper,UrlEncodingHelper,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.helper.UrlEncodingHelper,UrlEncodingHelper,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.filter.Base64.DecoderException,DecoderException,public int age,1
+src.main.java.com.fsck.k9.mail.filter.Base64.DecoderException,DecoderException,private string name,1
+src.main.java.com.fsck.k9.mail.filter.Base64.DecoderException,DecoderException,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.filter.Base64.DecoderException,DecoderException,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.filter.Base64.EncoderException,EncoderException,public int age,1
+src.main.java.com.fsck.k9.mail.filter.Base64.EncoderException,EncoderException,private string name,1
+src.main.java.com.fsck.k9.mail.filter.Base64.EncoderException,EncoderException,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.filter.Base64.EncoderException,EncoderException,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.filter.Base64,Base64,public int age,1
+src.main.java.com.fsck.k9.mail.filter.Base64,Base64,private string name,1
+src.main.java.com.fsck.k9.mail.filter.Base64,Base64,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.filter.Base64,Base64,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.filter.Base64OutputStream,Base64OutputStream,public int age,1
+src.main.java.com.fsck.k9.mail.filter.Base64OutputStream,Base64OutputStream,private string name,1
+src.main.java.com.fsck.k9.mail.filter.Base64OutputStream,Base64OutputStream,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.filter.Base64OutputStream,Base64OutputStream,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.filter.CountingOutputStream,CountingOutputStream,public int age,1
+src.main.java.com.fsck.k9.mail.filter.CountingOutputStream,CountingOutputStream,private string name,1
+src.main.java.com.fsck.k9.mail.filter.CountingOutputStream,CountingOutputStream,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.filter.CountingOutputStream,CountingOutputStream,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.filter.EOLConvertingOutputStream,EOLConvertingOutputStream,public int age,1
+src.main.java.com.fsck.k9.mail.filter.EOLConvertingOutputStream,EOLConvertingOutputStream,private string name,1
+src.main.java.com.fsck.k9.mail.filter.EOLConvertingOutputStream,EOLConvertingOutputStream,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.filter.EOLConvertingOutputStream,EOLConvertingOutputStream,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.filter.FixedLengthInputStream,FixedLengthInputStream,public int age,1
+src.main.java.com.fsck.k9.mail.filter.FixedLengthInputStream,FixedLengthInputStream,private string name,1
+src.main.java.com.fsck.k9.mail.filter.FixedLengthInputStream,FixedLengthInputStream,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.filter.FixedLengthInputStream,FixedLengthInputStream,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.filter.Hex,Hex,public int age,1
+src.main.java.com.fsck.k9.mail.filter.Hex,Hex,private string name,1
+src.main.java.com.fsck.k9.mail.filter.Hex,Hex,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.filter.Hex,Hex,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.filter.LineWrapOutputStream,LineWrapOutputStream,public int age,1
+src.main.java.com.fsck.k9.mail.filter.LineWrapOutputStream,LineWrapOutputStream,private string name,1
+src.main.java.com.fsck.k9.mail.filter.LineWrapOutputStream,LineWrapOutputStream,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.filter.LineWrapOutputStream,LineWrapOutputStream,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.filter.PeekableInputStream,PeekableInputStream,public int age,1
+src.main.java.com.fsck.k9.mail.filter.PeekableInputStream,PeekableInputStream,private string name,1
+src.main.java.com.fsck.k9.mail.filter.PeekableInputStream,PeekableInputStream,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.filter.PeekableInputStream,PeekableInputStream,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.filter.SignSafeOutputStream.State,State,public int age,1
+src.main.java.com.fsck.k9.mail.filter.SignSafeOutputStream.State,State,private string name,1
+src.main.java.com.fsck.k9.mail.filter.SignSafeOutputStream.State,State,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.filter.SignSafeOutputStream.State,State,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.filter.SignSafeOutputStream,SignSafeOutputStream,public int age,1
+src.main.java.com.fsck.k9.mail.filter.SignSafeOutputStream,SignSafeOutputStream,private string name,1
+src.main.java.com.fsck.k9.mail.filter.SignSafeOutputStream,SignSafeOutputStream,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.filter.SignSafeOutputStream,SignSafeOutputStream,private string convert(int x),0
+src.main.java.com.fsck.k9.mail.filter.SmtpDataStuffing,SmtpDataStuffing,public int age,1
+src.main.java.com.fsck.k9.mail.filter.SmtpDataStuffing,SmtpDataStuffing,private string name,1
+src.main.java.com.fsck.k9.mail.filter.SmtpDataStuffing,SmtpDataStuffing,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.mail.filter.SmtpDataStuffing,SmtpDataStuffing,private string convert(int x),0
+src.main.java.com.fsck.k9.Account.DeletePolicy,DeletePolicy,public int age,1
+src.main.java.com.fsck.k9.Account.DeletePolicy,DeletePolicy,private string name,1
+src.main.java.com.fsck.k9.Account.DeletePolicy,DeletePolicy,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.Account.DeletePolicy,DeletePolicy,private string convert(int x),0
+src.main.java.com.fsck.k9.Account.Expunge,Expunge,public int age,1
+src.main.java.com.fsck.k9.Account.Expunge,Expunge,private string name,1
+src.main.java.com.fsck.k9.Account.Expunge,Expunge,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.Account.Expunge,Expunge,private string convert(int x),0
+src.main.java.com.fsck.k9.Account.FolderMode,FolderMode,public int age,1
+src.main.java.com.fsck.k9.Account.FolderMode,FolderMode,private string name,1
+src.main.java.com.fsck.k9.Account.FolderMode,FolderMode,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.Account.FolderMode,FolderMode,private string convert(int x),0
+src.main.java.com.fsck.k9.Account.MessageFormat,MessageFormat,public int age,1
+src.main.java.com.fsck.k9.Account.MessageFormat,MessageFormat,private string name,1
+src.main.java.com.fsck.k9.Account.MessageFormat,MessageFormat,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.Account.MessageFormat,MessageFormat,private string convert(int x),0
+src.main.java.com.fsck.k9.Account.QuoteStyle,QuoteStyle,public int age,1
+src.main.java.com.fsck.k9.Account.QuoteStyle,QuoteStyle,private string name,1
+src.main.java.com.fsck.k9.Account.QuoteStyle,QuoteStyle,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.Account.QuoteStyle,QuoteStyle,private string convert(int x),0
+src.main.java.com.fsck.k9.Account.Searchable,Searchable,public int age,1
+src.main.java.com.fsck.k9.Account.Searchable,Searchable,private string name,1
+src.main.java.com.fsck.k9.Account.Searchable,Searchable,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.Account.Searchable,Searchable,private string convert(int x),0
+src.main.java.com.fsck.k9.Account.ShowPictures,ShowPictures,public int age,1
+src.main.java.com.fsck.k9.Account.ShowPictures,ShowPictures,private string name,1
+src.main.java.com.fsck.k9.Account.ShowPictures,ShowPictures,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.Account.ShowPictures,ShowPictures,private string convert(int x),0
+src.main.java.com.fsck.k9.Account.SortType,SortType,public int age,1
+src.main.java.com.fsck.k9.Account.SortType,SortType,private string name,1
+src.main.java.com.fsck.k9.Account.SortType,SortType,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.Account.SortType,SortType,private string convert(int x),0
+src.main.java.com.fsck.k9.AccountStats,AccountStats,public int age,1
+src.main.java.com.fsck.k9.AccountStats,AccountStats,private string name,1
+src.main.java.com.fsck.k9.AccountStats,AccountStats,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.AccountStats,AccountStats,private string convert(int x),0
+src.main.java.com.fsck.k9.BaseAccount,BaseAccount,public int age,1
+src.main.java.com.fsck.k9.BaseAccount,BaseAccount,private string name,1
+src.main.java.com.fsck.k9.BaseAccount,BaseAccount,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.BaseAccount,BaseAccount,private string convert(int x),0
+src.main.java.com.fsck.k9.Clock,Clock,public int age,1
+src.main.java.com.fsck.k9.Clock,Clock,private string name,1
+src.main.java.com.fsck.k9.Clock,Clock,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.Clock,Clock,private string convert(int x),0
+src.main.java.com.fsck.k9.EmailAddressValidator,EmailAddressValidator,public int age,1
+src.main.java.com.fsck.k9.EmailAddressValidator,EmailAddressValidator,private string name,1
+src.main.java.com.fsck.k9.EmailAddressValidator,EmailAddressValidator,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.EmailAddressValidator,EmailAddressValidator,private string convert(int x),0
+src.main.java.com.fsck.k9.FontSizes,FontSizes,public int age,1
+src.main.java.com.fsck.k9.FontSizes,FontSizes,private string name,1
+src.main.java.com.fsck.k9.FontSizes,FontSizes,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.FontSizes,FontSizes,private string convert(int x),0
+src.main.java.com.fsck.k9.Globals,Globals,public int age,1
+src.main.java.com.fsck.k9.Globals,Globals,private string name,1
+src.main.java.com.fsck.k9.Globals,Globals,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.Globals,Globals,private string convert(int x),0
+src.main.java.com.fsck.k9.Identity,Identity,public int age,1
+src.main.java.com.fsck.k9.Identity,Identity,private string name,1
+src.main.java.com.fsck.k9.Identity,Identity,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.Identity,Identity,private string convert(int x),0
+src.main.java.com.fsck.k9.Account,Account,public int age,1
+src.main.java.com.fsck.k9.Account,Account,private string name,1
+src.main.java.com.fsck.k9.Account,Account,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.Account,Account,private string convert(int x),0
+src.main.java.com.fsck.k9.K9.ApplicationAware,ApplicationAware,public int age,1
+src.main.java.com.fsck.k9.K9.ApplicationAware,ApplicationAware,private string name,1
+src.main.java.com.fsck.k9.K9.ApplicationAware,ApplicationAware,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.K9.ApplicationAware,ApplicationAware,private string convert(int x),0
+src.main.java.com.fsck.k9.K9.BACKGROUND_OPS,BACKGROUND_OPS,public int age,1
+src.main.java.com.fsck.k9.K9.BACKGROUND_OPS,BACKGROUND_OPS,private string name,1
+src.main.java.com.fsck.k9.K9.BACKGROUND_OPS,BACKGROUND_OPS,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.K9.BACKGROUND_OPS,BACKGROUND_OPS,private string convert(int x),0
+src.main.java.com.fsck.k9.K9.Intents,Intents,public int age,1
+src.main.java.com.fsck.k9.K9.Intents,Intents,private string name,1
+src.main.java.com.fsck.k9.K9.Intents,Intents,"public int calculateXY(int x, double y)",0
+src.main.java.com.fsck.k9.K9.Intents,Intents,private string convert(int x),0
+src.main.java.com.fsck.k9.K9.LockScreenNotificationVisibility,LockScreenNotificationVisibility,public int age,1
+src.main.java.com.fsck.k9.K9.LockScreenNotificationVisibility,LockScreenNotificationVisibility,private string name,1
+src.main.java.com.fsck.k9.K9.LockScreenNotificationVisibility,LockScreenNotificationVisibility,"public int calculateXY(int x, double y)",0

@@ -1,0 +1,1 @@
+TRCanvas allInstancesTRMorph allInstancesSmalltalk garbageCollect
